@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build summary/runs.csv (one row per game) and summary/results.json (aggregate numbers) from
-summary/runs.jsonl and the replays. Standard library only.
+"""Build summary/runs.csv (one row per game) and summary/results.json (aggregate numbers) for one
+evaluation, from its summary/runs.jsonl, replays/ and meta.json. Standard library only.
 
-    python3 tools/build_summary.py
+    python3 tools/build_summary.py evaluations/v130051
 """
 from __future__ import annotations
 
@@ -10,6 +10,7 @@ import csv
 import gzip
 import json
 import math
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -50,11 +51,13 @@ def last_offcombat(path: Path) -> dict:
     return best
 
 
-def main() -> None:
-    runs = [json.loads(l) for l in (ROOT / "summary/runs.jsonl").read_text(encoding="utf-8").splitlines()]
+def main(ev: Path) -> None:
+    meta = json.loads((ev / "meta.json").read_text(encoding="utf-8"))
+    routine = set((ev / "routine_eval_seeds.txt").read_text(encoding="utf-8").split())
+    runs = [json.loads(l) for l in (ev / "summary/runs.jsonl").read_text(encoding="utf-8").splitlines()]
     rows = []
     for r in runs:
-        rp = ROOT / "replays" / f"{r['seed']}.jsonl.gz"
+        rp = ev / "replays" / f"{r['seed']}.jsonl.gz"
         with gzip.open(rp, "rt", encoding="utf-8") as f:
             head = json.loads(f.readline())
         last = last_offcombat(rp)
@@ -68,7 +71,7 @@ def main() -> None:
         e = ending(r)
         rows.append({
             "seed": r["seed"], "result": "win" if r["win"] else "loss", "ending": e,
-            "act": r["act"] + 1, "floor": r["floor"], "decisions": head["steps"],
+            "act": r["act"] + 1, "floor": r["floor"], "decisions": head["steps"], "routine_eval_seed": "yes" if r["seed"] in routine else "no",
             "combats": len(cs), "elites": sum(c["room"] == "Elite" for c in cs),
             "act1_boss": enc(a1), "act1_boss_hp_in": hp(a1),
             "act2_boss": enc(a2), "act2_boss_hp_in": hp(a2),
@@ -76,9 +79,9 @@ def main() -> None:
             "act3_boss2": enc(a3[1] if len(a3) > 1 else None), "act3_boss2_hp_in": hp(a3[1] if len(a3) > 1 else None),
             "lost_to": "" if r["win"] else enc(cs[-1]) if cs and cs[-1]["floor"] == r["floor"] else "",
             "final_deck_size": len(last.get("deck", [])), "final_relics": len(last.get("rel", [])),
-            "transcript": f"transcripts/{r['seed']}.txt",
+            "transcript": f"{ev.relative_to(ROOT).as_posix()}/transcripts/{r['seed']}.txt",
         })
-    with open(ROOT / "summary/runs.csv", "w", newline="", encoding="utf-8") as f:
+    with open(ev / "summary/runs.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)
@@ -91,18 +94,28 @@ def main() -> None:
     ends = {}
     for row in rows:
         ends[row["ending"]] = ends.get(row["ending"], 0) + 1
+    part = lambda inside: [r for r in runs if (r["seed"] in routine) == inside]
+    split = {}
+    for name, rs in (("routine_eval_seeds", part(True)), ("other_seeds", part(False))):
+        w = sum(r["win"] for r in rs)
+        a, b = wilson(w, len(rs))
+        split[name] = {"games": len(rs), "wins": w, "win_rate": round(w / len(rs), 4), "win_rate_95ci_wilson": [round(a, 4), round(b, 4)]}
     res = {
-        "model_version": 103049, "character": "Defect", "ascension": 10, "seeds": "RT0000-RT0999", "games": n,
+        "model_version": meta["model_version"], "character": meta["character"], "ascension": meta["ascension"],
+        "seeds": meta["seeds"], "games": n,
         "wins": k, "win_rate": k / n, "win_rate_95ci_wilson": [round(lo, 4), round(hi, 4)],
+        "by_seed_group": split,
         "floor_mean": round(sum(r["floor"] for r in runs) / n, 2),
         "reached_act2": reach(lambda r: r["act"] >= 1) / n, "reached_act3": reach(lambda r: r["act"] >= 2) / n,
         "reached_act3_boss1": a3b1 / n, "beat_act3_boss1_given_reached": a3b2 / a3b1,
         "win_given_reached_act3_boss2": k / a3b2,
         "endings": ends,
     }
-    (ROOT / "summary/results.json").write_text(json.dumps(res, indent=1) + "\n", encoding="utf-8")
+    (ev / "summary/results.json").write_text(json.dumps(res, indent=1) + "\n", encoding="utf-8")
     print(json.dumps(res, indent=1))
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) != 2:
+        sys.exit("usage: python3 tools/build_summary.py evaluations/<id>")
+    main(Path(sys.argv[1]).resolve())

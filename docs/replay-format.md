@@ -1,11 +1,11 @@
 # Raw replay format
 
-Each file `replays/<seed>.jsonl.gz` is gzip-compressed [JSON Lines](https://jsonlines.org/):
+Each file `evaluations/<id>/replays/<seed>.jsonl.gz` is gzip-compressed [JSON Lines](https://jsonlines.org/):
 
 - **Line 1** is the game header.
 - **Every following line** is one decision, in the order the model made them. Decision `#N` in the transcripts is line `N + 2`.
 
-Entities are written as integer **vocabulary IDs**. Look them up in `data/vocab.json`, where `vocab[id]` is
+Entities are written as integer **vocabulary IDs**. Look them up in `data/vocab.json` (shared by all evaluations), where `vocab[id]` is
 
 ```json
 {"id": 58, "key": "CARD.BALL_LIGHTNING", "name": "Ball Lightning", "tag": "Attack|Common", "cost": 1}
@@ -19,7 +19,7 @@ All numbers are raw game values, rounded to integers unless noted. **Acts are 0-
 
 | Field | Meaning |
 |---|---|
-| `version` | Checkpoint version (103049) |
+| `version` | Checkpoint version (for example 103049 or 130051) |
 | `seed` | Game seed |
 | `time` | Unix time the game finished |
 | `win` | `true` if the run was won |
@@ -29,7 +29,7 @@ All numbers are raw game values, rounded to integers unless noted. **Acts are 0-
 
 ## Decision lines
 
-Always present:
+Always present (except where noted):
 
 | Field | Meaning |
 |---|---|
@@ -39,7 +39,7 @@ Always present:
 | `g` | Global state: `[act, floor, hp, max_hp, gold, energy, max_energy, turn, in_combat (0/1), room_type]`. Room type: 0 unassigned, 1 monster, 2 elite, 3 boss, 4 treasure, 5 shop, 6 event, 7 rest site, 8 map. Energy and turn are 0 outside combat |
 | `c` | Every legal option (see [Options](#options-c)) |
 | `rel` | Relics: `[[relic, counter], ...]`; counter is −1 for relics without one |
-| `relx` | Relics with their full feature row: `[[relic, f0, …, f7], ...]` (counter, waxed, disabled, active, triggered this fight, melt order and similar flags) |
+| `relx` | Absent from the v103049 replays. Relics with their full feature row: `[[relic, f0, …, f7], ...]` (counter, waxed, disabled, active, triggered this fight, melt order and similar flags) |
 | `pot` | Potions: `[[potion, slot], ...]` |
 
 Outside combat:
@@ -82,7 +82,7 @@ Present only when relevant:
 | Field | When | Meaning |
 |---|---|---|
 | `cx` | A card is enchanted or afflicted | `[[zone, card, upgrades, enchantment, enchantment amount, affliction, affliction amount], ...]` |
-| `cxa` | Same | Every attachment of each card with its feature row: `[[zone, card, upgrades, [[power, f0, …, f6], ...]], ...]` |
+| `cxa` | Same; absent from the v103049 replays | Every attachment of each card with its feature row: `[[zone, card, upgrades, [[power, f0, …, f6], ...]], ...]` |
 | `rt` | Map decisions, also kept on later lines | Route summary per reachable next node: `[[node type, rows left to the boss, rows to the nearest rest site, rows to the nearest shop (−1 if none), fewest elites before the next rest site, fewest fights], ...]` |
 | `map` | Map decisions | The whole act map: `[[row, col, node type, visited, current position, reachable from here, child 1, child 2, child 3], ...]`. Children are the columns of connected nodes in the next row, **plus one** (0 = none) |
 | `sel` | Card selection | `[purpose, min, max, already selected, source]`. Purpose: 0 transform, 1 exhaust, 2 remove, 3 enchant, 4 discard, 5 upgrade, 6 a prompt specific to the source card, −1 other. Source is the card, relic, potion or power that asked for the selection (0 if none) |

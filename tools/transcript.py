@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Turn a raw replay (replays/RTxxxx.jsonl.gz) into a readable English transcript.
 
-    python3 tools/transcript.py replays/RT0000.jsonl.gz            # print to stdout
-    python3 tools/transcript.py replays/RT0000.jsonl.gz -o out.txt
-    python3 tools/transcript.py --all replays transcripts          # regenerate every transcript
+    python3 tools/transcript.py evaluations/v130051/replays/RT0000.jsonl.gz   # print to stdout
+    python3 tools/transcript.py evaluations/v130051/replays/RT0000.jsonl.gz -o out.txt
+    python3 tools/transcript.py --all evaluations/v130051/replays evaluations/v130051/transcripts
 
 Standard library only. Names come from data/vocab.json (index = vocabulary ID used in the replays).
 See docs/replay-format.md for the meaning of every field.

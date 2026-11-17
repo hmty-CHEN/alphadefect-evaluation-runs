@@ -18,7 +18,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Sludge Spinner: HP 41/41  Intent Oil Spray: Attack 9 + Debuff
-     Hand: Defend [1], Defend [1], Strike [1], Strike [1], Ascender's Bane [X]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Defend [1], Defend [1], Strike [1], Strike [1], Ascender's Bane [-]  | Draw 6  Discard 0  Exhaust 0
      #2    Play Defend   [49.7%, 5 options]
             also: Play Defend 49.7% (identical option)
      #3    Play Defend   [100.0%, 4 options]
@@ -54,7 +54,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Toadpole: HP 25/25  Intent Spiken: Buff
      Enemy Toadpole: HP 26/26  Intent Whirl: Attack 8
-     Hand: Defend [1], Ascender's Bane [X], Strike [1], Strike [1], Defend [1]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Defend [1], Ascender's Bane [-], Strike [1], Strike [1], Defend [1]  | Draw 6  Discard 0  Exhaust 0
      #16   Play Strike -> Toadpole #1   [25.3%, 7 options]
             also: Play Strike -> Toadpole #1 25.3% (identical option); Play Defend 24.7% x2
      #17   Play Defend   [50.0%, 5 options]
@@ -124,7 +124,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 56/75  Block 0  Energy 3/3  Orbs (2 slots): Lightning  Powers: Strength 2, Dexterity 2
      Enemy Seapunk: HP 34/49  Intent Bubble Burp: Buff + Defend
-     Hand: Ascender's Bane [X], Dualcast [1], Defend [1], Strike [1], Defend+ [1]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Dualcast [1], Defend [1], Strike [1], Defend+ [1]  | Draw 6  Discard 0  Exhaust 0
      Potions: Energy Potion
      #41   Play Strike -> Seapunk   [43.2%, 6 options]
             also: Play Defend 26.3%; Play Dualcast 20.7%; Play Defend+ 9.8%
@@ -154,7 +154,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #51   [Shop] Buy Charge Battery (51 gold)   [84.5%, 11 options]
          also: Buy Fight Through (79 gold) 6.4%; Buy Powdered Demise (71 gold) 1.4%; Buy Card removal service (100 gold) 1.3%; Buy Energy Potion (48 gold) 1.3%
   Deck change: +Charge Battery  (14 cards)
-  Shop shelf (gold 76): Card Gunk Up 26g; Card Focused Strike 49g; Card #2286 51g (sold); Card Fight Through 79g; Card Storm 78g; Card Seeker Strike 83g; Card Gold Axe 169g; Relic Book of Five Rings 151g; Relic Pendulum 153g; Relic Wing Charm 179g; Potion Potion of Binding 76g; Potion Energy Potion 48g; Potion Powdered Demise 71g; Removal 100g
+  Shop shelf (gold 76): Card Gunk Up 26g; Card Focused Strike 49g; Card 51g (sold); Card Fight Through 79g; Card Storm 78g; Card Seeker Strike 83g; Card Gold Axe 169g; Relic Book of Five Rings 151g; Relic Pendulum 153g; Relic Wing Charm 179g; Potion Potion of Binding 76g; Potion Energy Potion 48g; Potion Powdered Demise 71g; Removal 100g
   #52   [Shop] Leave / skip   [46.1%, 6 options]
          also: Buy Potion of Binding (76 gold) 22.4%; Buy Powdered Demise (71 gold) 19.6%; Buy Energy Potion (48 gold) 9.2%; Buy Gunk Up (26 gold) 1.6%
   #53   [Map] Go to Elite (row 7, col 7)   [100.0%, 1 option]
@@ -175,7 +175,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 45/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Skulking Colony: HP 68/80  Intent Zoom: Attack 16  Powers: Hardened Shell 20
-     Hand: Bulk Up [2], Ascender's Bane [X], Strike+ [1], Defend+ [1], Charge Battery [1]  | Draw 4  Discard 5  Exhaust 0
+     Hand: Bulk Up [2], Ascender's Bane [-], Strike+ [1], Defend+ [1], Charge Battery [1]  | Draw 4  Discard 5  Exhaust 0
      Potions: Energy Potion
      #58   Play Bulk Up   [99.9%, 6 options]
      #59   Play Charge Battery   [84.9%, 5 options]
@@ -249,7 +249,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 47/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Haunted Ship: HP 67/67  Intent Haunt: Debuff
-     Hand: Strike [1], Bulk Up [2], Ascender's Bane [X], Defend [1], Shatter [1]  | Draw 9  Discard 0  Exhaust 0
+     Hand: Strike [1], Bulk Up [2], Ascender's Bane [-], Defend [1], Shatter [1]  | Draw 9  Discard 0  Exhaust 0
      #86   Play Bulk Up   [99.9%, 5 options]
      #87   Play Strike -> Haunted Ship   [78.8%, 4 options]
             also: Play Defend 17.8%; Play Shatter 3.4%
@@ -269,7 +269,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 47/75  Block 0  Energy 3/3  Orbs (2 slots): Lightning  Powers: Strength 2, Dexterity 2, Weak 2
      Enemy Haunted Ship: HP 39/67  Intent Stomp: Attack 5x3
-     Hand: Strike+ [1], Charge Battery [1], Defend [1], Dualcast [1], Dazed [X]  | Draw 12  Discard 0  Exhaust 1
+     Hand: Strike+ [1], Charge Battery [1], Defend [1], Dualcast [1], Dazed [-]  | Draw 12  Discard 0  Exhaust 1
      #94   Play Charge Battery   [58.7%, 5 options]
             also: Play Defend 40.7%
      #95   Play Defend   [100.0%, 4 options]
@@ -278,7 +278,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 47/75  Block 0  Energy 4/3  Orbs (2 slots): Lightning  Powers: Strength 2, Dexterity 2, Weak 1
      Enemy Haunted Ship: HP 28/67  Intent Swipe: Attack 14
-     Hand: Shatter [1], Dazed [X], Defend [1], FTL+ [0], Strike [1]  | Draw 7  Discard 4  Exhaust 2
+     Hand: Shatter [1], Dazed [-], Defend [1], FTL+ [0], Strike [1]  | Draw 7  Discard 4  Exhaust 2
      #98   Play FTL+ -> Haunted Ship   [51.6%, 5 options]
             also: Play Shatter 27.4%; Play Defend 18.1%; Play Strike -> Haunted Ship 2.9%
      #99   Play Shatter   [79.8%, 4 options]
@@ -312,7 +312,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 69/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Terror Eel: HP 141/150  Intent Crash: Attack 18  Powers: Shriek 75
-     Hand: Defend [1], Shatter [1], Defend [1], Coolheaded [1], Ascender's Bane [X]  | Draw 11  Discard 0  Exhaust 0
+     Hand: Defend [1], Shatter [1], Defend [1], Coolheaded [1], Ascender's Bane [-]  | Draw 11  Discard 0  Exhaust 0
      Potions: Strength Potion
      #109  Play Coolheaded   [77.2%, 6 options]
             also: Play Defend 10.7% x2; Use potion Strength Potion -> self 1.3%
@@ -324,7 +324,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 68/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost
      Enemy Terror Eel: HP 138/150  Intent Thrash: Attack 4x3 + Buff  Powers: Shriek 75
-     Hand: Defend+ [1], Strike+ [1], Dualcast [1], Strike [1], Clumsy [X]  | Draw 5  Discard 5  Exhaust 1
+     Hand: Defend+ [1], Strike+ [1], Dualcast [1], Strike [1], Clumsy [-]  | Draw 5  Discard 5  Exhaust 1
      Potions: Strength Potion
      #113  Play Defend+   [76.7%, 6 options]
             also: Play Strike+ -> Terror Eel 15.7%; Play Strike -> Terror Eel 7.0%
@@ -441,7 +441,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 70/75  Block 14  Energy 3/3  Orbs (2 slots): Lightning, Frost  Powers: Strength 2, Dexterity 2
      Enemy Soul Fysh: HP 201/221  Intent De-Gas: Attack 18
-     Hand: Clumsy [X], Strike+ [1], Defend [1], Leap [1], Beckon [1]  | Draw 5  Discard 7  Exhaust 1
+     Hand: Clumsy [-], Strike+ [1], Defend [1], Leap [1], Beckon [1]  | Draw 5  Discard 7  Exhaust 1
      Potions: Strength Potion
      #154  Use potion Strength Potion -> self   [62.2%, 6 options]
             also: Play Strike+ -> Soul Fysh 27.5%; Play Beckon 7.4%; Play Leap 2.2%; Play Defend 0.8%
@@ -642,7 +642,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 57/75  Block 0  Energy 3/3  Orbs (2 slots): Lightning, Glass  Powers: Strength 2, Dexterity 2, Spinner 1
      Enemy Tunneler: HP 58/92  Block 37  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Clumsy [X], Coolheaded+ [1], Ascender's Bane [X], Charge Battery [1], Defend [1], FTL+ [0]  | Draw 10  Discard 0  Exhaust 0
+     Hand: Clumsy [-], Coolheaded+ [1], Ascender's Bane [-], Charge Battery [1], Defend [1], FTL+ [0]  | Draw 10  Discard 0  Exhaust 0
      Potions: Focus Potion
      #233  Play FTL+ -> Tunneler   [49.7%, 6 options]
             also: Play Charge Battery 24.9%; Play Coolheaded+ 14.4%; Play Defend 10.9%
@@ -707,18 +707,18 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #256  [Shop] Buy Go for the Eyes (51 gold)   [91.2%, 13 options]
          also: Buy Cold Snap (51 gold) 1.5%; Buy Card removal service (100 gold) 1.2%; Buy Overclock (36 gold) 1.1%; Discard potion Shackling Potion 0.8%
   Deck change: +Go for the Eyes  (20 cards)
-  Shop shelf (gold 210): Card #2286 51g (sold); Card Cold Snap 51g; Card Darkness 76g; Card Overclock 36g; Card Subroutine 77g; Card Production 88g; Card Gold Axe 171g; Relic Rainbow Ring 316g; Relic Candelabra 195g; Relic Ringing Triangle 225g; Potion Attack Potion 50g; Potion Vulnerable Potion 50g; Potion Fire Potion 49g; Removal 100g
+  Shop shelf (gold 210): Card 51g (sold); Card Cold Snap 51g; Card Darkness 76g; Card Overclock 36g; Card Subroutine 77g; Card Production 88g; Card Gold Axe 171g; Relic Rainbow Ring 316g; Relic Candelabra 195g; Relic Ringing Triangle 225g; Potion Attack Potion 50g; Potion Vulnerable Potion 50g; Potion Fire Potion 49g; Removal 100g
   #257  [Shop] Buy Card removal service (100 gold)   [43.5%, 11 options]
          also: Buy Cold Snap (51 gold) 31.7%; Leave / skip 11.2%; Buy Candelabra (195 gold) 7.2%; Buy Overclock (36 gold) 1.8%
   Select cards - purpose: remove, choose 1-1, already chosen 0
   #258  [Card select] Select Strike   [35.4%, 20 options]
          also: Select Strike 35.4% (identical option); Select Strike+ 6.2% x2; Select Dualcast 5.1%
   Deck change: -Strike  (19 cards)
-  Shop shelf (gold 110): Card #2286 51g (sold); Card Cold Snap 51g; Card Darkness 76g; Card Overclock 36g; Card Subroutine 77g; Card Production 88g; Card Gold Axe 171g; Relic Rainbow Ring 316g; Relic Candelabra 195g; Relic Ringing Triangle 225g; Potion Attack Potion 50g; Potion Vulnerable Potion 50g; Potion Fire Potion 49g; Removal 100g (sold)
+  Shop shelf (gold 110): Card 51g (sold); Card Cold Snap 51g; Card Darkness 76g; Card Overclock 36g; Card Subroutine 77g; Card Production 88g; Card Gold Axe 171g; Relic Rainbow Ring 316g; Relic Candelabra 195g; Relic Ringing Triangle 225g; Potion Attack Potion 50g; Potion Vulnerable Potion 50g; Potion Fire Potion 49g; Removal 100g (sold)
   #259  [Shop] Buy Cold Snap (51 gold)   [55.0%, 8 options]
          also: Leave / skip 31.3%; Buy Subroutine (77 gold) 5.2%; Buy Overclock (36 gold) 4.0%; Buy Production (88 gold) 1.6%
   Deck change: +Cold Snap  (20 cards)
-  Shop shelf (gold 59): Card #2286 51g (sold); Card #2286 51g (sold); Card Darkness 76g; Card Overclock 36g; Card Subroutine 77g; Card Production 88g; Card Gold Axe 171g; Relic Rainbow Ring 316g; Relic Candelabra 195g; Relic Ringing Triangle 225g; Potion Attack Potion 50g; Potion Vulnerable Potion 50g; Potion Fire Potion 49g; Removal 100g (sold)
+  Shop shelf (gold 59): Card 51g (sold); Card 51g (sold); Card Darkness 76g; Card Overclock 36g; Card Subroutine 77g; Card Production 88g; Card Gold Axe 171g; Relic Rainbow Ring 316g; Relic Candelabra 195g; Relic Ringing Triangle 225g; Potion Attack Potion 50g; Potion Vulnerable Potion 50g; Potion Fire Potion 49g; Removal 100g (sold)
   #260  [Shop] Leave / skip   [88.8%, 4 options]
          also: Buy Overclock (36 gold) 9.8%; Discard potion Shackling Potion 1.1%
   #261  [Map] Go to Monster (row 4, col 3)   [100.0%, 1 option]
@@ -744,7 +744,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 68/75  Block 14  Energy 3/3  Orbs (3 slots): empty
      Enemy Bowlbug (Rock): HP 14/49  Intent <unk>: Stun/Sleep/Escape  Powers: Imbalanced 1, Vulnerable 1
      Enemy Bowlbug (Nectar): HP 13/37  Intent Buff: Buff
-     Hand: FTL+ [0], Defend+ [1], Ascender's Bane [X], Bulk Up [2], Cold Snap [1], Strike [1]  | Draw 8  Discard 5  Exhaust 1
+     Hand: FTL+ [0], Defend+ [1], Ascender's Bane [-], Bulk Up [2], Cold Snap [1], Strike [1]  | Draw 8  Discard 5  Exhaust 1
      Potions: Focus Potion, Shackling Potion
      #268  Play FTL+ -> Bowlbug (Nectar)   [29.7%, 11 options]
             also: Play Cold Snap -> Bowlbug (Nectar) 20.5%; Play Strike -> Bowlbug (Nectar) 13.9%; Play Bulk Up 11.4%; Play FTL+ -> Bowlbug (Rock) 10.0%
@@ -758,7 +758,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 68/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost
      Enemy Bowlbug (Rock): HP 14/49  Intent Headbutt: Attack 16  Powers: Imbalanced 1
-     Hand: Strike+ [1], Charge Battery [1], Defend [1], Defend [1], Clumsy [X], Dualcast [1]  | Draw 12  Discard 0  Exhaust 2
+     Hand: Strike+ [1], Charge Battery [1], Defend [1], Defend [1], Clumsy [-], Dualcast [1]  | Draw 12  Discard 0  Exhaust 2
      Potions: Focus Potion, Shackling Potion
      #273  Play Defend   [24.2%, 8 options]
             also: Play Defend 24.2% (identical option); Play Charge Battery 22.5%; Play Dualcast 22.3%; Play Strike+ -> Bowlbug (Rock) 6.8%
@@ -804,7 +804,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 68/75  Block 14  Energy 3/3  Orbs (2 slots): Lightning, Frost  Powers: Strength 2, Dexterity 2
      Enemy Parafright: HP 21/21  Intent Slam: Attack 17  Powers: Illusion 1, Minion 1
      Enemy The Obscura: HP 87/129  Intent Piercing Gaze: Attack 11  Powers: Vulnerable 1
-     Hand: Clumsy [X], Defend [1], Strike+ [1], Defend [1], Coolheaded+ [1], Defend+ [1]  | Draw 8  Discard 5  Exhaust 1
+     Hand: Clumsy [-], Defend [1], Strike+ [1], Defend [1], Coolheaded+ [1], Defend+ [1]  | Draw 8  Discard 5  Exhaust 1
      Potions: Focus Potion, Shackling Potion
      #289  Play Defend   [28.6%, 9 options]
             also: Play Coolheaded+ 27.1%; Play Defend+ 21.9%; Play Defend 13.9% (identical option); Play Strike+ -> The Obscura 6.2%
@@ -902,7 +902,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 66/75  Block 0  Energy 3/3  Orbs (2 slots): Frost, Glass  Powers: Strength 2, Dexterity 2, Spinner 1
      Enemy Myte: HP 54/69  Intent Suck: Attack 6 + Buff
      Enemy Myte: HP 16/66  Intent Bite: Attack 18  Powers: Strength 3, Vulnerable 1
-     Hand: Toxic [1], Toxic [1], Clumsy [X], Defend [1], Defend [1], Charge Battery [1], Strike+ [1], Beam Cell [0]  | Draw 1  Discard 15  Exhaust 0
+     Hand: Toxic [1], Toxic [1], Clumsy [-], Defend [1], Defend [1], Charge Battery [1], Strike+ [1], Beam Cell [0]  | Draw 1  Discard 15  Exhaust 0
      Potions: Focus Potion, Shackling Potion
      #322  Play Strike+ -> Myte #2   [98.4%, 12 options]
             also: Play Beam Cell -> Myte #2 1.1%
@@ -916,7 +916,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 66/75  Block 5  Energy 4/3  Orbs (2 slots): Glass, Glass  Powers: Strength 2, Dexterity 2, Spinner 1
      Enemy Myte: HP 45/69  Intent Toxic Cornucopia: Debuff  Powers: Strength 3
-     Hand: Ascender's Bane [X], Toxic [1], Shatter [1], Defend [1], Defend [1], Leap+ [1]  | Draw 17  Discard 0  Exhaust 1
+     Hand: Ascender's Bane [-], Toxic [1], Shatter [1], Defend [1], Defend [1], Leap+ [1]  | Draw 17  Discard 0  Exhaust 1
      Potions: Focus Potion, Shackling Potion
      #327  Play Defend   [27.2%, 8 options]
             also: Play Shatter 22.0%; Play Toxic 18.1%; Play Defend 17.5% (identical option); Play Leap+ 15.2%
@@ -956,7 +956,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 66/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Infested Prism: HP 162/171  Intent Jab: Attack 17  Powers: Vital Spark 3
-     Hand: Charge Battery [1], Beam Cell [0], Defend [1], Leap+ [1], Clumsy [X], Dualcast [1]  | Draw 17  Discard 0  Exhaust 0
+     Hand: Charge Battery [1], Beam Cell [0], Defend [1], Leap+ [1], Clumsy [-], Dualcast [1]  | Draw 17  Discard 0  Exhaust 0
      Potions: Focus Potion, Shackling Potion
      #340  Play Leap+   [47.7%, 8 options]
             also: Play Charge Battery 21.0%; Play Beam Cell -> Infested Prism 19.2%; Play Defend 12.0%
@@ -1000,7 +1000,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 56/75  Block 0  Energy 3/3  Orbs (2 slots): Frost, Frost  Powers: Strength 3, Dexterity 3
      Enemy Infested Prism: HP 104/171  Intent Pulsate: Attack 10 + Buff + Defend  Powers: Vital Spark 3
-     Hand: Strike+ [1], Ascender's Bane [X], Shatter [1], Strike [1], Defend [1], Leap+ [1]  | Draw 15  Discard 0  Exhaust 1
+     Hand: Strike+ [1], Ascender's Bane [-], Shatter [1], Strike [1], Defend [1], Leap+ [1]  | Draw 15  Discard 0  Exhaust 1
      Potions: Focus Potion, Shackling Potion
      #356  Play Leap+   [38.3%, 8 options]
             also: Play Strike+ -> Infested Prism 25.3%; Play Defend 19.8%; Play Strike -> Infested Prism 16.5%
@@ -1109,7 +1109,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 72/85  Block 14  Energy 3/3  Orbs (3 slots): Lightning, Frost
      Enemy Entomancer: HP 144/165  Intent Spear!: Attack 20  Powers: Personal Hive 1
-     Hand: Boost Away [0], Shatter [1], Defend [1], Charge Battery [1], Clumsy [X], Defend+ [1]  | Draw 10  Discard 9  Exhaust 0
+     Hand: Boost Away [0], Shatter [1], Defend [1], Charge Battery [1], Clumsy [-], Defend+ [1]  | Draw 10  Discard 9  Exhaust 0
      Potions: Focus Potion, Shackling Potion
      #394  Play Charge Battery   [34.5%, 8 options]
             also: Play Defend+ 25.3%; Play Defend 21.7%; Play Boost Away 18.5%
@@ -1122,7 +1122,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 72/85  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost
      Enemy Entomancer: HP 141/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1
-     Hand: Defend [1], Leap+ [1], Spinner [1], Dazed [X], Dualcast [1], Beam Cell [0]  | Draw 4  Discard 14  Exhaust 1
+     Hand: Defend [1], Leap+ [1], Spinner [1], Dazed [-], Dualcast [1], Beam Cell [0]  | Draw 4  Discard 14  Exhaust 1
      Potions: Focus Potion, Shackling Potion
      #398  Play Spinner   [33.9%, 8 options]
             also: Play Dualcast 26.9%; Play Defend 21.6%; Play Leap+ 15.1%; Play Beam Cell -> Entomancer 2.3%
@@ -1135,7 +1135,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 72/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Glass  Powers: Spinner 1
      Enemy Entomancer: HP 125/165  Intent Beeeees!: Attack 4x8  Powers: Personal Hive 2, Strength 1
-     Hand: Strike+ [1], Dazed [X], Bulk Up+ [2], Ascender's Bane [X], Defend+ [1], Dualcast [1]  | Draw 16  Discard 0  Exhaust 2
+     Hand: Strike+ [1], Dazed [-], Bulk Up+ [2], Ascender's Bane [-], Defend+ [1], Dualcast [1]  | Draw 16  Discard 0  Exhaust 2
      Potions: Focus Potion, Shackling Potion
      #402  Play Bulk Up+   [99.6%, 7 options]
      #403  Play Defend+   [96.6%, 6 options]
@@ -1166,7 +1166,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 72/85  Block 0  Energy 3/3  Orbs (2 slots): Glass  Powers: Spinner 1, Strength 3, Dexterity 3
      Enemy Entomancer: HP 36/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 2, Strength 1
-     Hand: Defend [1], Leap [1], Dazed [X], Dazed [X], Charge Battery [1], Strike [1]  | Draw 13  Discard 10  Exhaust 5
+     Hand: Defend [1], Leap [1], Dazed [-], Dazed [-], Charge Battery [1], Strike [1]  | Draw 13  Discard 10  Exhaust 5
      Potions: Focus Potion
      #414  Play Charge Battery   [45.0%, 6 options]
             also: Play Defend 27.3%; Play Leap 22.7%; Play Strike -> Entomancer 5.0%
@@ -1178,7 +1178,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 72/85  Block 0  Energy 4/3  Orbs (2 slots): Glass, Glass  Powers: Spinner 1, Strength 3, Dexterity 3
      Enemy Entomancer: HP 32/165  Intent Beeeees!: Attack 5x8  Powers: Personal Hive 3, Strength 2
-     Hand: Coolheaded+ [1], Dazed [X], Cold Snap [1], Defend [1], Dazed [X], Beam Cell+ [0]  | Draw 7  Discard 14  Exhaust 7
+     Hand: Coolheaded+ [1], Dazed [-], Cold Snap [1], Defend [1], Dazed [-], Beam Cell+ [0]  | Draw 7  Discard 14  Exhaust 7
      Potions: Focus Potion
      #418  Play Coolheaded+   [69.7%, 6 options]
             also: Play Beam Cell+ -> Entomancer 21.2%; Play Defend 5.6%; Play Cold Snap -> Entomancer 3.5%
@@ -1223,7 +1223,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 72/85  Block 14  Energy 3/3  Orbs (2 slots): Lightning  Powers: Strength 3, Dexterity 3, Tender 1
      Enemy Hunter Killer: HP 77/126  Intent Puncture: Attack 8x3  Powers: Vulnerable 3
-     Hand: Defend [1], Go for the Eyes+ [0], Charge Battery [1], Clumsy [X], Coolheaded+ [1], Ascender's Bane [X]  | Draw 12  Discard 5  Exhaust 0
+     Hand: Defend [1], Go for the Eyes+ [0], Charge Battery [1], Clumsy [-], Coolheaded+ [1], Ascender's Bane [-]  | Draw 12  Discard 5  Exhaust 0
      Potions: Focus Potion, Touch of Insanity
      #434  Play Go for the Eyes+ -> Hunter Killer   [38.2%, 7 options]
             also: Play Coolheaded+ 23.6%; Play Charge Battery 20.1%; Play Defend 18.0%
@@ -1271,7 +1271,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 37/46  Intent Writhe: Attack 6x2  Powers: Reattach 25, Vulnerable 1
      Enemy Decimillipede: HP 43/52  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25, Vulnerable 1
      Enemy Decimillipede: HP 41/50  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25, Vulnerable 1
-     Hand: Boost Away [0], Defend [1], Beam Cell+ [0], Clumsy [X], Shatter [1], Ascender's Bane [X]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Boost Away [0], Defend [1], Beam Cell+ [0], Clumsy [-], Shatter [1], Ascender's Bane [-]  | Draw 18  Discard 0  Exhaust 0
      Potions: Focus Potion, Touch of Insanity
      #450  Play Beam Cell+ -> Decimillipede   [32.9%, 9 options]
             also: Play Defend 22.4%; Play Boost Away 18.4%; Play Beam Cell+ -> Decimillipede 9.4% x2 (identical option)
@@ -1342,7 +1342,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 56/85  Block 0  Energy 3/3  Orbs (2 slots): Frost, Glass  Powers: Weak 1, Strength 3, Dexterity 3, Spinner 1
      Enemy Decimillipede: HP 5/52  Intent Writhe: Attack 10x2  Powers: Reattach 25, Strength 4
      Enemy Decimillipede: HP 23/50  Intent Bulk: Attack 9 + Buff  Powers: Reattach 25, Strength 2
-     Hand: Leap [1], Beam Cell+ [0], Strike+ [1], Charge Battery [0], Beam Cell [0], Dazed [X]  | Draw 7  Discard 7  Exhaust 3
+     Hand: Leap [1], Beam Cell+ [0], Strike+ [1], Charge Battery [0], Beam Cell [0], Dazed [-]  | Draw 7  Discard 7  Exhaust 3
      Potions: Focus Potion
      #475  Play Beam Cell+ -> Decimillipede   [22.7%, 10 options]
             also: Play Beam Cell+ -> Decimillipede 13.9% (identical option); Play Beam Cell -> Decimillipede 13.2%; Play Leap 12.7%; Play Charge Battery 12.7%
@@ -1410,7 +1410,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 72/85  Block 14  Energy 4/3  Orbs (3 slots): Lightning, Frost, Glass  Powers: Surrounded 1, Subroutine 1, Spinner 1
      Enemy Crusher: HP 210/219  Intent Enlarging Strike: Attack 6  Powers: Back Attack 1, Crab Rage 1
      Enemy Rocket: HP 188/209  Intent Precision Beam: Attack 20  Powers: Back Attack 1, Crab Rage 1
-     Hand: Clumsy [X], Beam Cell+ [0], Defend [1], Strike+ [1], Shatter [1], Leap+ [1]  | Draw 10  Discard 7  Exhaust 0
+     Hand: Clumsy [-], Beam Cell+ [0], Defend [1], Strike+ [1], Shatter [1], Leap+ [1]  | Draw 10  Discard 7  Exhaust 0
      Potions: Focus Potion, Colorless Potion
      #499  Play Beam Cell+ -> Rocket   [37.3%, 10 options]
             also: Play Strike+ -> Rocket 20.9%; Play Defend 19.4%; Play Leap+ 19.3%; Play Shatter 2.6%
@@ -1425,7 +1425,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 72/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Glass, Glass  Powers: Surrounded 1, Subroutine 1, Spinner 1
      Enemy Crusher: HP 203/219  Intent Bug Sting: Attack 10x2 + Debuff  Powers: Back Attack 1, Crab Rage 1
      Enemy Rocket: HP 159/209  Intent Charge Up: Buff  Powers: Back Attack 1, Crab Rage 1, Vulnerable 1
-     Hand: FTL [0], Bulk Up+ [2], Go for the Eyes+ [0], Defend [1], Boost Away [0], Ascender's Bane [X]  | Draw 4  Discard 12  Exhaust 1
+     Hand: FTL [0], Bulk Up+ [2], Go for the Eyes+ [0], Defend [1], Boost Away [0], Ascender's Bane [-]  | Draw 4  Discard 12  Exhaust 1
      Potions: Focus Potion, Colorless Potion
      #504  Play Bulk Up+   [98.3%, 10 options]
             also: Play FTL -> Rocket 0.7%
@@ -1476,7 +1476,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 56/85  Block 5  Energy 4/3  Orbs (2 slots): Glass, Glass  Powers: Surrounded 1, Subroutine 1, Spinner 1, Strength 3, Dexterity 3
      Enemy Crusher: HP 173/219  Block 18  Intent Thrash: Attack 17  Powers: Back Attack 1, Crab Rage 1, Strength 3
      Enemy Rocket: HP 83/209  Intent Targeting Reticle: Attack 10  Powers: Back Attack 1, Crab Rage 1, Strength 3
-     Hand: FTL+ [0], Defend+ [1], Go for the Eyes+ [0], Strike [1], Dualcast [1], Dazed [X]  | Draw 2  Discard 14  Exhaust 2
+     Hand: FTL+ [0], Defend+ [1], Go for the Eyes+ [0], Strike [1], Dualcast [1], Dazed [-]  | Draw 2  Discard 14  Exhaust 2
      Potions: Focus Potion, Colorless Potion
      #522  Play FTL+ -> Rocket   [40.4%, 11 options]
             also: Play Go for the Eyes+ -> Rocket 21.1%; Play Defend+ 13.9%; Play Strike -> Rocket 12.6%; Play Dualcast 8.1%
@@ -1514,7 +1514,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 48/85  Block 5  Energy 3/3  Orbs (2 slots): Frost, Glass  Powers: Surrounded 1, Subroutine 1, Spinner 1, Strength 3, Dexterity 3
      Enemy Crusher: HP 160/219  Intent Bug Sting: Attack 16x2 + Debuff  Powers: Back Attack 1, Strength 9
-     Hand: Defend [1], Shatter [1], Dazed [X], Strike [1], Go for the Eyes+ [0], Defend [1]  | Draw 6  Discard 9  Exhaust 3
+     Hand: Defend [1], Shatter [1], Dazed [-], Strike [1], Go for the Eyes+ [0], Defend [1]  | Draw 6  Discard 9  Exhaust 3
      Potions: Focus Potion, Colorless Potion
      #536  Play Go for the Eyes+ -> Crusher   [28.8%, 8 options]
             also: Play Defend 23.2% x2; Play Strike -> Crusher 12.9%; Play Shatter 11.9%
@@ -1616,7 +1616,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 77/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Devoted Sculptor: HP 163/172  Intent Forbidden Incantation: Buff  Powers: Vulnerable 1
-     Hand: Defend [1], Strike+ [1], Defragment [1], Leap+ [1], Clumsy [X], Beam Cell+ [0]  | Draw 20  Discard 0  Exhaust 0
+     Hand: Defend [1], Strike+ [1], Defragment [1], Leap+ [1], Clumsy [-], Beam Cell+ [0]  | Draw 20  Discard 0  Exhaust 0
      Potions: Focus Potion, Colorless Potion
      #573  Play Beam Cell+ -> Devoted Sculptor   [76.2%, 8 options]
             also: Play Strike+ -> Devoted Sculptor 16.1%; Use potion Colorless Potion -> self 3.1%; Play Defend 2.9%; Play Leap+ 1.6%
@@ -1677,7 +1677,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 77/85  Block 5  Energy 3/3  Orbs (2 slots): Glass, Glass  Powers: Subroutine 1, Strength 3, Dexterity 3, Spinner 1
      Enemy Devoted Sculptor: HP 56/172  Intent Savage: Attack 42  Powers: Ritual 9, Strength 27
-     Hand: Defragment [1], Defend [1], Dualcast [1], Shatter [1], Leap [1], Defend+ [1], Coolheaded+ [1], Beam Cell+ [0], Dazed [X], FTL+ [0]  | Draw 12  Discard 0  Exhaust 2
+     Hand: Defragment [1], Defend [1], Dualcast [1], Shatter [1], Leap [1], Defend+ [1], Coolheaded+ [1], Beam Cell+ [0], Dazed [-], FTL+ [0]  | Draw 12  Discard 0  Exhaust 2
      Potions: Focus Potion, Colorless Potion
      #595  Play FTL+ -> Devoted Sculptor   [26.9%, 12 options]
             also: Play Beam Cell+ -> Devoted Sculptor 25.5%; Play Shatter 12.7%; Play Coolheaded+ 9.2%; Play Defend+ 8.2%
@@ -1697,7 +1697,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 77/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Living Shield: HP 56/65  Intent Shield Slam: Attack 6  Powers: Rampart 25, Vulnerable 1
      Enemy Turret Operator: HP 42/51  Block 25  Intent Unload!: Attack 4x5  Powers: Vulnerable 1
-     Hand: Defend [1], Strike+ [1], Go for the Eyes+ [0], FTL [0], Beam Cell+ [0], Ascender's Bane [X]  | Draw 21  Discard 0  Exhaust 0
+     Hand: Defend [1], Strike+ [1], Go for the Eyes+ [0], FTL [0], Beam Cell+ [0], Ascender's Bane [-]  | Draw 21  Discard 0  Exhaust 0
      Potions: Focus Potion, Colorless Potion
      #602  Play Beam Cell+ -> Turret Operator   [29.8%, 12 options]
             also: Play FTL -> Turret Operator 29.7%; Play Go for the Eyes+ -> Turret Operator 11.5%; Play FTL -> Living Shield 6.5%; Play Strike+ -> Turret Operator 6.4%
@@ -1736,7 +1736,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 61/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Entropy 1
      Enemy Living Shield: HP 15/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 42/51  Intent Reload: Buff  Powers: Vulnerable 1
-     Hand: Defend [1], Defend+ [1], Leap [1], Bulk Up+ [2], FTL+ [0], Leap+ [1], Cold Snap [1], Go for the Eyes+ [0], Clumsy [X]  | Draw 8  Discard 9  Exhaust 1
+     Hand: Defend [1], Defend+ [1], Leap [1], Bulk Up+ [2], FTL+ [0], Leap+ [1], Cold Snap [1], Go for the Eyes+ [0], Clumsy [-]  | Draw 8  Discard 9  Exhaust 1
      Potions: Focus Potion
      #616  Select Defend   [74.6%, 9 options]
             also: Select Defend+ 17.2%; Select Leap 4.6%; Select Leap+ 2.5%
@@ -1783,7 +1783,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 61/85  Block 5  Energy 3/3  Orbs (2 slots): Frost, Glass  Powers: Entropy 1, Strength 3, Dexterity 3, Iteration 2, Subroutine 1, Spinner 1
      Enemy Turret Operator: HP 4/51  Intent Reload: Buff  Powers: Strength 1
-     Hand: Defend+ [1], Leap [1], Shatter [1], Defragment [1], Charge Battery [1], Shadow Shield [2], Strike+ [1], Leap+ [1], Defend [1], Dazed [X]  | Draw 9  Discard 4  Exhaust 2
+     Hand: Defend+ [1], Leap [1], Shatter [1], Defragment [1], Charge Battery [1], Shadow Shield [2], Strike+ [1], Leap+ [1], Defend [1], Dazed [-]  | Draw 9  Discard 4  Exhaust 2
      Potions: Focus Potion
      #634  Select Strike+   [37.5%, 10 options]
             also: Select Defend 28.5%; Select Defend+ 10.5%; Select Shatter 8.3%; Select Shadow Shield 7.3%
@@ -1815,7 +1815,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 61/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy The Lost: HP 90/99  Intent Debilitating Smog: Buff + Debuff  Powers: Possess Strength 1, Vulnerable 1
      Enemy The Forgotten: HP 102/111  Intent Miasma: Buff + Debuff + Defend  Powers: Possess Speed 1, Vulnerable 1
-     Hand: Dualcast [1], FTL+ [0], Ascender's Bane [X], Go for the Eyes [0], Leap+ [1], Defend+ [1]  | Draw 22  Discard 0  Exhaust 0
+     Hand: Dualcast [1], FTL+ [0], Ascender's Bane [-], Go for the Eyes [0], Leap+ [1], Defend+ [1]  | Draw 22  Discard 0  Exhaust 0
      Potions: Focus Potion
      #646  Play FTL+ -> The Lost   [67.9%, 9 options]
             also: Play Go for the Eyes -> The Lost 25.9%; Play FTL+ -> The Forgotten 2.6%; Play Dualcast 1.2%; Play Defend+ 1.0%
@@ -1877,7 +1877,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 55/85  Block 0  Energy 3/3  Orbs (2 slots): Frost, Glass  Powers: Strength 3, Dexterity -1, Spinner 1, Subroutine 1
      Enemy The Forgotten: HP 62/111  Intent Miasma: Buff + Debuff + Defend  Powers: Possess Speed 1, Dexterity 4
-     Hand: Defend+ [1], Defend [1], Strike [1], Leap [1], Charge Battery [1], Defend [1], Defend [1], Clumsy [X], Defragment [1], Go for the Eyes+ [0]  | Draw 0  Discard 14  Exhaust 2
+     Hand: Defend+ [1], Defend [1], Strike [1], Leap [1], Charge Battery [1], Defend [1], Defend [1], Clumsy [-], Defragment [1], Go for the Eyes+ [0]  | Draw 0  Discard 14  Exhaust 2
      Potions: Focus Potion
      #667  Play Charge Battery   [17.9%, 11 options]
             also: Play Go for the Eyes+ -> The Forgotten 13.9%; Play Defend 13.1%; Play Strike -> The Forgotten 12.2%; Play Defend+ 11.7%
@@ -1945,7 +1945,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 55/85  Block 14  Energy 3/3  Orbs (3 slots): Lightning  Powers: Hailstorm 6
      Enemy Owl Magistrate: HP 207/247  Intent Peck Assault: Attack 3x6  Powers: Weak 1
-     Hand: Defend+ [1], Dualcast [1], Go for the Eyes+ [0], Boost Away [0], Go for the Eyes [0], Clumsy [X], Coolheaded+ [1], Shatter [1]  | Draw 16  Discard 4  Exhaust 0
+     Hand: Defend+ [1], Dualcast [1], Go for the Eyes+ [0], Boost Away [0], Go for the Eyes [0], Clumsy [-], Coolheaded+ [1], Shatter [1]  | Draw 16  Discard 4  Exhaust 0
      Potions: Focus Potion
      #692  Play Go for the Eyes+ -> Owl Magistrate   [38.6%, 9 options]
             also: Play Go for the Eyes -> Owl Magistrate 27.1%; Play Coolheaded+ 22.1%; Play Boost Away 5.4%; Play Defend+ 4.3%
@@ -1961,7 +1961,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 55/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost  Powers: Hailstorm 6
      Enemy Owl Magistrate: HP 184/247  Intent Judicial Flight: Buff  Powers: Weak 3
-     Hand: Dualcast [1], Boost Away [0], Shatter [1], Defend [1], Cold Snap [1], Leap+ [1], Beam Cell [0], Charge Battery [1], Defend [1], Ascender's Bane [X]  | Draw 8  Discard 9  Exhaust 1
+     Hand: Dualcast [1], Boost Away [0], Shatter [1], Defend [1], Cold Snap [1], Leap+ [1], Beam Cell [0], Charge Battery [1], Defend [1], Ascender's Bane [-]  | Draw 8  Discard 9  Exhaust 1
      Potions: Focus Potion
      #698  Play Beam Cell -> Owl Magistrate   [42.2%, 11 options]
             also: Play Cold Snap -> Owl Magistrate 27.4%; Play Charge Battery 15.5%; Play Boost Away 6.1%; Play Dualcast 2.9%
@@ -2051,14 +2051,14 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #731  [Shop] Buy Toolbox (188 gold)   [41.3%, 15 options]
          also: Buy Power Potion (52 gold) 17.5%; Buy Parrying Shield (217 gold) 14.8%; Buy Automation (87 gold) 5.0%; Buy TURBO (24 gold) 3.6%
   Relic gained: Toolbox
-  Shop shelf (gold 159): Card Uproar 52g; Card Claw 52g; Card TURBO 24g; Card Coolheaded 48g; Card Iteration 76g; Card Automation 87g; Card Bolas 169g; Relic Parrying Shield 217g; Relic Letter Opener 257g; Relic #2286 188g (sold); Potion Flex Potion 50g; Potion Heart of Iron 77g; Potion Power Potion 52g; Removal 150g
+  Shop shelf (gold 159): Card Uproar 52g; Card Claw 52g; Card TURBO 24g; Card Coolheaded 48g; Card Iteration 76g; Card Automation 87g; Card Bolas 169g; Relic Parrying Shield 217g; Relic Letter Opener 257g; Relic 188g (sold); Potion Flex Potion 50g; Potion Heart of Iron 77g; Potion Power Potion 52g; Removal 150g
   #732  [Shop] Buy Power Potion (52 gold)   [62.5%, 11 options]
          also: Buy Automation (87 gold) 18.5%; Buy Heart of Iron (77 gold) 5.8%; Buy TURBO (24 gold) 3.2%; Leave / skip 1.9%
-  Shop shelf (gold 107): Card Uproar 52g; Card Claw 52g; Card TURBO 24g; Card Coolheaded 48g; Card Iteration 76g; Card Automation 87g; Card Bolas 169g; Relic Parrying Shield 217g; Relic Letter Opener 257g; Relic #2286 188g (sold); Potion Flex Potion 50g; Potion Heart of Iron 77g; Potion #2286 52g (sold); Removal 150g
+  Shop shelf (gold 107): Card Uproar 52g; Card Claw 52g; Card TURBO 24g; Card Coolheaded 48g; Card Iteration 76g; Card Automation 87g; Card Bolas 169g; Relic Parrying Shield 217g; Relic Letter Opener 257g; Relic 188g (sold); Potion Flex Potion 50g; Potion Heart of Iron 77g; Potion 52g (sold); Removal 150g
   #733  [Shop] Buy Automation (87 gold)   [71.4%, 9 options]
          also: Buy TURBO (24 gold) 12.7%; Buy Iteration (76 gold) 5.1%; Leave / skip 4.7%; Buy Coolheaded (48 gold) 2.4%
   Deck change: +Automation  (31 cards)
-  Shop shelf (gold 20): Card Uproar 52g; Card Claw 52g; Card TURBO 24g; Card Coolheaded 48g; Card Iteration 76g; Card #2286 87g (sold); Card Bolas 169g; Relic Parrying Shield 217g; Relic Letter Opener 257g; Relic #2286 188g (sold); Potion Flex Potion 50g; Potion Heart of Iron 77g; Potion #2286 52g (sold); Removal 150g
+  Shop shelf (gold 20): Card Uproar 52g; Card Claw 52g; Card TURBO 24g; Card Coolheaded 48g; Card Iteration 76g; Card 87g (sold); Card Bolas 169g; Relic Parrying Shield 217g; Relic Letter Opener 257g; Relic 188g (sold); Potion Flex Potion 50g; Potion Heart of Iron 77g; Potion 52g (sold); Removal 150g
   #734  [Shop] Leave / skip   [100.0%, 1 option]
   #735  [Map] Go to Treasure (row 8, col 7)   [100.0%, 1 option]
 
@@ -2136,7 +2136,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Punch Construct: HP 42/60  Intent READY: Defend
      Enemy Cubex Construct: HP 48/70  Intent Expel: Attack 12x2  Powers: Strength 6
      Enemy Cubex Construct: HP 27/70  Intent Expel: Attack 9x2  Powers: Strength 6, Weak 1
-     Hand: Defragment+ [1], Shatter [1], Ball Lightning [1], Dualcast [1], Strike+ [1], Coolheaded+ [1], Rocket Punch [2], Ball Lightning [1], Strike+ [1], Ascender's Bane [X]  | Draw 11  Discard 12  Exhaust 1
+     Hand: Defragment+ [1], Shatter [1], Ball Lightning [1], Dualcast [1], Strike+ [1], Coolheaded+ [1], Rocket Punch [2], Ball Lightning [1], Strike+ [1], Ascender's Bane [-]  | Draw 11  Discard 12  Exhaust 1
      Potions: Focus Potion, Power Potion
      #758  Play Defragment+   [87.2%, 22 options]
             also: Play Ball Lightning -> Cubex Construct #3 5.3% x2; Play Coolheaded+ 4.6%
@@ -2226,7 +2226,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 51/85  Block 1  Energy 4/3  Orbs (3 slots): Glass, Frost, Glass  Powers: Automation 1, Weak 2, Frail 2, Spinner 1, Hailstorm 6, Subroutine 1
      Enemy Axebot: HP 12/78  Intent The One-Two: Attack 8x2  Powers: Stock 2, Weak 2, Vulnerable 2
-     Hand: Strike [1], Shatter [1], Ball Lightning [1], Strike+ [1], Bulk Up+ [2], Leap+ [1], Dualcast [1], Boost Away [0], Ascender's Bane [X], Cold Snap [1]  | Draw 5  Discard 13  Exhaust 1
+     Hand: Strike [1], Shatter [1], Ball Lightning [1], Strike+ [1], Bulk Up+ [2], Leap+ [1], Dualcast [1], Boost Away [0], Ascender's Bane [-], Cold Snap [1]  | Draw 5  Discard 13  Exhaust 1
      Potions: Focus Potion, Power Potion
      #793  Play Bulk Up+   [25.2%, 12 options]
             also: Play Boost Away 22.4%; Play Dualcast 16.1%; Play Leap+ 15.0%; Play Shatter 9.5%
@@ -2298,7 +2298,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 51/85  Block 7  Energy 5/3  Orbs (2 slots): Lightning, Glass  Powers: Automation 1, Weak 2, Frail 2, Spinner 1, Hailstorm 6, Subroutine 1, Strength 3, Dexterity 3
      Enemy Axebot: HP 85/105  Intent The One-Two: Attack 19x2  Powers: Strength 8, Vulnerable 2
-     Hand: Shatter [1], Defragment+ [1], Strike [1], Strike+ [1], Leap [1], Defend [1], Go for the Eyes [0], Catastrophe [2], Beam Cell [0], Dazed [X]  | Draw 17  Discard 0  Exhaust 2
+     Hand: Shatter [1], Defragment+ [1], Strike [1], Strike+ [1], Leap [1], Defend [1], Go for the Eyes [0], Catastrophe [2], Beam Cell [0], Dazed [-]  | Draw 17  Discard 0  Exhaust 2
      Potions: Focus Potion, Power Potion
      #820  Play Beam Cell -> Axebot   [38.4%, 12 options]
             also: Play Strike+ -> Axebot 12.4%; Play Defend 12.2%; Play Go for the Eyes -> Axebot 9.8%; Play Catastrophe 9.4%
@@ -2331,7 +2331,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #832  [Shop] Buy Charge Battery (49 gold)   [78.3%, 6 options]
          also: Leave / skip 9.1%; Buy Claw (24 gold) 5.6%; Buy Boost Away (52 gold) 5.4%; Discard potion Power Potion 1.3%
   Deck change: +Charge Battery  (34 cards)
-  Shop shelf (gold 20): Card Rocket Punch 73g; Card Claw 24g; Card Boost Away 52g; Card #2286 49g (sold); Card Smokestack 76g; Card Equilibrium 83g; Card Hidden Gem 176g; Relic War Paint 156g; Relic Potion Belt 176g; Relic Royal Stamp 183g; Potion Droplet of Precognition 95g; Potion Weak Potion 52g; Potion Fortifier 73g; Removal 150g
+  Shop shelf (gold 20): Card Rocket Punch 73g; Card Claw 24g; Card Boost Away 52g; Card 49g (sold); Card Smokestack 76g; Card Equilibrium 83g; Card Hidden Gem 176g; Relic War Paint 156g; Relic Potion Belt 176g; Relic Royal Stamp 183g; Potion Droplet of Precognition 95g; Potion Weak Potion 52g; Potion Fortifier 73g; Removal 150g
   #833  [Shop] Leave / skip   [100.0%, 1 option]
   #834  [Map] Go to Rest Site (row 14, col 6)   [100.0%, 1 option]
 
@@ -2410,7 +2410,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 70/85  Block 5  Energy 4/3  Orbs (4 slots): Lightning, Frost, Glass, Glass  Powers: Strength 3, Dexterity 3, Creative AI 1, Focus 2, Spinner 1, Automation 1, Hailstorm 6, Subroutine 1, Storm 1
      Enemy Aeonglass: HP 430/535  Block 33  Intent Eye Lasers: Attack 16x2  Powers: Withering Presence 6, Strength 4
-     Hand: Jackpot [3], Dualcast [1], Strike+ [1], Strike [1], Storm [1], Ascender's Bane [X], Defend+ [1], Defend+ [1], Defend [1], Leap+ [1]  | Draw 9  Discard 18  Exhaust 0
+     Hand: Jackpot [3], Dualcast [1], Strike+ [1], Strike [1], Storm [1], Ascender's Bane [-], Defend+ [1], Defend+ [1], Defend [1], Leap+ [1]  | Draw 9  Discard 18  Exhaust 0
      Potions: Focus Potion
      #865  Play Storm   [99.6%, 11 options]
      #866  Play Jackpot -> Aeonglass   [52.8%, 10 options]
@@ -2426,7 +2426,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 70/85  Block 14  Energy 3/3  Orbs (4 slots): Glass, Glass, Lightning, Glass  Powers: Strength 3, Dexterity 3, Creative AI 1, Focus 2, Spinner 1, Automation 1, Hailstorm 6, Subroutine 1, Storm 2
      Enemy Aeonglass: HP 366/535  Intent Increasing Intensity: Buff + Debuff  Powers: Withering Presence 6, Strength 4
-     Hand: Dualcast [1], Strike+ [1], Consuming Shadow [2], Defend+ [1], Hailstorm [1], Ascender's Bane [X], Strike [1], Charge Battery [1], Go for the Eyes+ [0]  | Draw 29  Discard 2  Exhaust 1
+     Hand: Dualcast [1], Strike+ [1], Consuming Shadow [2], Defend+ [1], Hailstorm [1], Ascender's Bane [-], Strike [1], Charge Battery [1], Go for the Eyes+ [0]  | Draw 29  Discard 2  Exhaust 1
      Potions: Focus Potion
      #873  Play Hailstorm   [96.5%, 10 options]
             also: Play Go for the Eyes+ -> Aeonglass 2.5%
@@ -2442,7 +2442,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 70/85  Block 10  Energy 5/3  Orbs (4 slots): Dark, Dark, Lightning, Glass  Powers: Strength 3, Dexterity 3, Creative AI 1, Focus 2, Spinner 1, Automation 1, Hailstorm 12, Subroutine 1, Storm 2, Consuming Shadow 1
      Enemy Aeonglass: HP 266/535  Intent Ebb: Attack 35 + Defend  Powers: Withering Presence 6, Strength 9
-     Hand: Dualcast [1], Defend+ [1], Strike [1], Subroutine [1], Boost Away [0], Dazed [X], Ball Lightning [1], Leap [1], Barrage+ [1], Shatter [1]  | Draw 23  Discard 8  Exhaust 2
+     Hand: Dualcast [1], Defend+ [1], Strike [1], Subroutine [1], Boost Away [0], Dazed [-], Ball Lightning [1], Leap [1], Barrage+ [1], Shatter [1]  | Draw 23  Discard 8  Exhaust 2
      Potions: Focus Potion
      #879  Play Barrage+ -> Aeonglass   [81.7%, 11 options]
             also: Play Shatter 9.9%; Play Subroutine 4.2%; Play Dualcast 2.2%; Play Ball Lightning -> Aeonglass 1.5%
@@ -2461,7 +2461,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 68/85  Block 0  Energy 4/3  Orbs (4 slots): Lightning, Lightning, Glass  Powers: Strength 3, Dexterity 3, Creative AI 1, Focus 2, Spinner 1, Automation 1, Hailstorm 12, Subroutine 2, Storm 2, Consuming Shadow 1
      Enemy Aeonglass: HP 79/535  Block 33  Intent Eye Lasers: Attack 21x2  Powers: Withering Presence 6, Strength 9
-     Hand: Dualcast [1], Strike [1], Creative AI [3], Charge Battery [1], Wither [X], Defend+ [1], Wither [X], Wither [X], Wither [X]  | Draw 17  Discard 15  Exhaust 4
+     Hand: Dualcast [1], Strike [1], Creative AI [3], Charge Battery [1], Wither [-], Defend+ [1], Wither [-], Wither [-], Wither [-]  | Draw 17  Discard 15  Exhaust 4
      Potions: Focus Potion
      #887  Play Charge Battery   [60.3%, 7 options]
             also: Play Defend+ 27.1%; Play Creative AI 12.5%

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Build summary/runs.csv (one row per game) and summary/results.json (aggregate numbers) for one
 evaluation, from its summary/runs.jsonl, replays/ and meta.json. Standard library only.
+Evaluations that share seeds with the routine evaluation (routine_eval_seeds.txt) also get the
+routine_eval_seed column and the by_seed_group split.
 
     python3 tools/build_summary.py evaluations/v130051
 """
@@ -53,7 +55,8 @@ def last_offcombat(path: Path) -> dict:
 
 def main(ev: Path) -> None:
     meta = json.loads((ev / "meta.json").read_text(encoding="utf-8"))
-    routine = set((ev / "routine_eval_seeds.txt").read_text(encoding="utf-8").split())
+    rf = ev / "routine_eval_seeds.txt"
+    routine = set(rf.read_text(encoding="utf-8").split()) if rf.exists() else None
     runs = [json.loads(l) for l in (ev / "summary/runs.jsonl").read_text(encoding="utf-8").splitlines()]
     rows = []
     for r in runs:
@@ -71,7 +74,8 @@ def main(ev: Path) -> None:
         e = ending(r)
         rows.append({
             "seed": r["seed"], "result": "win" if r["win"] else "loss", "ending": e,
-            "act": r["act"] + 1, "floor": r["floor"], "decisions": head["steps"], "routine_eval_seed": "yes" if r["seed"] in routine else "no",
+            "act": r["act"] + 1, "floor": r["floor"], "decisions": head["steps"],
+            **({"routine_eval_seed": "yes" if r["seed"] in routine else "no"} if routine is not None else {}),
             "combats": len(cs), "elites": sum(c["room"] == "Elite" for c in cs),
             "act1_boss": enc(a1), "act1_boss_hp_in": hp(a1),
             "act2_boss": enc(a2), "act2_boss_hp_in": hp(a2),
@@ -96,15 +100,15 @@ def main(ev: Path) -> None:
         ends[row["ending"]] = ends.get(row["ending"], 0) + 1
     part = lambda inside: [r for r in runs if (r["seed"] in routine) == inside]
     split = {}
-    for name, rs in (("routine_eval_seeds", part(True)), ("other_seeds", part(False))):
+    for name, rs in ((("routine_eval_seeds", part(True)), ("other_seeds", part(False))) if routine is not None else ()):
         w = sum(r["win"] for r in rs)
         a, b = wilson(w, len(rs))
         split[name] = {"games": len(rs), "wins": w, "win_rate": round(w / len(rs), 4), "win_rate_95ci_wilson": [round(a, 4), round(b, 4)]}
     res = {
         "model_version": meta["model_version"], "character": meta["character"], "ascension": meta["ascension"],
-        "seeds": meta["seeds"], "games": n,
+        "seeds": meta["seeds"], **({"game_version": meta["game_version"]} if "game_version" in meta else {}), "games": n,
         "wins": k, "win_rate": k / n, "win_rate_95ci_wilson": [round(lo, 4), round(hi, 4)],
-        "by_seed_group": split,
+        **({"by_seed_group": split} if split else {}),
         "floor_mean": round(sum(r["floor"] for r in runs) / n, 2),
         "reached_act2": reach(lambda r: r["act"] >= 1) / n, "reached_act3": reach(lambda r: r["act"] >= 2) / n,
         "reached_act3_boss1": a3b1 / n, "beat_act3_boss1_given_reached": a3b2 / a3b1,

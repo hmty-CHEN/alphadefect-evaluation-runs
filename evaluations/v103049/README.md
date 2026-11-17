@@ -1,6 +1,6 @@
 # v103049: 1,000 games, Defect, Ascension 10
 
-Complete game records from a 1,000-game evaluation of **AlphaDefect v103049**, the checkpoint the AlphaDefect live stream has used since 30 October 2026. For the model itself see [`docs/model.md`](../../docs/model.md).
+Complete game records from a 1,000-game evaluation of **AlphaDefect v103049**, the checkpoint the AlphaDefect live stream used from 30 October 2026. For the model itself see [`docs/model.md`](../../docs/model.md).
 
 Every decision of every game is here. For each one you can see what the model saw, which option it picked and how much probability it gave each alternative.
 
@@ -30,7 +30,7 @@ How to read them: [`docs/reading-records.md`](../../docs/reading-records.md). Fi
 
 - Character Defect, Ascension 10, game logic v0.111.0, in the same headless engine used for training.
 - Seeds RT0000 to RT0999. These are fixed test seeds. Training games use other seeds.
-- Greedy policy, exactly as on stream. With the same seed, weights and engine build a game always plays out identically.
+- Greedy policy, as on the stream at the time. With the same seed, weights and engine build a game always plays out identically.
 - Played on 30 October 2026 on one RTX 3090, before the engine's start-up seed handling was changed to match the real game (see the [repository notes](../../README.md#notes)).
 - One game (RT0876) reached the 6,000-decision limit in an endless Act 3 fight, where the model kept ending its turn with no cards left and neither side could win. It is counted as a loss.
 - Training started on 25 October 2026 and reached this checkpoint on 30 October, on rented RTX 4090 and RTX 3090 machines.

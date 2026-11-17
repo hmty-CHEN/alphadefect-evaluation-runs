@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Turn a raw replay (replays/RTxxxx.jsonl.gz) into a readable English transcript.
+"""Turn a raw replay (replays/<seed>.jsonl.gz) into a readable English transcript.
 
     python3 tools/transcript.py evaluations/v130051/replays/RT0000.jsonl.gz   # print to stdout
     python3 tools/transcript.py evaluations/v130051/replays/RT0000.jsonl.gz -o out.txt
@@ -104,11 +104,14 @@ def intent(e) -> str:
     return f"{nm(move[0])}: {s}" if move else s
 
 
-def cost(h) -> str:
-    """Hand entry [card, upgrades, cost, playable, damage, block] -> its cost as shown in game ('X', or '-' when unplayable)."""
-    if h[2] >= 0:
-        return str(h[2])
-    return "X" if VOCAB[h[0]]["cost"] == -1 else "-"
+def cost(h, star: int = -1) -> str:
+    """Hand entry [card, upgrades, cost, playable, damage, block] -> its cost as shown in game ('X', or '-' when unplayable).
+    star is the card's star cost from 'hstar' (-1 none, -2 X stars), shown after the energy cost as '2*'."""
+    unplayable = VOCAB[h[0]]["tag"].split("|")[0] in ("Curse", "Status", "Quest")
+    e = str(h[2]) if h[2] >= 0 else "X" if VOCAB[h[0]]["cost"] == -1 and not unplayable else "-"
+    if star == -1:
+        return e
+    return f"{e}, {'X' if star == -2 else star}*"
 
 
 def powers(p) -> str:
@@ -117,7 +120,10 @@ def powers(p) -> str:
 
 def combat_state(st) -> list[str]:
     g, pl = st["g"], st.get("pl", {})
+    hstar = st.get("hstar") or []
+    stars = st.get("star", 0) > 0 or any(x != -1 for x in hstar)
     out = [f"HP {pl.get('hp', g[2])}/{pl.get('m', g[3])}  Block {pl.get('b', 0)}  Energy {g[5]}/{g[6]}"
+           + (f"  Stars {st.get('star', 0)}" if stars else "")
            + (f"  Orbs ({st.get('os', 0)} slots): " + (", ".join(f"{nm(o[0])}" for o in st.get("orb", [])) or "empty") if st.get("os") else "")
            + (f"  Powers: {powers(pl['p'])}" if pl.get("p") else "")]
     for e in st.get("en", []):
@@ -125,7 +131,7 @@ def combat_state(st) -> list[str]:
             continue
         out.append(f"Enemy {nm(e['n'])}: HP {e['hp']}/{e['m']}" + (f"  Block {e['b']}" if e["b"] else "")
                    + f"  Intent {intent(e)}" + (f"  Powers: {powers(e['p'])}" if e.get("p") else ""))
-    hand = ", ".join(nm(h[0]) + up(h[1]) + f" [{cost(h)}]" for h in st.get("hand", []))
+    hand = ", ".join(nm(h[0]) + up(h[1]) + f" [{cost(h, hstar[j] if j < len(hstar) else -1)}]" for j, h in enumerate(st.get("hand", [])))
     out.append(f"Hand: {hand or '(empty)'}  | Draw {st.get('draw', 0)}  Discard {len(st.get('disc', []))}  Exhaust {len(st.get('exh', []))}")
     if st.get("pot"):
         out.append("Potions: " + ", ".join(nm(p[0]) for p in st["pot"]))
@@ -155,13 +161,23 @@ def decision_line(n: int, st, indent: str) -> list[str]:
     return lines
 
 
+def character(head: dict, path: Path) -> str:
+    """The header's 'character' (absent from the earliest replays, which are all Defect), else the evaluation's meta.json."""
+    if head.get("character"):
+        return head["character"]
+    meta = path.resolve().parents[1] / "meta.json"
+    if meta.exists():
+        return json.loads(meta.read_text(encoding="utf-8")).get("character", "Defect")
+    return "Defect"
+
+
 def transcript(path: Path) -> str:
     with gzip.open(path, "rt", encoding="utf-8") as f:
         head = json.loads(f.readline())
         steps = [json.loads(s) for s in f if s.strip()]
     combats = {c["floor"]: c for c in head.get("combats", [])}
     res = "VICTORY" if head["win"] else "DEFEAT"
-    out = [f"AlphaDefect v{head['version']} - seed {head['seed']} - Defect, Ascension 10",
+    out = [f"AlphaDefect v{head['version']} - seed {head['seed']} - {character(head, path)}, Ascension 10",
            f"Result: {res} on floor {head['floor']} (Act {head['act'] + 1}), {len(steps)} decisions",
            "Each decision: #step  chosen action   [model probability of that action, number of legal options]",
            "               'also:' lists the other options the model gave >= 0.5% probability.", ""]
@@ -206,7 +222,8 @@ def transcript(path: Path) -> str:
                 last_out = ench
             if st["d"] == 8 and st.get("shop"):
                 sh = st["shop"]
-                items = [f"{SHOP_KIND[i[0]] if 0 <= i[0] < 4 else '?'} {nm(i[1]) if i[0] != 3 else ''}{up(i[5])} {i[2]}g"
+                # sold-out slots carry no item (ID 0, or a placeholder past the end of the vocabulary in older replays)
+                items = [f"{SHOP_KIND[i[0]] if 0 <= i[0] < 4 else '?'} {nm(i[1]) if i[0] != 3 and i[3] else ''}{up(i[5])} {i[2]}g"
                          + ("" if i[3] else " (sold)") for i in sh["it"]]
                 out.append(f"  Shop shelf (gold {sh['g']}): " + "; ".join(x.replace("  ", " ") for x in items))
             if st["d"] == 2 and st.get("sel"):

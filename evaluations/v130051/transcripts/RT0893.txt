@@ -29,7 +29,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 59/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Frail 2
      Enemy Corpse Slug: HP 18/27  Intent Whip Slap: Attack 3x2  Powers: Ravenous 5
      Enemy Corpse Slug: HP 25/28  Intent Glomp: Attack 9  Powers: Ravenous 5
-     Hand: Strike [1], Strike [1], Ascender's Bane [X], Defend [1], Defend [1]  | Draw 1  Discard 5  Exhaust 0
+     Hand: Strike [1], Strike [1], Ascender's Bane [-], Defend [1], Defend [1]  | Draw 1  Discard 5  Exhaust 0
      #6    Play Defend   [49.0%, 7 options]
             also: Play Defend 49.0% (identical option); Play Strike -> Corpse Slug #1 1.0% x2
      #7    Play Defend   [100.0%, 6 options]
@@ -67,19 +67,19 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #20   [Shop] Buy Go for the Eyes (50 gold)   [65.2%, 15 options]
          also: Buy Charge Battery (51 gold) 24.6%; Buy Leap (48 gold) 1.5%; Buy Skill Potion (48 gold) 1.4%; Buy Beam Cell (26 gold) 1.2%
   Deck change: +Go for the Eyes  (13 cards)
-  Shop shelf (gold 211): Card #2286 50g (sold); Card Beam Cell 26g; Card Charge Battery 51g; Card Leap 48g; Card Bulk Up 78g; Card Automation 83g; Card Secret Weapon 168g; Relic Strike Dummy 186g; Relic Letter Opener 209g; Relic Bread 219g; Potion Skill Potion 48g; Potion Vulnerable Potion 50g; Potion Weak Potion 50g; Removal 100g
+  Shop shelf (gold 211): Card 50g (sold); Card Beam Cell 26g; Card Charge Battery 51g; Card Leap 48g; Card Bulk Up 78g; Card Automation 83g; Card Secret Weapon 168g; Relic Strike Dummy 186g; Relic Letter Opener 209g; Relic Bread 219g; Potion Skill Potion 48g; Potion Vulnerable Potion 50g; Potion Weak Potion 50g; Removal 100g
   #21   [Shop] Buy Charge Battery (51 gold)   [78.0%, 13 options]
          also: Buy Leap (48 gold) 5.0%; Buy Strike Dummy (186 gold) 3.6%; Buy Skill Potion (48 gold) 2.1%; Buy Bulk Up (78 gold) 2.0%
   Deck change: +Charge Battery  (14 cards)
-  Shop shelf (gold 160): Card #2286 50g (sold); Card Beam Cell 26g; Card #2286 51g (sold); Card Leap 48g; Card Bulk Up 78g; Card Automation 83g; Card Secret Weapon 168g; Relic Strike Dummy 186g; Relic Letter Opener 209g; Relic Bread 219g; Potion Skill Potion 48g; Potion Vulnerable Potion 50g; Potion Weak Potion 50g; Removal 100g
+  Shop shelf (gold 160): Card 50g (sold); Card Beam Cell 26g; Card 51g (sold); Card Leap 48g; Card Bulk Up 78g; Card Automation 83g; Card Secret Weapon 168g; Relic Strike Dummy 186g; Relic Letter Opener 209g; Relic Bread 219g; Potion Skill Potion 48g; Potion Vulnerable Potion 50g; Potion Weak Potion 50g; Removal 100g
   #22   [Shop] Buy Bulk Up (78 gold)   [61.6%, 9 options]
          also: Buy Leap (48 gold) 14.9%; Buy Card removal service (100 gold) 5.8%; Buy Skill Potion (48 gold) 4.8%; Leave / skip 4.5%
   Deck change: +Bulk Up  (15 cards)
-  Shop shelf (gold 82): Card #2286 50g (sold); Card Beam Cell 26g; Card #2286 51g (sold); Card Leap 48g; Card #2286 78g (sold); Card Automation 83g; Card Secret Weapon 168g; Relic Strike Dummy 186g; Relic Letter Opener 209g; Relic Bread 219g; Potion Skill Potion 48g; Potion Vulnerable Potion 50g; Potion Weak Potion 50g; Removal 100g
+  Shop shelf (gold 82): Card 50g (sold); Card Beam Cell 26g; Card 51g (sold); Card Leap 48g; Card 78g (sold); Card Automation 83g; Card Secret Weapon 168g; Relic Strike Dummy 186g; Relic Letter Opener 209g; Relic Bread 219g; Potion Skill Potion 48g; Potion Vulnerable Potion 50g; Potion Weak Potion 50g; Removal 100g
   #23   [Shop] Buy Leap (48 gold)   [46.7%, 6 options]
          also: Buy Skill Potion (48 gold) 21.1%; Leave / skip 17.0%; Buy Weak Potion (50 gold) 7.9%; Buy Beam Cell (26 gold) 3.9%
   Deck change: +Leap  (16 cards)
-  Shop shelf (gold 34): Card #2286 50g (sold); Card Beam Cell 26g; Card #2286 51g (sold); Card #2286 48g (sold); Card #2286 78g (sold); Card Automation 83g; Card Secret Weapon 168g; Relic Strike Dummy 186g; Relic Letter Opener 209g; Relic Bread 219g; Potion Skill Potion 48g; Potion Vulnerable Potion 50g; Potion Weak Potion 50g; Removal 100g
+  Shop shelf (gold 34): Card 50g (sold); Card Beam Cell 26g; Card 51g (sold); Card 48g (sold); Card 78g (sold); Card Automation 83g; Card Secret Weapon 168g; Relic Strike Dummy 186g; Relic Letter Opener 209g; Relic Bread 219g; Potion Skill Potion 48g; Potion Vulnerable Potion 50g; Potion Weak Potion 50g; Removal 100g
   #24   [Shop] Leave / skip   [77.8%, 2 options]
          also: Buy Beam Cell (26 gold) 22.2%
   #25   [Map] Go to Unknown (?) (row 4, col 5)   [99.3%, 3 options]
@@ -125,7 +125,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 50/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Seapunk: HP 13/47  Intent Bubble Burp: Buff + Defend
-     Hand: Ascender's Bane [X], Charge Battery [1], Defend [1], Bulk Up [2], Strike [1]  | Draw 1  Discard 10  Exhaust 0
+     Hand: Ascender's Bane [-], Charge Battery [1], Defend [1], Bulk Up [2], Strike [1]  | Draw 1  Discard 10  Exhaust 0
      Potions: Vulnerable Potion, Glowwater Potion
      #40   Play Bulk Up   [72.0%, 7 options]
             also: Play Strike -> Seapunk 13.9%; Play Charge Battery 11.1%; Play Defend 3.0%
@@ -200,7 +200,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 29/29  Intent Flail: Attack 1x3  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 27/27  Intent Enlarge: Buff  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 13/31  Intent Lash: Attack 10  Powers: Skittish 7, Vulnerable 1, Strength 3
-     Hand: Ascender's Bane [X], Go for the Eyes [0], Defend [1], Sunder [3], Bulk Up [2]  | Draw 2  Discard 10  Exhaust 0
+     Hand: Ascender's Bane [-], Go for the Eyes [0], Defend [1], Sunder [3], Bulk Up [2]  | Draw 2  Discard 10  Exhaust 0
      Potions: Glowwater Potion
      #63   Play Sunder -> Phantasmal Gardener #4   [100.0%, 12 options]
      #64   Play Bulk Up   [99.9%, 7 options]
@@ -304,7 +304,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 57/75  Block 0  Energy 4/3  Orbs (2 slots): Lightning, Lightning  Powers: Strength 2, Dexterity 2
      Enemy Skulking Colony: HP 40/80  Intent Piercing Stabs: Attack 12x2  Powers: Hardened Shell 20, Strength 4
-     Hand: Defend [1], Ascender's Bane [X], Defend [1], Defend [1], Go for the Eyes [0]  | Draw 11  Discard 0  Exhaust 1
+     Hand: Defend [1], Ascender's Bane [-], Defend [1], Defend [1], Go for the Eyes [0]  | Draw 11  Discard 0  Exhaust 1
      Potions: Glowwater Potion
      #100  Play Defend   [26.7%, 6 options]
             also: Play Defend 26.7% x2 (identical option); Play Go for the Eyes -> Skulking Colony 19.8%
@@ -383,7 +383,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 57/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Weak 1
      Enemy Sludge Spinner: HP 32/41  Intent Rage: Attack 7 + Buff
-     Hand: Defend [1], Go for the Eyes [0], Charge Battery [1], Strike [1], Ascender's Bane [X]  | Draw 8  Discard 5  Exhaust 0
+     Hand: Defend [1], Go for the Eyes [0], Charge Battery [1], Strike [1], Ascender's Bane [-]  | Draw 8  Discard 5  Exhaust 0
      Potions: Speed Potion
      #129  Play Go for the Eyes -> Sludge Spinner   [43.2%, 6 options]
             also: Play Charge Battery 24.0%; Play Defend 19.9%; Play Strike -> Sludge Spinner 12.9%
@@ -433,7 +433,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 57/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Fossil Stalker: HP 24/55  Intent Tackle: Attack 11 + Debuff  Powers: Suck 3
-     Hand: Ascender's Bane [X], Bulk Up+ [2], Go for the Eyes+ [0], Strike [1], Sunder [3]  | Draw 8  Discard 4  Exhaust 1
+     Hand: Ascender's Bane [-], Bulk Up+ [2], Go for the Eyes+ [0], Strike [1], Sunder [3]  | Draw 8  Discard 4  Exhaust 1
      Potions: Speed Potion
      #146  Play Sunder -> Fossil Stalker   [99.9%, 6 options]
   #147  [Rewards] Take reward: Card reward   [99.9%, 2 options]
@@ -447,7 +447,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 57/75  Block 10  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Terror Eel: HP 150/150  Intent Crash: Attack 18  Powers: Shriek 75
-     Hand: Boot Sequence [0], Chill [0], Zap [1], Ascender's Bane [X], Dualcast [1]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Boot Sequence [0], Chill [0], Zap [1], Ascender's Bane [-], Dualcast [1]  | Draw 14  Discard 0  Exhaust 0
      Potions: Speed Potion
      #151  Play Chill   [43.7%, 6 options]
             also: Play Zap 37.5%; Play Boot Sequence 15.4%; Play Dualcast 3.5%
@@ -601,7 +601,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 53/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning
      Enemy Lagavulin Matriarch: HP 233/233  Block 11  Intent Sleep: Stun/Sleep/Escape  Powers: Plating 11, Asleep 1
-     Hand: Bulk Up+ [2], Strike [1], Dualcast [1], Strike [1], Ascender's Bane [X]  | Draw 5  Discard 10  Exhaust 0
+     Hand: Bulk Up+ [2], Strike [1], Dualcast [1], Strike [1], Ascender's Bane [-]  | Draw 5  Discard 10  Exhaust 0
      #204  Play Bulk Up+   [100.0%, 5 options]
      #205  Play Strike -> Lagavulin Matriarch   [50.0%, 4 options]
             also: Play Strike -> Lagavulin Matriarch 50.0% (identical option)
@@ -740,7 +740,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 63/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Glass, Glass
      Enemy Tunneler: HP 56/92  Intent Burrow: Buff + Defend
-     Hand: Leap [1], Defend+ [1], Strike [1], Defend [1], Ascender's Bane [X]  | Draw 11  Discard 3  Exhaust 2
+     Hand: Leap [1], Defend+ [1], Strike [1], Defend [1], Ascender's Bane [-]  | Draw 11  Discard 3  Exhaust 2
      #257  Play Strike -> Tunneler   [57.2%, 5 options]
             also: Play Defend+ 18.8%; Play Defend 16.5%; Play Leap 7.2%
      #258  Play Defend   [38.4%, 4 options]
@@ -804,11 +804,11 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #281  [Shop] Buy Runic Capacitor (177 gold)   [95.5%, 15 options]
          also: Buy Bronze Scales (187 gold) 1.0%
   Relic gained: Runic Capacitor
-  Shop shelf (gold 85): Card Focused Strike 51g; Card Sunder 37g; Card Boost Away 51g; Card Hotfix 48g; Card Capacitor 75g; Card Prep Time 88g; Card Secret Weapon 164g; Relic Gremlin Horn 194g; Relic Bronze Scales 187g; Relic #2286 177g (sold); Potion Weak Potion 48g; Potion Liquid Bronze 74g; Potion Dexterity Potion 49g; Removal 100g
+  Shop shelf (gold 85): Card Focused Strike 51g; Card Sunder 37g; Card Boost Away 51g; Card Hotfix 48g; Card Capacitor 75g; Card Prep Time 88g; Card Secret Weapon 164g; Relic Gremlin Horn 194g; Relic Bronze Scales 187g; Relic 177g (sold); Potion Weak Potion 48g; Potion Liquid Bronze 74g; Potion Dexterity Potion 49g; Removal 100g
   #282  [Shop] Buy Capacitor (75 gold)   [85.5%, 9 options]
          also: Leave / skip 3.1%; Buy Weak Potion (48 gold) 2.5%; Buy Dexterity Potion (49 gold) 2.4%; Buy Liquid Bronze (74 gold) 1.7%
   Deck change: +Capacitor  (23 cards)
-  Shop shelf (gold 10): Card Focused Strike 51g; Card Sunder 37g; Card Boost Away 51g; Card Hotfix 48g; Card #2286 75g (sold); Card Prep Time 88g; Card Secret Weapon 164g; Relic Gremlin Horn 194g; Relic Bronze Scales 187g; Relic #2286 177g (sold); Potion Weak Potion 48g; Potion Liquid Bronze 74g; Potion Dexterity Potion 49g; Removal 100g
+  Shop shelf (gold 10): Card Focused Strike 51g; Card Sunder 37g; Card Boost Away 51g; Card Hotfix 48g; Card 75g (sold); Card Prep Time 88g; Card Secret Weapon 164g; Relic Gremlin Horn 194g; Relic Bronze Scales 187g; Relic 177g (sold); Potion Weak Potion 48g; Potion Liquid Bronze 74g; Potion Dexterity Potion 49g; Removal 100g
   #283  [Shop] Leave / skip   [100.0%, 1 option]
   #284  [Map] Go to Unknown (?) (row 4, col 2)   [100.0%, 1 option]
 
@@ -904,7 +904,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 55/75  Block 0  Energy 5/4  Orbs (6 slots): Lightning  Powers: Machine Learning 1
      Enemy Infested Prism: HP 150/171  Block 13  Intent Whirlwind: Attack 6x3  Powers: Vital Spark 3
-     Hand: Skim [1], Zap+ [0], Capacitor [1], Sunder [3], Ascender's Bane [X], Dualcast [1], Strike [1], Bulk Up+ [2], Go for the Eyes+ [0]  | Draw 4  Discard 9  Exhaust 1
+     Hand: Skim [1], Zap+ [0], Capacitor [1], Sunder [3], Ascender's Bane [-], Dualcast [1], Strike [1], Bulk Up+ [2], Go for the Eyes+ [0]  | Draw 4  Discard 9  Exhaust 1
      Potions: Explosive Ampoule, Touch of Insanity
      #317  Play Bulk Up+   [99.9%, 11 options]
      #318  Play Go for the Eyes+ -> Infested Prism   [99.1%, 10 options]
@@ -1002,7 +1002,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 61/75  Block 10  Energy 5/3  Orbs (6 slots): Lightning
      Enemy Louse Progenitor: HP 139/139  Intent Web Cannon: Attack 10 + Debuff  Powers: Curl Up 18, Vulnerable 1
-     Hand: Machine Learning+ [1], Boot Sequence [0], Bulk Up+ [2], Ascender's Bane [X], Defend [1]  | Draw 20  Discard 0  Exhaust 0
+     Hand: Machine Learning+ [1], Boot Sequence [0], Bulk Up+ [2], Ascender's Bane [-], Defend [1]  | Draw 20  Discard 0  Exhaust 0
      Potions: Explosive Ampoule
      #352  Play Bulk Up+   [71.0%, 6 options]
             also: Play Defend 13.3%; Play Boot Sequence 11.1%; Play Machine Learning+ 4.5%
@@ -1085,7 +1085,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #383  [Shop] Buy Equilibrium (84 gold)   [58.0%, 8 options]
          also: Leave / skip 23.7%; Discard potion Explosive Ampoule 6.5%; Buy Loop (75 gold) 4.9%; Buy Boost Away (24 gold) 2.3%
   Deck change: +Equilibrium  (27 cards)
-  Shop shelf (gold 3): Card Uproar 52g; Card Sweeping Beam 49g; Card Genetic Algorithm 154g; Card Boost Away 24g; Card Loop 75g; Card #2286 84g (sold); Card Jackpot 178g; Relic Juzu Bracelet 192g; Relic Sparkling Rouge 243g; Relic Burning Sticks 176g; Potion Fire Potion 52g; Potion Fortifier 79g; Potion Attack Potion 48g; Removal 100g
+  Shop shelf (gold 3): Card Uproar 52g; Card Sweeping Beam 49g; Card Genetic Algorithm 154g; Card Boost Away 24g; Card Loop 75g; Card 84g (sold); Card Jackpot 178g; Relic Juzu Bracelet 192g; Relic Sparkling Rouge 243g; Relic Burning Sticks 176g; Potion Fire Potion 52g; Potion Fortifier 79g; Potion Attack Potion 48g; Removal 100g
   #384  [Shop] Leave / skip   [100.0%, 1 option]
   #385  [Map] Go to Elite (row 13, col 3)   [100.0%, 2 options]
 
@@ -1106,7 +1106,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 59/75  Block 0  Energy 4/3  Orbs (6 slots): Lightning  Powers: Machine Learning 1
      Enemy Entomancer: HP 150/165  Intent Spear!: Attack 20  Powers: Personal Hive 1
-     Hand: Defend+ [1], Dualcast [1], Skim [1], Strike [1], Zap+ [0], Dazed [X]  | Draw 17  Discard 3  Exhaust 1
+     Hand: Defend+ [1], Dualcast [1], Skim [1], Strike [1], Zap+ [0], Dazed [-]  | Draw 17  Discard 3  Exhaust 1
      Potions: Explosive Ampoule, Swift Potion
      #391  Play Skim   [54.9%, 8 options]
             also: Play Zap+ 25.6%; Play Defend+ 18.8%
@@ -1119,7 +1119,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 58/75  Block 0  Energy 4/4  Orbs (6 slots): Lightning, Frost, Frost, Lightning  Powers: Machine Learning 1
      Enemy Entomancer: HP 141/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1
-     Hand: Capacitor [1], Chill [0], Refract [3], Ascender's Bane [X], Defend [1], Hailstorm [1], Defend+ [1], Go for the Eyes+ [0], Sunder [3]  | Draw 5  Discard 11  Exhaust 2
+     Hand: Capacitor [1], Chill [0], Refract [3], Ascender's Bane [-], Defend [1], Hailstorm [1], Defend+ [1], Go for the Eyes+ [0], Sunder [3]  | Draw 5  Discard 11  Exhaust 2
      Potions: Explosive Ampoule, Swift Potion
      #396  Play Hailstorm   [45.3%, 11 options]
             also: Play Chill 21.8%; Play Defend+ 9.8%; Play Defend 7.7%; Play Go for the Eyes+ -> Entomancer 7.2%
@@ -1132,7 +1132,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 58/75  Block 0  Energy 4/4  Orbs (6 slots): Lightning, Frost, Frost, Lightning, Frost  Powers: Machine Learning 1, Hailstorm 6
      Enemy Entomancer: HP 100/165  Intent Beeeees!: Attack 4x8  Powers: Personal Hive 2, Strength 1
-     Hand: Lightning Rod [1], Dazed [X], Bulk Up+ [2], Defend [1], Charge Battery [1], Equilibrium [2]  | Draw 0  Discard 17  Exhaust 4
+     Hand: Lightning Rod [1], Dazed [-], Bulk Up+ [2], Defend [1], Charge Battery [1], Equilibrium [2]  | Draw 0  Discard 17  Exhaust 4
      Potions: Explosive Ampoule, Swift Potion
      #400  Play Equilibrium   [59.1%, 8 options]
             also: Play Charge Battery 15.0%; Play Bulk Up+ 10.6%; Play Lightning Rod 7.7%; Play Defend 7.6%
@@ -1172,7 +1172,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 57/75  Block 0  Energy 5/4  Orbs (5 slots): Frost, Lightning, Frost, Frost, Lightning  Powers: Machine Learning 1, Hailstorm 6, Strength 3, Dexterity 3
      Enemy Entomancer: HP 35/165  Intent Beeeees!: Attack 5x8  Powers: Personal Hive 3, Strength 2
-     Hand: Leap [1], Charge Battery [1], Dazed [X], Defend [1], Zap+ [0], Equilibrium [2]  | Draw 1  Discard 15  Exhaust 6
+     Hand: Leap [1], Charge Battery [1], Dazed [-], Defend [1], Zap+ [0], Equilibrium [2]  | Draw 1  Discard 15  Exhaust 6
      Potions: Explosive Ampoule, Swift Potion
      #414  Play Equilibrium   [32.4%, 8 options]
             also: Play Zap+ 19.6%; Play Leap 17.4%; Play Charge Battery 17.2%; Play Defend 13.4%
@@ -1214,7 +1214,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 59/75  Block 10  Energy 3/3  Orbs (6 slots): Lightning
      Enemy Myte: HP 65/65  Intent Toxic Cornucopia: Debuff  Powers: Vulnerable 1
      Enemy Myte: HP 69/69  Intent Suck: Attack 6 + Buff  Powers: Vulnerable 1
-     Hand: Boot Sequence [0], Machine Learning+ [1], Ice Lance [3], Ascender's Bane [X], Defend [1]  | Draw 23  Discard 0  Exhaust 0
+     Hand: Boot Sequence [0], Machine Learning+ [1], Ice Lance [3], Ascender's Bane [-], Defend [1]  | Draw 23  Discard 0  Exhaust 0
      Potions: Explosive Ampoule, Swift Potion
      #429  Play Ice Lance -> Myte #2   [57.1%, 8 options]
             also: Play Ice Lance -> Myte #1 42.9%
@@ -1383,7 +1383,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 58/75  Block 0  Energy 4/4  Orbs (8 slots): Glass, Frost, Frost, Frost, Lightning, Lightning, Lightning  Powers: Machine Learning 1, Mind Rot 1, Strength 3, Dexterity 3, Hailstorm 6
      Enemy Knowledge Demon: HP 331/399  Intent Curse of Knowledge: Debuff  Powers: Strength 3
-     Hand: Ascender's Bane [X], Defend [1], Defend [1], Ice Lance [3], Sunder [3]  | Draw 0  Discard 18  Exhaust 1
+     Hand: Ascender's Bane [-], Defend [1], Defend [1], Ice Lance [3], Sunder [3]  | Draw 0  Discard 18  Exhaust 1
      Potions: Explosive Ampoule, Swift Potion
      #489  Play Ice Lance -> Knowledge Demon   [51.2%, 7 options]
             also: Play Sunder -> Knowledge Demon 48.7%
@@ -1558,7 +1558,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 57/75  Block 0  Energy 6/4  Orbs (5 slots): Lightning, Frost, Frost, Frost, Lightning  Powers: Strength 3, Dexterity 3, Hailstorm 8
      Enemy Living Shield: HP 14/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 51/51  Block 25  Intent Unload!: Attack 5x5  Powers: Strength 1
-     Hand: Glacier [2], Ascender's Bane [X], Lightning Rod [1], Refract [3], Chill [0], Equilibrium [2], Zap+ [0]  | Draw 19  Discard 0  Exhaust 1
+     Hand: Glacier [2], Ascender's Bane [-], Lightning Rod [1], Refract [3], Chill [0], Equilibrium [2], Zap+ [0]  | Draw 19  Discard 0  Exhaust 1
      Potions: Energy Potion, Swift Potion
      #545  Play Equilibrium   [28.4%, 10 options]
             also: Play Zap+ 23.2%; Play Lightning Rod 18.9%; Play Glacier 15.2%; Play Chill 14.0%
@@ -1630,7 +1630,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 48/75  Block 0  Energy 3/3  Orbs (5 slots): Lightning  Powers: Strength 4, Dexterity 3, Machine Learning 1
      Enemy Devoted Sculptor: HP 154/172  Intent Savage: Attack 15  Powers: Ritual 9
-     Hand: Charge Battery [1], Strike [1], Capacitor+ [1], Sunder+ [3], Ascender's Bane [X], Charge Battery [1], Defragment [1], Beam Cell+ [0]  | Draw 14  Discard 5  Exhaust 0
+     Hand: Charge Battery [1], Strike [1], Capacitor+ [1], Sunder+ [3], Ascender's Bane [-], Charge Battery [1], Defragment [1], Beam Cell+ [0]  | Draw 14  Discard 5  Exhaust 0
      Potions: Energy Potion, Swift Potion
      #570  Play Beam Cell+ -> Devoted Sculptor   [79.4%, 10 options]
             also: Play Charge Battery 10.3% x2
@@ -1741,7 +1741,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Flail Knight: HP 93/108  Intent War Chant: Buff
      Enemy Spectral Knight: HP 88/97  Intent Soul Slash: Attack 17
      Enemy Magi Knight: HP 38/89  Block 9  Intent Dampen: Debuff  Powers: Weak 1
-     Hand: Ascender's Bane [X], Defend [1], Leap [1], Defend [1], Mad Science [1], Chill [0], Defend [1]  | Draw 17  Discard 5  Exhaust 1
+     Hand: Ascender's Bane [-], Defend [1], Leap [1], Defend [1], Mad Science [1], Chill [0], Defend [1]  | Draw 17  Discard 5  Exhaust 1
      Potions: Energy Potion, Swift Potion
      #610  Play Mad Science -> Magi Knight   [100.0%, 11 options]
      #611  Play Chill   [66.6%, 8 options]
@@ -1857,7 +1857,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 73/75  Block 0  Energy 5/4  Orbs (6 slots): Lightning, Lightning, Lightning, Frost, Frost, Lightning  Powers: Strength 1, Machine Learning 1, Chains of Binding 3, Focus 2, Frail 99, Weak 99, Vulnerable 99
      Enemy Torch Head Amalgam: HP 172/211  Intent Beam: Attack 12x3  Powers: Minion 1
      Enemy Queen: HP 394/419  Intent Burn Bright for Me: Buff + Defend
-     Hand: Dualcast [1], Mad Science [1], Beam Cell+ [0], Strike+ [1], Defend [1], Capacitor+ [1], Charge Battery [1], Chill [0], Ascender's Bane [X], Strike [1]  | Draw 6  Discard 12  Exhaust 1
+     Hand: Dualcast [1], Mad Science [1], Beam Cell+ [0], Strike+ [1], Defend [1], Capacitor+ [1], Charge Battery [1], Chill [0], Ascender's Bane [-], Strike [1]  | Draw 6  Discard 12  Exhaust 1
      Potions: Heart of Iron, Swift Potion
      #651  Play Capacitor+   [100.0%, 16 options]
      #652  Play Chill   [61.4%, 12 options]
@@ -2022,7 +2022,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 57/75  Block 0  Energy 4/3  Orbs (6 slots): Lightning, Lightning  Powers: Strength 1, Machine Learning 1
      Enemy Aeonglass: HP 517/535  Block 33  Intent Eye Lasers: Attack 12x2  Powers: Withering Presence 6, Artifact 2
-     Hand: Boot Sequence [0], Strike [1], Strike [1], Ice Lance [3], Lightning Rod+ [1], Capacitor+ [1], Defend [1], Glacier [2], Ascender's Bane [X], Strike [1]  | Draw 18  Discard 2  Exhaust 0
+     Hand: Boot Sequence [0], Strike [1], Strike [1], Ice Lance [3], Lightning Rod+ [1], Capacitor+ [1], Defend [1], Glacier [2], Ascender's Bane [-], Strike [1]  | Draw 18  Discard 2  Exhaust 0
      Potions: Heart of Iron, Swift Potion
      #709  Play Capacitor+   [100.0%, 12 options]
      #710  Play Lightning Rod+   [61.3%, 11 options]
@@ -2093,7 +2093,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 56/75  Block 0  Energy 4/4  Orbs (8 slots): Frost, Frost, Lightning, Lightning, Frost, Glass, Glass, Lightning  Powers: Strength 4, Machine Learning 1, Dexterity 3, Hailstorm 6, Focus 2, Plating 4, Lightning Rod 1
      Enemy Aeonglass: HP 172/535  Intent Ebb: Attack 35 + Defend  Powers: Withering Presence 6, Strength 9, Vulnerable 2
-     Hand: Leap [1], Wither [X], Ice Lance [3], Defend [1], Wither [X], Wither [X], Defend+ [1], Wither [X]  | Draw 4  Discard 19  Exhaust 3
+     Hand: Leap [1], Wither [-], Ice Lance [3], Defend [1], Wither [-], Wither [-], Defend+ [1], Wither [-]  | Draw 4  Discard 19  Exhaust 3
      Potions: Swift Potion
      #738  Play Ice Lance -> Aeonglass   [100.0%, 6 options]
      #739  Play Leap   [90.1%, 5 options]
@@ -2102,7 +2102,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 31/75  Block 0  Energy 4/4  Orbs (8 slots): Frost, Glass, Glass, Lightning, Frost, Frost, Frost, Lightning  Powers: Strength 4, Machine Learning 1, Dexterity 3, Hailstorm 6, Focus 2, Plating 3
      Enemy Aeonglass: HP 97/535  Block 23  Intent Eye Lasers: Attack 21x2  Powers: Withering Presence 6, Strength 9, Vulnerable 1
-     Hand: Glacier [2], Zap+ [0], Equilibrium [2], Strike [1], Wither [X], Charge Battery [1], Go for the Eyes+ [0], Wither [X]  | Draw 23  Discard 0  Exhaust 3
+     Hand: Glacier [2], Zap+ [0], Equilibrium [2], Strike [1], Wither [-], Charge Battery [1], Go for the Eyes+ [0], Wither [-]  | Draw 23  Discard 0  Exhaust 3
      Potions: Swift Potion
      #741  Play Go for the Eyes+ -> Aeonglass   [69.1%, 8 options]
             also: Play Zap+ 16.7%; Play Glacier 5.6%; Play Equilibrium 4.6%; Play Charge Battery 3.4%
@@ -2116,7 +2116,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 29/75  Block 0  Energy 4/4  Orbs (8 slots): Lightning, Frost, Frost, Frost, Lightning, Lightning, Frost, Frost  Powers: Strength 4, Machine Learning 1, Dexterity 3, Hailstorm 6, Focus 2, Plating 2
      Enemy Aeonglass: HP 66/535  Intent Increasing Intensity: Buff + Debuff  Powers: Withering Presence 6, Strength 9, Weak 1
-     Hand: Strike [1], Charge Battery [1], Sunder [3], Refract [3], Wither [X], Strike [1], Defend [1], Wither [X], Beam Cell+ [0], Wither [X]  | Draw 15  Discard 7  Exhaust 3
+     Hand: Strike [1], Charge Battery [1], Sunder [3], Refract [3], Wither [-], Strike [1], Defend [1], Wither [-], Beam Cell+ [0], Wither [-]  | Draw 15  Discard 7  Exhaust 3
      Potions: Swift Potion
      #746  Play Beam Cell+ -> Aeonglass   [62.5%, 9 options]
             also: Play Refract -> Aeonglass 16.0%; Play Sunder -> Aeonglass 10.6%; Play Strike -> Aeonglass 3.5% x2

@@ -32,7 +32,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): empty
      Enemy Toadpole: HP 16/24  Intent Spike Spit: Attack 4x3  Powers: Thorns 2
-     Hand: Strike [1], Zap [1], Strike [1], Defend [1], Ascender's Bane [X]  | Draw 2  Discard 4  Exhaust 1
+     Hand: Strike [1], Zap [1], Strike [1], Defend [1], Ascender's Bane [-]  | Draw 2  Discard 4  Exhaust 1
      #7    Play Defend   [99.9%, 5 options]
      #8    Play Zap   [94.5%, 4 options]
             also: End turn 2.5%; Play Strike -> Toadpole 1.5% x2
@@ -73,7 +73,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #22   [Shop] Buy Dark Shackles (82 gold)   [88.6%, 11 options]
          also: Buy Card removal service (100 gold) 1.9%; Buy Regen Potion (73 gold) 1.7%; Buy Beam Cell (52 gold) 1.5%; Buy Cure All (78 gold) 1.4%
   Deck change: +Dark Shackles  (14 cards)
-  Shop shelf (gold 30): Card Synthesis 36g; Card Beam Cell 52g; Card Skim 77g; Card Fusion 73g; Card Storm 72g; Card #2286 82g (sold); Card Eternal Armor 175g; Relic Reptile Trinket 229g; Relic Gorget 185g; Relic Lee's Waffle 183g; Potion Regen Potion 73g; Potion Vulnerable Potion 52g; Potion Cure All 78g; Removal 100g
+  Shop shelf (gold 30): Card Synthesis 36g; Card Beam Cell 52g; Card Skim 77g; Card Fusion 73g; Card Storm 72g; Card 82g (sold); Card Eternal Armor 175g; Relic Reptile Trinket 229g; Relic Gorget 185g; Relic Lee's Waffle 183g; Potion Regen Potion 73g; Potion Vulnerable Potion 52g; Potion Cure All 78g; Removal 100g
   #23   [Shop] Leave / skip   [100.0%, 1 option]
   #24   [Map] Go to Monster (row 5, col 7)   [100.0%, 1 option]
 
@@ -96,7 +96,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 52/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost
      Enemy Seapunk: HP 40/49  Intent Spinning Kick: Attack 2x4
-     Hand: Ascender's Bane [X], Neow's Fury [1], Defend [1], Strike [1], Defend [1]  | Draw 4  Discard 4  Exhaust 1
+     Hand: Ascender's Bane [-], Neow's Fury [1], Defend [1], Strike [1], Defend [1]  | Draw 4  Discard 4  Exhaust 1
      Potions: Mazaleth's Gift
      #30   Play Defend   [65.9%, 6 options]
             also: Play Defend 22.1% (identical option); Play Neow's Fury -> Seapunk 10.3%; Play Strike -> Seapunk 1.7%
@@ -164,7 +164,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 52/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning
      Enemy Corpse Slug: HP 24/27  Intent Glomp: Attack 9  Powers: Ravenous 5
      Enemy Corpse Slug: HP 21/29  Intent Goop: Debuff  Powers: Ravenous 5
-     Hand: Ascender's Bane [X], Strike [1], Defend [1], Strike [1], Defend [1]  | Draw 4  Discard 3  Exhaust 2
+     Hand: Ascender's Bane [-], Strike [1], Defend [1], Strike [1], Defend [1]  | Draw 4  Discard 3  Exhaust 2
      Potions: Mazaleth's Gift, Flex Potion
      #53   Play Defend   [51.2%, 9 options]
             also: Play Defend 34.3% (identical option); Play Strike -> Corpse Slug #2 6.3% x2; Play Strike -> Corpse Slug #1 0.9%
@@ -240,7 +240,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 74/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Frost  Powers: Weak 2
      Enemy Haunted Ship: HP 32/67  Intent Stomp: Attack 5x3
-     Hand: Chill [0], Strike [1], Strike [1], Ascender's Bane [X], Defend [1]  | Draw 0  Discard 12  Exhaust 3
+     Hand: Chill [0], Strike [1], Strike [1], Ascender's Bane [-], Defend [1]  | Draw 0  Discard 12  Exhaust 3
      Potions: Mazaleth's Gift, Flex Potion
      #80   Play Defend   [53.9%, 7 options]
             also: Play Chill 38.6%; Play Strike -> Haunted Ship 3.7% x2
@@ -254,7 +254,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 68/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Weak 1
      Enemy Haunted Ship: HP 13/67  Intent Swipe: Attack 14
-     Hand: Defend [1], Dazed [X], Strike [1], Strike [1], Dazed [X]  | Draw 10  Discard 0  Exhaust 5
+     Hand: Defend [1], Dazed [-], Strike [1], Strike [1], Dazed [-]  | Draw 10  Discard 0  Exhaust 5
      Potions: Mazaleth's Gift, Flex Potion
      #85   Play Defend   [61.5%, 6 options]
             also: Use potion Flex Potion -> self 19.1%; Play Strike -> Haunted Ship 9.7% x2
@@ -266,7 +266,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 63/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost
      Enemy Haunted Ship: HP 2/67  Intent Stomp: Attack 5x3
-     Hand: Defend [1], Dazed [X], Strike [1], Zap [1], Dualcast [1]  | Draw 5  Discard 3  Exhaust 7
+     Hand: Defend [1], Dazed [-], Strike [1], Zap [1], Dualcast [1]  | Draw 5  Discard 3  Exhaust 7
      Potions: Mazaleth's Gift, Flex Potion
      #89   Play Zap   [29.5%, 7 options]
             also: Play Defend 28.9%; Play Strike -> Haunted Ship 22.0%; Play Dualcast 19.4%
@@ -284,7 +284,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 28/28  Intent Bite: Attack 5  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 30/30  Intent Lash: Attack 7  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 29/29  Intent Enlarge: Buff  Powers: Skittish 7
-     Hand: Chill [0], Strike [1], Ascender's Bane [X], Strike [1], Chill [0]  | Draw 10  Discard 0  Exhaust 0
+     Hand: Chill [0], Strike [1], Ascender's Bane [-], Strike [1], Chill [0]  | Draw 10  Discard 0  Exhaust 0
      Potions: Mazaleth's Gift, Flex Potion
      #94   Play Chill   [29.7%, 13 options]
             also: Play Chill 29.7% (identical option); Use potion Flex Potion -> self 23.1%; Use potion Mazaleth's Gift -> self 11.6%; Play Strike -> Phantasmal Gardener #4 2.8%
@@ -473,7 +473,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 43/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning
      Enemy Skulking Colony: HP 52/80  Intent Inertia: Attack 11 + Buff  Powers: Hardened Shell 20
-     Hand: Dualcast [1], Ascender's Bane [X], Defend [1], Strike [1], Chill [0]  | Draw 1  Discard 8  Exhaust 2
+     Hand: Dualcast [1], Ascender's Bane [-], Defend [1], Strike [1], Chill [0]  | Draw 1  Discard 8  Exhaust 2
      Potions: Mazaleth's Gift
      #155  Play Defend   [87.9%, 6 options]
             also: Play Chill 8.6%; Play Strike -> Skulking Colony 3.4%
@@ -564,7 +564,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 63/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Dexterity 1, Lightning Rod 1
      Enemy Terror Eel: HP 105/150  Intent Crash: Attack 24  Powers: Shriek 75, Vigor 6
-     Hand: Defend [1], Dualcast [1], Chill [0], Defend+ [1], Ascender's Bane [X]  | Draw 2  Discard 7  Exhaust 3
+     Hand: Defend [1], Dualcast [1], Chill [0], Defend+ [1], Ascender's Bane [-]  | Draw 2  Discard 7  Exhaust 3
      Potions: Mazaleth's Gift, Dexterity Potion
      #187  Play Defend+   [36.8%, 7 options]
             also: Play Defend 27.0%; Play Chill 18.7%; Play Dualcast 17.0%
@@ -658,7 +658,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 32/32  Intent Lash: Attack 7  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 28/28  Intent Flail: Attack 1x3  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 13/31  Intent Bite: Attack 8  Powers: Skittish 7, Strength 3
-     Hand: Ascender's Bane [X], Chill [0], Defend [1], Defend [1], Strike [1]  | Draw 8  Discard 5  Exhaust 0
+     Hand: Ascender's Bane [-], Chill [0], Defend [1], Defend [1], Strike [1]  | Draw 8  Discard 5  Exhaust 0
      Potions: Mazaleth's Gift, Dexterity Potion
      #216  Play Chill   [46.8%, 10 options]
             also: Play Defend 25.3% x2; Play Strike -> Phantasmal Gardener #4 2.2%
@@ -803,7 +803,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 65/76  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Dexterity 2
      Enemy Soul Fysh: HP 190/221  Intent Gaze: Attack 8 + Debuff
-     Hand: Ascender's Bane [X], Defend [1], Defend [1], Strike [1], Chill [0]  | Draw 4  Discard 9  Exhaust 2
+     Hand: Ascender's Bane [-], Defend [1], Defend [1], Strike [1], Chill [0]  | Draw 4  Discard 9  Exhaust 2
      Potions: Mazaleth's Gift
      #267  Play Chill   [48.6%, 6 options]
             also: Play Strike -> Soul Fysh 19.7%; Play Defend 15.8% x2
@@ -979,7 +979,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 70/77  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Strength 1
      Enemy Thieving Hopper: HP 64/84  Intent Flutter: Buff  Powers: Escape Artist 4, Swipe 1
-     Hand: Ascender's Bane [X], Dualcast [1], Strike [1], Momentum Strike [1], Strike [1]  | Draw 9  Discard 2  Exhaust 2
+     Hand: Ascender's Bane [-], Dualcast [1], Strike [1], Momentum Strike [1], Strike [1]  | Draw 9  Discard 2  Exhaust 2
      Potions: Mazaleth's Gift
      #332  Select Ascender's Bane   [97.6%, 5 options]
             also: Select Strike 0.8% x2; Select Dualcast 0.7%
@@ -1068,7 +1068,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 71/78  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Strength 3
      Enemy Tunneler: HP 52/92  Block 6  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Dualcast [1], Defend [1], Ascender's Bane [X], Momentum Strike [1], Neow's Fury [1]  | Draw 0  Discard 8  Exhaust 7
+     Hand: Dualcast [1], Defend [1], Ascender's Bane [-], Momentum Strike [1], Neow's Fury [1]  | Draw 0  Discard 8  Exhaust 7
      Potions: Mazaleth's Gift
      #366  Select Ascender's Bane   [72.0%, 5 options]
             also: Select Dualcast 20.6%; Select Defend 7.4%
@@ -1117,7 +1117,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 79/79  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Myte: HP 66/66  Intent Toxic Cornucopia: Debuff
      Enemy Myte: HP 68/68  Intent Suck: Attack 6 + Buff
-     Hand: Boot Sequence [0], Ascender's Bane [X], Glacier [2], Chill [0], Strike [1]  | Draw 16  Discard 0  Exhaust 0
+     Hand: Boot Sequence [0], Ascender's Bane [-], Glacier [2], Chill [0], Strike [1]  | Draw 16  Discard 0  Exhaust 0
      Potions: Mazaleth's Gift, Focus Potion
      #384  Select Ascender's Bane   [95.7%, 5 options]
             also: Select Strike 4.2%
@@ -1218,7 +1218,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Bowlbug (Rock): HP 49/49  Intent Headbutt: Attack 16  Powers: Imbalanced 1
      Enemy Bowlbug (Silk): HP 44/44  Intent Toxic Spit: Debuff
      Enemy Bowlbug (Nectar): HP 36/36  Intent Thrash: Attack 3
-     Hand: Boot Sequence [0], Dark Shackles [0], Defend+ [1], Neow's Fury [1], Ascender's Bane [X]  | Draw 17  Discard 0  Exhaust 0
+     Hand: Boot Sequence [0], Dark Shackles [0], Defend+ [1], Neow's Fury [1], Ascender's Bane [-]  | Draw 17  Discard 0  Exhaust 0
      Potions: Mazaleth's Gift, Focus Potion
      #419  Select Ascender's Bane   [100.0%, 5 options]
      #420  Play Defend+   [50.7%, 11 options]
@@ -1363,7 +1363,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 66/81  Block 7  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Strength 2, Focus 2
      Enemy Entomancer: HP 133/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1
-     Hand: Glacier [2], Defend [1], Neow's Fury [1], Ascender's Bane [X], Creative AI [3]  | Draw 9  Discard 5  Exhaust 5
+     Hand: Glacier [2], Defend [1], Neow's Fury [1], Ascender's Bane [-], Creative AI [3]  | Draw 9  Discard 5  Exhaust 5
      Potions: Mazaleth's Gift
      #471  Select Defend   [80.6%, 5 options]
             also: Select Creative AI 15.4%; Select Ascender's Bane 3.9%
@@ -1379,7 +1379,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 66/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Strength 3, Focus 2
      Enemy Entomancer: HP 115/165  Intent Beeeees!: Attack 4x8  Powers: Personal Hive 2, Strength 1
-     Hand: Momentum Strike [1], Strike [1], Dualcast [1], Dazed [X], Strike [1]  | Draw 5  Discard 7  Exhaust 8
+     Hand: Momentum Strike [1], Strike [1], Dualcast [1], Dazed [-], Strike [1]  | Draw 5  Discard 7  Exhaust 8
      Potions: Mazaleth's Gift
      #477  Select Dazed   [95.3%, 5 options]
             also: Select Strike 2.4% x2
@@ -1393,7 +1393,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 42/81  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost  Powers: Strength 4, Focus 2
      Enemy Entomancer: HP 70/165  Intent Spear!: Attack 21  Powers: Personal Hive 2, Strength 1
-     Hand: Strike [1], Dazed [X], Dazed [X], Dazed [X], Dazed [X]  | Draw 4  Discard 11  Exhaust 9
+     Hand: Strike [1], Dazed [-], Dazed [-], Dazed [-], Dazed [-]  | Draw 4  Discard 11  Exhaust 9
      Potions: Mazaleth's Gift
      #482  Select Dazed   [25.0%, 5 options]
             also: Select Dazed 25.0% x3 (identical option)
@@ -1404,7 +1404,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 29/81  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost  Powers: Strength 5, Focus 2
      Enemy Entomancer: HP 59/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 2, Strength 1
-     Hand: Dazed [X], Dazed [X], Coolheaded [1], Zap+ [0], Dazed [X]  | Draw 1  Discard 12  Exhaust 13
+     Hand: Dazed [-], Dazed [-], Coolheaded [1], Zap+ [0], Dazed [-]  | Draw 1  Discard 12  Exhaust 13
      Potions: Mazaleth's Gift
      #485  Select Dazed   [33.3%, 5 options]
             also: Select Dazed 33.3% x2 (identical option)
@@ -1417,7 +1417,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 29/81  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Strength 6, Focus 2
      Enemy Entomancer: HP 21/165  Intent Beeeees!: Attack 5x8  Powers: Personal Hive 3, Strength 2
-     Hand: Dazed [X], Dazed [X], Dazed [X], Dazed [X], Dazed [X]  | Draw 1  Discard 15  Exhaust 16
+     Hand: Dazed [-], Dazed [-], Dazed [-], Dazed [-], Dazed [-]  | Draw 1  Discard 15  Exhaust 16
      Potions: Mazaleth's Gift
      #490  Select Dazed   [20.0%, 5 options]
             also: Select Dazed 20.0% x4 (identical option)

@@ -36,7 +36,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 44/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Toadpole: HP 18/24  Intent Spike Spit: Attack 4x3  Powers: Thorns 2
      Enemy Toadpole: HP 22/25  Intent Spiken: Buff
-     Hand: Ascender's Bane [X], Zap [1], Strike [1], Dualcast [1], Strike [1]  | Draw 4  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Zap [1], Strike [1], Dualcast [1], Strike [1]  | Draw 4  Discard 0  Exhaust 0
      #8    Play Dualcast   [100.0%, 7 options]
      #9    Play Strike -> Toadpole #1   [50.0%, 6 options]
             also: Play Strike -> Toadpole #1 50.0% (identical option)
@@ -116,7 +116,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 40/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Seapunk: HP 48/48  Intent Sea Kick: Attack 13
-     Hand: Spoils Map [X], Defend [1], Dualcast [1], Strike [1], Strike+ [1]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Spoils Map [-], Defend [1], Dualcast [1], Strike [1], Strike+ [1]  | Draw 6  Discard 0  Exhaust 0
      Potions: Block Potion, Glowwater Potion
      #40   Play Defend   [94.7%, 7 options]
             also: Play Strike+ -> Seapunk 3.4%; Play Strike -> Seapunk 0.6%; Use potion Block Potion -> self 0.6%
@@ -141,7 +141,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 40/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Seapunk: HP 24/48  Intent Bubble Burp: Buff + Defend
-     Hand: Ascender's Bane [X], Wound [X], Wound [X], Strike [1], Defend [1]  | Draw 8  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Wound [-], Wound [-], Strike [1], Defend [1]  | Draw 8  Discard 0  Exhaust 0
      Potions: Glowwater Potion
      #49   Play Strike -> Seapunk   [91.3%, 4 options]
             also: Play Defend 8.7%
@@ -151,7 +151,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 40/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Seapunk: HP 12/48  Block 8  Intent Sea Kick: Attack 15  Powers: Strength 2
-     Hand: Defend [1], Spoils Map [X], Defend [1], Dualcast [1], Zap [1]  | Draw 3  Discard 4  Exhaust 1
+     Hand: Defend [1], Spoils Map [-], Defend [1], Dualcast [1], Zap [1]  | Draw 3  Discard 4  Exhaust 1
      Potions: Glowwater Potion
      #52   Play Dualcast   [37.6%, 6 options]
             also: Play Defend 26.7% x2; Play Zap 9.1%
@@ -184,7 +184,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 39/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Skulking Colony: HP 74/80  Intent Zoom: Attack 16  Powers: Hardened Shell 20
-     Hand: Defend [1], Fight Through+ [1], Strike+ [1], Zap [1], Spoils Map [X]  | Draw 2  Discard 5  Exhaust 0
+     Hand: Defend [1], Fight Through+ [1], Strike+ [1], Zap [1], Spoils Map [-]  | Draw 2  Discard 5  Exhaust 0
      Potions: Glowwater Potion
      #65   Play Defend   [48.9%, 6 options]
             also: Play Fight Through+ 34.2%; Play Zap 16.5%
@@ -195,7 +195,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 39/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Skulking Colony: HP 68/80  Intent Inertia: Attack 11 + Buff  Powers: Hardened Shell 20
-     Hand: Dualcast [1], Ascender's Bane [X], Defend [1], Strike+ [1], Defend [1]  | Draw 9  Discard 0  Exhaust 0
+     Hand: Dualcast [1], Ascender's Bane [-], Defend [1], Strike+ [1], Defend [1]  | Draw 9  Discard 0  Exhaust 0
      Potions: Glowwater Potion
      #69   Play Defend   [49.6%, 6 options]
             also: Play Defend 49.6% (identical option); Play Strike+ -> Skulking Colony 0.8%
@@ -206,7 +206,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 38/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Skulking Colony: HP 53/80  Intent Piercing Stabs: Attack 12x2  Powers: Hardened Shell 20, Strength 4
-     Hand: Beam Cell [0], Wound [X], Fight Through+ [1], Defend [1], Spoils Map [X]  | Draw 4  Discard 4  Exhaust 1
+     Hand: Beam Cell [0], Wound [-], Fight Through+ [1], Defend [1], Spoils Map [-]  | Draw 4  Discard 4  Exhaust 1
      Potions: Glowwater Potion
      #73   Play Fight Through+   [58.3%, 5 options]
             also: Play Beam Cell -> Skulking Colony 40.8%; Play Defend 0.9%
@@ -217,7 +217,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 36/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Skulking Colony: HP 44/80  Intent Zoom: Attack 20  Powers: Hardened Shell 20, Strength 4
-     Hand: Zap [1], Strike [1], Defend [1], Wound [X], Beam Cell [0]  | Draw 10  Discard 0  Exhaust 1
+     Hand: Zap [1], Strike [1], Defend [1], Wound [-], Beam Cell [0]  | Draw 10  Discard 0  Exhaust 1
      Potions: Glowwater Potion
      #77   Play Beam Cell -> Skulking Colony   [90.7%, 6 options]
             also: Play Defend 9.0%
@@ -230,7 +230,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 21/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning
      Enemy Skulking Colony: HP 24/80  Intent Zoom: Attack 20  Powers: Hardened Shell 20, Strength 4
-     Hand: Defend [1], Defend [1], Wound [X], Spoils Map [X], Fight Through+ [1]  | Draw 5  Discard 5  Exhaust 1
+     Hand: Defend [1], Defend [1], Wound [-], Spoils Map [-], Fight Through+ [1]  | Draw 5  Discard 5  Exhaust 1
      Potions: Glowwater Potion
      #82   Play Fight Through+   [95.7%, 5 options]
             also: Play Defend 2.1% x2
@@ -242,7 +242,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 21/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning
      Enemy Skulking Colony: HP 15/80  Intent Inertia: Attack 15 + Buff  Powers: Hardened Shell 20, Strength 4
-     Hand: Wound [X], Dualcast [1], Wound [X], Defend [1], Strike+ [1]  | Draw 0  Discard 12  Exhaust 1
+     Hand: Wound [-], Dualcast [1], Wound [-], Defend [1], Strike+ [1]  | Draw 0  Discard 12  Exhaust 1
      Potions: Glowwater Potion
      #86   Play Strike+ -> Skulking Colony   [87.3%, 5 options]
             also: Play Dualcast 10.2%; Play Defend 2.4%
@@ -270,11 +270,11 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #96   [Shop] Buy Lightning Rod (52 gold)   [80.0%, 10 options]
          also: Buy Thunder (77 gold) 9.5%; Discard potion Potion of Capacity 5.3%; Discard potion Glowwater Potion 1.5%; Buy Gunk Up (24 gold) 0.9%
   Deck change: +Lightning Rod  (14 cards)
-  Shop shelf (gold 91): Card Rocket Punch 77g; Card Gunk Up 24g; Card #2286 52g (sold); Card Hotfix 52g; Card Thunder 77g; Card Prolong 89g; Card Secret Technique 180g; Relic Nunchaku 200g; Relic Oddly Smooth Stone 188g; Relic Screaming Flagon 222g; Potion Focus Potion 49g; Potion Skill Potion 49g; Potion Ship in a Bottle 98g; Removal 100g
+  Shop shelf (gold 91): Card Rocket Punch 77g; Card Gunk Up 24g; Card 52g (sold); Card Hotfix 52g; Card Thunder 77g; Card Prolong 89g; Card Secret Technique 180g; Relic Nunchaku 200g; Relic Oddly Smooth Stone 188g; Relic Screaming Flagon 222g; Potion Focus Potion 49g; Potion Skill Potion 49g; Potion Ship in a Bottle 98g; Removal 100g
   #97   [Shop] Buy Thunder (77 gold)   [81.9%, 8 options]
          also: Discard potion Potion of Capacity 10.6%; Discard potion Glowwater Potion 2.3%; Leave / skip 1.5%; Buy Gunk Up (24 gold) 1.4%
   Deck change: +Thunder  (15 cards)
-  Shop shelf (gold 14): Card Rocket Punch 77g; Card Gunk Up 24g; Card #2286 52g (sold); Card Hotfix 52g; Card #2286 77g (sold); Card Prolong 89g; Card Secret Technique 180g; Relic Nunchaku 200g; Relic Oddly Smooth Stone 188g; Relic Screaming Flagon 222g; Potion Focus Potion 49g; Potion Skill Potion 49g; Potion Ship in a Bottle 98g; Removal 100g
+  Shop shelf (gold 14): Card Rocket Punch 77g; Card Gunk Up 24g; Card 52g (sold); Card Hotfix 52g; Card 77g (sold); Card Prolong 89g; Card Secret Technique 180g; Relic Nunchaku 200g; Relic Oddly Smooth Stone 188g; Relic Screaming Flagon 222g; Potion Focus Potion 49g; Potion Skill Potion 49g; Potion Ship in a Bottle 98g; Removal 100g
   #98   [Shop] Leave / skip   [100.0%, 1 option]
   #99   [Map] Go to Treasure (row 10, col 6)   [100.0%, 1 option]
 
@@ -315,7 +315,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 65/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning
      Enemy Sludge Spinner: HP 7/42  Intent Rage: Attack 7 + Buff
-     Hand: Thunder [1], Spoils Map [X], Defend [1], Defend [1], Ascender's Bane [X], Defend [1]  | Draw 9  Discard 0  Exhaust 0
+     Hand: Thunder [1], Spoils Map [-], Defend [1], Defend [1], Ascender's Bane [-], Defend [1]  | Draw 9  Discard 0  Exhaust 0
      Potions: Potion of Capacity, Glowwater Potion
      #111  Play Defend   [32.5%, 7 options]
             also: Play Defend 32.5% x2 (identical option); Play Thunder 2.4%
@@ -355,7 +355,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 65/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Terror Eel: HP 150/150  Intent Crash: Attack 18  Powers: Shriek 75
-     Hand: Ascender's Bane [X], Defend [1], Zap [1], Thunder [1], Defend [1]  | Draw 12  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Defend [1], Zap [1], Thunder [1], Defend [1]  | Draw 12  Discard 0  Exhaust 0
      Potions: Weak Potion
      #126  Play Defend   [33.7%, 6 options]
             also: Play Defend 33.7% (identical option); Play Thunder 23.0%; Play Zap 9.6%
@@ -379,7 +379,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 57/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Lightning Rod 1
      Enemy Terror Eel: HP 122/150  Intent Crash: Attack 24  Powers: Shriek 75, Vigor 6
-     Hand: Coolheaded [1], Spoils Map [X], Dualcast [1], Ice Lance+ [3], Defend [1]  | Draw 1  Discard 10  Exhaust 1
+     Hand: Coolheaded [1], Spoils Map [-], Dualcast [1], Ice Lance+ [3], Defend [1]  | Draw 1  Discard 10  Exhaust 1
      Potions: Weak Potion
      #134  Play Ice Lance+ -> Terror Eel   [96.3%, 6 options]
             also: Play Coolheaded 1.6%; Play Dualcast 1.5%; Play Defend 0.6%
@@ -387,7 +387,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 49/75  Block 5  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning
      Enemy Terror Eel: HP 90/150  Intent Thrash: Attack 4x3 + Buff  Powers: Shriek 75
-     Hand: Strike+ [1], Defend [1], Coolheaded [1], Beam Cell [0], Spoils Map [X]  | Draw 11  Discard 0  Exhaust 1
+     Hand: Strike+ [1], Defend [1], Coolheaded [1], Beam Cell [0], Spoils Map [-]  | Draw 11  Discard 0  Exhaust 1
      Potions: Weak Potion
      #136  Play Beam Cell -> Terror Eel   [47.0%, 6 options]
             also: Play Strike+ -> Terror Eel 20.5%; Play Defend 16.9%; Play Coolheaded 15.6%
@@ -457,7 +457,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 40/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost
      Enemy Sneaky Gremlin: HP 12/12  Intent Tackle: Attack 10
-     Hand: Ascender's Bane [X], Defend [1], Strike+ [1], Defend [1], Lightning Rod [1]  | Draw 2  Discard 10  Exhaust 1
+     Hand: Ascender's Bane [-], Defend [1], Strike+ [1], Defend [1], Lightning Rod [1]  | Draw 2  Discard 10  Exhaust 1
      #160  Play Lightning Rod   [31.2%, 5 options]
             also: Play Defend 29.7% x2; Play Strike+ -> Sneaky Gremlin 9.3%
      #161  Play Defend   [42.3%, 4 options]
@@ -468,7 +468,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 40/75  Block 5  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Lightning Rod 1
      Enemy Sneaky Gremlin: HP 12/12  Intent Tackle: Attack 10
-     Hand: Fight Through+ [1], Spoils Map [X], Beam Cell [0], Strike [1], Zap [1], Defend [1]  | Draw 10  Discard 0  Exhaust 2
+     Hand: Fight Through+ [1], Spoils Map [-], Beam Cell [0], Strike [1], Zap [1], Defend [1]  | Draw 10  Discard 0  Exhaust 2
      #164  Play Beam Cell -> Sneaky Gremlin   [24.3%, 6 options]
             also: Play Zap 21.4%; Play Defend 21.1%; Play Fight Through+ 17.5%; Play Strike -> Sneaky Gremlin 15.7%
      #165  Play Strike -> Sneaky Gremlin   [35.6%, 5 options]
@@ -490,7 +490,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 62/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Soul Fysh: HP 221/221  Intent Beckon: Debuff
-     Hand: Spoils Map [X], Ball Lightning [1], Lightning Rod [1], Beam Cell [0], Thunder [1]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Spoils Map [-], Ball Lightning [1], Lightning Rod [1], Beam Cell [0], Thunder [1]  | Draw 14  Discard 0  Exhaust 0
      #172  Play Thunder   [83.7%, 5 options]
             also: Play Beam Cell -> Soul Fysh 12.3%; Play Lightning Rod 2.1%; Play Ball Lightning -> Soul Fysh 1.9%
      #173  Play Lightning Rod   [54.0%, 4 options]
@@ -526,7 +526,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 55/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Thunder 8
      Enemy Soul Fysh: HP 132/221  Intent Fade: Buff
-     Hand: Ascender's Bane [X], Glacier [2], Strike+ [1], Fight Through+ [1], Beckon [1]  | Draw 15  Discard 0  Exhaust 1
+     Hand: Ascender's Bane [-], Glacier [2], Strike+ [1], Fight Through+ [1], Beckon [1]  | Draw 15  Discard 0  Exhaust 1
      #186  Play Strike+ -> Soul Fysh   [92.1%, 5 options]
             also: Play Beckon 7.5%
      #187  Play Beckon   [100.0%, 4 options]
@@ -534,7 +534,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 55/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Thunder 8
      Enemy Soul Fysh: HP 117/221  Intent Scream: Attack 15 + Debuff  Powers: Intangible 1
-     Hand: Ice Lance+ [3], Beam Cell [0], Spoils Map [X], Zap [1], Beckon [1]  | Draw 10  Discard 4  Exhaust 2
+     Hand: Ice Lance+ [3], Beam Cell [0], Spoils Map [-], Zap [1], Beckon [1]  | Draw 10  Discard 4  Exhaust 2
      #189  Play Beam Cell -> Soul Fysh   [97.3%, 5 options]
             also: Play Beckon 2.7%
      #190  Play Beckon   [100.0%, 4 options]
@@ -564,7 +564,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 20/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Frost  Powers: Thunder 8, Vulnerable 1
      Enemy Soul Fysh: HP 46/221  Intent Gaze: Attack 12 + Debuff
-     Hand: Beckon [1], Zap [1], Ball Lightning [1], Spoils Map [X], Beckon [1]  | Draw 11  Discard 5  Exhaust 2
+     Hand: Beckon [1], Zap [1], Ball Lightning [1], Spoils Map [-], Beckon [1]  | Draw 11  Discard 5  Exhaust 2
      #201  Play Beckon   [35.4%, 5 options]
             also: Play Beckon 35.4% (identical option); Play Ball Lightning -> Soul Fysh 29.2%
      #202  Play Beckon   [99.8%, 4 options]
@@ -594,7 +594,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 75/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Thieving Hopper: HP 84/84  Intent Thievery: Attack 19 + Debuff  Powers: Escape Artist 5
-     Hand: Dualcast [1], Machine Learning [1], Ascender's Bane [X], Coolheaded [1], Ice Lance+ [3]  | Draw 15  Discard 0  Exhaust 0
+     Hand: Dualcast [1], Machine Learning [1], Ascender's Bane [-], Coolheaded [1], Ice Lance+ [3]  | Draw 15  Discard 0  Exhaust 0
      #212  Play Ice Lance+ -> Thieving Hopper   [89.6%, 5 options]
             also: Play Coolheaded 10.3%
      #213  End turn   [100.0%, 1 option]
@@ -614,7 +614,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 62/75  Block 5  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Lightning Rod 1
      Enemy Thieving Hopper: HP 46/84  Intent Hat Trick: Attack 23  Powers: Escape Artist 3, Swipe 1, Flutter 5
-     Hand: Chill [0], Thunder [1], FTL [0], Spoils Map [X], Compact [1], Fight Through+ [1]  | Draw 2  Discard 9  Exhaust 2
+     Hand: Chill [0], Thunder [1], FTL [0], Spoils Map [-], Compact [1], Fight Through+ [1]  | Draw 2  Discard 9  Exhaust 2
      #219  Play Thunder   [31.8%, 6 options]
             also: Play FTL -> Thieving Hopper 30.4%; Play Chill 18.1%; Play Compact 11.8%; Play Fight Through+ 7.9%
      #220  Play FTL -> Thieving Hopper   [36.8%, 5 options]
@@ -629,7 +629,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 62/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Thunder 8
      Enemy Thieving Hopper: HP 3/84  Intent Nab: Attack 16  Powers: Escape Artist 2, Swipe 1, Flutter 3
-     Hand: FTL [0], Wound [X], Compact [1], Coolheaded [1], Fight Through+ [1]  | Draw 12  Discard 0  Exhaust 3
+     Hand: FTL [0], Wound [-], Compact [1], Coolheaded [1], Fight Through+ [1]  | Draw 12  Discard 0  Exhaust 3
      #225  Play FTL -> Thieving Hopper   [34.1%, 5 options]
             also: Play Fight Through+ 23.8%; Play Coolheaded 22.7%; Play Compact 19.4%
      #226  Play Zap   [39.8%, 5 options]
@@ -685,7 +685,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   Shop shelf (gold 89): Card Barrage 50g; Card Focused Strike 52g; Card Compact 38g; Card Hologram 52g; Card Subroutine 73g; Card Prowess 90g; Card Bolas 172g; Relic Juzu Bracelet 163g; Relic Vajra 172g; Relic Gnarled Hammer 210g; Potion Shackling Potion 99g; Potion Energy Potion 52g; Potion Fortifier 76g; Removal 100g
   #247  [Shop] Buy Fortifier (76 gold)   [36.7%, 8 options]
          also: Buy Subroutine (73 gold) 29.5%; Leave / skip 16.4%; Buy Energy Potion (52 gold) 8.0%; Buy Compact (38 gold) 3.1%
-  Shop shelf (gold 13): Card Barrage 50g; Card Focused Strike 52g; Card Compact 38g; Card Hologram 52g; Card Subroutine 73g; Card Prowess 90g; Card Bolas 172g; Relic Juzu Bracelet 163g; Relic Vajra 172g; Relic Gnarled Hammer 210g; Potion Shackling Potion 99g; Potion Energy Potion 52g; Potion #2286 76g (sold); Removal 100g
+  Shop shelf (gold 13): Card Barrage 50g; Card Focused Strike 52g; Card Compact 38g; Card Hologram 52g; Card Subroutine 73g; Card Prowess 90g; Card Bolas 172g; Relic Juzu Bracelet 163g; Relic Vajra 172g; Relic Gnarled Hammer 210g; Potion Shackling Potion 99g; Potion Energy Potion 52g; Potion 76g (sold); Removal 100g
   #248  [Shop] Leave / skip   [100.0%, 1 option]
   #249  [Map] Go to Unknown (?) (row 6, col 4)   [100.0%, 1 option]
 
@@ -709,7 +709,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 52/52  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25
      Enemy Decimillipede: HP 48/48  Intent Writhe: Attack 6x2  Powers: Reattach 25
      Enemy Decimillipede: HP 50/50  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25
-     Hand: Dualcast [1], Coolheaded [1], Ice Lance+ [3], Glacier [2], Spoils Map [X]  | Draw 16  Discard 0  Exhaust 0
+     Hand: Dualcast [1], Coolheaded [1], Ice Lance+ [3], Glacier [2], Spoils Map [-]  | Draw 16  Discard 0  Exhaust 0
      Potions: Mazaleth's Gift, Fortifier
      #255  Play Ice Lance+ -> Decimillipede   [84.6%, 9 options]
             also: Play Ice Lance+ -> Decimillipede 6.4% x2 (identical option); Play Glacier 5.0%; Use potion Mazaleth's Gift -> self 1.5%
@@ -733,7 +733,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 52/52  Intent Writhe: Attack 8x2  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 40/48  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25
      Enemy Decimillipede: HP 26/50  Intent Constrict: Attack 11 + Debuff  Powers: Reattach 25, Strength 2
-     Hand: Modded [0], Ascender's Bane [X], Shadow Shield [2], Zap+ [0], Fight Through+ [1]  | Draw 5  Discard 9  Exhaust 1
+     Hand: Modded [0], Ascender's Bane [-], Shadow Shield [2], Zap+ [0], Fight Through+ [1]  | Draw 5  Discard 9  Exhaust 1
      Potions: Mazaleth's Gift, Fortifier
      #260  Play Zap+   [70.4%, 7 options]
             also: Play Modded 24.0%; Play Shadow Shield 4.1%; Use potion Mazaleth's Gift -> self 1.0%; Play Fight Through+ 0.6%
@@ -767,7 +767,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 49/52  Intent Bulk: Attack 9 + Buff  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 21/48  Intent Constrict: Attack 11 + Debuff  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 6/50  Intent Writhe: Attack 10x2  Powers: Reattach 25, Strength 4
-     Hand: Lightning Rod [1], Wound [X], Fight Through+ [1], Ice Lance+ [3], Coolheaded [1], Wound [X]  | Draw 8  Discard 6  Exhaust 2
+     Hand: Lightning Rod [1], Wound [-], Fight Through+ [1], Ice Lance+ [3], Coolheaded [1], Wound [-]  | Draw 8  Discard 6  Exhaust 2
      Potions: Mazaleth's Gift, Fortifier
      #271  Play Ice Lance+ -> Decimillipede   [99.8%, 9 options]
      #272  End turn   [100.0%, 3 options]
@@ -787,7 +787,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 23/52  Intent Constrict: Attack 13 + Debuff  Powers: Reattach 25, Strength 4
      Enemy Decimillipede: HP 25/48  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25
      Enemy Decimillipede: HP 25/50  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25
-     Hand: FTL [0], Spoils Map [X], Machine Learning [1], Wound [X], Zap+ [0]  | Draw 14  Discard 0  Exhaust 2
+     Hand: FTL [0], Spoils Map [-], Machine Learning [1], Wound [-], Zap+ [0]  | Draw 14  Discard 0  Exhaust 2
      Potions: Mazaleth's Gift, Fortifier
      #277  Play Zap+   [57.8%, 8 options]
             also: Play FTL -> Decimillipede 35.9% x3
@@ -879,7 +879,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 28/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost
      Enemy Bowlbug (Rock): HP 2/48  Intent <unk>: Stun/Sleep/Escape  Powers: Imbalanced 1
-     Hand: Beam Cell [0], FTL [0], Ascender's Bane [X], Dualcast [1], Modded [0], Ice Lance+ [3]  | Draw 4  Discard 11  Exhaust 2
+     Hand: Beam Cell [0], FTL [0], Ascender's Bane [-], Dualcast [1], Modded [0], Ice Lance+ [3]  | Draw 4  Discard 11  Exhaust 2
      Potions: Snecko Oil
      #310  Play FTL -> Bowlbug (Rock)   [29.8%, 7 options]
             also: Play Beam Cell -> Bowlbug (Rock) 28.3%; Play Modded 24.5%; Play Dualcast 13.6%; Play Ice Lance+ -> Bowlbug (Rock) 3.8%
@@ -908,15 +908,15 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #319  [Card select] Select Ball Lightning   [9.2%, 20 options]
          also: Select Thunder 8.7%; Select Coolheaded 7.5% x2; Select Zap+ 7.2%
   Enchanted cards in deck: Dualcast <Adroit 3>, Lightning Rod <Adroit 3>, Ball Lightning <Adroit 3>
-  Shop shelf (gold 570): Card Sweeping Beam 49g; Card Beam Cell 26g; Card Overclock 76g; Card Hologram 49g; Card Storm 78g; Card Automation 83g; Card Alchemize 170g; Relic Reptile Trinket 208g; Relic Anchor 161g; Relic #2286 189g (sold); Potion Heart of Iron 74g; Potion Block Potion 49g; Potion Energy Potion 49g; Removal 100g
+  Shop shelf (gold 570): Card Sweeping Beam 49g; Card Beam Cell 26g; Card Overclock 76g; Card Hologram 49g; Card Storm 78g; Card Automation 83g; Card Alchemize 170g; Relic Reptile Trinket 208g; Relic Anchor 161g; Relic 189g (sold); Potion Heart of Iron 74g; Potion Block Potion 49g; Potion Energy Potion 49g; Removal 100g
   #320  [Shop] Buy Anchor (161 gold)   [49.0%, 13 options]
          also: Buy Storm (78 gold) 32.2%; Leave / skip 3.3%; Buy Card removal service (100 gold) 3.1%; Discard potion Weak Potion 2.7%
   Relic gained: Anchor
-  Shop shelf (gold 409): Card Sweeping Beam 49g; Card Beam Cell 26g; Card Overclock 76g; Card Hologram 49g; Card Storm 78g; Card Automation 83g; Card Alchemize 170g; Relic Reptile Trinket 208g; Relic #2286 161g (sold); Relic #2286 189g (sold); Potion Heart of Iron 74g; Potion Block Potion 49g; Potion Energy Potion 49g; Removal 100g
+  Shop shelf (gold 409): Card Sweeping Beam 49g; Card Beam Cell 26g; Card Overclock 76g; Card Hologram 49g; Card Storm 78g; Card Automation 83g; Card Alchemize 170g; Relic Reptile Trinket 208g; Relic 161g (sold); Relic 189g (sold); Potion Heart of Iron 74g; Potion Block Potion 49g; Potion Energy Potion 49g; Removal 100g
   #321  [Shop] Buy Storm (78 gold)   [68.7%, 12 options]
          also: Leave / skip 7.3%; Buy Card removal service (100 gold) 4.4%; Discard potion Weak Potion 3.8%; Buy Beam Cell (26 gold) 3.8%
   Deck change: +Storm  (23 cards)
-  Shop shelf (gold 331): Card Sweeping Beam 49g; Card Beam Cell 26g; Card Overclock 76g; Card Hologram 49g; Card #2286 78g (sold); Card Automation 83g; Card Alchemize 170g; Relic Reptile Trinket 208g; Relic #2286 161g (sold); Relic #2286 189g (sold); Potion Heart of Iron 74g; Potion Block Potion 49g; Potion Energy Potion 49g; Removal 100g
+  Shop shelf (gold 331): Card Sweeping Beam 49g; Card Beam Cell 26g; Card Overclock 76g; Card Hologram 49g; Card 78g (sold); Card Automation 83g; Card Alchemize 170g; Relic Reptile Trinket 208g; Relic 161g (sold); Relic 189g (sold); Potion Heart of Iron 74g; Potion Block Potion 49g; Potion Energy Potion 49g; Removal 100g
   #322  [Shop] Leave / skip   [42.5%, 11 options]
          also: Buy Card removal service (100 gold) 22.4%; Buy Automation (83 gold) 15.9%; Discard potion Weak Potion 6.1%; Buy Beam Cell (26 gold) 3.8%
   #323  [Map] Go to Unknown (?) (row 14, col 2)   [100.0%, 1 option]
@@ -926,7 +926,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 48/85  Block 10  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Myte: HP 57/66  Intent Toxic Cornucopia: Debuff
      Enemy Myte: HP 56/65  Intent Suck: Attack 6 + Buff
-     Hand: Ascender's Bane [X], Coolheaded [1], Echo Form [3], Zap+ [0], FTL [0]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Coolheaded [1], Echo Form [3], Zap+ [0], FTL [0]  | Draw 18  Discard 0  Exhaust 0
      Potions: Weak Potion, Snecko Oil
      #324  Play FTL -> Myte #2   [43.9%, 9 options]
             also: Play Zap+ 22.5%; Play Coolheaded 19.9%; Play FTL -> Myte #1 13.7%
@@ -1015,7 +1015,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 73/85  Block 10  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Knowledge Demon: HP 390/399  Intent Curse of Knowledge: Debuff
-     Hand: Ascender's Bane [X], Dualcast [1], Go for the Eyes [0], Glacier [2], FTL [0], Modded [0]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Dualcast [1], Go for the Eyes [0], Glacier [2], FTL [0], Modded [0]  | Draw 18  Discard 0  Exhaust 0
      Potions: Distilled Chaos, Snecko Oil
      #356  Play Modded   [70.7%, 8 options]
             also: Play FTL -> Knowledge Demon 25.7%; Play Go for the Eyes -> Knowledge Demon 2.9%; Play Glacier 0.5%
@@ -1173,7 +1173,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 72/85  Block 0  Energy 3/3  Orbs (4 slots): Lightning, Frost, Frost, Frost
      Enemy Devoted Sculptor: HP 131/172  Intent Savage: Attack 15  Powers: Ritual 9
-     Hand: Zap+ [0], Ascender's Bane [X], Coolheaded [1], Lightning Rod [1], Chill [0], Glacier [2], Ball Lightning [1]  | Draw 11  Discard 7  Exhaust 0
+     Hand: Zap+ [0], Ascender's Bane [-], Coolheaded [1], Lightning Rod [1], Chill [0], Glacier [2], Ball Lightning [1]  | Draw 11  Discard 7  Exhaust 0
      Potions: Distilled Chaos, Snecko Oil
      #410  Play Zap+   [77.9%, 9 options]
             also: Play Ball Lightning -> Devoted Sculptor 9.5%; Play Lightning Rod 8.8%; Play Chill 3.5%
@@ -1251,7 +1251,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 58/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Loop 1
      Enemy Living Shield: HP 35/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 42/51  Block 25  Intent Unload!: Attack 4x5
-     Hand: Lightning Rod [1], Chill [0], Dualcast [1], Echo Form [3], Ascender's Bane [X], Coolheaded [1], Storm [1]  | Draw 10  Discard 9  Exhaust 0
+     Hand: Lightning Rod [1], Chill [0], Dualcast [1], Echo Form [3], Ascender's Bane [-], Coolheaded [1], Storm [1]  | Draw 10  Discard 9  Exhaust 0
      Potions: Distilled Chaos, Snecko Oil
      #439  Play Chill   [87.6%, 9 options]
             also: Play Lightning Rod 12.0%
@@ -1276,7 +1276,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 56/85  Block 7  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Loop 1
      Enemy Living Shield: HP 19/65  Intent Smash: Attack 18 + Buff  Powers: Rampart 25
-     Hand: Shadow Shield [2], Thunder [1], Go for the Eyes [0], Glacier [2], FTL [0], Fight Through+ [1], Beam Cell+ [0], Wound [X]  | Draw 15  Discard 0  Exhaust 3
+     Hand: Shadow Shield [2], Thunder [1], Go for the Eyes [0], Glacier [2], FTL [0], Fight Through+ [1], Beam Cell+ [0], Wound [-]  | Draw 15  Discard 0  Exhaust 3
      Potions: Distilled Chaos, Snecko Oil
      #448  Play Beam Cell+ -> Living Shield   [35.0%, 10 options]
             also: Play FTL -> Living Shield 30.1%; Play Go for the Eyes -> Living Shield 13.1%; Play Thunder 11.5%; Play Glacier 5.2%
@@ -1303,11 +1303,11 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #458  [Shop] Buy Intimidating Helmet (286 gold)   [79.1%, 14 options]
          also: Buy Red Mask (192 gold) 3.3%; Buy White Noise (75 gold) 3.2%; Buy Card removal service (100 gold) 2.8%; Buy Focused Strike (24 gold) 1.9%
   Relic gained: Intimidating Helmet
-  Shop shelf (gold 154): Card Focused Strike 24g; Card Barrage 49g; Card Hologram 51g; Card White Noise 75g; Card Smokestack 76g; Card Equilibrium 84g; Card Hand of Greed 167g; Relic #2286 286g (sold); Relic Red Mask 192g; Relic Dingy Rug 179g; Potion Beetle Juice 100g; Potion Heart of Iron 77g; Potion Potion of Binding 72g; Removal 100g
+  Shop shelf (gold 154): Card Focused Strike 24g; Card Barrage 49g; Card Hologram 51g; Card White Noise 75g; Card Smokestack 76g; Card Equilibrium 84g; Card Hand of Greed 167g; Relic 286g (sold); Relic Red Mask 192g; Relic Dingy Rug 179g; Potion Beetle Juice 100g; Potion Heart of Iron 77g; Potion Potion of Binding 72g; Removal 100g
   #459  [Shop] Buy White Noise (75 gold)   [38.2%, 10 options]
          also: Buy Card removal service (100 gold) 24.6%; Buy Equilibrium (84 gold) 15.2%; Leave / skip 10.2%; Buy Barrage (49 gold) 3.9%
   Deck change: +White Noise  (27 cards)
-  Shop shelf (gold 79): Card Focused Strike 24g; Card Barrage 49g; Card Hologram 51g; Card #2286 75g (sold); Card Smokestack 76g; Card Equilibrium 84g; Card Hand of Greed 167g; Relic #2286 286g (sold); Relic Red Mask 192g; Relic Dingy Rug 179g; Potion Beetle Juice 100g; Potion Heart of Iron 77g; Potion Potion of Binding 72g; Removal 100g
+  Shop shelf (gold 79): Card Focused Strike 24g; Card Barrage 49g; Card Hologram 51g; Card 75g (sold); Card Smokestack 76g; Card Equilibrium 84g; Card Hand of Greed 167g; Relic 286g (sold); Relic Red Mask 192g; Relic Dingy Rug 179g; Potion Beetle Juice 100g; Potion Heart of Iron 77g; Potion Potion of Binding 72g; Removal 100g
   #460  [Shop] Leave / skip   [64.9%, 7 options]
          also: Buy Barrage (49 gold) 13.9%; Discard potion Snecko Oil 7.0%; Buy Focused Strike (24 gold) 5.7%; Discard potion Distilled Chaos 3.2%
   #461  [Map] Go to Unknown (?) (row 5, col 6)   [100.0%, 1 option]
@@ -1392,7 +1392,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 78/85  Block 0  Energy 3/3  Orbs (5 slots): Lightning, Lightning, Frost, Lightning, Frost  Powers: Storm 1, Dexterity -4
      Enemy The Forgotten: HP 65/111  Block 10  Intent Dread: Attack 19  Powers: Possess Speed 1, Dexterity 4
-     Hand: Modded [0], Dualcast [1], Thunder [1], Ascender's Bane [X], Chill [0], Fight Through+ [1], Loop [1]  | Draw 17  Discard 0  Exhaust 2
+     Hand: Modded [0], Dualcast [1], Thunder [1], Ascender's Bane [-], Chill [0], Fight Through+ [1], Loop [1]  | Draw 17  Discard 0  Exhaust 2
      Potions: Distilled Chaos, Snecko Oil, Mazaleth's Gift, Cure All
      #490  Play Thunder   [42.7%, 11 options]
             also: Play Modded 33.4%; Play Loop 11.1%; Play Chill 9.6%; Play Fight Through+ 2.2%
@@ -1446,7 +1446,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #510  [Shop] Buy Storm (78 gold)   [80.9%, 12 options]
          also: Discard potion Snecko Oil 5.4%; Discard potion Power Potion 1.9%; Discard potion Distilled Chaos 1.8%; Buy Sweeping Beam (25 gold) 1.8%
   Deck change: +Storm  (29 cards)
-  Shop shelf (gold 47): Card Claw 49g; Card Sweeping Beam 25g; Card Fusion 78g; Card Hologram 49g; Card #2286 78g (sold); Card Purity 87g; Card Jackpot 175g; Relic Venerable Tea Set 167g; Relic War Paint 166g; Relic Bread 186g; Potion Focus Potion 50g; Potion Regen Potion 78g; Potion Attack Potion 50g; Removal 100g
+  Shop shelf (gold 47): Card Claw 49g; Card Sweeping Beam 25g; Card Fusion 78g; Card Hologram 49g; Card 78g (sold); Card Purity 87g; Card Jackpot 175g; Relic Venerable Tea Set 167g; Relic War Paint 166g; Relic Bread 186g; Potion Focus Potion 50g; Potion Regen Potion 78g; Potion Attack Potion 50g; Removal 100g
   #511  [Shop] Leave / skip   [56.3%, 2 options]
          also: Buy Sweeping Beam (25 gold) 43.7%
   #512  [Map] Go to Unknown (?) (row 12, col 3)   [90.3%, 2 options]
@@ -1463,7 +1463,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 95/95  Block 10  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Mecha Knight: HP 311/320  Intent Charge: Attack 30  Powers: Artifact 3
-     Hand: Echo Form [3], Chill [0], Ascender's Bane [X], Glacier [2], Fight Through+ [1], Ice Lance+ [3], Storm [1]  | Draw 22  Discard 0  Exhaust 0
+     Hand: Echo Form [3], Chill [0], Ascender's Bane [-], Glacier [2], Fight Through+ [1], Ice Lance+ [3], Storm [1]  | Draw 22  Discard 0  Exhaust 0
      Potions: Distilled Chaos, Snecko Oil, Power Potion, Focus Potion
      #515  Play Echo Form   [96.4%, 11 options]
             also: Play Chill 3.6%
@@ -1492,7 +1492,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 81/95  Block 5  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Echo Form 1, Trash to Treasure 1, Loop 1, Lightning Rod 1
      Enemy Mecha Knight: HP 291/320  Intent Windup: Buff + Defend  Powers: Artifact 2
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], FTL [0], Modded [0], Beam Cell+ [0], Creative AI [3], Ball Lightning [1], Go for the Eyes [0]  | Draw 9  Discard 10  Exhaust 3
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], FTL [0], Modded [0], Beam Cell+ [0], Creative AI [3], Ball Lightning [1], Go for the Eyes [0]  | Draw 9  Discard 10  Exhaust 3
      Potions: Distilled Chaos, Snecko Oil, Power Potion, Focus Potion
      #527  Play Modded   [91.7%, 11 options]
             also: Play Beam Cell+ -> Mecha Knight 5.6%; Play FTL -> Mecha Knight 1.8%; Play Ball Lightning -> Mecha Knight 0.7%
@@ -1520,7 +1520,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 71/95  Block 0  Energy 3/3  Orbs (5 slots): Lightning, Lightning, Dark, Dark, Lightning  Powers: Echo Form 1, Trash to Treasure 1, Loop 1, Storm 1
      Enemy Mecha Knight: HP 242/320  Intent Flamethrower: Attack 17 + Debuff  Powers: Artifact 1, Strength 5
-     Hand: Thunder [1], Compact [1], Burn [X], Glacier [2], Burn [X], TURBO [0], Beam Cell+ [0]  | Draw 21  Discard 0  Exhaust 3
+     Hand: Thunder [1], Compact [1], Burn [-], Glacier [2], Burn [-], TURBO [0], Beam Cell+ [0]  | Draw 21  Discard 0  Exhaust 3
      Potions: Distilled Chaos, Snecko Oil, Power Potion, Focus Potion
      #538  Play Thunder   [100.0%, 10 options]
      #539  Play Glacier   [63.8%, 9 options]
@@ -1537,7 +1537,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 71/95  Block 0  Energy 3/3  Orbs (5 slots): Lightning, Lightning, Frost, Frost, Lightning  Powers: Echo Form 1, Trash to Treasure 1, Loop 1, Storm 1, Thunder 16
      Enemy Mecha Knight: HP 138/320  Intent Windup: Buff + Defend  Powers: Strength 5
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Burn [X], Beam Cell [0], Burn [X], Zap+ [0], Ball Lightning [1], Sweeping Beam [1]  | Draw 15  Discard 5  Exhaust 5
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Burn [-], Beam Cell [0], Burn [-], Zap+ [0], Ball Lightning [1], Sweeping Beam [1]  | Draw 15  Discard 5  Exhaust 5
      Potions: Distilled Chaos, Snecko Oil, Power Potion, Focus Potion
      #546  Play Ball Lightning -> Mecha Knight   [92.3%, 9 options]
             also: Play Zap+ 6.6%; Play Beam Cell -> Mecha Knight 1.0%
@@ -1549,7 +1549,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 71/95  Block 2  Energy 2/3  Orbs (5 slots): Frost, Lightning, Lightning, Lightning, Lightning  Powers: Echo Form 1, Trash to Treasure 1, Loop 1, Storm 1, Thunder 16
      Enemy Mecha Knight: HP 52/320  Block 15  Intent Heavy Cleave: Attack 50  Powers: Strength 10
-     Hand: Dualcast [1], FTL [0], Shadow Shield [2], Machine Learning [1], Coolheaded [1], Go for the Eyes [0], Void [X]  | Draw 8  Discard 15  Exhaust 5
+     Hand: Dualcast [1], FTL [0], Shadow Shield [2], Machine Learning [1], Coolheaded [1], Go for the Eyes [0], Void [-]  | Draw 8  Discard 15  Exhaust 5
      Potions: Distilled Chaos, Snecko Oil, Power Potion, Focus Potion
      #551  Play Shadow Shield   [99.8%, 11 options]
      #552  Play Go for the Eyes -> Mecha Knight   [94.7%, 7 options]
@@ -1602,7 +1602,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 95/95  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Storm 1, Focus 2, Thunder 8
      Enemy Aeonglass: HP 495/535  Block 33  Intent Eye Lasers: Attack 12x2  Powers: Withering Presence 6, Artifact 2
-     Hand: Echo Form [3], Zap+ [0], Beam Cell [0], Chill [0], Coolheaded [1], Compact [1], Ascender's Bane [X]  | Draw 15  Discard 6  Exhaust 0
+     Hand: Echo Form [3], Zap+ [0], Beam Cell [0], Chill [0], Coolheaded [1], Compact [1], Ascender's Bane [-]  | Draw 15  Discard 6  Exhaust 0
      Potions: Distilled Chaos, Snecko Oil, Power Potion
      #570  Play Echo Form   [100.0%, 10 options]
      #571  Play Chill   [63.1%, 7 options]
@@ -1645,7 +1645,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 78/95  Block 2  Energy 2/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Storm 3, Focus 2, Thunder 8, Echo Form 1, Creative AI 2, Loop 1, Coolant 2, Lightning Rod 1
      Enemy Aeonglass: HP 199/535  Block 10  Intent Eye Lasers: Attack 16x2  Powers: Withering Presence 6, Strength 4
-     Hand: Smokestack [1], Machine Learning [1], Void [X], Bulk Up [2], Wither [X], Compact [1], Ball Lightning [1], Sweeping Beam [1], FTL [0]  | Draw 23  Discard 0  Exhaust 3
+     Hand: Smokestack [1], Machine Learning [1], Void [-], Bulk Up [2], Wither [-], Compact [1], Ball Lightning [1], Sweeping Beam [1], FTL [0]  | Draw 23  Discard 0  Exhaust 3
      Potions: Distilled Chaos, Snecko Oil, Power Potion
      #588  Play Compact   [86.1%, 11 options]
             also: Play Smokestack 13.8%
@@ -1665,7 +1665,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 51/95  Block 2  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Storm 3, Focus 2, Thunder 8, Echo Form 1, Creative AI 2, Loop 1, Coolant 2, Smokestack 5, Machine Learning 1
      Enemy Aeonglass: HP 33/535  Intent Increasing Intensity: Buff + Debuff  Powers: Withering Presence 6, Strength 4
-     Hand: Spinner [1], Consuming Shadow [2], Coolheaded [1], Wither [X], Go for the Eyes [0], Glacier [2], Ice Lance+ [3], Beam Cell [0], Wither [X], Modded [0]  | Draw 15  Discard 7  Exhaust 5
+     Hand: Spinner [1], Consuming Shadow [2], Coolheaded [1], Wither [-], Go for the Eyes [0], Glacier [2], Ice Lance+ [3], Beam Cell [0], Wither [-], Modded [0]  | Draw 15  Discard 7  Exhaust 5
      Potions: Distilled Chaos, Snecko Oil, Power Potion
      #596  Play Ice Lance+ -> Aeonglass   [90.9%, 12 options]
             also: Play Spinner 8.9%
@@ -1710,7 +1710,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 47/95  Block 0  Energy 3/3  Orbs (5 slots): Frost, Lightning  Powers: Creative AI 3, Machine Learning 1, Lightning Rod 1, Chains of Binding 3
      Enemy Torch Head Amalgam: HP 190/211  Intent Tackle: Attack 22  Powers: Minion 1, Vulnerable 1
      Enemy Queen: HP 399/419  Intent You Are Mine: Debuff
-     Hand: Smokestack [1], Loop [1], Buffer [2], Thunder [1], Echo Form [3], Zap+ [0], Ball Lightning [1], Storm [1], Ascender's Bane [X], Loop [1]  | Draw 12  Discard 8  Exhaust 1
+     Hand: Smokestack [1], Loop [1], Buffer [2], Thunder [1], Echo Form [3], Zap+ [0], Ball Lightning [1], Storm [1], Ascender's Bane [-], Loop [1]  | Draw 12  Discard 8  Exhaust 1
      #614  Play Echo Form   [97.8%, 11 options]
             also: Play Buffer 1.5%; Play Storm 0.6%
      #615  End turn   [100.0%, 1 option]
@@ -1768,7 +1768,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 31/95  Block 8  Energy 2/3  Orbs (6 slots): Frost, Frost, Lightning, Frost, Lightning, Lightning  Powers: Creative AI 3, Machine Learning 2, Chains of Binding 3, Echo Form 2, Frail 96, Weak 96, Vulnerable 96, Focus 2, Subroutine 2, Buffer 1, Loop 2, Storm 2
      Enemy Torch Head Amalgam: HP 171/211  Intent Beam: Attack 16x3  Powers: Minion 1, Strength 3
      Enemy Queen: HP 391/419  Block 20  Intent Burn Bright for Me: Buff + Defend
-     Hand: Bulk Up [2], Buffer [2], Smokestack [1], Shadow Shield [2], Void [X], Loop [1], Buffer [2], Go for the Eyes [0], Thunder [1], Beam Cell+ [0]  | Draw 9  Discard 11  Exhaust 3
+     Hand: Bulk Up [2], Buffer [2], Smokestack [1], Shadow Shield [2], Void [-], Loop [1], Buffer [2], Go for the Eyes [0], Thunder [1], Beam Cell+ [0]  | Draw 9  Discard 11  Exhaust 3
      #635  Play Buffer   [15.3%, 12 options]
             also: Play Buffer 15.3% (identical option); Play Go for the Eyes -> Torch Head Amalgam 14.3%; Play Beam Cell+ -> Torch Head Amalgam 11.6%; Play Smokestack 9.5%
      #636  Play Beam Cell+ -> Torch Head Amalgam   [13.4%, 11 options]

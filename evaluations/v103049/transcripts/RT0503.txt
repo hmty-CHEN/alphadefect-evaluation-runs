@@ -18,7 +18,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Twig Slime (S): HP 12/12  Intent Tackle: Attack 5
      Enemy Leaf Slime (M): HP 33/33  Intent Sticky Shot: Debuff
      Enemy Leaf Slime (S): HP 14/14  Intent Tackle: Attack 4
-     Hand: Defend [1], Dualcast [1], Ascender's Bane [X], Defend [1], Defend [1]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Defend [1], Dualcast [1], Ascender's Bane [-], Defend [1], Defend [1]  | Draw 6  Discard 0  Exhaust 0
      #2    Play Defend   [29.5%, 5 options]
             also: Play Defend 29.5% x2 (identical option); Play Dualcast 11.6%
      #3    Play Defend   [49.2%, 4 options]
@@ -102,7 +102,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 49/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Nibbit: HP 38/44  Intent Slice: Attack 7 + Defend
-     Hand: Strike [1], Defend [1], Ascender's Bane [X], Defend [1], Strike [1]  | Draw 3  Discard 5  Exhaust 0
+     Hand: Strike [1], Defend [1], Ascender's Bane [-], Defend [1], Strike [1]  | Draw 3  Discard 5  Exhaust 0
      #31   Play Defend   [47.7%, 5 options]
             also: Play Defend 47.7% (identical option); Play Strike -> Nibbit 2.3% x2
      #32   Play Defend   [97.4%, 4 options]
@@ -151,7 +151,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 49/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Dark, Lightning  Powers: Lightning Rod 1
      Enemy Fuzzy Wurm Crawler: HP 46/59  Intent Inhale: Buff
-     Hand: Ascender's Bane [X], Strike [1], Glacier [2], Defend [1], Defend [1]  | Draw 4  Discard 5  Exhaust 0
+     Hand: Ascender's Bane [-], Strike [1], Glacier [2], Defend [1], Defend [1]  | Draw 4  Discard 5  Exhaust 0
      Potions: Vulnerable Potion
      #48   Play Glacier   [73.8%, 6 options]
             also: Play Strike -> Fuzzy Wurm Crawler 17.6%; Play Defend 4.2% x2
@@ -208,7 +208,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 55/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Byrdonis: HP 65/90  Intent Peck: Attack 5x3  Powers: Territorial 1, Vulnerable 2, Strength 1
-     Hand: Zap [1], Defend [1], Glacier [2], Ascender's Bane [X], Lightning Rod [1]  | Draw 5  Discard 5  Exhaust 0
+     Hand: Zap [1], Defend [1], Glacier [2], Ascender's Bane [-], Lightning Rod [1]  | Draw 5  Discard 5  Exhaust 0
      #68   Play Glacier   [99.0%, 5 options]
             also: Play Lightning Rod 0.9%
      #69   Play Lightning Rod   [95.9%, 4 options]
@@ -294,7 +294,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 72/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost
      Enemy Bygone Effigy: HP 113/132  Intent Wake: Buff  Powers: Slow 1
-     Hand: Ascender's Bane [X], Defend [1], Defend [1], Zap [1], Strike [1]  | Draw 6  Discard 5  Exhaust 0
+     Hand: Ascender's Bane [-], Defend [1], Defend [1], Zap [1], Strike [1]  | Draw 6  Discard 5  Exhaust 0
      Potions: Distilled Chaos
      #97   Play Zap   [46.4%, 6 options]
             also: Play Strike -> Bygone Effigy 25.6%; Play Defend 14.0% x2
@@ -382,7 +382,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 39/75  Block 0  Energy 3/3  Orbs (3 slots): Glass, Frost, Frost  Powers: Tangled 1
      Enemy Vine Shambler: HP 21/64  Intent Chomp: Attack 13  Powers: Weak 1
-     Hand: Ascender's Bane [X], Defend [1], Strike [2], Strike [2], Defend [1], Defend [1]  | Draw 1  Discard 10  Exhaust 0
+     Hand: Ascender's Bane [-], Defend [1], Strike [2], Strike [2], Defend [1], Defend [1]  | Draw 1  Discard 10  Exhaust 0
      Potions: Distilled Chaos
      #125  Play Defend   [33.3%, 7 options]
             also: Play Defend 33.3% x2 (identical option)
@@ -414,7 +414,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 39/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Phrog Parasite: HP 68/68  Intent Infect: Debuff  Powers: Infested 4
-     Hand: Ascender's Bane [X], Go for the Eyes [0], Glacier [2], Defend [1], Strike [1]  | Draw 12  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Go for the Eyes [0], Glacier [2], Defend [1], Strike [1]  | Draw 12  Discard 0  Exhaust 0
      Potions: Distilled Chaos, Block Potion
      #137  Play Glacier   [59.3%, 7 options]
             also: Play Strike -> Phrog Parasite 21.8%; Play Go for the Eyes -> Phrog Parasite 16.1%; Play Defend 2.8%
@@ -465,7 +465,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 9/20  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 4/18  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 11/22  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Defragment [1], Defend [1], Infection [X], Dualcast [1], Zap [1], Infection [X]  | Draw 8  Discard 7  Exhaust 1
+     Hand: Defragment [1], Defend [1], Infection [-], Dualcast [1], Zap [1], Infection [-]  | Draw 8  Discard 7  Exhaust 1
      Potions: Distilled Chaos, Block Potion
      #152  Play Dualcast   [52.4%, 7 options]
             also: Play Zap 45.4%; Play Defend 2.0%
@@ -539,7 +539,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Kin Follower: HP 29/62  Intent Power Dance: Buff  Powers: Minion 1, Strength 3, Weak 1
      Enemy Kin Follower: HP 53/63  Intent Quick Slash: Attack 8  Powers: Minion 1, Strength 3
      Enemy Kin Priest: HP 170/199  Intent Dark Ritual: Buff
-     Hand: Go for the Eyes+ [0], Ascender's Bane [X], Strike [1], Strike+ [1], Zap [1]  | Draw 12  Discard 0  Exhaust 1
+     Hand: Go for the Eyes+ [0], Ascender's Bane [-], Strike [1], Strike+ [1], Zap [1]  | Draw 12  Discard 0  Exhaust 1
      Potions: Distilled Chaos, Block Potion
      #175  Play Zap   [22.4%, 13 options]
             also: Play Strike+ -> Kin Follower #2 22.3%; Play Strike+ -> Kin Follower #1 17.3%; Play Go for the Eyes+ -> Kin Follower #2 11.5%; Play Strike -> Kin Follower #2 9.5%
@@ -727,7 +727,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 61/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Machine Learning 1
      Enemy Tunneler: HP 60/92  Block 37  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Dualcast [1], Null+ [2], Defend [1], Lightning Rod [1], Go for the Eyes+ [0], Ascender's Bane [X], Defend+ [1]  | Draw 1  Discard 9  Exhaust 1
+     Hand: Dualcast [1], Null+ [2], Defend [1], Lightning Rod [1], Go for the Eyes+ [0], Ascender's Bane [-], Defend+ [1]  | Draw 1  Discard 9  Exhaust 1
      Potions: Distilled Chaos, Speed Potion
      #237  Play Defend+   [31.0%, 9 options]
             also: Play Go for the Eyes+ -> Tunneler 20.1%; Play Lightning Rod 16.7%; Play Null+ -> Tunneler 16.5%; Play Defend 12.4%
@@ -815,7 +815,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Exoskeleton: HP 28/28  Intent Skitter: Attack 1x4  Powers: Hard to Kill 9
      Enemy Exoskeleton: HP 26/26  Intent Mandibles: Attack 9  Powers: Hard to Kill 9
      Enemy Exoskeleton: HP 29/29  Intent Enrage: Buff  Powers: Hard to Kill 9
-     Hand: Machine Learning+ [1], Boot Sequence+ [0], Glasswork [1], Ascender's Bane [X], Strike [1], Lightning Rod [1]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Machine Learning+ [1], Boot Sequence+ [0], Glasswork [1], Ascender's Bane [-], Strike [1], Lightning Rod [1]  | Draw 14  Discard 0  Exhaust 0
      Potions: Fortifier, Speed Potion
      #267  Play Glasswork   [68.8%, 10 options]
             also: Play Lightning Rod 13.0%; Play Boot Sequence+ 12.0%; Play Machine Learning+ 3.3%; Play Strike -> Exoskeleton #3 2.7%
@@ -900,7 +900,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 53/75  Block 0  Energy 3/3  Orbs (6 slots): Lightning
      Enemy Ovicopter: HP 131/131  Intent Lay Eggs: Heal/Summon
-     Hand: Boot Sequence+ [0], Machine Learning+ [1], Strike+ [1], Glasswork [1], Clumsy [X]  | Draw 19  Discard 0  Exhaust 0
+     Hand: Boot Sequence+ [0], Machine Learning+ [1], Strike+ [1], Glasswork [1], Clumsy [-]  | Draw 19  Discard 0  Exhaust 0
      Potions: Fortifier, Speed Potion
      #292  Play Machine Learning+   [70.3%, 7 options]
             also: Play Glasswork 26.6%; Play Strike+ -> Ovicopter 3.0%
@@ -914,7 +914,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Tough Egg: HP 15/15  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Tough Egg: HP 16/16  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Ovicopter: HP 115/131  Intent Smash: Attack 17
-     Hand: Zap [1], Defend [1], Dualcast [1], Eternal Armor [3], Null+ [2], Ascender's Bane [X]  | Draw 13  Discard 3  Exhaust 1
+     Hand: Zap [1], Defend [1], Dualcast [1], Eternal Armor [3], Null+ [2], Ascender's Bane [-]  | Draw 13  Discard 3  Exhaust 1
      Potions: Fortifier, Speed Potion
      #296  Play Eternal Armor   [45.6%, 11 options]
             also: Play Null+ -> Tough Egg #3 22.1%; Play Null+ -> Ovicopter 18.4%; Play Null+ -> Tough Egg #2 7.4%; Play Defend 3.3%
@@ -1082,7 +1082,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 63/75  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Dark, Lightning, Frost, Frost, Glass  Powers: Machine Learning 1
      Enemy Entomancer: HP 123/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1, Weak 2
-     Hand: Strike [1], Dualcast [1], Dazed [X], Defend [1], Lightning Rod [1], Glacier+ [2]  | Draw 9  Discard 10  Exhaust 1
+     Hand: Strike [1], Dualcast [1], Dazed [-], Defend [1], Lightning Rod [1], Glacier+ [2]  | Draw 9  Discard 10  Exhaust 1
      Potions: Fortifier
      #347  Play Lightning Rod   [56.5%, 7 options]
             also: Play Dualcast 29.6%; Play Glacier+ 13.0%; Play Defend 0.6%
@@ -1092,7 +1092,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 63/75  Block 0  Energy 3/3  Orbs (6 slots): Frost, Frost, Glass, Frost, Frost, Lightning  Powers: Machine Learning 1, Lightning Rod 1
      Enemy Entomancer: HP 83/165  Intent Beeeees!: Attack 3x8  Powers: Personal Hive 2, Weak 1, Strength 1
-     Hand: Ascender's Bane [X], Dazed [X], Strike+ [1], Lightning Rod [1], Clumsy [X], Dazed [X]  | Draw 3  Discard 15  Exhaust 2
+     Hand: Ascender's Bane [-], Dazed [-], Strike+ [1], Lightning Rod [1], Clumsy [-], Dazed [-]  | Draw 3  Discard 15  Exhaust 2
      Potions: Fortifier
      #350  Play Lightning Rod   [99.9%, 4 options]
      #351  Play Strike+ -> Entomancer   [57.7%, 3 options]
@@ -1101,7 +1101,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 51/75  Block 5  Energy 3/3  Orbs (6 slots): Frost, Glass, Frost, Frost, Lightning, Lightning  Powers: Machine Learning 1, Lightning Rod 2
      Enemy Entomancer: HP 69/165  Intent Spear!: Attack 21  Powers: Personal Hive 2, Strength 1
-     Hand: Defend [1], Dazed [X], Storm [1], Defragment [1], Dazed [X], Lightning Rod [1], Eternal Armor [3]  | Draw 15  Discard 0  Exhaust 6
+     Hand: Defend [1], Dazed [-], Storm [1], Defragment [1], Dazed [-], Lightning Rod [1], Eternal Armor [3]  | Draw 15  Discard 0  Exhaust 6
      Potions: Fortifier
      #353  Play Storm   [56.8%, 7 options]
             also: Play Lightning Rod 34.3%; Play Defend 8.9%
@@ -1123,7 +1123,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 50/75  Block 5  Energy 3/3  Orbs (6 slots): Frost, Lightning, Lightning, Lightning, Dark, Lightning  Powers: Machine Learning 1, Lightning Rod 2, Storm 1
      Enemy Entomancer: HP 31/165  Intent Beeeees!: Attack 3x8  Powers: Personal Hive 3, Strength 2, Weak 1
-     Hand: Strike [1], Defend [1], Dazed [X], Glacier [2], Lightning Rod [1], Dazed [X]  | Draw 7  Discard 10  Exhaust 8
+     Hand: Strike [1], Defend [1], Dazed [-], Glacier [2], Lightning Rod [1], Dazed [-]  | Draw 7  Discard 10  Exhaust 8
      Potions: Fortifier
      #360  Play Glacier   [51.2%, 6 options]
             also: Play Defend 29.3%; Play Lightning Rod 19.2%
@@ -1133,7 +1133,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 50/75  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Dark, Lightning, Frost, Frost, Lightning  Powers: Machine Learning 1, Lightning Rod 1, Storm 1
      Enemy Entomancer: HP 6/165  Intent Spear!: Attack 22  Powers: Personal Hive 3, Strength 2
-     Hand: Zap [1], Strike+ [1], Dazed [X], Defend [1], Glacier+ [2], Dazed [X], Glasswork [1]  | Draw 0  Discard 14  Exhaust 10
+     Hand: Zap [1], Strike+ [1], Dazed [-], Defend [1], Glacier+ [2], Dazed [-], Glasswork [1]  | Draw 0  Discard 14  Exhaust 10
      Potions: Fortifier
      #363  Play Glacier+   [60.7%, 7 options]
             also: Play Glasswork 24.2%; Play Defend 8.4%; Play Zap 5.2%; Play Strike+ -> Entomancer 1.5%
@@ -1182,7 +1182,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 46/52  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25
      Enemy Decimillipede: HP 37/50  Intent Constrict: Attack 11 + Debuff  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 48/48  Intent Writhe: Attack 8x2  Powers: Reattach 25, Strength 2
-     Hand: Defend [1], Glacier [2], Strike+ [1], Strike [1], Glasswork [1], Clumsy [X], Storm [1]  | Draw 7  Discard 9  Exhaust 1
+     Hand: Defend [1], Glacier [2], Strike+ [1], Strike [1], Glasswork [1], Clumsy [-], Storm [1]  | Draw 7  Discard 9  Exhaust 1
      Potions: Fortifier
      #377  Play Glasswork   [96.4%, 12 options]
             also: Play Glacier 3.3%
@@ -1196,7 +1196,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 34/52  Intent Writhe: Attack 8x2  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 33/50  Intent Bulk: Attack 9 + Buff  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 44/48  Intent Constrict: Attack 11 + Debuff  Powers: Reattach 25, Strength 2
-     Hand: Lightning Rod [1], Defend [1], Dualcast [1], Strike+ [1], Go for the Eyes+ [0], Ascender's Bane [X]  | Draw 1  Discard 15  Exhaust 2
+     Hand: Lightning Rod [1], Defend [1], Dualcast [1], Strike+ [1], Go for the Eyes+ [0], Ascender's Bane [-]  | Draw 1  Discard 15  Exhaust 2
      Potions: Fortifier
      #381  Play Dualcast   [99.9%, 11 options]
      #382  Play Go for the Eyes+ -> Decimillipede   [42.5%, 8 options]
@@ -1301,7 +1301,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 45/75  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Frost, Frost, Glass  Powers: Plating 3, Machine Learning 1
      Enemy Spiny Toad: HP 117/124  Intent Spike Explosion: Attack 25  Powers: Thorns 5
-     Hand: Eternal Armor [3], Zap [1], Go for the Eyes [0], Lightning Rod [1], Null+ [2], Ascender's Bane [X]  | Draw 14  Discard 5  Exhaust 0
+     Hand: Eternal Armor [3], Zap [1], Go for the Eyes [0], Lightning Rod [1], Null+ [2], Ascender's Bane [-]  | Draw 14  Discard 5  Exhaust 0
      Potions: Fortifier, Duplicator
      #415  Play Lightning Rod   [73.8%, 8 options]
             also: Play Go for the Eyes -> Spiny Toad 20.2%; Play Null+ -> Spiny Toad 3.3%; Play Eternal Armor 1.2%; Play Zap 1.2%
@@ -1314,7 +1314,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 33/75  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Frost, Frost, Glass, Lightning, Lightning  Powers: Plating 2, Machine Learning 1, Lightning Rod 1
      Enemy Spiny Toad: HP 105/124  Intent Tongue Lash: Attack 19
-     Hand: Charge Battery [1], Strike+ [1], Clumsy [X], Glacier+ [2], Defend [1], Strike [1]  | Draw 8  Discard 10  Exhaust 1
+     Hand: Charge Battery [1], Strike+ [1], Clumsy [-], Glacier+ [2], Defend [1], Strike [1]  | Draw 8  Discard 10  Exhaust 1
      Potions: Fortifier, Duplicator
      #419  Play Charge Battery   [54.4%, 8 options]
             also: Play Glacier+ 31.7%; Play Defend 9.8%; Play Strike+ -> Spiny Toad 2.6%; Play Strike -> Spiny Toad 1.5%
@@ -1426,7 +1426,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 33/75  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Dark  Powers: Plating 19, Storm 1
      Enemy Infested Prism: HP 122/171  Intent Pulsate: Attack 7 + Buff + Defend  Powers: Vital Spark 3, Weak 3
-     Hand: Dualcast [1], Ascender's Bane [X], Defend [1], Defend [1], Glacier+ [2]  | Draw 5  Discard 14  Exhaust 0
+     Hand: Dualcast [1], Ascender's Bane [-], Defend [1], Defend [1], Glacier+ [2]  | Draw 5  Discard 14  Exhaust 0
      Potions: Fortifier
      #458  Play Glacier+   [79.3%, 6 options]
             also: Play Dualcast 10.4%; Play Defend 5.0% x2
@@ -1436,7 +1436,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 33/75  Block 0  Energy 3/3  Orbs (6 slots): Dark, Frost, Frost  Powers: Plating 18, Storm 1
      Enemy Infested Prism: HP 106/171  Block 22  Intent Jab: Attack 12  Powers: Vital Spark 6, Weak 2
-     Hand: Defend+ [1], Defend [1], Lightning Rod [1], Clumsy [X], Glasswork [1]  | Draw 0  Discard 18  Exhaust 1
+     Hand: Defend+ [1], Defend [1], Lightning Rod [1], Clumsy [-], Glasswork [1]  | Draw 0  Discard 18  Exhaust 1
      Potions: Fortifier
      #461  Play Lightning Rod   [86.2%, 6 options]
             also: Play Glasswork 4.6%; Play Defend+ 4.2%; End turn 3.8%; Play Defend 1.2%
@@ -1523,7 +1523,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 55/75  Block 0  Energy 4/3  Orbs (6 slots): Lightning, Dark  Powers: Plating 3, Machine Learning 2, Focus 1, Mind Rot 1
      Enemy Knowledge Demon: HP 395/399  Intent Slap: Attack 18
-     Hand: Strike+ [1], Glacier+ [2], Clumsy [X], Defend [1], Go for the Eyes [0], Dualcast [1]  | Draw 15  Discard 3  Exhaust 0
+     Hand: Strike+ [1], Glacier+ [2], Clumsy [-], Defend [1], Go for the Eyes [0], Dualcast [1]  | Draw 15  Discard 3  Exhaust 0
      Potions: Fortifier
      #490  Play Go for the Eyes -> Knowledge Demon   [78.5%, 7 options]
             also: Play Glacier+ 15.2%; Play Strike+ -> Knowledge Demon 3.2%; Play Dualcast 1.6%; Play Defend 1.5%
@@ -1553,7 +1553,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 55/75  Block 0  Energy 3/3  Orbs (6 slots): Dark, Frost, Frost, Lightning, Lightning  Powers: Plating 1, Machine Learning 2, Focus 1, Mind Rot 1, Lightning Rod 1
      Enemy Knowledge Demon: HP 357/399  Intent Ponder: Attack 9 + Buff + Heal/Summon  Powers: Weak 1
-     Hand: Glasswork [1], Ascender's Bane [X], Glacier [2], Strike [1], Null+ [2], Lightning Rod [1]  | Draw 2  Discard 15  Exhaust 1
+     Hand: Glasswork [1], Ascender's Bane [-], Glacier [2], Strike [1], Null+ [2], Lightning Rod [1]  | Draw 2  Discard 15  Exhaust 1
      Potions: Fortifier
      #501  Play Null+ -> Knowledge Demon   [75.1%, 7 options]
             also: Play Lightning Rod 22.3%; Play Strike -> Knowledge Demon 1.4%; Play Glasswork 0.8%
@@ -1710,7 +1710,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 97/106  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Dark, Frost, Frost, Dark, Lightning  Powers: Plating 2, Machine Learning 1, Lightning Rod 1
      Enemy Devoted Sculptor: HP 146/172  Intent Savage: Attack 18  Powers: Ritual 9, Weak 3, Strength 9
-     Hand: Charge Battery [1], Defend+ [1], Defragment [1], Eternal Armor [3], Defend [1], Clumsy [X]  | Draw 9  Discard 11  Exhaust 0
+     Hand: Charge Battery [1], Defend+ [1], Defragment [1], Eternal Armor [3], Defend [1], Clumsy [-]  | Draw 9  Discard 11  Exhaust 0
      Potions: Fortifier
      #555  Play Charge Battery   [97.4%, 7 options]
             also: Play Defend+ 1.3%; Play Eternal Armor 1.1%
@@ -1736,7 +1736,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 92/106  Block 5  Energy 3/3  Orbs (6 slots): Frost, Dark, Lightning, Lightning, Glass, Lightning  Powers: Machine Learning 1, Spinner 1, Lightning Rod 1
      Enemy Devoted Sculptor: HP 96/172  Intent Savage: Attack 31  Powers: Ritual 9, Weak 1, Strength 27
-     Hand: Glasswork [1], Strike+ [1], Ascender's Bane [X], Charge Battery+ [1], Glacier [2], Go for the Eyes+ [0], Lightning Rod+ [1]  | Draw 17  Discard 0  Exhaust 1
+     Hand: Glasswork [1], Strike+ [1], Ascender's Bane [-], Charge Battery+ [1], Glacier [2], Go for the Eyes+ [0], Lightning Rod+ [1]  | Draw 17  Discard 0  Exhaust 1
      Potions: Fortifier
      #564  Play Charge Battery+   [56.2%, 8 options]
             also: Play Go for the Eyes+ -> Devoted Sculptor 23.2%; Play Glacier 8.9%; Play Glasswork 5.9%; Play Lightning Rod+ 5.4%
@@ -1825,7 +1825,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 91/106  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Dark, Frost, Frost, Glass  Powers: Plating 3, Spinner 1, Machine Learning 1
      Enemy Mecha Knight: HP 317/320  Intent Flamethrower: Attack 12 + Debuff  Powers: Artifact 1
-     Hand: Clumsy [X], Lightning Rod [1], Dualcast+ [0], Defend+ [1], Go for the Eyes+ [0], Go for the Eyes [0], Zap [1]  | Draw 17  Discard 3  Exhaust 0
+     Hand: Clumsy [-], Lightning Rod [1], Dualcast+ [0], Defend+ [1], Go for the Eyes+ [0], Go for the Eyes [0], Zap [1]  | Draw 17  Discard 3  Exhaust 0
      Potions: Fortifier, Attack Potion
      #593  Play Go for the Eyes+ -> Mecha Knight   [47.0%, 9 options]
             also: Play Go for the Eyes -> Mecha Knight 32.7%; Play Lightning Rod 12.9%; Play Defend+ 6.6%; Play Dualcast+ 0.6%
@@ -1843,7 +1843,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 91/106  Block 0  Energy 3/3  Orbs (6 slots): Frost, Frost, Glass, Lightning, Glass, Lightning  Powers: Plating 2, Spinner 1, Machine Learning 1, Lightning Rod 1
      Enemy Mecha Knight: HP 269/320  Intent Windup: Buff + Defend
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Ascender's Bane [X], Strike+ [1], Null [2], Strike+ [1], Storm [1], Loop+ [1]  | Draw 11  Discard 9  Exhaust 1
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Ascender's Bane [-], Strike+ [1], Null [2], Strike+ [1], Storm [1], Loop+ [1]  | Draw 11  Discard 9  Exhaust 1
      Potions: Fortifier, Attack Potion
      #600  Play Storm   [88.4%, 8 options]
             also: Play Loop+ 9.0%; Play Null -> Mecha Knight 2.3%
@@ -1867,7 +1867,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 69/106  Block 0  Energy 4/3  Orbs (6 slots): Lightning, Lightning, Glass, Lightning, Frost, Glass  Powers: Spinner 1, Machine Learning 1, Storm 1, Loop 2
      Enemy Mecha Knight: HP 215/320  Intent Flamethrower: Attack 17 + Debuff  Powers: Strength 5
-     Hand: Defend [1], Defragment+ [1], Glacier [2], Strike+ [1], Burn [X], Null [2], Burn [X]  | Draw 20  Discard 0  Exhaust 2
+     Hand: Defend [1], Defragment+ [1], Glacier [2], Strike+ [1], Burn [-], Null [2], Burn [-]  | Draw 20  Discard 0  Exhaust 2
      Potions: Fortifier, Attack Potion
      #608  Play Glacier   [63.0%, 8 options]
             also: Play Null -> Mecha Knight 23.9%; Play Defragment+ 11.0%; Play Defend 1.7%
@@ -1879,7 +1879,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 69/106  Block 4  Energy 3/3  Orbs (6 slots): Frost, Glass, Frost, Frost, Dark, Glass  Powers: Spinner 1, Machine Learning 1, Storm 1, Loop 2
      Enemy Mecha Knight: HP 168/320  Intent Windup: Buff + Defend  Powers: Strength 5
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Go for the Eyes+ [0], Defend+ [1], Eternal Armor+ [3], Burn [X], Defend [1], Lightning Rod+ [1]  | Draw 14  Discard 7  Exhaust 2
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Go for the Eyes+ [0], Defend+ [1], Eternal Armor+ [3], Burn [-], Defend [1], Lightning Rod+ [1]  | Draw 14  Discard 7  Exhaust 2
      Potions: Fortifier, Attack Potion
      #612  Play Eternal Armor+   [95.1%, 8 options]
             also: Play Lightning Rod+ 3.8%; Play Go for the Eyes+ -> Mecha Knight 1.1%
@@ -1902,7 +1902,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 69/106  Block 0  Energy 4/3  Orbs (6 slots): Dark, Glass, Lightning, Glass, Frost, Glass  Powers: Spinner 1, Machine Learning 1, Storm 1, Loop 2, Plating 10
      Enemy Mecha Knight: HP 154/320  Intent Flamethrower: Attack 22 + Debuff  Powers: Strength 10
-     Hand: Burn [X], Go for the Eyes+ [0], Glasswork [1], Strike [1], Boot Sequence+ [0], Zap+ [0], Burn [X]  | Draw 23  Discard 0  Exhaust 2
+     Hand: Burn [-], Go for the Eyes+ [0], Glasswork [1], Strike [1], Boot Sequence+ [0], Zap+ [0], Burn [-]  | Draw 23  Discard 0  Exhaust 2
      Potions: Fortifier, Attack Potion
      #620  Play Glasswork   [50.6%, 8 options]
             also: Play Strike -> Mecha Knight 23.1%; Play Zap+ 13.5%; Play Go for the Eyes+ -> Mecha Knight 9.2%; Play Boot Sequence+ 3.6%
@@ -1917,7 +1917,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 69/106  Block 0  Energy 3/3  Orbs (6 slots): Glass, Frost, Glass, Glass, Lightning, Glass  Powers: Spinner 1, Machine Learning 1, Storm 1, Loop 2, Plating 9
      Enemy Mecha Knight: HP 76/320  Intent Windup: Buff + Defend  Powers: Strength 10, Weak 1
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Burn [X], Glacier+ [2], Go for the Eyes+ [0], Burn [X], Strike+ [1], Null+ [2]  | Draw 17  Discard 6  Exhaust 3
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Burn [-], Glacier+ [2], Go for the Eyes+ [0], Burn [-], Strike+ [1], Null+ [2]  | Draw 17  Discard 6  Exhaust 3
      Potions: Fortifier, Attack Potion
      #626  Play Null+ -> Mecha Knight   [75.5%, 7 options]
             also: Play Glacier+ 11.2%; Play Strike+ -> Mecha Knight 8.2%; Play Go for the Eyes+ -> Mecha Knight 5.1%
@@ -1942,7 +1942,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 11 --
      HP 66/106  Block 0  Energy 4/3  Orbs (6 slots): Glass, Lightning, Glass, Dark, Glass, Glass  Powers: Spinner 1, Machine Learning 1, Storm 1, Loop 2, Plating 7
      Enemy Mecha Knight: HP 36/320  Intent Flamethrower: Attack 20 + Debuff  Powers: Strength 15, Weak 1
-     Hand: Lightning Rod+ [1], Strike+ [1], Lightning Rod [1], Burn [X], Strike+ [1], Defend [1], Coolheaded+ [1]  | Draw 4  Discard 22  Exhaust 3
+     Hand: Lightning Rod+ [1], Strike+ [1], Lightning Rod [1], Burn [-], Strike+ [1], Defend [1], Coolheaded+ [1]  | Draw 4  Discard 22  Exhaust 3
      Potions: Fortifier, Attack Potion
      #635  Play Coolheaded+   [54.5%, 9 options]
             also: Play Lightning Rod+ 14.1%; Play Defend 14.1%; Play Lightning Rod 13.2%; Play Strike+ -> Mecha Knight 2.0%
@@ -2013,7 +2013,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Flail Knight: HP 100/108  Intent Ram: Attack 20  Powers: Strength 3
      Enemy Spectral Knight: HP 97/97  Intent Soul Flame: Attack 4x3
      Enemy Magi Knight: HP 62/89  Intent Ram: Attack 8  Powers: Weak 1
-     Hand: Defragment [1], Strike [1], Eternal Armor [3], Clumsy [X], Zap [1], Mad Science [1]  | Draw 14  Discard 8  Exhaust 2
+     Hand: Defragment [1], Strike [1], Eternal Armor [3], Clumsy [-], Zap [1], Mad Science [1]  | Draw 14  Discard 8  Exhaust 2
      Potions: Fortifier, Attack Potion
      #660  Play Eternal Armor   [59.1%, 12 options]
             also: Play Mad Science -> Magi Knight 38.0%; Play Mad Science -> Flail Knight 2.1%
@@ -2023,7 +2023,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Flail Knight: HP 97/108  Intent War Chant: Buff  Powers: Strength 3
      Enemy Spectral Knight: HP 94/97  Intent Soul Slash: Attack 17
      Enemy Magi Knight: HP 38/89  Intent Prep: Defend
-     Hand: Lightning Rod [1], Go for the Eyes [0], Ascender's Bane [X], Glacier [2], Defend [1]  | Draw 9  Discard 8  Exhaust 7
+     Hand: Lightning Rod [1], Go for the Eyes [0], Ascender's Bane [-], Glacier [2], Defend [1]  | Draw 9  Discard 8  Exhaust 7
      Potions: Fortifier, Attack Potion
      #662  Play Glacier   [59.0%, 9 options]
             also: Play Go for the Eyes -> Magi Knight 21.3%; Play Lightning Rod 19.3%
@@ -2215,7 +2215,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 43/106  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Dark, Lightning, Frost, Frost  Powers: Plating 2, Strength 1, Dexterity 1
      Enemy Scroll of Biting: HP 26/35  Intent Chew: Attack 8x2  Powers: Paper Cuts 2, Strength 2
      Enemy Scroll of Biting: HP 37/37  Intent More Teeth: Buff  Powers: Paper Cuts 2
-     Hand: Strike+ [1], Coolheaded [1], Defend [1], Dualcast+ [0], Eternal Armor+ [3], Ascender's Bane [X]  | Draw 15  Discard 10  Exhaust 1
+     Hand: Strike+ [1], Coolheaded [1], Defend [1], Dualcast+ [0], Eternal Armor+ [3], Ascender's Bane [-]  | Draw 15  Discard 10  Exhaust 1
      Potions: Fortifier, Attack Potion
      #728  Play Coolheaded   [75.9%, 9 options]
             also: Play Dualcast+ 20.1%; Play Strike+ -> Scroll of Biting #1 2.7%; Play Defend 1.1%
@@ -2261,7 +2261,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 74/106  Block 10  Energy 5/3  Orbs (6 slots): Lightning, Dark  Powers: Plating 4
      Enemy Torch Head Amalgam: HP 211/211  Intent Strong Tackle: Attack 24  Powers: Minion 1, Weak 1, Vulnerable 1
      Enemy Queen: HP 419/419  Intent Puppet Strings: Debuff  Powers: Weak 1, Vulnerable 1
-     Hand: Boot Sequence+ [0], Mad Science [1], Ascender's Bane [X], Glacier [2], Defend+ [1]  | Draw 28  Discard 0  Exhaust 0
+     Hand: Boot Sequence+ [0], Mad Science [1], Ascender's Bane [-], Glacier [2], Defend+ [1]  | Draw 28  Discard 0  Exhaust 0
      Potions: Fortifier
      #745  Play Mad Science -> Torch Head Amalgam   [94.2%, 7 options]
             also: Play Glacier 4.1%; Play Mad Science -> Queen 1.6%
@@ -2331,7 +2331,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 74/106  Block 7  Energy 3/3  Orbs (6 slots): Frost, Lightning, Frost, Glass, Lightning, Lightning  Powers: Chains of Binding 3, Machine Learning 1, Frail 96, Weak 96, Vulnerable 96, Strength 1, Dexterity 1, Plating 11, Focus 2, Storm 1
      Enemy Torch Head Amalgam: HP 146/211  Intent Beam: Attack 16x3  Powers: Minion 1, Strength 3
      Enemy Queen: HP 405/419  Block 20  Intent Burn Bright for Me: Buff + Defend
-     Hand: Clumsy [X], Mad Science+ [1], Go for the Eyes [0], Glacier+ [2], Strike+ [1], FTL+ [0]  | Draw 21  Discard 0  Exhaust 2
+     Hand: Clumsy [-], Mad Science+ [1], Go for the Eyes [0], Glacier+ [2], Strike+ [1], FTL+ [0]  | Draw 21  Discard 0  Exhaust 2
      Potions: Fortifier
      #769  Play FTL+ -> Torch Head Amalgam   [90.1%, 11 options]
             also: Play Mad Science+ -> Torch Head Amalgam 6.8%; Play Glacier+ 2.6%
@@ -2500,7 +2500,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 54/106  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Dark, Frost, Glass  Powers: Plating 3, Focus 2, Spinner 1
      Enemy Test Subject #C{Count}: HP 106/111  Intent Skull Bash: Attack 19 + Debuff  Powers: Adaptable 1, Enrage 3, Strength 3
-     Hand: Go for the Eyes [0], Ascender's Bane [X], Eternal Armor+ [3], Defend+ [1], Glasswork [1]  | Draw 23  Discard 3  Exhaust 0
+     Hand: Go for the Eyes [0], Ascender's Bane [-], Eternal Armor+ [3], Defend+ [1], Glasswork [1]  | Draw 23  Discard 3  Exhaust 0
      Potions: Fortifier
      #830  Play Eternal Armor+   [100.0%, 6 options]
      #831  Play Go for the Eyes -> Test Subject #C{Count}   [100.0%, 3 options]
@@ -2508,7 +2508,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 54/106  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Dark, Frost, Glass, Glass  Powers: Plating 14, Focus 2, Spinner 1, Vulnerable 1, Strength 1, Dexterity 1
      Enemy Test Subject #C{Count}: HP 92/111  Intent Bite: Attack 37  Powers: Adaptable 1, Enrage 3, Strength 3
-     Hand: Lightning Rod [1], Dualcast+ [0], Defend [1], Null [2], Strike [1], Clumsy [X]  | Draw 17  Discard 6  Exhaust 1
+     Hand: Lightning Rod [1], Dualcast+ [0], Defend [1], Null [2], Strike [1], Clumsy [-]  | Draw 17  Discard 6  Exhaust 1
      Potions: Fortifier
      #833  Play Null -> Test Subject #C{Count}   [99.7%, 7 options]
      #834  Play Lightning Rod   [95.7%, 6 options]
@@ -2635,7 +2635,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 12 --
      HP 51/106  Block 7  Energy 3/3  Orbs (6 slots): Lightning, Dark, Frost, Lightning, Glass, Lightning  Powers: Plating 5, Focus 2, Spinner 1, Strength 1, Dexterity 1, Machine Learning 1, Storm 1, Loop 2
      Enemy Test Subject #C{Count}: HP 174/313  Intent Lacerate: Attack 10x3  Powers: Nemesis 1, Weak 3, Strength 3
-     Hand: Mad Science+ [1], Lightning Rod+ [1], Chill+ [0], Glacier+ [2], Burn [X], Burn [X], FTL+ [0]  | Draw 21  Discard 0  Exhaust 4
+     Hand: Mad Science+ [1], Lightning Rod+ [1], Chill+ [0], Glacier+ [2], Burn [-], Burn [-], FTL+ [0]  | Draw 21  Discard 0  Exhaust 4
      Potions: Fortifier
      #879  Play FTL+ -> Test Subject #C{Count}   [42.5%, 7 options]
             also: Play Mad Science+ -> Test Subject #C{Count} 37.4%; Play Glacier+ 11.2%; Play Chill+ 4.9%; Play Lightning Rod+ 3.9%
@@ -2662,7 +2662,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 14 --
      HP 51/106  Block 15  Energy 4/3  Orbs (6 slots): Frost, Frost, Glass, Glass, Lightning, Glass  Powers: Plating 3, Focus 2, Spinner 1, Strength 1, Dexterity 1, Machine Learning 1, Storm 1, Loop 2
      Enemy Test Subject #C{Count}: HP 105/313  Intent Burning Growl: Buff + Debuff  Powers: Nemesis 1, Weak 5, Strength 3
-     Hand: Defend+ [1], Burn [X], Coolheaded+ [1], Lightning Rod+ [1], Strike+ [1], Glacier+ [2]  | Draw 8  Discard 14  Exhaust 4
+     Hand: Defend+ [1], Burn [-], Coolheaded+ [1], Lightning Rod+ [1], Strike+ [1], Glacier+ [2]  | Draw 8  Discard 14  Exhaust 4
      Potions: Fortifier
      #889  Play Coolheaded+   [66.2%, 7 options]
             also: Play Strike+ -> Test Subject #C{Count} 21.6%; Play Lightning Rod+ 7.9%; Play Glacier+ 4.3%
@@ -2677,7 +2677,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 15 --
      HP 51/106  Block 0  Energy 6/3  Orbs (6 slots): Lightning, Glass, Frost, Frost, Frost, Glass  Powers: Plating 2, Focus 2, Spinner 1, Strength 1, Dexterity 1, Machine Learning 1, Storm 1, Loop 2
      Enemy Test Subject #C{Count}: HP 76/313  Intent Lacerate: Attack 12x3  Powers: Nemesis 1, Weak 4, Strength 6, Intangible 1
-     Hand: Go for the Eyes+ [0], Defend [1], Strike+ [1], Defend+ [1], Strike+ [1], Burn [X], Lightning Rod+ [1]  | Draw 25  Discard 0  Exhaust 5
+     Hand: Go for the Eyes+ [0], Defend [1], Strike+ [1], Defend+ [1], Strike+ [1], Burn [-], Lightning Rod+ [1]  | Draw 25  Discard 0  Exhaust 5
      Potions: Fortifier
      #894  Play Defend+   [43.6%, 8 options]
             also: Play Defend 26.2%; Play Lightning Rod+ 23.9%; Play Go for the Eyes+ -> Test Subject #C{Count} 2.5%; Play Strike+ -> Test Subject #C{Count} 1.9%
@@ -2695,7 +2695,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 16 --
      HP 50/106  Block 8  Energy 3/3  Orbs (6 slots): Frost, Frost, Frost, Glass, Glass, Lightning  Powers: Plating 1, Focus 2, Spinner 1, Strength 1, Dexterity 1, Machine Learning 1, Storm 1, Loop 2, Lightning Rod 1
      Enemy Test Subject #C{Count}: HP 52/313  Intent Big Pounce: Attack 38  Powers: Nemesis 1, Weak 5, Strength 6
-     Hand: Burn [X], Burn [X], Go for the Eyes+ [0], Coolheaded+ [1], Scavenge+ [1], Defend+ [1]  | Draw 19  Discard 7  Exhaust 5
+     Hand: Burn [-], Burn [-], Go for the Eyes+ [0], Coolheaded+ [1], Scavenge+ [1], Defend+ [1]  | Draw 19  Discard 7  Exhaust 5
      Potions: Fortifier
      #901  Play Coolheaded+   [89.8%, 6 options]
             also: Play Defend+ 5.2%; Play Go for the Eyes+ -> Test Subject #C{Count} 4.7%
@@ -2711,7 +2711,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 17 --
      HP 50/106  Block 0  Energy 3/3  Orbs (6 slots): Glass, Lightning, Frost, Dark, Glass, Lightning  Powers: Focus 2, Spinner 1, Strength 1, Dexterity 1, Machine Learning 1, Storm 1, Loop 2
      Enemy Test Subject #C{Count}: HP 14/313  Intent Burning Growl: Buff + Debuff  Powers: Nemesis 1, Weak 8, Strength 6, Intangible 1
-     Hand: Burn [X], Glasswork+ [1], Boot Sequence+ [0], Burn [X], Lightning Rod+ [1], Glacier+ [2]  | Draw 11  Discard 15  Exhaust 5
+     Hand: Burn [-], Glasswork+ [1], Boot Sequence+ [0], Burn [-], Lightning Rod+ [1], Glacier+ [2]  | Draw 11  Discard 15  Exhaust 5
      Potions: Fortifier
      #907  Play Glasswork+   [39.6%, 6 options]
             also: Play Lightning Rod+ 35.6%; Play Glacier+ 20.9%; Play Boot Sequence+ 4.0%

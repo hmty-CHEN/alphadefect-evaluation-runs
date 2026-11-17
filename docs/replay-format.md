@@ -19,7 +19,8 @@ All numbers are raw game values, rounded to integers unless noted. **Acts are 0-
 
 | Field | Meaning |
 |---|---|
-| `version` | Checkpoint version (for example 103049 or 130051) |
+| `version` | Checkpoint version (for example 103049 or 130051). Each character's training run counts its own versions |
+| `character` | `Regent`, `Silent` or `Fool`. Absent from the Defect replays |
 | `seed` | Game seed |
 | `time` | Unix time the game finished |
 | `win` | `true` if the run was won |
@@ -58,7 +59,8 @@ In combat:
 | `orbx` | `[orb slots full, evoke value of the orb that would be pushed out, block from Loop, other value from Loop]` |
 | `hand` | `[[card, upgrades, cost, playable, damage, block], ...]`. Cost is −1 for X-cost or unplayable cards. Damage and block are the values the card currently shows |
 | `draw` | Number of cards in the draw pile |
-| `drawl` | Draw pile contents `[[card, upgrades], ...]`, **sorted by ID, not in draw order**. The model never sees the real order |
+| `drawl` | Draw pile contents `[[card, upgrades], ...]`, **sorted by ID, not in draw order**. The model is not given the hidden order of the draw pile |
+| `star`, `hstar` | Absent from the Defect replays. The Regent's stars, and the star cost of each card in `hand` (aligned with it; −1 for no star cost, −2 for X stars) |
 | `disc`, `exh` | Discard and exhaust piles, `[[card, upgrades], ...]` |
 
 `pl.et`, the player's end-of-turn forecast (one decimal):
@@ -87,7 +89,7 @@ Present only when relevant:
 | `map` | Map decisions | The whole act map: `[[row, col, node type, visited, current position, reachable from here, child 1, child 2, child 3], ...]`. Children are the columns of connected nodes in the next row, **plus one** (0 = none) |
 | `sel` | Card selection | `[purpose, min, max, already selected, source]`. Purpose: 0 transform, 1 exhaust, 2 remove, 3 enchant, 4 discard, 5 upgrade, 6 a prompt specific to the source card, −1 other. Source is the card, relic, potion or power that asked for the selection (0 if none) |
 | `sp` | Crystal Sphere | `[revealed cells, digs left]` |
-| `shop` | Shops | The whole shelf, including what the model cannot buy: `g` gold, `full` potion slots full, `it` `[[kind (0 card, 1 relic, 2 potion, 3 card removal), item, price, in stock, affordable, upgrades, removal already used], ...]` |
+| `shop` | Shops | The whole shelf, including what the model cannot buy: `g` gold, `full` potion slots full, `it` `[[kind (0 card, 1 relic, 2 potion, 3 card removal), item, price, in stock, affordable, upgrades, removal already used], ...]`. A sold-out slot has no item: its ID is 0, or in the Defect replays a placeholder one past the end of the vocabulary at the time (2284 in v103049, 2286 in v130051), which is not a real entry |
 
 Zones used in `cx`, `cxa` and object descriptions: 1 player/ally, 2 enemy, 3 hand, 4 draw pile, 5 discard, 6 exhaust, 7 deck, 8 offered (rewards, shop, event), 9 being played, 10 and 11 pack 1 and 2, 12 upgrade preview.
 
@@ -130,4 +132,4 @@ Multi-card selections are split into one decision per card followed by "confirm"
 
 ## Replay lines versus the model's input
 
-A replay line is a readable summary of the observation, not the exact network input. The network also received numeric features that are not all reproduced here, such as static card properties and extra route statistics. The `shop` shelf was recorded from additional engine information for review only. The policy never saw the true order of the draw pile or any upcoming random outcome.
+A replay line is a readable summary of the observation, not the exact network input. The network also received features that are not reproduced here. The Regent, Silent and Fool replays use the same fields as the Defect replays, plus the Regent's stars. The `shop` shelf was recorded from additional engine information for review only. The policy never saw the hidden order of the draw pile or any upcoming random outcome.

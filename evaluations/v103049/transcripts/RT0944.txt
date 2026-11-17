@@ -18,7 +18,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Toadpole: HP 26/26  Intent Spiken: Buff
      Enemy Toadpole: HP 24/24  Intent Whirl: Attack 8
-     Hand: Strike [1], Zap [1], Strike [1], Defend [1], Ascender's Bane [X]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Strike [1], Zap [1], Strike [1], Defend [1], Ascender's Bane [-]  | Draw 7  Discard 0  Exhaust 0
      #2    Play Zap   [80.6%, 7 options]
             also: Play Strike -> Toadpole #1 7.8% x2; Play Defend 3.8%
      #3    Play Defend   [54.2%, 6 options]
@@ -30,7 +30,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 57/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Toadpole: HP 14/26  Intent Spike Spit: Attack 4x3  Powers: Thorns 2
      Enemy Toadpole: HP 24/24  Intent Spiken: Buff
-     Hand: Strike [1], Dualcast [1], Defend [1], Defend [1], Dowsing [X]  | Draw 2  Discard 4  Exhaust 1
+     Hand: Strike [1], Dualcast [1], Defend [1], Defend [1], Dowsing [-]  | Draw 2  Discard 4  Exhaust 1
      #6    Play Dualcast   [88.4%, 6 options]
             also: Play Defend 5.8% x2
      #7    Play Strike -> Toadpole #1   [100.0%, 5 options]
@@ -50,7 +50,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 55/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Toadpole: HP 10/24  Intent Whirl: Attack 8
-     Hand: Strike [1], Defend [1], Dowsing [X], Dualcast [1], Strike [1]  | Draw 1  Discard 5  Exhaust 1
+     Hand: Strike [1], Defend [1], Dowsing [-], Dualcast [1], Strike [1]  | Draw 1  Discard 5  Exhaust 1
      #14   Play Dualcast   [78.7%, 5 options]
             also: Play Strike -> Toadpole 7.7% x2; Play Defend 5.9%
   #15   [Rewards] Take reward: Card reward   [99.9%, 2 options]
@@ -81,7 +81,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 61/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Seapunk: HP 46/49  Intent Spinning Kick: Attack 2x4
-     Hand: Dowsing [X], Strike [1], Strike [1], Ball Lightning [1], Ascender's Bane [X]  | Draw 3  Discard 5  Exhaust 0
+     Hand: Dowsing [-], Strike [1], Strike [1], Ball Lightning [1], Ascender's Bane [-]  | Draw 3  Discard 5  Exhaust 0
      #25   Play Ball Lightning -> Seapunk   [96.2%, 4 options]
             also: Play Strike -> Seapunk 1.9% x2
      #26   Play Strike -> Seapunk   [49.8%, 3 options]
@@ -130,7 +130,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 53/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Terror Eel: HP 150/150  Intent Crash: Attack 18  Powers: Shriek 75
-     Hand: Lightning Rod [1], Strike [1], Dowsing [X], Defend [1], Strike [1]  | Draw 10  Discard 0  Exhaust 0
+     Hand: Lightning Rod [1], Strike [1], Dowsing [-], Defend [1], Strike [1]  | Draw 10  Discard 0  Exhaust 0
      Potions: Fire Potion
      #42   Play Lightning Rod   [79.6%, 6 options]
             also: Play Defend 20.1%
@@ -141,7 +141,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 46/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Lightning Rod 1
      Enemy Terror Eel: HP 141/150  Intent Thrash: Attack 4x3 + Buff  Powers: Shriek 75
-     Hand: Ball Lightning [1], Defend [1], Strike [1], Defend [1], Ascender's Bane [X]  | Draw 5  Discard 5  Exhaust 0
+     Hand: Ball Lightning [1], Defend [1], Strike [1], Defend [1], Ascender's Bane [-]  | Draw 5  Discard 5  Exhaust 0
      Potions: Fire Potion
      #46   Play Ball Lightning -> Terror Eel   [45.4%, 6 options]
             also: Play Defend 26.9% x2
@@ -203,7 +203,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 44/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Corpse Slug: HP 28/28  Intent Whip Slap: Attack 3x2  Powers: Ravenous 5
      Enemy Corpse Slug: HP 27/27  Intent Glomp: Attack 9  Powers: Ravenous 5
-     Hand: Defend [1], Ascender's Bane [X], Strike [1], Strike [1], Thunder [1]  | Draw 11  Discard 0  Exhaust 0
+     Hand: Defend [1], Ascender's Bane [-], Strike [1], Strike [1], Thunder [1]  | Draw 11  Discard 0  Exhaust 0
      Potions: Fire Potion
      #67   Play Defend   [94.7%, 9 options]
             also: Play Thunder 2.6%; Use potion Fire Potion -> Corpse Slug #2 1.2%; Use potion Fire Potion -> Corpse Slug #1 0.5%
@@ -230,7 +230,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 36/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Thunder 8
      Enemy Corpse Slug: HP 5/27  Intent Goop: Debuff  Powers: Ravenous 5, Strength 5
-     Hand: Defend [1], Defend [1], Strike [1], Dowsing [X], Lightning Rod [1]  | Draw 1  Discard 8  Exhaust 1
+     Hand: Defend [1], Defend [1], Strike [1], Dowsing [-], Lightning Rod [1]  | Draw 1  Discard 8  Exhaust 1
      Potions: Fire Potion
      #76   Play Defend   [31.9%, 6 options]
             also: Play Defend 31.9% (identical option); Play Lightning Rod 21.0%; Play Strike -> Corpse Slug 15.0%
@@ -265,7 +265,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 60/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Thorns 3
      Enemy Fossil Stalker: HP 56/56  Intent Latch: Attack 14  Powers: Suck 3
-     Hand: Defend [1], Ascender's Bane [X], Zap [1], Defend [1], Strike [1]  | Draw 12  Discard 0  Exhaust 0
+     Hand: Defend [1], Ascender's Bane [-], Zap [1], Defend [1], Strike [1]  | Draw 12  Discard 0  Exhaust 0
      Potions: Fire Potion, Energy Potion
      #88   Play Defend   [45.9%, 7 options]
             also: Play Defend 45.8% (identical option); Play Zap 7.8%
@@ -277,7 +277,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 58/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Thorns 3
      Enemy Fossil Stalker: HP 42/56  Intent Tackle: Attack 14 + Debuff  Powers: Suck 3, Strength 3
-     Hand: Strike [1], Go for the Eyes [0], Dowsing [X], Defend [1], Lightning Rod [1]  | Draw 7  Discard 4  Exhaust 1
+     Hand: Strike [1], Go for the Eyes [0], Dowsing [-], Defend [1], Lightning Rod [1]  | Draw 7  Discard 4  Exhaust 1
      Potions: Fire Potion, Energy Potion
      #92   Play Defend   [51.3%, 7 options]
             also: Play Lightning Rod 35.9%; Play Go for the Eyes -> Fossil Stalker 10.6%; Play Strike -> Fossil Stalker 2.0%
@@ -353,7 +353,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 48/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost  Powers: Thorns 3, Machine Learning 1
      Enemy Skulking Colony: HP 74/80  Intent Zoom: Attack 16  Powers: Hardened Shell 20
-     Hand: Strike [1], Zap [1], Strike [1], Lightning Rod [1], Ascender's Bane [X], Defend [1]  | Draw 9  Discard 5  Exhaust 0
+     Hand: Strike [1], Zap [1], Strike [1], Lightning Rod [1], Ascender's Bane [-], Defend [1]  | Draw 9  Discard 5  Exhaust 0
      Potions: Fire Potion, Energy Potion
      #121  Play Defend   [49.2%, 8 options]
             also: Play Lightning Rod 47.7%; Play Zap 2.1%
@@ -377,7 +377,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 45/81  Block 5  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Thorns 3, Machine Learning 1, Lightning Rod 2
      Enemy Skulking Colony: HP 40/80  Intent Piercing Stabs: Attack 12x2  Powers: Hardened Shell 20, Strength 4
-     Hand: Dualcast [1], FTL [0], Dowsing [X], Zap [1], Strike [1], Lightning Rod [1]  | Draw 13  Discard 0  Exhaust 1
+     Hand: Dualcast [1], FTL [0], Dowsing [-], Zap [1], Strike [1], Lightning Rod [1]  | Draw 13  Discard 0  Exhaust 1
      Potions: Fire Potion, Energy Potion
      #129  Play FTL -> Skulking Colony   [76.8%, 8 options]
             also: Play Lightning Rod 23.0%
@@ -416,7 +416,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 54/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Thorns 3, Dexterity 1
      Enemy Soul Fysh: HP 221/221  Intent Beckon: Debuff
-     Hand: Lightning Rod [1], Dowsing [X], Dualcast [1], Strike [1], FTL [0]  | Draw 17  Discard 0  Exhaust 0
+     Hand: Lightning Rod [1], Dowsing [-], Dualcast [1], Strike [1], FTL [0]  | Draw 17  Discard 0  Exhaust 0
      Potions: Power Potion, Energy Potion
      #143  Play FTL -> Soul Fysh   [47.6%, 7 options]
             also: Use potion Power Potion -> self 32.8%; Play Lightning Rod 17.6%; Play Strike -> Soul Fysh 1.7%
@@ -477,7 +477,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 43/81  Block 7  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Thorns 3, Dexterity 1, Coolant 2, Machine Learning 1, Thunder 8
      Enemy Soul Fysh: HP 110/221  Intent Scream: Attack 15 + Debuff  Powers: Intangible 1
-     Hand: Dualcast [1], Ball Lightning [1], Dowsing [X], Beckon [1], Coolheaded [1], Strike [1]  | Draw 8  Discard 7  Exhaust 2
+     Hand: Dualcast [1], Ball Lightning [1], Dowsing [-], Beckon [1], Coolheaded [1], Strike [1]  | Draw 8  Discard 7  Exhaust 2
      Potions: Energy Potion
      #166  Play Beckon   [75.0%, 7 options]
             also: Play Coolheaded 25.0%
@@ -501,7 +501,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 43/81  Block 4  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Coolant 2, Machine Learning 1, Thunder 8, Vulnerable 2, Lightning Rod 3
      Enemy Soul Fysh: HP 80/221  Intent De-Gas: Attack 27
-     Hand: Strike [1], Beckon [1], Coolheaded [1], Go for the Eyes [0], Dowsing [X], Strike [1]  | Draw 17  Discard 0  Exhaust 2
+     Hand: Strike [1], Beckon [1], Coolheaded [1], Go for the Eyes [0], Dowsing [-], Strike [1]  | Draw 17  Discard 0  Exhaust 2
      Potions: Energy Potion
      #175  Play Coolheaded   [50.8%, 7 options]
             also: Play Go for the Eyes -> Soul Fysh 46.6%; Play Beckon 2.5%
@@ -597,7 +597,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 68/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Thorns 3, Dexterity 1, Thunder 8, Machine Learning 1
      Enemy Tunneler: HP 69/92  Block 37  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Luminesce [0], Lightning Rod [1], Strike [1], Strike [1], Zap [1], Dowsing [X], Defend [1]  | Draw 6  Discard 8  Exhaust 1
+     Hand: Luminesce [0], Lightning Rod [1], Strike [1], Strike [1], Zap [1], Dowsing [-], Defend [1]  | Draw 6  Discard 8  Exhaust 1
      Potions: Energy Potion
      #209  Play Defend   [31.1%, 8 options]
             also: Play Lightning Rod 29.7%; Play Zap 24.7%; Play Luminesce 8.7%; Play Strike -> Tunneler 2.9%
@@ -614,7 +614,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 57/81  Block 5  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Thorns 3, Dexterity 1, Thunder 8, Machine Learning 1, Lightning Rod 1
      Enemy Tunneler: HP 67/92  Intent <unk>: Stun/Sleep/Escape
-     Hand: FTL [0], Dualcast [1], Ball Lightning [1], Ascender's Bane [X], Lightning Rod [1], Clash [0]  | Draw 0  Discard 14  Exhaust 2
+     Hand: FTL [0], Dualcast [1], Ball Lightning [1], Ascender's Bane [-], Lightning Rod [1], Clash [0]  | Draw 0  Discard 14  Exhaust 2
      Potions: Energy Potion
      #216  Play FTL -> Tunneler   [41.2%, 6 options]
             also: Play Lightning Rod 40.4%; Play Ball Lightning -> Tunneler 17.1%; End turn 0.8%
@@ -701,7 +701,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 80/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost  Powers: Thorns 3, Dexterity 1, Machine Learning 1
      Enemy Exoskeleton: HP 19/30  Intent Mandibles: Attack 11  Powers: Hard to Kill 9, Strength 2
      Enemy Exoskeleton: HP 15/26  Intent Enrage: Buff  Powers: Hard to Kill 9, Strength 2
-     Hand: Zap [1], Strike [1], Ascender's Bane [X], Defend [1], Lightning Rod [1], Cold Snap+ [1]  | Draw 7  Discard 12  Exhaust 1
+     Hand: Zap [1], Strike [1], Ascender's Bane [-], Defend [1], Lightning Rod [1], Cold Snap+ [1]  | Draw 7  Discard 12  Exhaust 1
      Potions: Skill Potion
      #245  Play Lightning Rod   [30.6%, 9 options]
             also: Play Defend 25.0%; Play Cold Snap+ -> Exoskeleton #2 17.9%; Play Cold Snap+ -> Exoskeleton #1 15.4%; Play Zap 7.3%
@@ -743,7 +743,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 80/81  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Thorns 3, Dexterity 1
      Enemy Chomper: HP 64/64  Intent Clamp: Attack 9x2  Powers: Artifact 2
      Enemy Chomper: HP 65/65  Intent Screech: Debuff  Powers: Artifact 2
-     Hand: Luminesce [0], Strike [1], Defend [1], Ascender's Bane [X], Metamorphosis [2], Storm [1]  | Draw 22  Discard 0  Exhaust 0
+     Hand: Luminesce [0], Strike [1], Defend [1], Ascender's Bane [-], Metamorphosis [2], Storm [1]  | Draw 22  Discard 0  Exhaust 0
      Potions: Skill Potion, Energy Potion
      #260  Play Storm   [49.8%, 9 options]
             also: Play Defend 36.2%; Play Metamorphosis 6.0%; Use potion Skill Potion -> self 5.8%; Play Strike -> Chomper #1 1.6%
@@ -818,7 +818,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 52/52  Intent Constrict: Attack 6 + Debuff  Powers: Reattach 25, Weak 1
      Enemy Decimillipede: HP 46/46  Intent Writhe: Attack 4x2  Powers: Reattach 25, Weak 1
      Enemy Decimillipede: HP 48/48  Intent Bulk: Attack 5 + Buff  Powers: Reattach 25, Weak 1
-     Hand: Luminesce [0], Ball Lightning [1], Glacier+ [2], Strike [1], Storm [1], Ascender's Bane [X]  | Draw 23  Discard 0  Exhaust 0
+     Hand: Luminesce [0], Ball Lightning [1], Glacier+ [2], Strike [1], Storm [1], Ascender's Bane [-]  | Draw 23  Discard 0  Exhaust 0
      Potions: Skill Potion, Energy Potion
      #284  Play Glacier+   [54.1%, 12 options]
             also: Play Storm 28.8%; Play Ball Lightning -> Decimillipede 11.0% x2; Play Luminesce 1.5%
@@ -1063,7 +1063,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 60/81  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Strength 1, Focus 2, Mind Rot 1, Storm 2, Thunder 8, Echo Form 1, Lightning Rod 2, Machine Learning 2, Sloth 3
      Enemy Knowledge Demon: HP 115/399  Intent Slap: Attack 21  Powers: Strength 3
-     Hand: Luminesce [0], Defend [1], Ascender's Bane [X], Dualcast [1], Zap [1], Defend [1], Subroutine [1]  | Draw 4  Discard 16  Exhaust 2
+     Hand: Luminesce [0], Defend [1], Ascender's Bane [-], Dualcast [1], Zap [1], Defend [1], Subroutine [1]  | Draw 4  Discard 16  Exhaust 2
      Potions: Energy Potion
      #372  Play Defend   [49.5%, 8 options]
             also: Play Defend 42.3% (identical option); Play Zap 4.4%; Play Dualcast 2.4%; Play Subroutine 1.4%
@@ -1177,7 +1177,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Scroll of Biting: HP 36/36  Intent More Teeth: Buff  Powers: Paper Cuts 2, Weak 1
      Enemy Scroll of Biting: HP 33/33  Intent Chomp: Attack 12  Powers: Paper Cuts 2, Weak 1
      Enemy Scroll of Biting: HP 34/34  Intent Chew: Attack 4x2  Powers: Paper Cuts 2, Weak 1
-     Hand: Luminesce [0], Boot Sequence [0], Subroutine [1], Ascender's Bane [X], Storm+ [1], Defend [1]  | Draw 27  Discard 0  Exhaust 0
+     Hand: Luminesce [0], Boot Sequence [0], Subroutine [1], Ascender's Bane [-], Storm+ [1], Defend [1]  | Draw 27  Discard 0  Exhaust 0
      Potions: Droplet of Precognition, Energy Potion
      #411  Play Storm+   [73.8%, 8 options]
             also: Play Subroutine 16.4%; Play Boot Sequence 8.2%; Play Defend 1.3%
@@ -1324,7 +1324,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 66/110  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Thorns 3, Dexterity 1, Strength 1, Storm 2, Machine Learning 1
      Enemy Axebot: HP 84/87  Block 15  Intent Hammer Uppercut: Attack 22 + Debuff  Powers: Stock 1, Strength 4
-     Hand: Luminesce [0], Lightning Rod [1], Cold Snap+ [1], Defend [1], Fight Through+ [1], Ascender's Bane [X], Flak Cannon [2]  | Draw 11  Discard 12  Exhaust 2
+     Hand: Luminesce [0], Lightning Rod [1], Cold Snap+ [1], Defend [1], Fight Through+ [1], Ascender's Bane [-], Flak Cannon [2]  | Draw 11  Discard 12  Exhaust 2
      Potions: Attack Potion, Energy Potion
      #464  Play Lightning Rod   [45.4%, 9 options]
             also: Play Fight Through+ 27.9%; Play Defend 16.2%; Play Cold Snap+ -> Axebot 10.3%
@@ -1374,7 +1374,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 64/110  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Thorns 3, Dexterity 1, Strength 1, Storm 2, Machine Learning 1, Subroutine 1, Thunder 8, Creative AI 1, Focus 1
      Enemy Axebot: HP 4/101  Block 15  Intent Hammer Uppercut: Attack 26 + Debuff  Powers: Strength 8
-     Hand: Hailstorm [1], Wound [X], Ball Lightning [1], Go for the Eyes [0], Strike [1], Shadow Shield+ [2], Wound [X]  | Draw 16  Discard 4  Exhaust 5
+     Hand: Hailstorm [1], Wound [-], Ball Lightning [1], Go for the Eyes [0], Strike [1], Shadow Shield+ [2], Wound [-]  | Draw 16  Discard 4  Exhaust 5
      Potions: Attack Potion, Energy Potion
      #483  Play Hailstorm   [66.7%, 8 options]
             also: Play Ball Lightning -> Axebot 12.5%; Play Shadow Shield+ 9.7%; Play Strike -> Axebot 7.5%; Play Go for the Eyes -> Axebot 3.7%
@@ -1586,7 +1586,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Flail Knight: HP 47/108  Intent Ram: Attack 17
      Enemy Spectral Knight: HP 59/97  Intent Soul Slash: Attack 17
      Enemy Magi Knight: HP 61/89  Intent Prep: Defend
-     Hand: Mad Science [1], Go for the Eyes [0], Ascender's Bane [X], Fight Through [1], Defend [1], FTL [0]  | Draw 11  Discard 12  Exhaust 10
+     Hand: Mad Science [1], Go for the Eyes [0], Ascender's Bane [-], Fight Through [1], Defend [1], FTL [0]  | Draw 11  Discard 12  Exhaust 10
      Potions: Attack Potion, Energy Potion
      #554  Play Mad Science   [78.4%, 12 options]
             also: Play Fight Through 17.4%; Play FTL -> Magi Knight 2.4%; Play FTL -> Flail Knight 0.5%
@@ -1686,7 +1686,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 75/110  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost  Powers: Thorns 3, Dexterity 1, Strength 1, Subroutine 1, Machine Learning 1, Thunder 8
      Enemy Aeonglass: HP 505/535  Block 33  Intent Eye Lasers: Attack 12x2  Powers: Withering Presence 6, Artifact 2
-     Hand: Storm+ [1], Coolheaded [1], Ascender's Bane [X], Strike [1], Defend [1], Chill+ [0]  | Draw 25  Discard 4  Exhaust 3
+     Hand: Storm+ [1], Coolheaded [1], Ascender's Bane [-], Strike [1], Defend [1], Chill+ [0]  | Draw 25  Discard 4  Exhaust 3
      Potions: Energy Potion, Potion-Shaped Rock
      #594  Play Coolheaded   [81.1%, 8 options]
             also: Play Storm+ 7.6%; Play Chill+ 6.4%; Use potion Potion-Shaped Rock -> Aeonglass 3.7%; Play Defend 1.2%
@@ -1772,7 +1772,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 37/110  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Lightning, Lightning, Frost, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Strength 1, Subroutine 1, Machine Learning 1, Thunder 8, Storm 2, Focus 2, Lightning Rod 1
      Enemy Aeonglass: HP 347/535  Intent Ebb: Attack 35 + Defend  Powers: Withering Presence 6, Artifact 1, Strength 9
-     Hand: Defend [1], Wither [X], All for One [0], Ball Lightning [1], Wither [X], Wound [X]  | Draw 28  Discard 7  Exhaust 9
+     Hand: Defend [1], Wither [-], All for One [0], Ball Lightning [1], Wither [-], Wound [-]  | Draw 28  Discard 7  Exhaust 9
      #628  Play All for One -> Aeonglass   [99.7%, 4 options]
      #629  Play Defend   [70.1%, 3 options]
             also: Play Ball Lightning -> Aeonglass 29.9%

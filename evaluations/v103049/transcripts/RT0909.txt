@@ -30,7 +30,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Twig Slime (M): HP 24/27  Intent Pokey Pounce: Attack 12
-     Hand: Defend [1], Ascender's Bane [X], Defend [1], Strike [1], Defend [1]  | Draw 1  Discard 6  Exhaust 0
+     Hand: Defend [1], Ascender's Bane [-], Defend [1], Strike [1], Defend [1]  | Draw 1  Discard 6  Exhaust 0
      #6    Play Defend   [33.2%, 5 options]
             also: Play Defend 33.2% x2 (identical option)
      #7    Play Defend   [50.0%, 4 options]
@@ -79,7 +79,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning
      Enemy Fuzzy Wurm Crawler: HP 16/59  Intent Acid Goop: Attack 13  Powers: Strength 7
-     Hand: Ascender's Bane [X], Strike [1], Defend [1], Zap [1], Cold Snap [1]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Strike [1], Defend [1], Zap [1], Cold Snap [1]  | Draw 7  Discard 0  Exhaust 0
      #24   Play Cold Snap -> Fuzzy Wurm Crawler   [52.5%, 5 options]
             also: Play Defend 25.6%; Play Zap 20.1%; Play Strike -> Fuzzy Wurm Crawler 1.8%
      #25   Play Defend   [50.2%, 4 options]
@@ -126,7 +126,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 59/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Vigor 8
      Enemy Shrinker Beetle: HP 42/42  Intent Shrinker: Debuff
-     Hand: Zap [1], Clumsy [X], Dualcast [1], Strike [1], Strike [1]  | Draw 11  Discard 0  Exhaust 0
+     Hand: Zap [1], Clumsy [-], Dualcast [1], Strike [1], Strike [1]  | Draw 11  Discard 0  Exhaust 0
      Potions: Fire Potion
      #40   Play Strike -> Shrinker Beetle   [34.8%, 6 options]
             also: Play Strike -> Shrinker Beetle 34.8% (identical option); Play Zap 16.0%; Play Dualcast 14.3%
@@ -138,7 +138,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 59/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Shrink -1
      Enemy Shrinker Beetle: HP 16/42  Intent Chomp: Attack 8
-     Hand: Cold Snap [1], Defend [1], Cold Snap [1], Defend [1], Ascender's Bane [X]  | Draw 6  Discard 4  Exhaust 1
+     Hand: Cold Snap [1], Defend [1], Cold Snap [1], Defend [1], Ascender's Bane [-]  | Draw 6  Discard 4  Exhaust 1
      Potions: Fire Potion
      #44   Play Defend   [29.1%, 6 options]
             also: Play Defend 29.1% (identical option); Play Cold Snap -> Shrinker Beetle 20.9% x2
@@ -212,7 +212,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 10/21  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 14/22  Intent Nasty Bite: Attack 7
      Enemy Wriggler: HP 18/18  Intent Wriggle: Buff + Debuff
-     Hand: Cold Snap [1], Glacier [2], Defend [1], Ascender's Bane [X], Strike [1]  | Draw 1  Discard 14  Exhaust 0
+     Hand: Cold Snap [1], Glacier [2], Defend [1], Ascender's Bane [-], Strike [1]  | Draw 1  Discard 14  Exhaust 0
      #69   Play Cold Snap -> Wriggler #2   [45.7%, 11 options]
             also: Play Glacier 39.1%; Play Cold Snap -> Wriggler #4 8.7%; Play Strike -> Wriggler #2 3.4%; Play Cold Snap -> Wriggler #3 1.1%
      #70   Play Glacier   [98.6%, 7 options]
@@ -224,7 +224,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 4/21  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 14/22  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 10/18  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Clumsy [X], Defend [1], Strike+ [1], Cold Snap [1], Focused Strike [1]  | Draw 16  Discard 0  Exhaust 1
+     Hand: Clumsy [-], Defend [1], Strike+ [1], Cold Snap [1], Focused Strike [1]  | Draw 16  Discard 0  Exhaust 1
      #72   Play Cold Snap -> Wriggler #2   [41.9%, 14 options]
             also: Play Focused Strike -> Wriggler #2 23.2%; Play Strike+ -> Wriggler #2 17.8%; Play Cold Snap -> Wriggler #4 6.7%; Play Focused Strike -> Wriggler #4 6.2%
      #73   Play Strike+ -> Wriggler #3   [26.2%, 8 options]
@@ -236,7 +236,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 59/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost
      Enemy Wriggler: HP 20/20  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 14/22  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Strike [1], Defend [1], FTL [0], Strike [1], Infection [X]  | Draw 11  Discard 6  Exhaust 2
+     Hand: Strike [1], Defend [1], FTL [0], Strike [1], Infection [-]  | Draw 11  Discard 6  Exhaust 2
      #76   Play FTL -> Wriggler #2   [76.8%, 8 options]
             also: Play Strike -> Wriggler #2 10.7% x2; Play Defend 1.6%
      #77   Play Strike -> Wriggler #2   [36.8%, 7 options]
@@ -248,7 +248,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 58/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost
      Enemy Wriggler: HP 20/20  Intent Wriggle: Buff + Debuff  Powers: Strength 2
-     Hand: Infection [X], Glacier [2], Infection [X], Infection [X], Defend [1]  | Draw 5  Discard 12  Exhaust 2
+     Hand: Infection [-], Glacier [2], Infection [-], Infection [-], Defend [1]  | Draw 5  Discard 12  Exhaust 2
      #81   Play Glacier   [64.1%, 3 options]
             also: Play Defend 35.7%
      #82   End turn   [72.4%, 2 options]
@@ -256,7 +256,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 58/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost
      Enemy Wriggler: HP 20/20  Intent Nasty Bite: Attack 11  Powers: Strength 4
-     Hand: Cold Snap [1], Infection [X], Zap+ [0], Strike [1], Dualcast [1]  | Draw 0  Discard 18  Exhaust 2
+     Hand: Cold Snap [1], Infection [-], Zap+ [0], Strike [1], Dualcast [1]  | Draw 0  Discard 18  Exhaust 2
      #83   Play Zap+   [59.0%, 5 options]
             also: Play Dualcast 26.5%; Play Cold Snap -> Wriggler 12.6%; Play Strike -> Wriggler 1.9%
      #84   Play Dualcast   [64.8%, 4 options]
@@ -269,7 +269,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 58/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost
      Enemy Wriggler: HP 5/20  Intent Wriggle: Buff + Debuff  Powers: Strength 4
-     Hand: Glacier [2], Infection [X], FTL [0], Infection [X], Focused Strike [1]  | Draw 18  Discard 0  Exhaust 2
+     Hand: Glacier [2], Infection [-], FTL [0], Infection [-], Focused Strike [1]  | Draw 18  Discard 0  Exhaust 2
      #88   Play Glacier   [47.9%, 4 options]
             also: Play FTL -> Wriggler 37.4%; Play Focused Strike -> Wriggler 14.7%
   Relic gained: Blood Vial
@@ -318,7 +318,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 59/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Frost
      Enemy Byrdonis: HP 50/90  Intent Peck: Attack 5x3  Powers: Territorial 1, Strength 1
-     Hand: Spoils Map [X], Ascender's Bane [X], Glacier [2], FTL [0], Defend [1]  | Draw 9  Discard 5  Exhaust 0
+     Hand: Spoils Map [-], Ascender's Bane [-], Glacier [2], FTL [0], Defend [1]  | Draw 9  Discard 5  Exhaust 0
      Potions: Swift Potion
      #104  Play Glacier   [73.2%, 5 options]
             also: Play FTL -> Byrdonis 24.4%; Play Defend 2.3%
@@ -330,7 +330,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 59/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost
      Enemy Byrdonis: HP 29/90  Intent Swoop: Attack 21  Powers: Territorial 1, Strength 2
-     Hand: Defend [1], Cold Snap [1], Defend [1], Strike [1], Clumsy [X]  | Draw 3  Discard 10  Exhaust 1
+     Hand: Defend [1], Cold Snap [1], Defend [1], Strike [1], Clumsy [-]  | Draw 3  Discard 10  Exhaust 1
      Potions: Swift Potion
      #108  Play Cold Snap -> Byrdonis   [34.0%, 6 options]
             also: Play Defend 32.8% x2
@@ -351,7 +351,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 59/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Hailstorm 6
      Enemy Byrdonis: HP 17/90  Intent Swoop: Attack 23  Powers: Territorial 1, Strength 4
-     Hand: Defend [1], Strike [1], Focused Strike [1], Spoils Map [X], FTL [0]  | Draw 7  Discard 4  Exhaust 2
+     Hand: Defend [1], Strike [1], Focused Strike [1], Spoils Map [-], FTL [0]  | Draw 7  Discard 4  Exhaust 2
      Potions: Swift Potion
      #115  Play FTL -> Byrdonis   [46.9%, 6 options]
             also: Play Focused Strike -> Byrdonis 25.5%; Play Strike -> Byrdonis 20.0%; Play Defend 7.5%
@@ -392,7 +392,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 71/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost
      Enemy Bygone Effigy: HP 105/132  Intent Wake: Buff  Powers: Slow 1
-     Hand: Cold Snap [1], Clumsy [X], Defend [1], Strike+ [1], Hailstorm [1]  | Draw 8  Discard 6  Exhaust 0
+     Hand: Cold Snap [1], Clumsy [-], Defend [1], Strike+ [1], Hailstorm [1]  | Draw 8  Discard 6  Exhaust 0
      Potions: Swift Potion
      #129  Play Hailstorm   [97.3%, 6 options]
             also: Play Cold Snap -> Bygone Effigy 1.7%; Play Strike+ -> Bygone Effigy 0.9%
@@ -403,7 +403,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 71/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Hailstorm 6
      Enemy Bygone Effigy: HP 75/132  Intent Slashes: Attack 25  Powers: Slow 1, Strength 10
-     Hand: Defend [1], Zap+ [0], Cold Snap [1], Defend [1], Ascender's Bane [X]  | Draw 3  Discard 9  Exhaust 1
+     Hand: Defend [1], Zap+ [0], Cold Snap [1], Defend [1], Ascender's Bane [-]  | Draw 3  Discard 9  Exhaust 1
      Potions: Swift Potion
      #133  Play Zap+   [33.6%, 6 options]
             also: Play Defend 26.8% x2; Play Cold Snap -> Bygone Effigy 12.8%
@@ -416,7 +416,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 70/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Hailstorm 6
      Enemy Bygone Effigy: HP 59/132  Intent Slashes: Attack 25  Powers: Slow 1, Strength 10
-     Hand: Strike+ [1], Focused Strike+ [1], Spoils Map [X], Defend [1], Strike+ [1]  | Draw 11  Discard 0  Exhaust 2
+     Hand: Strike+ [1], Focused Strike+ [1], Spoils Map [-], Defend [1], Strike+ [1]  | Draw 11  Discard 0  Exhaust 2
      Potions: Swift Potion
      #138  Play Focused Strike+ -> Bygone Effigy   [76.4%, 6 options]
             also: Play Defend 18.1%; Play Strike+ -> Bygone Effigy 2.3% x2; Use potion Swift Potion -> self 0.9%
@@ -466,7 +466,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 85/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Vigor 8
      Enemy Vantom: HP 183/183  Intent Ink Blot: Attack 8  Powers: Slippery 9, Vulnerable 1
-     Hand: Clumsy [X], Strike [1], Chill [0], Defend [1], Strike+ [1]  | Draw 16  Discard 0  Exhaust 0
+     Hand: Clumsy [-], Strike [1], Chill [0], Defend [1], Strike+ [1]  | Draw 16  Discard 0  Exhaust 0
      Potions: Swift Potion, Focus Potion
      #155  Play Chill   [47.7%, 7 options]
             also: Play Defend 30.3%; Play Strike+ -> Vantom 13.7%; Play Strike -> Vantom 8.0%
@@ -493,7 +493,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 83/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost
      Enemy Vantom: HP 176/183  Intent Dismember: Attack 30 + Debuff  Powers: Slippery 2
-     Hand: Strike+ [1], Spoils Map [X], Glacier [2], Lightning Rod [1], Hailstorm [1]  | Draw 6  Discard 8  Exhaust 2
+     Hand: Strike+ [1], Spoils Map [-], Glacier [2], Lightning Rod [1], Hailstorm [1]  | Draw 6  Discard 8  Exhaust 2
      Potions: Swift Potion, Focus Potion
      #165  Play Hailstorm   [49.7%, 7 options]
             also: Play Glacier 26.9%; Play Lightning Rod 22.8%; Play Strike+ -> Vantom 0.6%
@@ -503,7 +503,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 70/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Hailstorm 6
      Enemy Vantom: HP 174/183  Intent Prepare: Buff
-     Hand: Defend [1], FTL [0], Defend [1], Cold Snap [1], Ascender's Bane [X]  | Draw 1  Discard 15  Exhaust 2
+     Hand: Defend [1], FTL [0], Defend [1], Cold Snap [1], Ascender's Bane [-]  | Draw 1  Discard 15  Exhaust 2
      Potions: Swift Potion, Focus Potion
      #168  Play FTL -> Vantom   [75.2%, 7 options]
             also: Play Cold Snap -> Vantom 13.6%; Play Defend 5.6% x2
@@ -530,7 +530,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 70/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Hailstorm 6
      Enemy Vantom: HP 122/183  Intent Inky Lance: Attack 9x2  Powers: Strength 2
-     Hand: Defend [1], Strike+ [1], Defend [1], Cold Snap [1], Spoils Map [X]  | Draw 9  Discard 6  Exhaust 3
+     Hand: Defend [1], Strike+ [1], Defend [1], Cold Snap [1], Spoils Map [-]  | Draw 9  Discard 6  Exhaust 3
      Potions: Swift Potion, Focus Potion
      #177  Play Cold Snap -> Vantom   [39.2%, 7 options]
             also: Play Defend 24.6% x2; Play Strike+ -> Vantom 11.5%
@@ -542,7 +542,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 68/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Hailstorm 6
      Enemy Vantom: HP 101/183  Intent Dismember: Attack 32 + Debuff  Powers: Strength 2
-     Hand: Wound [X], Wound [X], Zap+ [0], Dualcast [1], Defend [1]  | Draw 4  Discard 11  Exhaust 3
+     Hand: Wound [-], Wound [-], Zap+ [0], Dualcast [1], Defend [1]  | Draw 4  Discard 11  Exhaust 3
      Potions: Swift Potion, Focus Potion
      #181  Play Dualcast   [51.6%, 6 options]
             also: Play Defend 33.4%; Play Zap+ 14.8%
@@ -553,7 +553,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 55/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Hailstorm 6
      Enemy Vantom: HP 92/183  Intent Prepare: Buff  Powers: Strength 2
-     Hand: Strike [1], Lightning Rod [1], Focused Strike+ [1], Glacier [2], Wound [X]  | Draw 18  Discard 0  Exhaust 3
+     Hand: Strike [1], Lightning Rod [1], Focused Strike+ [1], Glacier [2], Wound [-]  | Draw 18  Discard 0  Exhaust 3
      Potions: Swift Potion, Focus Potion
      #185  Play Focused Strike+ -> Vantom   [72.9%, 7 options]
             also: Play Lightning Rod 19.5%; Play Strike -> Vantom 5.1%; Play Glacier 2.5%
@@ -578,7 +578,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 10 --
      HP 55/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Hailstorm 6
      Enemy Vantom: HP 30/183  Intent Inky Lance: Attack 11x2  Powers: Strength 4
-     Hand: Wound [X], Dualcast [1], Wound [X], Wound [X], Defend [1]  | Draw 8  Discard 10  Exhaust 3
+     Hand: Wound [-], Dualcast [1], Wound [-], Wound [-], Defend [1]  | Draw 8  Discard 10  Exhaust 3
      Potions: Swift Potion, Focus Potion
      #194  Play Dualcast   [70.0%, 5 options]
             also: Play Defend 30.0%
@@ -587,7 +587,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 11 --
      HP 40/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning  Powers: Hailstorm 6
      Enemy Vantom: HP 5/183  Intent Dismember: Attack 34 + Debuff  Powers: Strength 4
-     Hand: Strike+ [1], Strike+ [1], Wound [X], Cold Snap [1], Spoils Map [X]  | Draw 3  Discard 15  Exhaust 3
+     Hand: Strike+ [1], Strike+ [1], Wound [-], Cold Snap [1], Spoils Map [-]  | Draw 3  Discard 15  Exhaust 3
      Potions: Swift Potion, Focus Potion
      #197  Play Cold Snap -> Vantom   [33.4%, 6 options]
             also: Play Strike+ -> Vantom 33.3% x2
@@ -620,7 +620,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 78/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Vigor 8, Lightning Rod 1
      Enemy Tunneler: HP 81/92  Intent Burrow: Buff + Defend
-     Hand: Clumsy [X], Strike+ [1], Focused Strike+ [1], Strike+ [1], Zap+ [0]  | Draw 11  Discard 5  Exhaust 0
+     Hand: Clumsy [-], Strike+ [1], Focused Strike+ [1], Strike+ [1], Zap+ [0]  | Draw 11  Discard 5  Exhaust 0
      Potions: Swift Potion, Focus Potion
      #207  Play Focused Strike+ -> Tunneler   [72.5%, 7 options]
             also: Play Strike+ -> Tunneler 11.1% x2; Play Zap+ 5.3%
@@ -648,7 +648,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 78/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost
      Enemy Tunneler: HP 34/92  Intent Bite: Attack 15
-     Hand: Defend [1], Defend [1], Ascender's Bane [X], Spoils Map [X], Hailstorm [1]  | Draw 0  Discard 14  Exhaust 2
+     Hand: Defend [1], Defend [1], Ascender's Bane [-], Spoils Map [-], Hailstorm [1]  | Draw 0  Discard 14  Exhaust 2
      Potions: Swift Potion, Focus Potion
      #217  Play Defend   [46.8%, 6 options]
             also: Play Defend 46.8% (identical option); Play Hailstorm 6.3%
@@ -680,7 +680,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Exoskeleton: HP 26/26  Intent Skitter: Attack 1x4  Powers: Hard to Kill 9, Vulnerable 1
      Enemy Exoskeleton: HP 29/29  Intent Mandibles: Attack 9  Powers: Hard to Kill 9, Vulnerable 1
      Enemy Exoskeleton: HP 28/28  Intent Enrage: Buff  Powers: Hard to Kill 9, Vulnerable 1
-     Hand: Defend [1], Zap+ [0], Spoils Map [X], Lightning Rod [1], Defend [1]  | Draw 16  Discard 0  Exhaust 0
+     Hand: Defend [1], Zap+ [0], Spoils Map [-], Lightning Rod [1], Defend [1]  | Draw 16  Discard 0  Exhaust 0
      Potions: Swift Potion, Focus Potion
      #227  Play Lightning Rod   [69.7%, 7 options]
             also: Play Defend 11.9% x2; Play Zap+ 6.1%
@@ -708,7 +708,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Exoskeleton: HP 5/26  Intent Enrage: Buff  Powers: Hard to Kill 9
      Enemy Exoskeleton: HP 17/29  Intent Skitter: Attack 3x4  Powers: Hard to Kill 9, Strength 2
      Enemy Exoskeleton: HP 19/28  Intent Mandibles: Attack 11  Powers: Hard to Kill 9, Strength 2
-     Hand: Clumsy [X], Defend [1], Cold Snap [1], Strike+ [1], Ascender's Bane [X]  | Draw 6  Discard 9  Exhaust 1
+     Hand: Clumsy [-], Defend [1], Cold Snap [1], Strike+ [1], Ascender's Bane [-]  | Draw 6  Discard 9  Exhaust 1
      Potions: Swift Potion, Focus Potion
      #235  Play Cold Snap -> Exoskeleton #3   [55.4%, 10 options]
             also: Play Cold Snap -> Exoskeleton #4 26.9%; Play Cold Snap -> Exoskeleton #2 8.1%; Play Strike+ -> Exoskeleton #3 3.6%; Play Defend 2.9%
@@ -789,7 +789,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 82/85  Block 5  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Lightning Rod 1
      Enemy Myte: HP 65/65  Intent Suck: Attack 6 + Buff
      Enemy Myte: HP 11/64  Intent Bite: Attack 18  Powers: Strength 3
-     Hand: Toxic [1], Toxic [1], Glacier [2], Clumsy [X], Strike+ [1], Defend [1], Hailstorm [1]  | Draw 4  Discard 11  Exhaust 2
+     Hand: Toxic [1], Toxic [1], Glacier [2], Clumsy [-], Strike+ [1], Defend [1], Hailstorm [1]  | Draw 4  Discard 11  Exhaust 2
      Potions: Potion of Capacity, Focus Potion
      #262  Play Glacier   [62.8%, 10 options]
             also: Play Strike+ -> Myte #3 12.6%; Play Hailstorm 7.4%; Play Toxic 7.4% x2
@@ -800,7 +800,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 73/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Hailstorm 6
      Enemy Myte: HP 51/65  Intent Toxic Cornucopia: Debuff  Powers: Strength 3
      Enemy Myte: HP 2/64  Intent Suck: Attack 9 + Buff  Powers: Strength 3
-     Hand: Zap+ [0], Defend [1], Spoils Map [X], Lightning Rod [1], Strike+ [1]  | Draw 15  Discard 0  Exhaust 3
+     Hand: Zap+ [0], Defend [1], Spoils Map [-], Lightning Rod [1], Strike+ [1]  | Draw 15  Discard 0  Exhaust 3
      Potions: Potion of Capacity, Focus Potion
      #265  Play Strike+ -> Myte #2   [32.2%, 8 options]
             also: Play Lightning Rod 31.7%; Play Zap+ 19.1%; Play Strike+ -> Myte #3 14.4%; Play Defend 2.5%
@@ -861,7 +861,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 75/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost
      Enemy Infested Prism: HP 133/171  Intent Radiate: Attack 13 + Defend  Powers: Vital Spark 3
-     Hand: Strike+ [1], Cold Snap [1], Strike+ [1], Ascender's Bane [X], Strike+ [1]  | Draw 11  Discard 4  Exhaust 1
+     Hand: Strike+ [1], Cold Snap [1], Strike+ [1], Ascender's Bane [-], Strike+ [1]  | Draw 11  Discard 4  Exhaust 1
      Potions: Focus Potion, Focus Potion
      #286  Play Cold Snap -> Infested Prism   [68.7%, 7 options]
             also: Play Strike+ -> Infested Prism 10.4% x3
@@ -873,7 +873,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 73/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost
      Enemy Infested Prism: HP 109/171  Block 13  Intent Whirlwind: Attack 6x3  Powers: Vital Spark 3
-     Hand: Go for the Eyes+ [0], Clumsy [X], Defend [1], Defend [1], Hailstorm [1]  | Draw 6  Discard 8  Exhaust 2
+     Hand: Go for the Eyes+ [0], Clumsy [-], Defend [1], Defend [1], Hailstorm [1]  | Draw 6  Discard 8  Exhaust 2
      Potions: Focus Potion, Focus Potion
      #290  Play Go for the Eyes+ -> Infested Prism   [67.5%, 7 options]
             also: Play Hailstorm 31.0%; Play Defend 0.7% x2
@@ -911,7 +911,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 65/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Hailstorm 6
      Enemy Infested Prism: HP 57/171  Intent Radiate: Attack 13 + Defend  Powers: Vital Spark 6
-     Hand: Glacier [2], Lightning Rod [1], Strike+ [1], Spoils Map [X], Go for the Eyes+ [0]  | Draw 1  Discard 11  Exhaust 3
+     Hand: Glacier [2], Lightning Rod [1], Strike+ [1], Spoils Map [-], Go for the Eyes+ [0]  | Draw 1  Discard 11  Exhaust 3
      Potions: Focus Potion, Focus Potion
      #303  Play Strike+ -> Infested Prism   [46.5%, 7 options]
             also: Play Go for the Eyes+ -> Infested Prism 39.8%; Play Glacier 12.5%; Play Lightning Rod 1.3%
@@ -1001,7 +1001,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 61/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Thorns 3
      Enemy Entomancer: HP 106/165  Intent Spear!: Attack 15  Powers: Personal Hive 1, Weak 1
-     Hand: Zap+ [0], Capacitor [1], Defend [1], Defend [1], Dazed [X]  | Draw 15  Discard 5  Exhaust 0
+     Hand: Zap+ [0], Capacitor [1], Defend [1], Defend [1], Dazed [-]  | Draw 15  Discard 5  Exhaust 0
      Potions: Focus Potion, Focus Potion
      #330  Play Defend   [39.3%, 7 options]
             also: Play Defend 39.3% (identical option); Play Zap+ 17.2%; Play Capacitor 4.1%
@@ -1014,7 +1014,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 61/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Thorns 3
      Enemy Entomancer: HP 100/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1
-     Hand: Clumsy [X], Cold Snap [1], Chill [0], Strike+ [1], Eternal Armor [3]  | Draw 10  Discard 9  Exhaust 1
+     Hand: Clumsy [-], Cold Snap [1], Chill [0], Strike+ [1], Eternal Armor [3]  | Draw 10  Discard 9  Exhaust 1
      Potions: Focus Potion, Focus Potion
      #334  Play Chill   [42.1%, 7 options]
             also: Play Eternal Armor 29.0%; Play Strike+ -> Entomancer 21.4%; Play Cold Snap -> Entomancer 6.9%; End turn 0.6%
@@ -1024,7 +1024,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 61/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Thorns 3, Plating 8
      Enemy Entomancer: HP 97/165  Intent Beeeees!: Attack 4x8  Powers: Personal Hive 2, Strength 1
-     Hand: Defend [1], Defend [1], Ascender's Bane [X], Hailstorm [1], Lightning Rod [1]  | Draw 5  Discard 11  Exhaust 3
+     Hand: Defend [1], Defend [1], Ascender's Bane [-], Hailstorm [1], Lightning Rod [1]  | Draw 5  Discard 11  Exhaust 3
      Potions: Focus Potion, Focus Potion
      #337  Play Defend   [41.3%, 7 options]
             also: Play Defend 41.3% (identical option); Play Lightning Rod 16.9%; Play Hailstorm 0.6%
@@ -1035,7 +1035,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 60/85  Block 5  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Thorns 3, Plating 7, Lightning Rod 1
      Enemy Entomancer: HP 70/165  Intent Spear!: Attack 21  Powers: Personal Hive 2, Strength 1
-     Hand: Focused Strike+ [1], FTL [0], Lightning Rod [1], Dualcast+ [0], Dazed [X]  | Draw 0  Discard 15  Exhaust 4
+     Hand: Focused Strike+ [1], FTL [0], Lightning Rod [1], Dualcast+ [0], Dazed [-]  | Draw 0  Discard 15  Exhaust 4
      Potions: Focus Potion, Focus Potion
      #341  Play FTL -> Entomancer   [47.8%, 7 options]
             also: Play Lightning Rod 30.4%; Play Dualcast+ 11.5%; Play Focused Strike+ -> Entomancer 10.3%
@@ -1048,7 +1048,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 59/85  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Thorns 3, Plating 6, Lightning Rod 2
      Enemy Entomancer: HP 26/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 2, Strength 1
-     Hand: Dazed [X], Dazed [X], Dazed [X], Strike+ [1], Defend [1]  | Draw 17  Discard 0  Exhaust 6
+     Hand: Dazed [-], Dazed [-], Dazed [-], Strike+ [1], Defend [1]  | Draw 17  Discard 0  Exhaust 6
      Potions: Focus Potion, Focus Potion
      #346  Play Strike+ -> Entomancer   [84.9%, 5 options]
             also: Play Defend 14.9%
@@ -1136,7 +1136,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 12/52  Intent Writhe: Attack 8x2  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 25/50  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25
      Enemy Decimillipede: HP 30/48  Intent Constrict: Attack 11 + Debuff  Powers: Reattach 25, Strength 2
-     Hand: Chill [0], Capacitor [1], Eternal Armor [3], Ascender's Bane [X], Defend [1]  | Draw 3  Discard 15  Exhaust 1
+     Hand: Chill [0], Capacitor [1], Eternal Armor [3], Ascender's Bane [-], Defend [1]  | Draw 3  Discard 15  Exhaust 1
      Potions: Focus Potion, Focus Potion
      #373  Play Chill   [75.3%, 7 options]
             also: Play Defend 23.8%; Play Eternal Armor 0.8%
@@ -1204,7 +1204,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 79/85  Block 4  Energy 3/3  Orbs (3 slots): Lightning  Powers: Thorns 3, Vigor 8
      Enemy Knowledge Demon: HP 399/399  Intent Curse of Knowledge: Debuff  Powers: Vulnerable 1
-     Hand: Defend [1], Dualcast+ [0], Strike+ [1], Clumsy [X], Lightning Rod [1]  | Draw 20  Discard 0  Exhaust 0
+     Hand: Defend [1], Dualcast+ [0], Strike+ [1], Clumsy [-], Lightning Rod [1]  | Draw 20  Discard 0  Exhaust 0
      Potions: Focus Potion, Focus Potion, Colorless Potion
      #396  Use potion Focus Potion -> self   [37.9%, 8 options]
             also: Use potion Focus Potion -> self 30.3% (identical option); Play Lightning Rod 20.8%; Play Strike+ -> Knowledge Demon 8.8%; Use potion Colorless Potion -> self 1.2%
@@ -1221,7 +1221,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 79/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Thorns 3, Focus 2, Lightning Rod 1, Mind Rot 1
      Enemy Knowledge Demon: HP 352/399  Intent Slap: Attack 18
-     Hand: Chill+ [0], Defend [1], Ascender's Bane [X], Cold Snap [1]  | Draw 16  Discard 4  Exhaust 1
+     Hand: Chill+ [0], Defend [1], Ascender's Bane [-], Cold Snap [1]  | Draw 16  Discard 4  Exhaust 1
      Potions: Focus Potion, Colorless Potion
      #402  Play Chill+   [43.3%, 6 options]
             also: Play Defend 30.8%; Play Cold Snap -> Knowledge Demon 25.8%
@@ -1384,7 +1384,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 80/85  Block 11  Energy 3/3  Orbs (3 slots): Lightning  Powers: Thorns 3, Vigor 8
      Enemy Devoted Sculptor: HP 172/172  Intent Forbidden Incantation: Buff  Powers: Vulnerable 1
-     Hand: Ascender's Bane [X], Strike+ [1], Lightning Rod [1], Focused Strike+ [1], Defend [1]  | Draw 21  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Strike+ [1], Lightning Rod [1], Focused Strike+ [1], Defend [1]  | Draw 21  Discard 0  Exhaust 0
      Potions: Focus Potion, Colorless Potion
      #459  Play Focused Strike+ -> Devoted Sculptor   [64.9%, 7 options]
             also: Play Strike+ -> Devoted Sculptor 28.8%; Play Lightning Rod 6.2%
@@ -1395,7 +1395,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 80/85  Block 7  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Thorns 3, Lightning Rod 1
      Enemy Devoted Sculptor: HP 122/172  Intent Savage: Attack 15  Powers: Ritual 9
-     Hand: Cold Snap [1], Chill+ [0], Cold Snap [1], Clumsy [X], Strike+ [1]  | Draw 16  Discard 4  Exhaust 1
+     Hand: Cold Snap [1], Chill+ [0], Cold Snap [1], Clumsy [-], Strike+ [1]  | Draw 16  Discard 4  Exhaust 1
      Potions: Focus Potion, Colorless Potion
      #463  Play Cold Snap -> Devoted Sculptor   [34.6%, 7 options]
             also: Play Cold Snap -> Devoted Sculptor 34.6% (identical option); Play Chill+ 22.6%; Play Strike+ -> Devoted Sculptor 8.1%
@@ -1556,7 +1556,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 84/85  Block 12  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Lightning Rod 1
      Enemy Turret Operator: HP 13/51  Intent Unload!: Attack 5x5  Powers: Strength 1
-     Hand: Hailstorm [1], Strike+ [1], Capacitor [1], Defend [1], Clumsy [X]  | Draw 7  Discard 15  Exhaust 1
+     Hand: Hailstorm [1], Strike+ [1], Capacitor [1], Defend [1], Clumsy [-]  | Draw 7  Discard 15  Exhaust 1
      Potions: Cure All, Focus Potion, Colorless Potion, Focus Potion
      #519  Play Strike+ -> Turret Operator   [80.7%, 9 options]
             also: Play Defend 17.9%; Play Hailstorm 1.5%
@@ -1611,7 +1611,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Guardbot: HP 18/18  Intent Guard: Defend  Powers: Minion 1
      Enemy Zapbot: HP 22/22  Intent Zap: Attack 17  Powers: High Voltage 2, Minion 1, Strength 2
      Enemy Fabricator: HP 101/155  Intent Fabricating Strike: Attack 21 + Heal/Summon
-     Hand: Shatter [1], Defend+ [1], Cold Snap [1], Ascender's Bane [X], Defend [1]  | Draw 12  Discard 10  Exhaust 1
+     Hand: Shatter [1], Defend+ [1], Cold Snap [1], Ascender's Bane [-], Defend [1]  | Draw 12  Discard 10  Exhaust 1
      Potions: Heart of Iron, Focus Potion, Colorless Potion, Focus Potion
      #538  Play Cold Snap -> Zapbot   [52.7%, 11 options]
             also: Play Defend+ 30.2%; Play Defend 13.3%; Play Cold Snap -> Fabricator 2.3%; Play Cold Snap -> Guardbot 0.9%
@@ -1743,7 +1743,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Scroll of Biting: HP 36/36  Intent Chew: Attack 8x2  Powers: Paper Cuts 2, Strength 2
      Enemy Scroll of Biting: HP 34/37  Intent More Teeth: Buff  Powers: Paper Cuts 2
      Enemy Scroll of Biting: HP 14/35  Intent Chew: Attack 8x2  Powers: Paper Cuts 2, Strength 2
-     Hand: Cold Snap [1], Clumsy [X], Strike+ [1], FTL [0], Shatter [1]  | Draw 19  Discard 4  Exhaust 1
+     Hand: Cold Snap [1], Clumsy [-], Strike+ [1], FTL [0], Shatter [1]  | Draw 19  Discard 4  Exhaust 1
      Potions: Heart of Iron, Focus Potion, Colorless Potion, Focus Potion
      #579  Play FTL -> Scroll of Biting #5   [42.0%, 18 options]
             also: Play FTL -> Scroll of Biting #2 27.7%; Play Cold Snap -> Scroll of Biting #5 11.8%; Play Cold Snap -> Scroll of Biting #2 7.8%; Play Shatter 3.8%
@@ -1775,7 +1775,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Scroll of Biting: HP 8/38  Intent More Teeth: Buff  Powers: Paper Cuts 2
      Enemy Scroll of Biting: HP 20/36  Intent More Teeth: Buff  Powers: Paper Cuts 2, Strength 2
      Enemy Scroll of Biting: HP 3/37  Intent Chomp: Attack 18  Powers: Paper Cuts 2, Strength 2
-     Hand: Focused Strike+ [1], Go for the Eyes+ [0], Barrage [1], Cold Snap [1], Zap+ [0], Hailstorm [1], Ascender's Bane [X], Defend [1]  | Draw 5  Discard 13  Exhaust 3
+     Hand: Focused Strike+ [1], Go for the Eyes+ [0], Barrage [1], Cold Snap [1], Zap+ [0], Hailstorm [1], Ascender's Bane [-], Defend [1]  | Draw 5  Discard 13  Exhaust 3
      Potions: Heart of Iron, Focus Potion, Colorless Potion, Focus Potion
      #589  Play Zap+   [18.6%, 20 options]
             also: Play Cold Snap -> Scroll of Biting #3 17.5%; Play Go for the Eyes+ -> Scroll of Biting #3 16.2%; Play Focused Strike+ -> Scroll of Biting #3 10.1%; Play Cold Snap -> Scroll of Biting #4 9.3%
@@ -1838,7 +1838,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Flail Knight: HP 71/108  Intent War Chant: Buff
      Enemy Spectral Knight: HP 78/97  Intent Soul Flame: Attack 4x3
      Enemy Magi Knight: HP 7/89  Intent Ram: Attack 11
-     Hand: Eternal Armor [3], FTL [0], Strike [1], Ascender's Bane [X], Cold Snap [1]  | Draw 11  Discard 9  Exhaust 4
+     Hand: Eternal Armor [3], FTL [0], Strike [1], Ascender's Bane [-], Cold Snap [1]  | Draw 11  Discard 9  Exhaust 4
      Potions: Heart of Iron, Focus Potion, Colorless Potion, Focus Potion
      #610  Play Strike -> Magi Knight   [56.5%, 15 options]
             also: Play FTL -> Magi Knight 21.8%; Play Cold Snap -> Magi Knight 21.5%
@@ -1852,7 +1852,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 76/83  Block 12  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Hex 2
      Enemy Flail Knight: HP 60/108  Intent Ram: Attack 20  Powers: Strength 3
      Enemy Spectral Knight: HP 60/97  Intent Soul Slash: Attack 17
-     Hand: Clumsy [X], Chill+ [0], Go for the Eyes [0], Barrage [1], Cold Snap [1]  | Draw 5  Discard 12  Exhaust 7
+     Hand: Clumsy [-], Chill+ [0], Go for the Eyes [0], Barrage [1], Cold Snap [1]  | Draw 5  Discard 12  Exhaust 7
      Potions: Heart of Iron, Focus Potion, Colorless Potion, Focus Potion
      #614  Play Cold Snap -> Spectral Knight   [27.6%, 12 options]
             also: Play Chill+ 24.3%; Play Go for the Eyes -> Spectral Knight 15.8%; Play Cold Snap -> Flail Knight 15.5%; Play Go for the Eyes -> Flail Knight 8.5%
@@ -1936,7 +1936,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 58/83  Block 7  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Thorns 3, Dexterity 1
      Enemy Soul Nexus: HP 186/254  Intent Maelstrom: Attack 5x4  Powers: Weak 1
-     Hand: FTL [0], Cold Snap [1], Cold Snap [1], Cold Snap [1], Clumsy [X]  | Draw 20  Discard 4  Exhaust 1
+     Hand: FTL [0], Cold Snap [1], Cold Snap [1], Cold Snap [1], Clumsy [-]  | Draw 20  Discard 4  Exhaust 1
      Potions: Heart of Iron, Focus Potion, Colorless Potion, Focus Potion
      #644  Play FTL -> Soul Nexus   [75.9%, 9 options]
             also: Play Cold Snap -> Soul Nexus 8.0% x3
@@ -1967,7 +1967,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 51/83  Block 12  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Lightning Rod 1, Hailstorm 6, Vulnerable 2, Weak 2
      Enemy Soul Nexus: HP 85/254  Intent Soul Burn: Attack 34  Powers: Weak 1
-     Hand: Ascender's Bane [X], Chill [0], Defend+ [1], Cold Snap [1], Dualcast+ [0]  | Draw 4  Discard 18  Exhaust 2
+     Hand: Ascender's Bane [-], Chill [0], Defend+ [1], Cold Snap [1], Dualcast+ [0]  | Draw 4  Discard 18  Exhaust 2
      Potions: Heart of Iron, Focus Potion, Colorless Potion, Focus Potion
      #656  Play Dualcast+   [58.3%, 9 options]
             also: Play Defend+ 19.7%; Play Cold Snap -> Soul Nexus 18.3%; Play Chill 3.6%
@@ -2081,7 +2081,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 83/83  Block 7  Energy 3/3  Orbs (5 slots): Frost, Frost, Frost, Lightning, Frost  Powers: Thorns 3, Dexterity 1, Focus 2, Hailstorm 6, Plating 11
      Enemy Test Subject #C{Count}: HP 182/212  Intent Multi-Claw: Attack 11x4  Powers: Adaptable 1, Painful Stabs 1
-     Hand: Defend [1], Ascender's Bane [X], Dualcast+ [0], Null [2], Glacier [2]  | Draw 4  Discard 18  Exhaust 1
+     Hand: Defend [1], Ascender's Bane [-], Dualcast+ [0], Null [2], Glacier [2]  | Draw 4  Discard 18  Exhaust 1
      Potions: Heart of Iron, Colorless Potion, Focus Potion
      #696  Play Null -> Test Subject #C{Count}   [99.9%, 8 options]
      #697  End turn   [55.7%, 6 options]
@@ -2089,7 +2089,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 83/83  Block 7  Energy 4/3  Orbs (5 slots): Frost, Frost, Lightning, Frost, Dark  Powers: Thorns 3, Dexterity 1, Focus 2, Hailstorm 6, Plating 10
      Enemy Test Subject #C{Count}: HP 149/212  Intent Multi-Claw: Attack 11x5  Powers: Adaptable 1, Painful Stabs 1
-     Hand: FTL [0], Go for the Eyes [0], Lightning Rod [1], Clumsy [X], Strike+ [1]  | Draw 21  Discard 0  Exhaust 2
+     Hand: FTL [0], Go for the Eyes [0], Lightning Rod [1], Clumsy [-], Strike+ [1]  | Draw 21  Discard 0  Exhaust 2
      Potions: Heart of Iron, Colorless Potion, Focus Potion
      #698  Play FTL -> Test Subject #C{Count}   [95.1%, 8 options]
             also: Play Go for the Eyes -> Test Subject #C{Count} 1.8%; Play Strike+ -> Test Subject #C{Count} 1.8%; Play Lightning Rod 1.3%
@@ -2223,7 +2223,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 16 --
      HP 77/83  Block 14  Energy 3/3  Orbs (5 slots): Frost, Lightning, Frost, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Focus 2, Hailstorm 6
      Enemy Test Subject #C{Count}: HP 125/313  Intent Big Pounce: Attack 51  Powers: Nemesis 1, Strength 6
-     Hand: Glacier [2], Chill+ [0], Focused Strike+ [1], Go for the Eyes+ [0], Chill+ [0], Zap+ [0], Burn [X], Strike+ [1]  | Draw 21  Discard 5  Exhaust 4
+     Hand: Glacier [2], Chill+ [0], Focused Strike+ [1], Go for the Eyes+ [0], Chill+ [0], Zap+ [0], Burn [-], Strike+ [1]  | Draw 21  Discard 5  Exhaust 4
      Potions: Heart of Iron, Colorless Potion, Focus Potion
      #745  Play Focused Strike+ -> Test Subject #C{Count}   [88.0%, 11 options]
             also: Play Go for the Eyes+ -> Test Subject #C{Count} 7.4%; Play Strike+ -> Test Subject #C{Count} 2.9%; Play Zap+ 1.7%
@@ -2241,7 +2241,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 17 --
      HP 77/83  Block 7  Energy 3/3  Orbs (5 slots): Frost, Lightning, Lightning, Frost, Frost  Powers: Thorns 3, Dexterity 1, Focus 2, Hailstorm 6
      Enemy Test Subject #C{Count}: HP 53/313  Intent Burning Growl: Buff + Debuff  Powers: Nemesis 1, Strength 6, Weak 1, Intangible 1
-     Hand: Burn [X], Burn [X], Cold Snap [1], Dualcast+ [0], Burn [X]  | Draw 16  Discard 13  Exhaust 4
+     Hand: Burn [-], Burn [-], Cold Snap [1], Dualcast+ [0], Burn [-]  | Draw 16  Discard 13  Exhaust 4
      Potions: Heart of Iron, Colorless Potion, Focus Potion
      #752  Play Cold Snap -> Test Subject #C{Count}   [99.9%, 6 options]
      #753  Play Dualcast+   [66.9%, 5 options]
@@ -2250,7 +2250,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 18 --
      HP 77/83  Block 7  Energy 4/3  Orbs (5 slots): Lightning, Frost, Frost, Frost  Powers: Thorns 3, Dexterity 1, Focus 2, Hailstorm 6
      Enemy Test Subject #C{Count}: HP 48/313  Intent Lacerate: Attack 20x3  Powers: Nemesis 1, Strength 9
-     Hand: Burn [X], Null [2], Defend [1], Lightning Rod [1], Defend [1]  | Draw 11  Discard 23  Exhaust 4
+     Hand: Burn [-], Null [2], Defend [1], Lightning Rod [1], Defend [1]  | Draw 11  Discard 23  Exhaust 4
      Potions: Heart of Iron, Colorless Potion, Focus Potion
      #755  Play Null -> Test Subject #C{Count}   [99.4%, 8 options]
      #756  Play Lightning Rod   [43.3%, 7 options]
@@ -2262,7 +2262,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 19 --
      HP 65/83  Block 7  Energy 4/3  Orbs (5 slots): Frost, Frost, Frost, Dark, Lightning  Powers: Thorns 3, Dexterity 1, Focus 2, Hailstorm 6, Lightning Rod 1
      Enemy Test Subject #C{Count}: HP 17/313  Intent Big Pounce: Attack 54  Powers: Nemesis 1, Strength 9, Intangible 1
-     Hand: FTL [0], Shatter [1], Cold Snap [1], Burn [X], Burn [X]  | Draw 6  Discard 28  Exhaust 4
+     Hand: FTL [0], Shatter [1], Cold Snap [1], Burn [-], Burn [-]  | Draw 6  Discard 28  Exhaust 4
      Potions: Heart of Iron, Colorless Potion, Focus Potion
      #759  Play FTL -> Test Subject #C{Count}   [79.1%, 7 options]
             also: Play Shatter 19.5%; Play Cold Snap -> Test Subject #C{Count} 1.4%
@@ -2275,7 +2275,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 20 --
      HP 65/83  Block 7  Energy 3/3  Orbs (5 slots): Frost, Lightning  Powers: Thorns 3, Dexterity 1, Focus 2, Hailstorm 6
      Enemy Test Subject #C{Count}: HP 7/313  Intent Burning Growl: Buff + Debuff  Powers: Nemesis 1, Strength 9
-     Hand: Burn [X], Go for the Eyes [0], Defend [1], Burn [X], Burn [X]  | Draw 0  Discard 33  Exhaust 5
+     Hand: Burn [-], Go for the Eyes [0], Defend [1], Burn [-], Burn [-]  | Draw 0  Discard 33  Exhaust 5
      Potions: Heart of Iron, Colorless Potion, Focus Potion
      #764  Play Go for the Eyes -> Test Subject #C{Count}   [76.8%, 6 options]
             also: Play Defend 23.2%
@@ -2289,7 +2289,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 67/83  Block 11  Energy 4/3  Orbs (3 slots): Lightning  Powers: Thorns 3, Dexterity 1, Vigor 8
      Enemy Aeonglass: HP 535/535  Intent Ebb: Attack 26 + Defend  Powers: Withering Presence 6, Artifact 2
-     Hand: Boot Sequence+ [0], Defend+ [1], Capacitor [1], Clumsy [X], Focused Strike+ [1]  | Draw 26  Discard 0  Exhaust 0
+     Hand: Boot Sequence+ [0], Defend+ [1], Capacitor [1], Clumsy [-], Focused Strike+ [1]  | Draw 26  Discard 0  Exhaust 0
      Potions: Heart of Iron, Colorless Potion, Focus Potion
      #769  Play Capacitor   [96.4%, 8 options]
             also: Use potion Focus Potion -> self 2.6%; Play Focused Strike+ -> Aeonglass 0.7%
@@ -2364,7 +2364,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 62/83  Block 14  Energy 3/3  Orbs (5 slots): Frost, Frost, Lightning, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Focus 2, Mayhem 1, Plating 3, Hailstorm 6
      Enemy Aeonglass: HP 380/535  Intent Increasing Intensity: Buff + Debuff  Powers: Withering Presence 6, Strength 4, Weak 3
-     Hand: Strike+ [1], Dualcast+ [0], Lightning Rod [1], Wither [X], Chill+ [0]  | Draw 17  Discard 9  Exhaust 4
+     Hand: Strike+ [1], Dualcast+ [0], Lightning Rod [1], Wither [-], Chill+ [0]  | Draw 17  Discard 9  Exhaust 4
      #799  Play Lightning Rod   [64.2%, 5 options]
             also: Play Strike+ -> Aeonglass 34.4%; Play Chill+ 1.5%
      #800  Play Strike+ -> Aeonglass   [99.1%, 4 options]
@@ -2375,7 +2375,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 62/83  Block 14  Energy 4/3  Orbs (5 slots): Lightning, Frost, Lightning, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Focus 2, Mayhem 1, Plating 2, Hailstorm 6, Lightning Rod 1
      Enemy Aeonglass: HP 349/535  Intent Ebb: Attack 26 + Defend  Powers: Withering Presence 6, Strength 9, Weak 2
-     Hand: Go for the Eyes [0], Glacier [2], Cold Snap [1], Defend [1], Wither [X]  | Draw 11  Discard 17  Exhaust 4
+     Hand: Go for the Eyes [0], Glacier [2], Cold Snap [1], Defend [1], Wither [-]  | Draw 11  Discard 17  Exhaust 4
      #803  Play Go for the Eyes -> Aeonglass   [51.6%, 5 options]
             also: Play Cold Snap -> Aeonglass 47.8%; Play Glacier 0.6%
      #804  Play Cold Snap -> Aeonglass   [97.9%, 4 options]
@@ -2387,7 +2387,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 62/83  Block 14  Energy 3/3  Orbs (5 slots): Lightning, Frost, Frost, Frost, Lightning  Powers: Thorns 3, Dexterity 1, Focus 2, Mayhem 1, Plating 1, Hailstorm 6
      Enemy Aeonglass: HP 306/535  Block 23  Intent Eye Lasers: Attack 15x2  Powers: Withering Presence 6, Strength 9, Weak 2
-     Hand: Null [2], Wither [X], Wither [X], Cold Snap [1], Focused Strike+ [1]  | Draw 5  Discard 24  Exhaust 4
+     Hand: Null [2], Wither [-], Wither [-], Cold Snap [1], Focused Strike+ [1]  | Draw 5  Discard 24  Exhaust 4
      #807  Play Focused Strike+ -> Aeonglass   [65.7%, 4 options]
             also: Play Null -> Aeonglass 33.6%; Play Cold Snap -> Aeonglass 0.7%
      #808  Play Null -> Aeonglass   [95.8%, 3 options]
@@ -2407,14 +2407,14 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 10 --
      HP 47/83  Block 14  Energy 4/3  Orbs (5 slots): Lightning, Dark, Frost, Frost, Frost  Powers: Thorns 3, Dexterity 1, Focus 2, Mayhem 1, Hailstorm 6
      Enemy Aeonglass: HP 206/535  Intent Ebb: Attack 30 + Defend  Powers: Withering Presence 6, Strength 15, Weak 1
-     Hand: FTL [0], Wither [X], Wither [X], Wither [X], Wither [X]  | Draw 22  Discard 10  Exhaust 4
+     Hand: FTL [0], Wither [-], Wither [-], Wither [-], Wither [-]  | Draw 22  Discard 10  Exhaust 4
      #814  Play FTL -> Aeonglass   [100.0%, 2 options]
      #815  Play Defend   [99.9%, 2 options]
      #816  End turn   [100.0%, 1 option]
   -- Turn 11 --
      HP 7/83  Block 7  Energy 3/3  Orbs (5 slots): Lightning, Dark, Frost, Frost, Frost  Powers: Thorns 3, Dexterity 1, Focus 2, Mayhem 1, Hailstorm 6
      Enemy Aeonglass: HP 187/535  Block 33  Intent Eye Lasers: Attack 27x2  Powers: Withering Presence 6, Strength 15
-     Hand: Ascender's Bane [X], Wither [X], Lightning Rod [1], Cold Snap [1], Defend [1]  | Draw 15  Discard 17  Exhaust 4
+     Hand: Ascender's Bane [-], Wither [-], Lightning Rod [1], Cold Snap [1], Defend [1]  | Draw 15  Discard 17  Exhaust 4
      #817  Play Cold Snap -> Aeonglass   [82.5%, 4 options]
             also: Play Defend 10.8%; Play Lightning Rod 6.7%
      #818  Play Defend   [63.5%, 3 options]

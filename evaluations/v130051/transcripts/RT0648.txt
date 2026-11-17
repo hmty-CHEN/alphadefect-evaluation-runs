@@ -27,7 +27,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 67/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Weak 1
      Enemy Sludge Spinner: HP 27/42  Intent Slam: Attack 12
-     Hand: Defend [1], Dualcast [1], Defend [1], Defend [1], Ascender's Bane [X]  | Draw 1  Discard 5  Exhaust 0
+     Hand: Defend [1], Dualcast [1], Defend [1], Defend [1], Ascender's Bane [-]  | Draw 1  Discard 5  Exhaust 0
      #6    Play Defend   [33.2%, 5 options]
             also: Play Defend 33.2% x2 (identical option)
      #7    Play Defend   [50.0%, 4 options]
@@ -64,7 +64,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 67/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Seapunk: HP 49/49  Intent Sea Kick: Attack 13
-     Hand: Defend [1], Zap [1], Strike [1], Ascender's Bane [X], Ball Lightning [1]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Defend [1], Zap [1], Strike [1], Ascender's Bane [-], Ball Lightning [1]  | Draw 7  Discard 0  Exhaust 0
      Potions: Strength Potion
      #20   Play Defend   [88.2%, 6 options]
             also: Play Ball Lightning -> Seapunk 6.3%; Play Zap 4.5%; Play Strike -> Seapunk 1.0%
@@ -193,7 +193,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 43/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Toadpole: HP 26/26  Intent Spiken: Buff
      Enemy Toadpole: HP 24/24  Intent Whirl: Attack 8
-     Hand: Strike [1], Defend [1], Strike [1], Ascender's Bane [X], Ball Lightning [1]  | Draw 10  Discard 0  Exhaust 0
+     Hand: Strike [1], Defend [1], Strike [1], Ascender's Bane [-], Ball Lightning [1]  | Draw 10  Discard 0  Exhaust 0
      Potions: Strength Potion, Swift Potion
      #66   Play Ball Lightning -> Toadpole #2   [47.3%, 10 options]
             also: Play Defend 36.1%; Play Ball Lightning -> Toadpole #1 9.9%; Play Strike -> Toadpole #2 2.5% x2
@@ -329,7 +329,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 28/28  Intent Lash: Attack 7  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 27/27  Intent Flail: Attack 1x3  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 22/30  Intent Bite: Attack 8  Powers: Skittish 7, Strength 3
-     Hand: Ascender's Bane [X], FTL [0], Defend [1], Strike [1], Defend [1]  | Draw 8  Discard 5  Exhaust 0
+     Hand: Ascender's Bane [-], FTL [0], Defend [1], Strike [1], Defend [1]  | Draw 8  Discard 5  Exhaust 0
      Potions: Colorless Potion, Swift Potion
      #112  Play FTL -> Phantasmal Gardener #4   [43.2%, 13 options]
             also: Use potion Colorless Potion -> self 17.7%; Play Defend 17.7% x2; Play Strike -> Phantasmal Gardener #4 1.2%
@@ -410,11 +410,11 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #139  [Shop] Buy Eternal Armor (177 gold)   [82.9%, 13 options]
          also: Buy Card removal service (100 gold) 2.4%; Buy Lightning Rod (52 gold) 2.3%; Buy Strength Potion (49 gold) 2.0%; Buy Dexterity Potion (50 gold) 2.0%
   Deck change: +Eternal Armor  (20 cards)
-  Shop shelf (gold 61): Card Refract 76g; Card Uproar 51g; Card Lightning Rod 52g; Card Chaos 77g; Card Feral 39g; Card Prolong 89g; Card #2286 177g (sold); Relic Tungsten Rod 247g; Relic Pocketwatch 299g; Relic Belt Buckle 174g; Potion Strength Potion 49g; Potion Dexterity Potion 50g; Potion Fysh Oil 77g; Removal 100g
+  Shop shelf (gold 61): Card Refract 76g; Card Uproar 51g; Card Lightning Rod 52g; Card Chaos 77g; Card Feral 39g; Card Prolong 89g; Card 177g (sold); Relic Tungsten Rod 247g; Relic Pocketwatch 299g; Relic Belt Buckle 174g; Potion Strength Potion 49g; Potion Dexterity Potion 50g; Potion Fysh Oil 77g; Removal 100g
   #140  [Shop] Buy Lightning Rod (52 gold)   [67.0%, 6 options]
          also: Leave / skip 18.0%; Buy Dexterity Potion (50 gold) 6.0%; Buy Strength Potion (49 gold) 4.8%; Buy Feral (39 gold) 2.2%
   Deck change: +Lightning Rod  (21 cards)
-  Shop shelf (gold 9): Card Refract 76g; Card Uproar 51g; Card #2286 52g (sold); Card Chaos 77g; Card Feral 39g; Card Prolong 89g; Card #2286 177g (sold); Relic Tungsten Rod 247g; Relic Pocketwatch 299g; Relic Belt Buckle 174g; Potion Strength Potion 49g; Potion Dexterity Potion 50g; Potion Fysh Oil 77g; Removal 100g
+  Shop shelf (gold 9): Card Refract 76g; Card Uproar 51g; Card 52g (sold); Card Chaos 77g; Card Feral 39g; Card Prolong 89g; Card 177g (sold); Relic Tungsten Rod 247g; Relic Pocketwatch 299g; Relic Belt Buckle 174g; Potion Strength Potion 49g; Potion Dexterity Potion 50g; Potion Fysh Oil 77g; Removal 100g
   #141  [Shop] Leave / skip   [100.0%, 1 option]
   #142  [Map] Go to Rest Site (row 16, col 4)   [100.0%, 1 option]
 
@@ -644,7 +644,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 69/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning  Powers: Strength 2, Lightning Rod 1
      Enemy Thieving Hopper: HP 23/84  Intent Hat Trick: Attack 23  Powers: Escape Artist 3, Swipe 1, Flutter 5
-     Hand: Ball Lightning+ [1], Ascender's Bane [X], Zap [1], Defend [1], Strike [1]  | Draw 4  Discard 11  Exhaust 2
+     Hand: Ball Lightning+ [1], Ascender's Bane [-], Zap [1], Defend [1], Strike [1]  | Draw 4  Discard 11  Exhaust 2
      Potions: Swift Potion
      #225  Select Ascender's Bane   [97.0%, 5 options]
             also: Select Zap 1.3%; Select Defend 0.9%; Select Strike 0.7%
@@ -685,7 +685,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   Shop shelf (gold 97): Card Gunk Up 25g; Card Cold Snap 52g; Card Charge Battery 50g; Card Hotfix 52g; Card Subroutine 73g; Card Panic Button 87g; Card Secret Technique 179g; Relic Akabeko 202g; Relic Ornamental Fan 220g; Relic Cauldron 176g; Potion Stable Serum 76g; Potion Clarity Extract 73g; Potion Lucky Tonic 96g; Removal 100g
   #241  [Shop] Buy Lucky Tonic (96 gold)   [39.5%, 10 options]
          also: Buy Charge Battery (50 gold) 24.8%; Leave / skip 18.2%; Buy Cold Snap (52 gold) 6.4%; Buy Clarity Extract (73 gold) 2.7%
-  Shop shelf (gold 1): Card Gunk Up 25g; Card Cold Snap 52g; Card Charge Battery 50g; Card Hotfix 52g; Card Subroutine 73g; Card Panic Button 87g; Card Secret Technique 179g; Relic Akabeko 202g; Relic Ornamental Fan 220g; Relic Cauldron 176g; Potion Stable Serum 76g; Potion Clarity Extract 73g; Potion #2286 96g (sold); Removal 100g
+  Shop shelf (gold 1): Card Gunk Up 25g; Card Cold Snap 52g; Card Charge Battery 50g; Card Hotfix 52g; Card Subroutine 73g; Card Panic Button 87g; Card Secret Technique 179g; Relic Akabeko 202g; Relic Ornamental Fan 220g; Relic Cauldron 176g; Potion Stable Serum 76g; Potion Clarity Extract 73g; Potion 96g (sold); Removal 100g
   #242  [Shop] Leave / skip   [100.0%, 1 option]
   #243  [Map] Go to Monster (row 5, col 6)   [100.0%, 1 option]
 
@@ -711,7 +711,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Exoskeleton: HP 29/29  Intent Mandibles: Attack 9  Powers: Hard to Kill 9
      Enemy Exoskeleton: HP 24/27  Intent Enrage: Buff  Powers: Hard to Kill 9
      Enemy Exoskeleton: HP 21/30  Intent Skitter: Attack 3x4  Powers: Hard to Kill 9, Strength 2
-     Hand: Strike [1], Strike [1], Leap [1], Ascender's Bane [X], Beam Cell [0]  | Draw 11  Discard 6  Exhaust 1
+     Hand: Strike [1], Strike [1], Leap [1], Ascender's Bane [-], Beam Cell [0]  | Draw 11  Discard 6  Exhaust 1
      Potions: Potion of Capacity, Lucky Tonic
      #249  Select Ascender's Bane   [98.7%, 5 options]
             also: Select Strike 0.8%
@@ -774,7 +774,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 70/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Louse Progenitor: HP 138/138  Intent Web Cannon: Attack 10 + Debuff  Powers: Curl Up 18
-     Hand: Ascender's Bane [X], Eternal Armor+ [3], Defend [1], FTL [0], Defend [1]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Eternal Armor+ [3], Defend [1], FTL [0], Defend [1]  | Draw 18  Discard 0  Exhaust 0
      Potions: Potion of Capacity, Lucky Tonic, Energy Potion
      #272  Select Ascender's Bane   [83.1%, 5 options]
             also: Select Eternal Armor+ 6.8%; Select Defend 5.0% x2
@@ -880,7 +880,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 64/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Strength 1, Lightning Rod 1
      Enemy Infested Prism: HP 115/171  Intent Radiate: Attack 13 + Defend  Powers: Vital Spark 3
-     Hand: Defend [1], Ascender's Bane [X], FTL [0], Defend+ [1], Zap [1]  | Draw 13  Discard 5  Exhaust 1
+     Hand: Defend [1], Ascender's Bane [-], FTL [0], Defend+ [1], Zap [1]  | Draw 13  Discard 5  Exhaust 1
      Potions: Potion of Capacity, Potion-Shaped Rock
      #313  Select Zap   [99.8%, 5 options]
      #314  Play FTL -> Infested Prism   [40.6%, 6 options]
@@ -954,7 +954,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 52/52  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25
      Enemy Decimillipede: HP 50/50  Intent Writhe: Attack 6x2  Powers: Reattach 25
      Enemy Decimillipede: HP 46/46  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25
-     Hand: Dualcast+ [0], Ascender's Bane [X], Cold Snap+ [1], Defend+ [1], Zap [1], Barrage [1], Strike [1]  | Draw 17  Discard 0  Exhaust 0
+     Hand: Dualcast+ [0], Ascender's Bane [-], Cold Snap+ [1], Defend+ [1], Zap [1], Barrage [1], Strike [1]  | Draw 17  Discard 0  Exhaust 0
      Potions: Potion of Capacity, Touch of Insanity, Potion-Shaped Rock, Potion-Shaped Rock
      #339  Select Ascender's Bane   [88.7%, 7 options]
             also: Select Strike 8.0%; Select Zap 3.3%
@@ -1125,7 +1125,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 70/86  Block 5  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Surrounded 1, Strength 2, Lightning Rod 1
      Enemy Crusher: HP 211/219  Intent Bug Sting: Attack 10x2 + Debuff  Powers: Back Attack 1, Crab Rage 1
      Enemy Rocket: HP 171/209  Intent Charge Up: Buff  Powers: Back Attack 1, Crab Rage 1
-     Hand: Strike [1], Coolheaded+ [1], Beam Cell [0], Ascender's Bane [X], FTL [0], Defend [1], Barrage+ [1]  | Draw 5  Discard 11  Exhaust 2
+     Hand: Strike [1], Coolheaded+ [1], Beam Cell [0], Ascender's Bane [-], FTL [0], Defend [1], Barrage+ [1]  | Draw 5  Discard 11  Exhaust 2
      Potions: Potion of Capacity, Potion-Shaped Rock
      #399  Select Strike   [72.4%, 7 options]
             also: Select Defend 25.0%; Select Ascender's Bane 2.6%
@@ -1206,7 +1206,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 32/86  Block 5  Energy 3/3  Orbs (5 slots): Lightning, Lightning, Frost, Frost, Lightning  Powers: Surrounded 1, Strength 7, Lightning Rod 1
      Enemy Crusher: HP 65/219  Intent Bug Sting: Attack 16x2 + Debuff  Powers: Back Attack 1, Strength 9
-     Hand: Exterminate [1], Eternal Armor+ [3], Dazed [X], Defend [1], Beam Cell [0]  | Draw 3  Discard 10  Exhaust 8
+     Hand: Exterminate [1], Eternal Armor+ [3], Dazed [-], Defend [1], Beam Cell [0]  | Draw 3  Discard 10  Exhaust 8
      Potions: Potion-Shaped Rock
      #430  Select Dazed   [84.8%, 5 options]
             also: Select Eternal Armor+ 15.2%
@@ -1230,7 +1230,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 75/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Living Shield: HP 65/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 51/51  Intent Unload!: Attack 4x5
-     Hand: Lightning Rod+ [1], Boost Away+ [0], Ascender's Bane [X], Strike [1], Defend [1], Defend [1], Cold Snap+ [1]  | Draw 19  Discard 0  Exhaust 0
+     Hand: Lightning Rod+ [1], Boost Away+ [0], Ascender's Bane [-], Strike [1], Defend [1], Defend [1], Cold Snap+ [1]  | Draw 19  Discard 0  Exhaust 0
      Potions: Potion-Shaped Rock, Potion-Shaped Rock
      #439  Select Strike   [76.2%, 7 options]
             also: Select Ascender's Bane 23.3%
@@ -1279,7 +1279,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 60/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Strength 3
      Enemy Turret Operator: HP 51/51  Intent Unload!: Attack 5x5  Powers: Strength 1
-     Hand: Beam Cell [0], Zap [1], Exterminate [1], Cold Snap+ [1], Dazed [X]  | Draw 18  Discard 0  Exhaust 4
+     Hand: Beam Cell [0], Zap [1], Exterminate [1], Cold Snap+ [1], Dazed [-]  | Draw 18  Discard 0  Exhaust 4
      Potions: Potion-Shaped Rock, Potion-Shaped Rock
      #457  Select Dazed   [98.5%, 5 options]
             also: Select Zap 1.5%
@@ -1332,7 +1332,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 58/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Strength 2
      Enemy Devoted Sculptor: HP 101/172  Intent Savage: Attack 24  Powers: Ritual 9, Strength 9
-     Hand: Cold Snap+ [1], FTL [0], Beam Cell [0], Ascender's Bane [X], Barrage [1], Ball Lightning [1], Defend [1]  | Draw 4  Discard 14  Exhaust 2
+     Hand: Cold Snap+ [1], FTL [0], Beam Cell [0], Ascender's Bane [-], Barrage [1], Ball Lightning [1], Defend [1]  | Draw 4  Discard 14  Exhaust 2
      Potions: Potion-Shaped Rock, Potion-Shaped Rock, Cure All, Potion-Shaped Rock
      #477  Select Ascender's Bane   [96.8%, 7 options]
             also: Select Defend 2.9%
@@ -1396,7 +1396,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 59/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost  Powers: Strength 1
      Enemy Battle Friend V1.0: HP 39/75  Intent Nothing: Unknown  Powers: Time Limit 2
-     Hand: Strike [1], Strike+ [1], Ascender's Bane [X], Ice Lance+ [3], Barrage [1]  | Draw 15  Discard 6  Exhaust 1
+     Hand: Strike [1], Strike+ [1], Ascender's Bane [-], Ice Lance+ [3], Barrage [1]  | Draw 15  Discard 6  Exhaust 1
      Potions: Potion-Shaped Rock, Potion-Shaped Rock, Cure All, Potion-Shaped Rock
      #502  Select Strike   [54.3%, 5 options]
             also: Select Strike+ 33.7%; Select Ascender's Bane 11.0%; Select Barrage 0.9%
@@ -1472,7 +1472,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 50/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Strength 3
      Enemy Punch Construct: HP 28/60  Intent READY: Defend  Powers: Artifact 1
-     Hand: FTL [0], Ball Lightning [1], Defend [1], Ascender's Bane [X], Boost Away+ [0]  | Draw 0  Discard 19  Exhaust 3
+     Hand: FTL [0], Ball Lightning [1], Defend [1], Ascender's Bane [-], Boost Away+ [0]  | Draw 0  Discard 19  Exhaust 3
      Potions: Cure All, Entropic Brew
      #529  Select Defend   [56.0%, 5 options]
             also: Select Ball Lightning 32.9%; Select Ascender's Bane 7.8%; Select Boost Away+ 3.1%
@@ -1516,26 +1516,26 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #544  [Shop] Buy Jackpot (169 gold)   [60.8%, 16 options]
          also: Discard potion Speed Potion 8.0%; Buy Feral (37 gold) 3.7%; Buy Bronze Scales (167 gold) 3.3%; Buy Beam Cell (49 gold) 3.3%
   Deck change: +Jackpot  (29 cards)
-  Shop shelf (gold 887): Card FTL 73g; Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card #2286 169g (sold); Relic Bronze Scales 167g; Relic Red Mask 189g; Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g
+  Shop shelf (gold 887): Card FTL 73g; Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card 169g (sold); Relic Bronze Scales 167g; Relic Red Mask 189g; Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g
   #545  [Shop] Buy Bronze Scales (167 gold)   [35.5%, 15 options]
          also: Buy Red Mask (189 gold) 16.4%; Buy Card removal service (100 gold) 14.8%; Discard potion Speed Potion 7.7%; Buy FTL (73 gold) 6.7%
   Relic gained: Bronze Scales
-  Shop shelf (gold 720): Card FTL 73g; Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card #2286 169g (sold); Relic #2286 167g (sold); Relic Red Mask 189g; Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g
+  Shop shelf (gold 720): Card FTL 73g; Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card 169g (sold); Relic 167g (sold); Relic Red Mask 189g; Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g
   #546  [Shop] Buy Card removal service (100 gold)   [29.7%, 14 options]
          also: Buy Red Mask (189 gold) 22.7%; Buy FTL (73 gold) 10.3%; Discard potion Speed Potion 9.2%; Leave / skip 6.7%
   Select cards - purpose: remove, choose 1-1, already chosen 0
   #547  [Card select] Select Strike   [59.8%, 29 options]
          also: Select Strike 9.8% x3 (identical option); Select Defend 1.4%
   Deck change: -Strike  (28 cards)
-  Shop shelf (gold 620): Card FTL 73g; Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card #2286 169g (sold); Relic #2286 167g (sold); Relic Red Mask 189g; Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g (sold)
+  Shop shelf (gold 620): Card FTL 73g; Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card 169g (sold); Relic 167g (sold); Relic Red Mask 189g; Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g (sold)
   #548  [Shop] Buy Red Mask (189 gold)   [28.9%, 13 options]
          also: Buy FTL (73 gold) 14.5%; Discard potion Speed Potion 13.2%; Leave / skip 11.1%; Buy Beam Cell (49 gold) 9.0%
   Relic gained: Red Mask
-  Shop shelf (gold 431): Card FTL 73g; Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card #2286 169g (sold); Relic #2286 167g (sold); Relic #2286 189g (sold); Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g (sold)
+  Shop shelf (gold 431): Card FTL 73g; Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card 169g (sold); Relic 167g (sold); Relic 189g (sold); Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g (sold)
   #549  [Shop] Buy FTL (73 gold)   [20.8%, 12 options]
          also: Leave / skip 18.7%; Buy Beam Cell (49 gold) 14.7%; Discard potion Speed Potion 14.3%; Buy Feral (37 gold) 12.2%
   Deck change: +FTL  (29 cards)
-  Shop shelf (gold 358): Card #2286 73g (sold); Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card #2286 169g (sold); Relic #2286 167g (sold); Relic #2286 189g (sold); Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g (sold)
+  Shop shelf (gold 358): Card 73g (sold); Card Beam Cell 49g; Card Glasswork 77g; Card Hologram 48g; Card Feral 37g; Card Volley 90g; Card 169g (sold); Relic 167g (sold); Relic 189g (sold); Relic Sling of Courage 203g; Potion Dexterity Potion 52g; Potion Mazaleth's Gift 104g; Potion Attack Potion 51g; Removal 100g (sold)
   #550  [Shop] Leave / skip   [32.2%, 11 options]
          also: Buy Beam Cell (49 gold) 17.0%; Discard potion Speed Potion 16.7%; Buy Feral (37 gold) 14.4%; Discard potion Weak Potion 5.4%
   #551  [Map] Go to Rest Site (row 11, col 4)   [100.0%, 1 option]
@@ -1559,11 +1559,11 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #556  [Shop] Buy Mummified Hand (307 gold)   [49.6%, 16 options]
          also: Discard potion Speed Potion 9.3%; Buy Lee's Waffle (212 gold) 7.0%; Buy Charge Battery (26 gold) 4.1%; Buy Subroutine (72 gold) 3.5%
   Relic gained: Mummified Hand
-  Shop shelf (gold 87): Card Barrage 52g; Card Rocket Punch 73g; Card Hotfix 50g; Card Charge Battery 26g; Card Subroutine 72g; Card Seeker Strike 85g; Card Anointed 168g; Relic #2286 307g (sold); Relic Venerable Tea Set 176g; Relic Lee's Waffle 212g; Potion Skill Potion 50g; Potion Block Potion 49g; Potion Entropic Brew 101g; Removal 150g
+  Shop shelf (gold 87): Card Barrage 52g; Card Rocket Punch 73g; Card Hotfix 50g; Card Charge Battery 26g; Card Subroutine 72g; Card Seeker Strike 85g; Card Anointed 168g; Relic 307g (sold); Relic Venerable Tea Set 176g; Relic Lee's Waffle 212g; Potion Skill Potion 50g; Potion Block Potion 49g; Potion Entropic Brew 101g; Removal 150g
   #557  [Shop] Buy Charge Battery (26 gold)   [17.5%, 11 options]
          also: Leave / skip 17.3%; Discard potion Speed Potion 14.2%; Buy Rocket Punch (73 gold) 13.7%; Buy Subroutine (72 gold) 13.2%
   Deck change: +Charge Battery  (30 cards)
-  Shop shelf (gold 61): Card Barrage 52g; Card Rocket Punch 73g; Card Hotfix 50g; Card #2286 26g (sold); Card Subroutine 72g; Card Seeker Strike 85g; Card Anointed 168g; Relic #2286 307g (sold); Relic Venerable Tea Set 176g; Relic Lee's Waffle 212g; Potion Skill Potion 50g; Potion Block Potion 49g; Potion Entropic Brew 101g; Removal 150g
+  Shop shelf (gold 61): Card Barrage 52g; Card Rocket Punch 73g; Card Hotfix 50g; Card 26g (sold); Card Subroutine 72g; Card Seeker Strike 85g; Card Anointed 168g; Relic 307g (sold); Relic Venerable Tea Set 176g; Relic Lee's Waffle 212g; Potion Skill Potion 50g; Potion Block Potion 49g; Potion Entropic Brew 101g; Removal 150g
   #558  [Shop] Leave / skip   [38.9%, 7 options]
          also: Discard potion Speed Potion 28.4%; Buy Barrage (52 gold) 13.8%; Discard potion Weak Potion 7.6%; Discard potion Cure All 5.4%
   #559  [Map] Go to Rest Site (row 14, col 2)   [100.0%, 1 option]
@@ -1603,7 +1603,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 86/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Thorns 3, Dexterity 1, Strength 1, Focus 2, Lightning Rod 1, Chains of Binding 3
      Enemy Torch Head Amalgam: HP 181/211  Intent Tackle: Attack 16  Powers: Minion 1, Weak 3
      Enemy Queen: HP 419/419  Intent You Are Mine: Debuff
-     Hand: Cold Snap+ [1], Ascender's Bane [X], Eternal Armor+ [3], FTL [0], Barrage [1]  | Draw 15  Discard 8  Exhaust 1
+     Hand: Cold Snap+ [1], Ascender's Bane [-], Eternal Armor+ [3], FTL [0], Barrage [1]  | Draw 15  Discard 8  Exhaust 1
      Potions: Weak Potion, Speed Potion, Cure All, Focus Potion
      #572  Select Ascender's Bane   [98.8%, 5 options]
             also: Select Barrage 1.1%
@@ -1769,7 +1769,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 11 --
      HP 69/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost  Powers: Thorns 3, Dexterity 1, Strength 10, Focus 2, Chains of Binding 3, Plating 4, Frail 91, Weak 91, Vulnerable 91
      Enemy Queen: HP 28/419  Intent Execution: Attack 33  Powers: Strength 4
-     Hand: Boost Away+ [0], Exterminate [1], Leap [1], Dazed [X], FTL [0]  | Draw 16  Discard 6  Exhaust 14
+     Hand: Boost Away+ [0], Exterminate [1], Leap [1], Dazed [-], FTL [0]  | Draw 16  Discard 6  Exhaust 14
      Potions: Speed Potion, Cure All, Focus Potion
      #638  Select Dazed   [35.1%, 5 options]
             also: Select Leap 33.3%; Select Boost Away+ 16.7%; Select FTL 13.1%; Select Exterminate 1.8%
@@ -1833,7 +1833,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 70/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Thorns 3, Dexterity 1, Strength 3, Focus 2
      Enemy Test Subject #C{Count}: HP 212/212  Intent Multi-Claw: Attack 11x3  Powers: Adaptable 1, Painful Stabs 1
-     Hand: Ascender's Bane [X], Defend [1], Defragment+ [1], Beam Cell [0], Leap [1], Zap [1]  | Draw 2  Discard 22  Exhaust 3
+     Hand: Ascender's Bane [-], Defend [1], Defragment+ [1], Beam Cell [0], Leap [1], Zap [1]  | Draw 2  Discard 22  Exhaust 3
      Potions: Potion-Shaped Rock, Speed Potion, Cure All
      #660  Select Zap   [99.2%, 6 options]
      #661  Play Defragment+   [60.4%, 8 options]
@@ -1967,7 +1967,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 11 --
      HP 65/86  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Thorns 3, Dexterity 1, Strength 10, Focus 4, Plating 7
      Enemy Test Subject #C{Count}: HP 223/313  Intent Lacerate: Attack 14x3  Powers: Nemesis 1, Strength 3
-     Hand: Defend+ [1], Ice Lance [3], Defend [1], FTL [0], Burn [X]  | Draw 24  Discard 0  Exhaust 11
+     Hand: Defend+ [1], Ice Lance [3], Defend [1], FTL [0], Burn [-]  | Draw 24  Discard 0  Exhaust 11
      #711  Select Burn   [84.5%, 5 options]
             also: Select Defend 11.1%; Select Defend+ 4.2%
      #712  Play FTL -> Test Subject #C{Count}   [56.7%, 5 options]

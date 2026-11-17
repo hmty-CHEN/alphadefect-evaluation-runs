@@ -29,7 +29,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 68/86  Block 0  Energy 3/3  Orbs (3 slots): empty
      Enemy Toadpole: HP 11/25  Intent Spike Spit: Attack 4x3  Powers: Thorns 2
      Enemy Toadpole: HP 16/24  Intent Spiken: Buff
-     Hand: Strike [1], Defend [1], Defend [1], Ascender's Bane [X], Zap [1]  | Draw 1  Discard 5  Exhaust 0
+     Hand: Strike [1], Defend [1], Defend [1], Ascender's Bane [-], Zap [1]  | Draw 1  Discard 5  Exhaust 0
      #6    Play Defend   [49.9%, 6 options]
             also: Play Defend 49.9% (identical option)
      #7    Play Defend   [100.0%, 5 options]
@@ -102,7 +102,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 52/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Seapunk: HP 37/49  Intent Spinning Kick: Attack 2x4
-     Hand: Defend [1], Dualcast [1], Ascender's Bane [X], Strike [1], Zap [1]  | Draw 3  Discard 5  Exhaust 0
+     Hand: Defend [1], Dualcast [1], Ascender's Bane [-], Strike [1], Zap [1]  | Draw 3  Discard 5  Exhaust 0
      Potions: Glowwater Potion
      #32   Play Defend   [59.5%, 6 options]
             also: Play Zap 34.9%; Play Strike -> Seapunk 3.0%; Play Dualcast 2.6%
@@ -114,7 +114,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 49/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Seapunk: HP 25/49  Intent Bubble Burp: Buff + Defend
-     Hand: Defend [1], Strike [1], Clumsy [X], Strike [1], Defend [1]  | Draw 7  Discard 0  Exhaust 1
+     Hand: Defend [1], Strike [1], Clumsy [-], Strike [1], Defend [1]  | Draw 7  Discard 0  Exhaust 1
      Potions: Glowwater Potion
      #36   Play Strike -> Seapunk   [46.3%, 6 options]
             also: Play Strike -> Seapunk 46.3% (identical option); Play Defend 3.7% x2
@@ -154,7 +154,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 49/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Terror Eel: HP 150/150  Intent Crash: Attack 18  Powers: Shriek 75
-     Hand: Ascender's Bane [X], Dualcast [1], Strike+ [1], Clumsy [X], Defend [1]  | Draw 10  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Dualcast [1], Strike+ [1], Clumsy [-], Defend [1]  | Draw 10  Discard 0  Exhaust 0
      Potions: Glowwater Potion, Potion of Capacity
      #50   Use potion Potion of Capacity -> self   [96.9%, 6 options]
             also: Play Defend 2.5%
@@ -171,7 +171,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 49/86  Block 0  Energy 3/3  Orbs (5 slots): Lightning, Lightning
      Enemy Terror Eel: HP 144/150  Intent Thrash: Attack 4x3 + Buff  Powers: Shriek 75
-     Hand: Boost Away [0], Dazed [X], Strike+ [1], Charge Battery [1], Leap [1]  | Draw 7  Discard 0  Exhaust 4
+     Hand: Boost Away [0], Dazed [-], Strike+ [1], Charge Battery [1], Leap [1]  | Draw 7  Discard 0  Exhaust 4
      #57   Play Charge Battery   [40.2%, 5 options]
             also: Play Strike+ -> Terror Eel 28.7%; Play Leap 23.9%; Play Boost Away 7.2%
      #58   Play Strike+ -> Terror Eel   [54.9%, 4 options]
@@ -216,7 +216,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 36/86  Block 0  Energy 4/3  Orbs (5 slots): Lightning, Lightning, Lightning, Lightning
      Enemy Terror Eel: HP 87/150  Intent Thrash: Attack 4x3 + Buff  Powers: Shriek 75
-     Hand: Strike [1], Defend [1], Defend [1], Strike+ [1], Dazed [X]  | Draw 7  Discard 0  Exhaust 5
+     Hand: Strike [1], Defend [1], Defend [1], Strike+ [1], Dazed [-]  | Draw 7  Discard 0  Exhaust 5
      #75   Play Strike+ -> Terror Eel   [47.6%, 5 options]
             also: Play Defend 18.8% x2; Play Strike -> Terror Eel 14.7%
      #76   Play Defend   [49.8%, 4 options]
@@ -264,7 +264,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 10 --
      HP 14/86  Block 0  Energy 4/3  Orbs (5 slots): Lightning, Lightning, Lightning, Lightning, Lightning  Powers: Vulnerable 97
      Enemy Terror Eel: HP 3/150  Intent Crash: Attack 36  Powers: Vigor 6
-     Hand: Defend [1], Boost Away [0], Strike [1], Strike+ [1], Dazed [X]  | Draw 7  Discard 0  Exhaust 6
+     Hand: Defend [1], Boost Away [0], Strike [1], Strike+ [1], Dazed [-]  | Draw 7  Discard 0  Exhaust 6
      #94   Play Boost Away   [28.1%, 5 options]
             also: Play Strike+ -> Terror Eel 27.5%; Play Strike -> Terror Eel 24.5%; Play Defend 19.9%
      #95   Play Strike+ -> Terror Eel   [43.2%, 4 options]
@@ -285,7 +285,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 14/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Corpse Slug: HP 27/27  Intent Whip Slap: Attack 3x2  Powers: Ravenous 5
      Enemy Corpse Slug: HP 28/28  Intent Glomp: Attack 9  Powers: Ravenous 5
-     Hand: Clumsy [X], Boost Away [0], Strike+ [1], Zap [1], Leap [1]  | Draw 11  Discard 0  Exhaust 0
+     Hand: Clumsy [-], Boost Away [0], Strike+ [1], Zap [1], Leap [1]  | Draw 11  Discard 0  Exhaust 0
      Potions: Duplicator
      #101  Play Boost Away   [43.1%, 7 options]
             also: Play Leap 42.9%; Play Zap 11.8%; Play Strike+ -> Corpse Slug #1 1.9%
@@ -299,7 +299,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 14/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Corpse Slug: HP 15/27  Intent Glomp: Attack 9  Powers: Ravenous 5
      Enemy Corpse Slug: HP 25/28  Intent Goop: Debuff  Powers: Ravenous 5
-     Hand: Charge Battery [1], Strike [1], Ascender's Bane [X], Strike+ [1], Defend [1]  | Draw 6  Discard 5  Exhaust 1
+     Hand: Charge Battery [1], Strike [1], Ascender's Bane [-], Strike+ [1], Defend [1]  | Draw 6  Discard 5  Exhaust 1
      Potions: Duplicator
      #106  Play Strike+ -> Corpse Slug #1   [65.6%, 8 options]
             also: Play Strike -> Corpse Slug #1 19.6%; Play Charge Battery 11.2%; Play Defend 2.7%; Play Strike+ -> Corpse Slug #2 0.7%
@@ -369,7 +369,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 38/86  Block 0  Energy 4/3  Orbs (3 slots): empty
      Enemy Seapunk: HP 47/47  Intent Bubble Burp: Buff + Defend
-     Hand: Strike [1], Uproar [2], Clumsy [X], Defend [1], Ascender's Bane [X], Zap [1]  | Draw 1  Discard 11  Exhaust 0
+     Hand: Strike [1], Uproar [2], Clumsy [-], Defend [1], Ascender's Bane [-], Zap [1]  | Draw 1  Discard 11  Exhaust 0
      Potions: Duplicator
      #131  Play Uproar -> Seapunk   [66.9%, 6 options]
             also: Play Zap 27.7%; Play Strike -> Seapunk 5.2%
@@ -379,7 +379,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 38/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Seapunk: HP 17/47  Block 8  Intent Sea Kick: Attack 15  Powers: Strength 2
-     Hand: Defend [1], Strike+ [1], Defend [1], Strike [1], Dazed [X]  | Draw 11  Discard 0  Exhaust 2
+     Hand: Defend [1], Strike+ [1], Defend [1], Strike [1], Dazed [-]  | Draw 11  Discard 0  Exhaust 2
      Potions: Duplicator
      #135  Play Defend   [49.6%, 6 options]
             also: Play Defend 49.6% (identical option); Play Strike+ -> Seapunk 0.6%
@@ -409,7 +409,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Corpse Slug: HP 27/27  Intent Glomp: Attack 9  Powers: Ravenous 5
      Enemy Corpse Slug: HP 28/28  Intent Goop: Debuff  Powers: Ravenous 5
      Enemy Corpse Slug: HP 29/29  Intent Whip Slap: Attack 3x2  Powers: Ravenous 5
-     Hand: Strike [1], Go for the Eyes [0], Clumsy [X], Boost Away [0], Dualcast [1], Uproar [2]  | Draw 12  Discard 0  Exhaust 0
+     Hand: Strike [1], Go for the Eyes [0], Clumsy [-], Boost Away [0], Dualcast [1], Uproar [2]  | Draw 12  Discard 0  Exhaust 0
      Potions: Duplicator
      #145  Play Uproar -> Corpse Slug #3   [28.1%, 13 options]
             also: Play Uproar -> Corpse Slug #1 15.3%; Play Dualcast 15.0%; Play Go for the Eyes -> Corpse Slug #3 12.9%; Play Go for the Eyes -> Corpse Slug #1 11.0%
@@ -439,7 +439,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 26/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Frail 1
      Enemy Corpse Slug: HP 27/27  Intent Goop: Debuff  Powers: Ravenous 5, Strength 5
      Enemy Corpse Slug: HP 13/28  Intent Whip Slap: Attack 8x2  Powers: Ravenous 5, Strength 5
-     Hand: Zap [1], Ascender's Bane [X], Defend [1], Strike+ [1], Charge Battery [1]  | Draw 1  Discard 12  Exhaust 1
+     Hand: Zap [1], Ascender's Bane [-], Defend [1], Strike+ [1], Charge Battery [1]  | Draw 1  Discard 12  Exhaust 1
      Potions: Duplicator
      #155  Use potion Duplicator -> self   [94.4%, 7 options]
             also: Play Zap 4.9%
@@ -450,7 +450,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 26/86  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning
      Enemy Corpse Slug: HP 21/27  Intent Goop: Debuff  Powers: Ravenous 5, Strength 10
-     Hand: Defend [1], Strike [1], Strike+ [1], Dazed [X], Uproar [2], Beam Cell [0]  | Draw 11  Discard 0  Exhaust 2
+     Hand: Defend [1], Strike [1], Strike+ [1], Dazed [-], Uproar [2], Beam Cell [0]  | Draw 11  Discard 0  Exhaust 2
      #160  Play Strike+ -> Corpse Slug   [27.1%, 6 options]
             also: Play Beam Cell -> Corpse Slug 25.7%; Play Strike -> Corpse Slug 22.0%; Play Uproar -> Corpse Slug 20.7%; Play Defend 4.5%
      #161  Play Beam Cell -> Corpse Slug   [43.5%, 5 options]
@@ -492,7 +492,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 32/32  Intent Bite: Attack 5  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 29/29  Intent Lash: Attack 7  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 30/30  Intent Enlarge: Buff  Powers: Skittish 7
-     Hand: Strike+ [1], Uproar [2], Leap [1], Clumsy [X], Ascender's Bane [X]  | Draw 15  Discard 0  Exhaust 0
+     Hand: Strike+ [1], Uproar [2], Leap [1], Clumsy [-], Ascender's Bane [-]  | Draw 15  Discard 0  Exhaust 0
      Potions: Heart of Iron
      #174  Play Uproar -> Phantasmal Gardener #4   [95.7%, 11 options]
             also: Play Leap 3.2%; Play Strike+ -> Phantasmal Gardener #4 1.0%
@@ -554,7 +554,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 25/28  Intent Flail: Attack 4x3  Powers: Skittish 7, Strength 3
      Enemy Phantasmal Gardener: HP 26/32  Intent Bite: Attack 8  Powers: Skittish 7, Strength 3
      Enemy Phantasmal Gardener: HP 29/29  Intent Lash: Attack 10  Powers: Skittish 7, Strength 3
-     Hand: Leap [1], Strike [1], Defend [1], Dazed [X], Beam Cell [0]  | Draw 9  Discard 5  Exhaust 2
+     Hand: Leap [1], Strike [1], Defend [1], Dazed [-], Beam Cell [0]  | Draw 9  Discard 5  Exhaust 2
      Potions: Heart of Iron
      #192  Play Leap   [68.6%, 10 options]
             also: Play Defend 28.6%; Play Beam Cell -> Phantasmal Gardener #2 1.0%; Play Beam Cell -> Phantasmal Gardener #3 0.9%; Play Beam Cell -> Phantasmal Gardener #1 0.8%
@@ -613,7 +613,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 32/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost  Powers: Strength 1, Dexterity 1
      Enemy Phantasmal Gardener: HP 14/28  Intent Flail: Attack 7x3  Powers: Skittish 7, Strength 6
-     Hand: Dazed [X], Defend [1], Charge Battery [1], Go for the Eyes [0], Strike+ [1], Strike [1]  | Draw 2  Discard 11  Exhaust 3
+     Hand: Dazed [-], Defend [1], Charge Battery [1], Go for the Eyes [0], Strike+ [1], Strike [1]  | Draw 2  Discard 11  Exhaust 3
      Potions: Heart of Iron
      #211  Play Go for the Eyes -> Phantasmal Gardener   [27.6%, 7 options]
             also: Play Strike+ -> Phantasmal Gardener 24.1%; Play Charge Battery 22.6%; Play Defend 16.4%; Play Strike -> Phantasmal Gardener 9.3%
@@ -649,7 +649,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 57/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 4
      Enemy Soul Fysh: HP 221/221  Intent Beckon: Debuff
-     Hand: Strike [1], Boost Away [0], Glacier [2], Strike+ [1], Clumsy [X]  | Draw 16  Discard 0  Exhaust 0
+     Hand: Strike [1], Boost Away [0], Glacier [2], Strike+ [1], Clumsy [-]  | Draw 16  Discard 0  Exhaust 0
      Potions: Heart of Iron
      #223  Play Strike+ -> Soul Fysh   [73.8%, 6 options]
             also: Play Strike -> Soul Fysh 21.1%; Play Glacier 4.9%
@@ -683,7 +683,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 51/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Plating 1, Strength 1, Dexterity 1
      Enemy Soul Fysh: HP 169/221  Intent Fade: Buff
-     Hand: Ascender's Bane [X], Charge Battery [1], Strike [1], Go for the Eyes [0], Strike+ [1]  | Draw 0  Discard 17  Exhaust 1
+     Hand: Ascender's Bane [-], Charge Battery [1], Strike [1], Go for the Eyes [0], Strike+ [1]  | Draw 0  Discard 17  Exhaust 1
      Potions: Heart of Iron
      #235  Play Strike+ -> Soul Fysh   [67.5%, 6 options]
             also: Play Strike -> Soul Fysh 19.5%; Play Go for the Eyes -> Soul Fysh 9.6%; Play Charge Battery 3.4%
@@ -749,7 +749,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 26/86  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Strength 1, Dexterity 1
      Enemy Soul Fysh: HP 56/221  Intent Fade: Buff
-     Hand: Beckon [1], Go for the Eyes [0], Boost Away [0], Dazed [X], Glacier [2]  | Draw 13  Discard 7  Exhaust 2
+     Hand: Beckon [1], Go for the Eyes [0], Boost Away [0], Dazed [-], Glacier [2]  | Draw 13  Discard 7  Exhaust 2
      Potions: Heart of Iron
      #260  Play Go for the Eyes -> Soul Fysh   [59.5%, 6 options]
             also: Play Boost Away 25.4%; Play Glacier 10.4%; Play Beckon 4.7%
@@ -824,7 +824,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 73/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 3, Strength 3, Dexterity 1
      Enemy Tunneler: HP 49/92  Block 37  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Ascender's Bane [X], Dualcast [1], Strike [1], Charge Battery [1], Clumsy [X], Glacier [2]  | Draw 5  Discard 8  Exhaust 2
+     Hand: Ascender's Bane [-], Dualcast [1], Strike [1], Charge Battery [1], Clumsy [-], Glacier [2]  | Draw 5  Discard 8  Exhaust 2
      Potions: Heart of Iron
      #287  Select Clumsy   [94.1%, 6 options]
             also: Select Ascender's Bane 5.5%
@@ -1024,7 +1024,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 55/86  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Tender 1, Dexterity 1, Strength 6
      Enemy Hunter Killer: HP 5/126  Intent Puncture: Attack 8x3
-     Hand: Dualcast [1], Glacier [2], Defend [1], Defend [1], Leap [1], Dazed [X]  | Draw 5  Discard 7  Exhaust 7
+     Hand: Dualcast [1], Glacier [2], Defend [1], Defend [1], Leap [1], Dazed [-]  | Draw 5  Discard 7  Exhaust 7
      Potions: Heart of Iron, Fairy in a Bottle
      #360  Select Dazed   [81.2%, 6 options]
             also: Select Dualcast 12.9%; Select Defend 2.9% x2
@@ -1091,7 +1091,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Bowlbug (Rock): HP 29/46  Intent Headbutt: Attack 16  Powers: Imbalanced 1
      Enemy Bowlbug (Silk): HP 38/41  Intent Toxic Spit: Debuff
      Enemy Slumbering Beetle: HP 89/89  Block 17  Intent Snore: Stun/Sleep/Escape  Powers: Plating 17, Slumber 1
-     Hand: Leap [1], Charge Battery [1], Compile Driver [1], Clumsy [X], Coolheaded+ [1]  | Draw 9  Discard 8  Exhaust 3
+     Hand: Leap [1], Charge Battery [1], Compile Driver [1], Clumsy [-], Coolheaded+ [1]  | Draw 9  Discard 8  Exhaust 3
      Potions: Heart of Iron, Fairy in a Bottle
      #381  Select Clumsy   [96.5%, 5 options]
             also: Select Leap 3.3%
@@ -1126,7 +1126,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 46/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Plating 8, Strength 5, Dexterity 1
      Enemy Bowlbug (Silk): HP 19/41  Intent Toxic Spit: Debuff
      Enemy Slumbering Beetle: HP 89/89  Intent Roll Out: Attack 20 + Buff  Powers: Strength 2
-     Hand: Defend [1], Dazed [X], Dualcast [1], Compile Driver [1], Boost Away [0], Coolheaded+ [1]  | Draw 13  Discard 0  Exhaust 6
+     Hand: Defend [1], Dazed [-], Dualcast [1], Compile Driver [1], Boost Away [0], Coolheaded+ [1]  | Draw 13  Discard 0  Exhaust 6
      Potions: Fairy in a Bottle
      #394  Select Dazed   [56.6%, 6 options]
             also: Select Dualcast 31.4%; Select Defend 11.8%
@@ -1183,7 +1183,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 46/86  Block 0  Energy 5/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Plating 4, Strength 9, Dexterity 1
      Enemy Slumbering Beetle: HP 43/89  Intent Roll Out: Attack 28 + Buff  Powers: Strength 10
-     Hand: Beam Cell [0], Strike+ [1], Dazed [X], Strike+ [1], Go for the Eyes [0]  | Draw 1  Discard 10  Exhaust 10
+     Hand: Beam Cell [0], Strike+ [1], Dazed [-], Strike+ [1], Go for the Eyes [0]  | Draw 1  Discard 10  Exhaust 10
      Potions: Fairy in a Bottle
      #414  Select Dazed   [99.4%, 5 options]
      #415  Play Strike+ -> Slumbering Beetle   [25.7%, 5 options]
@@ -1218,7 +1218,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 76/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 4
      Enemy Infested Prism: HP 171/171  Intent Jab: Attack 17  Powers: Vital Spark 3
-     Hand: Compile Driver [1], Prowess+ [1], Defend [1], Zap [1], Ascender's Bane [X]  | Draw 20  Discard 0  Exhaust 0
+     Hand: Compile Driver [1], Prowess+ [1], Defend [1], Zap [1], Ascender's Bane [-]  | Draw 20  Discard 0  Exhaust 0
      Potions: Fire Potion, Fairy in a Bottle
      #426  Select Zap   [94.3%, 5 options]
             also: Select Defend 3.4%; Select Ascender's Bane 2.3%
@@ -1248,7 +1248,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 67/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Plating 3, Strength 4, Dexterity 2
      Enemy Infested Prism: HP 119/171  Block 13  Intent Whirlwind: Attack 6x3  Powers: Vital Spark 3
-     Hand: Strike+ [1], Clumsy [X], Defend [1], Uproar [2], Defend [1]  | Draw 8  Discard 7  Exhaust 4
+     Hand: Strike+ [1], Clumsy [-], Defend [1], Uproar [2], Defend [1]  | Draw 8  Discard 7  Exhaust 4
      Potions: Fire Potion, Fairy in a Bottle
      #437  Select Defend   [37.4%, 5 options]
             also: Select Defend 37.4% (identical option); Select Clumsy 25.1%
@@ -1341,7 +1341,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 77/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 4, Strength 1
      Enemy Entomancer: HP 127/165  Intent Spear!: Attack 20  Powers: Personal Hive 1
-     Hand: Go for the Eyes [0], Glacier [2], Dazed [X], Defend [1], Defend [1], Prowess+ [1]  | Draw 13  Discard 7  Exhaust 2
+     Hand: Go for the Eyes [0], Glacier [2], Dazed [-], Defend [1], Defend [1], Prowess+ [1]  | Draw 13  Discard 7  Exhaust 2
      Potions: Fire Potion, Fairy in a Bottle
      #468  Select Dazed   [86.7%, 6 options]
             also: Select Defend 6.6% x2
@@ -1354,7 +1354,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 77/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Plating 3, Strength 4, Dexterity 2
      Enemy Entomancer: HP 117/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1
-     Hand: Zap [1], Boost Away [0], Ascender's Bane [X], Dazed [X], Dazed [X]  | Draw 9  Discard 11  Exhaust 3
+     Hand: Zap [1], Boost Away [0], Ascender's Bane [-], Dazed [-], Dazed [-]  | Draw 9  Discard 11  Exhaust 3
      Potions: Fire Potion, Fairy in a Bottle
      #473  Select Dazed   [38.6%, 5 options]
             also: Select Dazed 38.6% (identical option); Select Zap 8.8%; Select Boost Away 8.5%; Select Ascender's Bane 5.6%
@@ -1365,7 +1365,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 77/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Plating 2, Strength 5, Dexterity 2
      Enemy Entomancer: HP 106/165  Intent Beeeees!: Attack 4x8  Powers: Personal Hive 2, Strength 1
-     Hand: Charge Battery [1], Defend [1], Coolheaded+ [1], Dazed [X], Strike+ [1]  | Draw 4  Discard 13  Exhaust 6
+     Hand: Charge Battery [1], Defend [1], Coolheaded+ [1], Dazed [-], Strike+ [1]  | Draw 4  Discard 13  Exhaust 6
      Potions: Fire Potion, Fairy in a Bottle
      #476  Select Dazed   [95.1%, 5 options]
             also: Select Strike+ 4.8%
@@ -1394,7 +1394,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 71/86  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Strength 7, Dexterity 2
      Enemy Entomancer: HP 78/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 2, Strength 1
-     Hand: Charge Battery [1], Go for the Eyes [0], Dazed [X], Boost Away [0], Beam Cell [0]  | Draw 11  Discard 5  Exhaust 9
+     Hand: Charge Battery [1], Go for the Eyes [0], Dazed [-], Boost Away [0], Beam Cell [0]  | Draw 11  Discard 5  Exhaust 9
      Potions: Fire Potion, Fairy in a Bottle
      #487  Select Dazed   [91.1%, 5 options]
             also: Select Go for the Eyes 3.1%; Select Beam Cell 3.1%; Select Boost Away 2.1%; Select Charge Battery 0.7%
@@ -1410,7 +1410,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 71/86  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Strength 8, Dexterity 2
      Enemy Entomancer: HP 45/165  Intent Beeeees!: Attack 5x8  Powers: Personal Hive 3, Strength 2
-     Hand: Coolheaded+ [1], Dazed [X], Dazed [X], Strike+ [1], Dazed [X]  | Draw 10  Discard 10  Exhaust 10
+     Hand: Coolheaded+ [1], Dazed [-], Dazed [-], Strike+ [1], Dazed [-]  | Draw 10  Discard 10  Exhaust 10
      Potions: Fire Potion, Fairy in a Bottle
      #493  Select Dazed   [33.3%, 5 options]
             also: Select Dazed 33.3% x2 (identical option)
@@ -1448,7 +1448,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 71/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 4, Surrounded 1
      Enemy Crusher: HP 219/219  Intent Thrash: Attack 21  Powers: Back Attack 1, Crab Rage 1
      Enemy Rocket: HP 209/209  Intent Targeting Reticle: Attack 4  Powers: Back Attack 1, Crab Rage 1
-     Hand: Defend [1], Defend [1], Prowess+ [1], Exterminate [1], Ascender's Bane [X], Boost Away [0], Defend [1], Strike [1]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Defend [1], Defend [1], Prowess+ [1], Exterminate [1], Ascender's Bane [-], Boost Away [0], Defend [1], Strike [1]  | Draw 18  Discard 0  Exhaust 0
      Potions: Fire Potion, Fairy in a Bottle
      #505  Select Strike   [63.3%, 8 options]
             also: Select Ascender's Bane 9.4%; Select Defend 9.1% x3
@@ -1482,7 +1482,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 71/86  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 3, Surrounded 1, Strength 4, Dexterity 2
      Enemy Crusher: HP 213/219  Intent Bug Sting: Attack 10x2 + Debuff  Powers: Back Attack 1, Crab Rage 1
      Enemy Rocket: HP 190/209  Intent Charge Up: Buff  Powers: Back Attack 1, Crab Rage 1, Weak 1
-     Hand: Charge Battery [1], Clumsy [X], Charge Battery [1], Strike+ [1], Coolheaded+ [1]  | Draw 7  Discard 10  Exhaust 4
+     Hand: Charge Battery [1], Clumsy [-], Charge Battery [1], Strike+ [1], Coolheaded+ [1]  | Draw 7  Discard 10  Exhaust 4
      Potions: Fire Potion, Fairy in a Bottle
      #517  Select Clumsy   [78.0%, 5 options]
             also: Select Strike+ 21.5%
@@ -1536,7 +1536,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 55/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost  Powers: Surrounded 1, Strength 7, Dexterity 2
      Enemy Crusher: HP 205/219  Block 18  Intent Thrash: Attack 25  Powers: Back Attack 1, Crab Rage 1, Strength 3
      Enemy Rocket: HP 112/209  Intent Targeting Reticle: Attack 7  Powers: Back Attack 1, Crab Rage 1, Strength 3
-     Hand: Dazed [X], Go for the Eyes+ [0], Compile Driver [1], Coolheaded+ [1], Charge Battery [1]  | Draw 5  Discard 10  Exhaust 8
+     Hand: Dazed [-], Go for the Eyes+ [0], Compile Driver [1], Coolheaded+ [1], Charge Battery [1]  | Draw 5  Discard 10  Exhaust 8
      Potions: Fire Potion, Fairy in a Bottle
      #537  Select Dazed   [99.8%, 5 options]
      #538  Play Go for the Eyes+ -> Rocket   [53.2%, 9 options]
@@ -1551,7 +1551,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 51/86  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Surrounded 1, Strength 8, Dexterity 2
      Enemy Crusher: HP 205/219  Intent Enlarging Strike: Attack 10  Powers: Back Attack 1, Crab Rage 1, Strength 3
      Enemy Rocket: HP 100/209  Intent Precision Beam: Attack 17  Powers: Back Attack 1, Crab Rage 1, Strength 3, Weak 1
-     Hand: Exterminate [1], Charge Battery [1], Uproar [2], Boost Away [0], Glacier [2], Dazed [X]  | Draw 13  Discard 0  Exhaust 9
+     Hand: Exterminate [1], Charge Battery [1], Uproar [2], Boost Away [0], Glacier [2], Dazed [-]  | Draw 13  Discard 0  Exhaust 9
      Potions: Fire Potion, Fairy in a Bottle
      #543  Select Dazed   [99.1%, 6 options]
      #544  Play Exterminate   [37.6%, 9 options]
@@ -1601,7 +1601,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 38/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Surrounded 1, Strength 11, Dexterity 2, Weak 1, Frail 1
      Enemy Crusher: HP 157/219  Intent Guarded Strike: Attack 30 + Defend  Powers: Back Attack 1, Crab Rage 1, Strength 6
      Enemy Rocket: HP 9/209  Intent Recharge: Stun/Sleep/Escape  Powers: Back Attack 1, Crab Rage 1, Strength 6, Weak 1
-     Hand: Defend [1], Boost Away [0], Dazed [X], Charge Battery [1], Dazed [X], Defend [1]  | Draw 11  Discard 0  Exhaust 13
+     Hand: Defend [1], Boost Away [0], Dazed [-], Charge Battery [1], Dazed [-], Defend [1]  | Draw 11  Discard 0  Exhaust 13
      Potions: Fire Potion, Fairy in a Bottle
      #561  Select Dazed   [44.4%, 6 options]
             also: Select Dazed 44.4% (identical option); Select Defend 4.8% x2; Select Boost Away 1.5%
@@ -1663,7 +1663,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 14 --
      HP 34/86  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Surrounded 1, Strength 15, Dexterity 2, Weak 2, Frail 2
      Enemy Crusher: HP 53/219  Intent Adapt: Buff  Powers: Back Attack 1, Strength 12
-     Hand: Go for the Eyes+ [0], Uproar [2], Dazed [X], Dazed [X], Boost Away [0]  | Draw 9  Discard 0  Exhaust 18
+     Hand: Go for the Eyes+ [0], Uproar [2], Dazed [-], Dazed [-], Boost Away [0]  | Draw 9  Discard 0  Exhaust 18
      Potions: Fire Potion, Fairy in a Bottle
      #584  Select Dazed   [44.9%, 5 options]
             also: Select Dazed 44.9% (identical option); Select Boost Away 9.4%
@@ -1746,7 +1746,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 75/86  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Plating 2, Strength 5, Dexterity 2, Buffer 1
      Enemy Turret Operator: HP 31/51  Intent Unload!: Attack 5x5  Powers: Strength 1
-     Hand: Dualcast [1], Charge Battery [1], Ascender's Bane [X], Boost Away [0], Strike+ [1]  | Draw 15  Discard 0  Exhaust 6
+     Hand: Dualcast [1], Charge Battery [1], Ascender's Bane [-], Boost Away [0], Strike+ [1]  | Draw 15  Discard 0  Exhaust 6
      Potions: Fire Potion, Fairy in a Bottle
      #615  Select Ascender's Bane   [95.7%, 5 options]
             also: Select Strike+ 3.4%; Select Dualcast 0.8%
@@ -1818,7 +1818,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 65/80  Block 0  Energy 3/3  Orbs (3 slots): empty  Powers: Plating 3, Strength 4, Dexterity 2
      Enemy Scroll of Biting: HP 26/34  Intent Chomp: Attack 16  Powers: Paper Cuts 2
      Enemy Scroll of Biting: HP 25/36  Intent Chew: Attack 8x2  Powers: Paper Cuts 2, Strength 2
-     Hand: Clumsy [X], Beam Cell [0], Strike+ [1], Ascender's Bane [X], Boost Away [0], Defend [1]  | Draw 9  Discard 10  Exhaust 3
+     Hand: Clumsy [-], Beam Cell [0], Strike+ [1], Ascender's Bane [-], Boost Away [0], Defend [1]  | Draw 9  Discard 10  Exhaust 3
      Potions: Fairy in a Bottle
      #640  Select Clumsy   [90.7%, 6 options]
             also: Select Ascender's Bane 9.3%
@@ -1848,7 +1848,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 65/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 4
      Enemy Frog Knight: HP 199/199  Block 19  Intent Tongue Lash: Attack 14 + Debuff  Powers: Plating 19
-     Hand: Buffer [0], Defend [1], Defend [1], Clumsy [X], Charge Battery [1], Strike+ [1], Boost Away [0], Prowess+ [1]  | Draw 20  Discard 0  Exhaust 0
+     Hand: Buffer [0], Defend [1], Defend [1], Clumsy [-], Charge Battery [1], Strike+ [1], Boost Away [0], Prowess+ [1]  | Draw 20  Discard 0  Exhaust 0
      Potions: Fairy in a Bottle
      #651  Select Strike+   [47.3%, 8 options]
             also: Select Clumsy 42.2%; Select Defend 5.3% x2
@@ -1898,7 +1898,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 65/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Plating 2, Strength 5, Dexterity 2
      Enemy Frog Knight: HP 175/199  Block 17  Intent Tongue Lash: Attack 19 + Debuff  Powers: Plating 17, Strength 5
-     Hand: Strike [1], Echo Form [3], Ascender's Bane [X], Compile Driver [1], Uproar [2]  | Draw 4  Discard 13  Exhaust 5
+     Hand: Strike [1], Echo Form [3], Ascender's Bane [-], Compile Driver [1], Uproar [2]  | Draw 4  Discard 13  Exhaust 5
      Potions: Fairy in a Bottle
      #670  Select Strike   [98.5%, 5 options]
             also: Select Ascender's Bane 1.5%
@@ -1911,7 +1911,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 62/80  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Plating 1, Strength 6, Dexterity 2, Frail 2
      Enemy Frog Knight: HP 171/199  Block 16  Intent Strike Down Evil: Attack 28  Powers: Plating 16, Strength 5
-     Hand: Exterminate [1], Coolheaded+ [1], Zap [1], Dazed [X], Strike+ [1], Boost Away [0]  | Draw 13  Discard 0  Exhaust 8
+     Hand: Exterminate [1], Coolheaded+ [1], Zap [1], Dazed [-], Strike+ [1], Boost Away [0]  | Draw 13  Discard 0  Exhaust 8
      Potions: Fairy in a Bottle
      #675  Select Zap   [86.7%, 6 options]
             also: Select Dazed 13.2%
@@ -1957,7 +1957,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 45/80  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Strength 9, Dexterity 2
      Enemy Frog Knight: HP 50/199  Block 13  Intent Tongue Lash: Attack 24 + Debuff  Powers: Plating 13, Strength 10
-     Hand: Glacier [2], Dazed [X], Strike+ [1], Go for the Eyes+ [0], Charge Battery [1], Exterminate [1]  | Draw 11  Discard 0  Exhaust 12
+     Hand: Glacier [2], Dazed [-], Strike+ [1], Go for the Eyes+ [0], Charge Battery [1], Exterminate [1]  | Draw 11  Discard 0  Exhaust 12
      Potions: Fairy in a Bottle
      #693  Select Dazed   [99.5%, 6 options]
      #694  Play Go for the Eyes+ -> Frog Knight   [37.8%, 6 options]
@@ -2015,7 +2015,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Scroll of Biting: HP 35/38  Intent Chew: Attack 8x2  Powers: Paper Cuts 2, Strength 2
      Enemy Scroll of Biting: HP 34/37  Intent Chew: Attack 8x2  Powers: Paper Cuts 2, Strength 2
      Enemy Scroll of Biting: HP 19/34  Intent Chew: Attack 8x2  Powers: Paper Cuts 2, Strength 2
-     Hand: Boost Away [0], Exterminate [1], Ascender's Bane [X], Buffer [2], Compile Driver [1], Defend [1]  | Draw 9  Discard 9  Exhaust 3
+     Hand: Boost Away [0], Exterminate [1], Ascender's Bane [-], Buffer [2], Compile Driver [1], Defend [1]  | Draw 9  Discard 9  Exhaust 3
      Potions: Fairy in a Bottle
      #713  Select Ascender's Bane   [91.6%, 6 options]
             also: Select Defend 6.4%; Select Buffer 1.9%
@@ -2037,7 +2037,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 45/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 2, Strength 5, Echo Form 1, Dexterity 2, Buffer 1
      Enemy Scroll of Biting: HP 2/37  Intent Chew: Attack 8x2  Powers: Paper Cuts 2, Strength 2
-     Hand: Clumsy [X], Zap [1], Strike+ [1], Defend [1], Go for the Eyes+ [0]  | Draw 2  Discard 17  Exhaust 4
+     Hand: Clumsy [-], Zap [1], Strike+ [1], Defend [1], Go for the Eyes+ [0]  | Draw 2  Discard 17  Exhaust 4
      Potions: Fairy in a Bottle
      #722  Select Zap   [61.0%, 5 options]
             also: Select Strike+ 15.4%; Select Defend 12.1%; Select Clumsy 10.0%; Select Go for the Eyes+ 1.5%
@@ -2070,7 +2070,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 45/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 4
      Enemy Mecha Knight: HP 320/320  Intent Charge: Attack 30  Powers: Artifact 3
-     Hand: Echo Form [0], Boot Sequence [0], Go for the Eyes+ [0], Uproar [2], Glacier+ [2], Strike+ [1], Ascender's Bane [X], Dualcast [1]  | Draw 21  Discard 0  Exhaust 0
+     Hand: Echo Form [0], Boot Sequence [0], Go for the Eyes+ [0], Uproar [2], Glacier+ [2], Strike+ [1], Ascender's Bane [-], Dualcast [1]  | Draw 21  Discard 0  Exhaust 0
      Potions: Shackling Potion, Fairy in a Bottle
      #733  Select Dualcast   [69.8%, 8 options]
             also: Select Strike+ 27.7%; Select Ascender's Bane 2.4%
@@ -2086,7 +2086,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 42/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Plating 4, Strength 1, Echo Form 1
      Enemy Mecha Knight: HP 299/320  Intent Flamethrower: Attack 12 + Debuff  Powers: Artifact 2
-     Hand: Clumsy [X], Boost Away [0], Defend [1], Go for the Eyes [0], Charge Battery [1], Beam Cell [0]  | Draw 15  Discard 4  Exhaust 3
+     Hand: Clumsy [-], Boost Away [0], Defend [1], Go for the Eyes [0], Charge Battery [1], Beam Cell [0]  | Draw 15  Discard 4  Exhaust 3
      Potions: Shackling Potion, Fairy in a Bottle
      #740  Select Defend   [58.9%, 6 options]
             also: Select Boost Away 25.1%; Select Clumsy 15.7%
@@ -2099,7 +2099,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 42/80  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Plating 3, Strength 2, Echo Form 1
      Enemy Mecha Knight: HP 281/320  Intent Windup: Buff + Defend
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Boost Away [0], Strike+ [1], Glacier [2], Compile Driver [1], Prowess+ [1]  | Draw 10  Discard 8  Exhaust 5
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Boost Away [0], Strike+ [1], Glacier [2], Compile Driver [1], Prowess+ [1]  | Draw 10  Discard 8  Exhaust 5
      Potions: Shackling Potion, Fairy in a Bottle
      #745  Select Burn   [24.6%, 9 options]
             also: Select Burn 24.6% x3 (identical option); Select Strike+ 1.2%
@@ -2133,7 +2133,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 42/80  Block 0  Energy 5/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Plating 1, Strength 8, Echo Form 1, Dexterity 4, Buffer 1
      Enemy Mecha Knight: HP 240/320  Intent Flamethrower: Attack 17 + Debuff  Powers: Strength 5
-     Hand: Exterminate [1], Zap [1], Leap [1], Strike+ [1], Go for the Eyes+ [0], Burn [X]  | Draw 16  Discard 0  Exhaust 8
+     Hand: Exterminate [1], Zap [1], Leap [1], Strike+ [1], Go for the Eyes+ [0], Burn [-]  | Draw 16  Discard 0  Exhaust 8
      Potions: Shackling Potion, Fairy in a Bottle
      #758  Select Burn   [81.9%, 6 options]
             also: Select Zap 17.9%
@@ -2151,7 +2151,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 42/80  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Strength 9, Echo Form 1, Dexterity 4, Buffer 1
      Enemy Mecha Knight: HP 107/320  Intent Windup: Buff + Defend  Powers: Strength 5, Weak 1
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Glacier+ [2], Boost Away [0], Boost Away [0], Go for the Eyes [0], Compile Driver [1]  | Draw 11  Discard 5  Exhaust 9
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Glacier+ [2], Boost Away [0], Boost Away [0], Go for the Eyes [0], Compile Driver [1]  | Draw 11  Discard 5  Exhaust 9
      Potions: Shackling Potion, Fairy in a Bottle
      #765  Select Burn   [25.0%, 9 options]
             also: Select Burn 25.0% x3 (identical option)
@@ -2170,7 +2170,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 42/80  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Strength 10, Echo Form 1, Dexterity 4, Buffer 1
      Enemy Mecha Knight: HP 5/320  Block 15  Intent Heavy Cleave: Attack 50  Powers: Strength 10
-     Hand: Charge Battery [1], Defend [1], Burn [X], Coolheaded+ [1], Glacier [2]  | Draw 3  Discard 18  Exhaust 10
+     Hand: Charge Battery [1], Defend [1], Burn [-], Coolheaded+ [1], Glacier [2]  | Draw 3  Discard 18  Exhaust 10
      Potions: Shackling Potion, Fairy in a Bottle
      #773  Select Burn   [98.7%, 5 options]
             also: Select Coolheaded+ 0.6%; Select Defend 0.5%
@@ -2182,7 +2182,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 42/80  Block 0  Energy 5/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Strength 11, Echo Form 1, Dexterity 4
      Enemy Mecha Knight: HP 5/320  Intent Flamethrower: Attack 22 + Debuff  Powers: Strength 10
-     Hand: Charge Battery [1], Defend [1], Uproar [2], Exterminate [1], Burn [X], Coolheaded+ [1]  | Draw 19  Discard 0  Exhaust 11
+     Hand: Charge Battery [1], Defend [1], Uproar [2], Exterminate [1], Burn [-], Coolheaded+ [1]  | Draw 19  Discard 0  Exhaust 11
      Potions: Shackling Potion, Fairy in a Bottle
      #777  Select Burn   [89.4%, 6 options]
             also: Select Defend 5.4%; Select Coolheaded+ 2.3%; Select Charge Battery 1.8%; Select Uproar 0.8%
@@ -2229,7 +2229,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 80/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Plating 4, Thorns 3
      Enemy Soul Nexus: HP 254/254  Intent Soul Burn: Attack 31
-     Hand: Buffer [0], Boot Sequence [0], Charge Battery [1], Ball Lightning+ [1], Ascender's Bane [X], Supercritical [0], Charge Battery [1], Dualcast+ [0]  | Draw 22  Discard 0  Exhaust 0
+     Hand: Buffer [0], Boot Sequence [0], Charge Battery [1], Ball Lightning+ [1], Ascender's Bane [-], Supercritical [0], Charge Battery [1], Dualcast+ [0]  | Draw 22  Discard 0  Exhaust 0
      Potions: Shackling Potion, Fairy in a Bottle
      #791  Select Ascender's Bane   [50.4%, 8 options]
             also: Select Dualcast+ 29.2%; Select Ball Lightning+ 20.2%
@@ -2284,7 +2284,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 63/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Plating 2, Thorns 3, Strength 3
      Enemy Soul Nexus: HP 90/254  Intent Maelstrom: Attack 7x4
-     Hand: Boost Away [0], Clumsy [X], Glacier+ [2], Boost Away+ [0], Go for the Eyes+ [0]  | Draw 3  Discard 15  Exhaust 6
+     Hand: Boost Away [0], Clumsy [-], Glacier+ [2], Boost Away+ [0], Go for the Eyes+ [0]  | Draw 3  Discard 15  Exhaust 6
      Potions: Shackling Potion, Fairy in a Bottle
      #814  Select Clumsy   [98.2%, 5 options]
             also: Select Boost Away 1.5%
@@ -2366,7 +2366,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 63/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Plating 3, Thorns 3, Strength 6, Echo Form 1, Buffer 1, Dexterity 4
      Enemy Slimed Berserker: HP 197/281  Intent Leeching Hug: Buff + Debuff
-     Hand: Coolheaded+ [1], Go for the Eyes+ [0], Zap [1], Charge Battery [1], Clumsy [X], Exterminate [1]  | Draw 9  Discard 20  Exhaust 3
+     Hand: Coolheaded+ [1], Go for the Eyes+ [0], Zap [1], Charge Battery [1], Clumsy [-], Exterminate [1]  | Draw 9  Discard 20  Exhaust 3
      Potions: Orobic Acid, Fairy in a Bottle
      #845  Select Zap   [93.0%, 6 options]
             also: Select Clumsy 6.8%
@@ -2386,7 +2386,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 63/80  Block 0  Energy 5/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Plating 2, Thorns 3, Strength 7, Echo Form 1, Buffer 1, Dexterity 4, Weak 3
      Enemy Slimed Berserker: HP 98/281  Intent Smother: Attack 36  Powers: Strength 3
-     Hand: Strike+ [1], Ascender's Bane [X], Dualcast+ [0], Defend [1], Boost Away+ [0]  | Draw 2  Discard 26  Exhaust 5
+     Hand: Strike+ [1], Ascender's Bane [-], Dualcast+ [0], Defend [1], Boost Away+ [0]  | Draw 2  Discard 26  Exhaust 5
      Potions: Orobic Acid, Fairy in a Bottle
      #853  Select Dualcast+   [31.7%, 5 options]
             also: Select Defend 27.4%; Select Strike+ 22.8%; Select Ascender's Bane 17.2%; Select Boost Away+ 0.9%
@@ -2400,7 +2400,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 63/80  Block 0  Energy 6/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Plating 1, Thorns 3, Strength 8, Echo Form 1, Dexterity 4, Weak 2
      Enemy Slimed Berserker: HP 71/281  Intent Vomit Ichor: Debuff  Powers: Strength 3
-     Hand: Flak Cannon [2], Beam Cell [0], Dazed [X], Slimed [1], Slimed [1]  | Draw 27  Discard 0  Exhaust 7
+     Hand: Flak Cannon [2], Beam Cell [0], Dazed [-], Slimed [1], Slimed [1]  | Draw 27  Discard 0  Exhaust 7
      Potions: Orobic Acid, Fairy in a Bottle
      #858  Select Slimed   [33.3%, 5 options]
             also: Select Slimed 33.3% (identical option); Select Dazed 29.7%; Select Beam Cell 3.7%
@@ -2480,7 +2480,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 69/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Plating 2, Thorns 3, Strength 7, Echo Form 1, Dexterity 4, Buffer 2
      Enemy Aeonglass: HP 424/535  Intent Ebb: Attack 30 + Defend  Powers: Withering Presence 6, Strength 4
-     Hand: Dualcast+ [0], Defend [1], Ascender's Bane [X], Supercritical [0], Strike+ [1], Strike+ [1]  | Draw 2  Discard 19  Exhaust 7
+     Hand: Dualcast+ [0], Defend [1], Ascender's Bane [-], Supercritical [0], Strike+ [1], Strike+ [1]  | Draw 2  Discard 19  Exhaust 7
      Potions: Orobic Acid, Fairy in a Bottle
      #891  Select Ascender's Bane   [56.4%, 6 options]
             also: Select Defend 21.5%; Select Dualcast+ 7.2%; Select Strike+ 5.1% x2
@@ -2498,7 +2498,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 69/80  Block 0  Energy 7/3  Orbs (3 slots): Frost, Frost  Powers: Plating 1, Thorns 3, Strength 8, Echo Form 1, Dexterity 4, Buffer 1
      Enemy Aeonglass: HP 354/535  Block 33  Intent Eye Lasers: Attack 16x2  Powers: Withering Presence 6, Strength 4
-     Hand: Clumsy [X], Charge Battery [1], Wither [X], Exterminate [1], Charge Battery [1]  | Draw 21  Discard 0  Exhaust 9
+     Hand: Clumsy [-], Charge Battery [1], Wither [-], Exterminate [1], Charge Battery [1]  | Draw 21  Discard 0  Exhaust 9
      Potions: Orobic Acid, Fairy in a Bottle
      #898  Select Wither   [99.7%, 5 options]
      #899  Play Charge Battery   [36.1%, 5 options]
@@ -2510,7 +2510,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 69/80  Block 0  Energy 10/3  Orbs (3 slots): Frost, Frost  Powers: Thorns 3, Strength 9, Echo Form 1, Dexterity 4, Buffer 1
      Enemy Aeonglass: HP 333/535  Intent Increasing Intensity: Buff + Debuff  Powers: Withering Presence 6, Strength 4
-     Hand: Go for the Eyes [0], Glacier [2], Wither [X], Dualcast+ [0], Wither [X]  | Draw 16  Discard 3  Exhaust 11
+     Hand: Go for the Eyes [0], Glacier [2], Wither [-], Dualcast+ [0], Wither [-]  | Draw 16  Discard 3  Exhaust 11
      Potions: Orobic Acid, Fairy in a Bottle
      #903  Select Wither   [49.8%, 5 options]
             also: Select Wither 49.8% (identical option)
@@ -2611,7 +2611,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 53/80  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Plating 3, Thorns 3, Strength 6, Echo Form 1, Chains of Binding 3, Dexterity 4, Frail 99, Weak 99, Vulnerable 99
      Enemy Torch Head Amalgam: HP 164/211  Intent Beam: Attack 12x3  Powers: Minion 1
      Enemy Queen: HP 380/419  Intent Burn Bright for Me: Buff + Defend
-     Hand: Zap [1], Compile Driver [1], Dualcast+ [0], Charge Battery [1], Clumsy [X]  | Draw 10  Discard 10  Exhaust 3
+     Hand: Zap [1], Compile Driver [1], Dualcast+ [0], Charge Battery [1], Clumsy [-]  | Draw 10  Discard 10  Exhaust 3
      Potions: Orobic Acid, Fairy in a Bottle
      #940  Select Zap   [97.9%, 5 options]
             also: Select Clumsy 1.5%; Select Dualcast+ 0.5%
@@ -2635,7 +2635,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 53/80  Block 0  Energy 5/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Plating 2, Thorns 3, Strength 7, Echo Form 1, Chains of Binding 3, Dexterity 4, Frail 98, Weak 98, Vulnerable 98
      Enemy Torch Head Amalgam: HP 100/211  Intent Tackle: Attack 25  Powers: Minion 1, Strength 1
      Enemy Queen: HP 370/419  Block 20  Intent Burn Bright for Me: Buff + Defend
-     Hand: Flak Cannon [2], Ascender's Bane [X], Go for the Eyes+ [0], Uproar [2], Exterminate [1], Ball Lightning+ [1]  | Draw 18  Discard 0  Exhaust 5
+     Hand: Flak Cannon [2], Ascender's Bane [-], Go for the Eyes+ [0], Uproar [2], Exterminate [1], Ball Lightning+ [1]  | Draw 18  Discard 0  Exhaust 5
      Potions: Orobic Acid, Fairy in a Bottle
      #949  Select Ball Lightning+   [72.7%, 6 options]
             also: Select Ascender's Bane 19.4%; Select Flak Cannon 7.6%
@@ -2727,7 +2727,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 53/80  Block 0  Energy 8/3  Orbs (5 slots): Frost, Frost, Frost, Frost, Plasma  Powers: Thorns 3, Strength 12, Echo Form 1, Chains of Binding 3, Dexterity 4, Frail 93, Weak 93, Vulnerable 93
      Enemy Queen: HP 121/419  Intent Enrage: Buff  Powers: Strength 2
-     Hand: Coolheaded+ [1], Go for the Eyes+ [0], Dazed [X], Beam Cell [0], Boost Away [0]  | Draw 0  Discard 13  Exhaust 14
+     Hand: Coolheaded+ [1], Go for the Eyes+ [0], Dazed [-], Beam Cell [0], Boost Away [0]  | Draw 0  Discard 13  Exhaust 14
      Potions: Fairy in a Bottle
      #982  Select Dazed   [56.3%, 5 options]
             also: Select Boost Away 33.4%; Select Coolheaded+ 5.8%; Select Beam Cell 2.7%; Select Go for the Eyes+ 1.7%
@@ -2741,7 +2741,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 10 --
      HP 53/80  Block 0  Energy 12/3  Orbs (5 slots): Frost, Frost, Frost, Frost, Plasma  Powers: Thorns 3, Strength 13, Echo Form 1, Chains of Binding 3, Dexterity 4, Frail 92, Weak 92, Vulnerable 92
      Enemy Queen: HP 72/419  Intent Off with Your Head: Attack 12x5  Powers: Strength 4, Vulnerable 1
-     Hand: Charge Battery [1], Boost Away+ [0], Uproar [2], All for One [2], Dazed [X], Boost Away [0]  | Draw 12  Discard 0  Exhaust 15
+     Hand: Charge Battery [1], Boost Away+ [0], Uproar [2], All for One [2], Dazed [-], Boost Away [0]  | Draw 12  Discard 0  Exhaust 15
      Potions: Fairy in a Bottle
      #987  Select Dazed   [42.7%, 6 options]
             also: Select Charge Battery 36.5%; Select Boost Away+ 10.8%; Select Boost Away 5.9%; Select All for One 3.1%

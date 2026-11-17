@@ -19,7 +19,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Toadpole: HP 24/24  Intent Spiken: Buff
      Enemy Toadpole: HP 26/26  Intent Whirl: Attack 8
-     Hand: Defend [1], Defend [1], Greed [X], Strike [1], Ascender's Bane [X]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Defend [1], Defend [1], Greed [-], Strike [1], Ascender's Bane [-]  | Draw 7  Discard 0  Exhaust 0
      #2    Play Strike -> Toadpole #1   [74.6%, 5 options]
             also: Play Defend 12.7% x2
      #3    Play Defend   [50.0%, 3 options]
@@ -51,7 +51,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 46/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Toadpole: HP 6/24  Intent Spiken: Buff
-     Hand: Defend [1], Greed [X], Strike [1], Defend [1], Strike [1]  | Draw 1  Discard 5  Exhaust 1
+     Hand: Defend [1], Greed [-], Strike [1], Defend [1], Strike [1]  | Draw 1  Discard 5  Exhaust 1
      #14   Play Strike -> Toadpole   [36.0%, 5 options]
             also: Play Strike -> Toadpole 36.0% (identical option); Play Defend 14.0% x2
   #15   [Rewards] Take reward: Card reward   [99.7%, 2 options]
@@ -89,7 +89,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 46/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Seapunk: HP 49/49  Intent Sea Kick: Attack 13
-     Hand: Defend [1], Ball Lightning [1], Strike [1], Ascender's Bane [X], Dazed [X]  | Draw 12  Discard 0  Exhaust 0
+     Hand: Defend [1], Ball Lightning [1], Strike [1], Ascender's Bane [-], Dazed [-]  | Draw 12  Discard 0  Exhaust 0
      #26   Play Defend   [97.2%, 4 options]
             also: Play Ball Lightning -> Seapunk 2.5%
      #27   Play Ball Lightning -> Seapunk   [89.9%, 3 options]
@@ -111,7 +111,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 38/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Lightning Rod 1
      Enemy Seapunk: HP 11/49  Intent Bubble Burp: Buff + Defend
-     Hand: Greed [X], Defend [1], Strike [1], Dazed [X], Cold Snap [1]  | Draw 2  Discard 8  Exhaust 2
+     Hand: Greed [-], Defend [1], Strike [1], Dazed [-], Cold Snap [1]  | Draw 2  Discard 8  Exhaust 2
      #34   Play Cold Snap -> Seapunk   [52.0%, 4 options]
             also: Play Strike -> Seapunk 36.1%; Play Defend 11.9%
      #35   Play Strike -> Seapunk   [87.4%, 3 options]
@@ -165,7 +165,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 38/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost  Powers: Weak 1
      Enemy Sludge Spinner: HP 24/42  Intent Slam: Attack 12
-     Hand: Defend [1], Ascender's Bane [X], Defend [1], Lightning Rod [1], Dualcast [1]  | Draw 8  Discard 5  Exhaust 0
+     Hand: Defend [1], Ascender's Bane [-], Defend [1], Lightning Rod [1], Dualcast [1]  | Draw 8  Discard 5  Exhaust 0
      #52   Play Defend   [38.6%, 5 options]
             also: Play Defend 38.6% (identical option); Play Lightning Rod 22.2%; Play Dualcast 0.6%
      #53   Play Defend   [79.5%, 4 options]
@@ -176,7 +176,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 38/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Lightning Rod 1
      Enemy Sludge Spinner: HP 21/42  Intent Rage: Attack 7 + Buff
-     Hand: Zap [1], Strike [1], Strike [1], Strike [1], Greed [X]  | Draw 3  Discard 9  Exhaust 1
+     Hand: Zap [1], Strike [1], Strike [1], Strike [1], Greed [-]  | Draw 3  Discard 9  Exhaust 1
      #56   Play Strike -> Sludge Spinner   [30.0%, 5 options]
             also: Play Strike -> Sludge Spinner 30.0% x2 (identical option); Play Zap 10.1%
      #57   Play Strike -> Sludge Spinner   [48.7%, 4 options]
@@ -218,7 +218,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 75/75  Block 0  Energy 5/3  Orbs (3 slots): Lightning
      Enemy Skulking Colony: HP 80/80  Intent Zoom: Attack 16  Powers: Hardened Shell 20
-     Hand: Defend [1], Defend [1], Cold Snap [1], Ball Lightning [1], Greed [X]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Defend [1], Defend [1], Cold Snap [1], Ball Lightning [1], Greed [-]  | Draw 14  Discard 0  Exhaust 0
      Potions: Speed Potion
      #71   Play Defend   [42.8%, 6 options]
             also: Play Defend 42.8% (identical option); Play Cold Snap -> Skulking Colony 8.8%; Use potion Speed Potion -> self 2.9%; Play Ball Lightning -> Skulking Colony 2.6%
@@ -243,7 +243,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 70/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Lightning Rod 1
      Enemy Skulking Colony: HP 36/80  Intent Inertia: Attack 11 + Buff  Powers: Hardened Shell 20
-     Hand: Strike [1], Ascender's Bane [X], Defend [1], Dualcast [1], Defend [1]  | Draw 3  Discard 11  Exhaust 0
+     Hand: Strike [1], Ascender's Bane [-], Defend [1], Dualcast [1], Defend [1]  | Draw 3  Discard 11  Exhaust 0
      Potions: Speed Potion
      #81   Play Defend   [45.8%, 6 options]
             also: Play Defend 45.8% (identical option); Play Strike -> Skulking Colony 7.9%
@@ -304,7 +304,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 58/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Loop 2
      Enemy Terror Eel: HP 135/150  Intent Thrash: Attack 4x3 + Buff  Powers: Shriek 75
-     Hand: Strike [1], Cold Snap [1], Go for the Eyes [0], Ascender's Bane [X], Defend [1]  | Draw 7  Discard 6  Exhaust 0
+     Hand: Strike [1], Cold Snap [1], Go for the Eyes [0], Ascender's Bane [-], Defend [1]  | Draw 7  Discard 6  Exhaust 0
      Potions: Speed Potion, Beetle Juice
      #104  Play Defend   [50.6%, 7 options]
             also: Play Cold Snap -> Terror Eel 31.9%; Play Go for the Eyes -> Terror Eel 11.2%; Play Strike -> Terror Eel 6.1%
@@ -345,7 +345,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 45/75  Block 5  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Loop 2, Thunder 8, Lightning Rod 2
      Enemy Terror Eel: HP 45/150  Intent Terrorize: Debuff
-     Hand: Defend [1], Greed [X], Coolheaded [1], Defend [1], Strike [1]  | Draw 6  Discard 5  Exhaust 1
+     Hand: Defend [1], Greed [-], Coolheaded [1], Defend [1], Strike [1]  | Draw 6  Discard 5  Exhaust 1
      Potions: Beetle Juice
      #119  Play Coolheaded   [88.9%, 6 options]
             also: Play Strike -> Terror Eel 5.4%; Play Defend 2.9% x2
@@ -372,7 +372,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 45/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Calcified Cultist: HP 41/41  Intent Incantation: Buff
      Enemy Seapunk: HP 49/49  Intent Sea Kick: Attack 13
-     Hand: Defend+ [1], Ascender's Bane [X], Strike+ [1], Strike+ [1], Zap+ [0]  | Draw 15  Discard 0  Exhaust 0
+     Hand: Defend+ [1], Ascender's Bane [-], Strike+ [1], Strike+ [1], Zap+ [0]  | Draw 15  Discard 0  Exhaust 0
      Potions: Power Potion, Beetle Juice
      #129  Use potion Power Potion -> self   [24.7%, 10 options]
             also: Play Strike+ -> Calcified Cultist 20.3% x2; Play Zap+ 19.5%; Play Defend+ 15.1%
@@ -449,7 +449,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 75/75  Block 5  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Lightning Rod 1
      Enemy Waterfall Giant: HP 226/250  Intent Stomp: Attack 16 + Buff + Debuff  Powers: Steam Eruption 20
-     Hand: Ascender's Bane [X], Defend [1], Greed [X], Thunder [1], Dualcast [1]  | Draw 7  Discard 9  Exhaust 0
+     Hand: Ascender's Bane [-], Defend [1], Greed [-], Thunder [1], Dualcast [1]  | Draw 7  Discard 9  Exhaust 0
      Potions: Ship in a Bottle, Beetle Juice
      #159  Play Thunder   [88.7%, 6 options]
             also: Play Defend 10.9%
@@ -503,7 +503,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 74/75  Block 4  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Thunder 8, Loop 2, Lightning Rod 1
      Enemy Waterfall Giant: HP 99/250  Intent Pressure Up: Attack 14 + Buff  Powers: Steam Eruption 32
-     Hand: Defend+ [1], Go for the Eyes [0], Greed [X], Strike [1], Coolheaded+ [1]  | Draw 1  Discard 12  Exhaust 1
+     Hand: Defend+ [1], Go for the Eyes [0], Greed [-], Strike [1], Coolheaded+ [1]  | Draw 1  Discard 12  Exhaust 1
      Potions: Ship in a Bottle, Beetle Juice
      #178  Play Coolheaded+   [62.9%, 7 options]
             also: Play Defend+ 20.6%; Play Go for the Eyes -> Waterfall Giant 11.4%; Play Strike -> Waterfall Giant 5.2%
@@ -570,7 +570,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 72/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning
      Enemy Tunneler: HP 92/92  Intent Bite: Attack 15
-     Hand: Ascender's Bane [X], Thunder+ [1], Strike+ [1], Defend+ [1], Loop+ [1]  | Draw 17  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Thunder+ [1], Strike+ [1], Defend+ [1], Loop+ [1]  | Draw 17  Discard 0  Exhaust 0
      Potions: Ship in a Bottle, Beetle Juice
      #202  Play Defend+   [96.7%, 7 options]
             also: Play Loop+ 2.4%; Play Thunder+ 0.9%
@@ -644,7 +644,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 69/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning
      Enemy Bowlbug (Rock): HP 48/49  Intent Headbutt: Attack 16  Powers: Imbalanced 1
      Enemy Bowlbug (Nectar): HP 37/38  Intent Thrash: Attack 3
-     Hand: Ball Lightning+ [1], Loop+ [1], Defend+ [1], Loop+ [1], Greed [X]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Ball Lightning+ [1], Loop+ [1], Defend+ [1], Loop+ [1], Greed [-]  | Draw 18  Discard 0  Exhaust 0
      Potions: Ship in a Bottle, Beetle Juice
      #228  Play Defend+   [96.7%, 9 options]
             also: Play Loop+ 1.8%; Play Ball Lightning+ -> Bowlbug (Nectar) 0.8%
@@ -674,7 +674,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 60/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Loop 2
      Enemy Bowlbug (Rock): HP 25/49  Intent Headbutt: Attack 16  Powers: Imbalanced 1
-     Hand: Coolheaded [1], Defend [1], Machine Learning [1], Thunder [1], Ascender's Bane [X]  | Draw 6  Discard 11  Exhaust 0
+     Hand: Coolheaded [1], Defend [1], Machine Learning [1], Thunder [1], Ascender's Bane [-]  | Draw 6  Discard 11  Exhaust 0
      Potions: Ship in a Bottle, Beetle Juice
      #239  Play Coolheaded   [87.6%, 7 options]
             also: Play Defend 9.0%; Play Thunder 3.2%
@@ -696,7 +696,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 60/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning
      Enemy Ovicopter: HP 127/128  Intent Lay Eggs: Heal/Summon
-     Hand: Coolheaded+ [1], Greed [X], Dualcast+ [0], Machine Learning+ [1], Defend+ [1]  | Draw 19  Discard 0  Exhaust 0
+     Hand: Coolheaded+ [1], Greed [-], Dualcast+ [0], Machine Learning+ [1], Defend+ [1]  | Draw 19  Discard 0  Exhaust 0
      Potions: Ship in a Bottle, Beetle Juice
      #248  Play Coolheaded+   [50.8%, 7 options]
             also: Play Machine Learning+ 40.4%; Play Dualcast+ 7.8%; Play Defend+ 0.9%
@@ -754,7 +754,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 59/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Machine Learning 1, Loop 3, Subroutine 1, Thunder 8, Vulnerable 2
      Enemy Tough Egg: HP 5/21  Intent Nibble: Attack 7  Powers: Minion 1
      Enemy Ovicopter: HP 97/128  Intent Lay Eggs: Heal/Summon
-     Hand: Coolheaded [1], Ascender's Bane [X], Defend [1], Dualcast+ [0], Strike [1], Go for the Eyes [0]  | Draw 13  Discard 0  Exhaust 0
+     Hand: Coolheaded [1], Ascender's Bane [-], Defend [1], Dualcast+ [0], Strike [1], Go for the Eyes [0]  | Draw 13  Discard 0  Exhaust 0
      Potions: Ship in a Bottle, Beetle Juice
      #267  Play Coolheaded   [51.4%, 11 options]
             also: Play Dualcast+ 34.5%; Play Defend 5.0%; Play Strike -> Tough Egg 3.9%; Play Go for the Eyes -> Tough Egg 2.4%
@@ -774,7 +774,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Tough Egg: HP 8/16  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Tough Egg: HP 9/17  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Ovicopter: HP 42/128  Intent Smash: Attack 25
-     Hand: Defend [1], Lightning Rod [1], Zap+ [0], Strike [1], Coolheaded+ [1], Greed [X]  | Draw 6  Discard 6  Exhaust 1
+     Hand: Defend [1], Lightning Rod [1], Zap+ [0], Strike [1], Coolheaded+ [1], Greed [-]  | Draw 6  Discard 6  Exhaust 1
      Potions: Ship in a Bottle, Beetle Juice
      #273  Play Coolheaded+   [56.0%, 14 options]
             also: Play Zap+ 18.5%; Play Lightning Rod 17.2%; Play Defend 7.8%
@@ -860,7 +860,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 53/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Thunder 11, Lightning Rod 1, Subroutine 1, Loop 2
      Enemy Entomancer: HP 103/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1
-     Hand: Greed [X], Dualcast [1], Loop [1], Strike [1], Zap+ [0]  | Draw 9  Discard 9  Exhaust 1
+     Hand: Greed [-], Dualcast [1], Loop [1], Strike [1], Zap+ [0]  | Draw 9  Discard 9  Exhaust 1
      Potions: Ship in a Bottle, Beetle Juice
      #304  Play Dualcast   [71.1%, 7 options]
             also: Play Loop 21.3%; Play Zap+ 7.2%
@@ -873,7 +873,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 53/75  Block 5  Energy 4/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Thunder 11, Subroutine 1, Loop 3
      Enemy Entomancer: HP 46/165  Intent Beeeees!: Attack 4x8  Powers: Personal Hive 2, Strength 1
-     Hand: Dazed [X], Defend [1], Machine Learning [1], Dazed [X], Ascender's Bane [X]  | Draw 4  Discard 13  Exhaust 1
+     Hand: Dazed [-], Defend [1], Machine Learning [1], Dazed [-], Ascender's Bane [-]  | Draw 4  Discard 13  Exhaust 1
      Potions: Ship in a Bottle, Beetle Juice
      #308  Play Defend   [54.0%, 5 options]
             also: Play Machine Learning 45.9%
@@ -883,7 +883,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 31/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Thunder 11, Subroutine 1, Loop 3, Machine Learning 1
      Enemy Entomancer: HP 23/165  Intent Spear!: Attack 21  Powers: Personal Hive 2, Strength 1
-     Hand: Defend [1], Strike [1], Go for the Eyes [0], Coolheaded [1], Lightning Rod [1], Greed [X]  | Draw 12  Discard 0  Exhaust 4
+     Hand: Defend [1], Strike [1], Go for the Eyes [0], Coolheaded [1], Lightning Rod [1], Greed [-]  | Draw 12  Discard 0  Exhaust 4
      Potions: Ship in a Bottle, Beetle Juice
      #311  Play Coolheaded   [61.5%, 8 options]
             also: Play Defend 21.2%; Play Lightning Rod 9.1%; Play Go for the Eyes -> Entomancer 4.8%; Play Strike -> Entomancer 3.3%
@@ -925,7 +925,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 68/75  Block 0  Energy 6/3  Orbs (3 slots): Lightning  Powers: Dexterity 1
      Enemy Infested Prism: HP 170/171  Intent Jab: Attack 17  Powers: Vital Spark 3
-     Hand: Boot Sequence+ [0], Go for the Eyes+ [0], Ascender's Bane [X], Defend+ [1], Loop+ [1]  | Draw 20  Discard 0  Exhaust 0
+     Hand: Boot Sequence+ [0], Go for the Eyes+ [0], Ascender's Bane [-], Defend+ [1], Loop+ [1]  | Draw 20  Discard 0  Exhaust 0
      Potions: Ship in a Bottle, Beetle Juice, Strength Potion
      #325  Play Loop+   [34.5%, 8 options]
             also: Play Boot Sequence+ 29.2%; Play Defend+ 22.4%; Play Go for the Eyes+ -> Infested Prism 13.0%; Use potion Strength Potion -> self 0.9%
@@ -971,7 +971,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 50/75  Block 8  Energy 4/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Dexterity 1, Loop 4, Subroutine 1, Thunder 8, Machine Learning 1
      Enemy Infested Prism: HP 102/171  Intent Pulsate: Attack 10 + Buff + Defend  Powers: Vital Spark 3
-     Hand: Coolheaded [1], Strike [1], Lightning Rod [1], Zap+ [0], Strike [1], Greed [X]  | Draw 1  Discard 11  Exhaust 2
+     Hand: Coolheaded [1], Strike [1], Lightning Rod [1], Zap+ [0], Strike [1], Greed [-]  | Draw 1  Discard 11  Exhaust 2
      Potions: Ship in a Bottle, Beetle Juice, Strength Potion
      #342  Play Lightning Rod   [41.0%, 9 options]
             also: Play Coolheaded 37.4%; Play Strike -> Infested Prism 7.9% x2; Play Zap+ 5.7%
@@ -986,7 +986,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 50/75  Block 5  Energy 4/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Dexterity 1, Loop 4, Subroutine 1, Thunder 8, Machine Learning 1, Lightning Rod 1
      Enemy Infested Prism: HP 87/171  Block 5  Intent Jab: Attack 17  Powers: Vital Spark 6
-     Hand: Cold Snap [1], Strike [1], Zap+ [0], Defend [1], Greed [X], Strike [1]  | Draw 12  Discard 0  Exhaust 2
+     Hand: Cold Snap [1], Strike [1], Zap+ [0], Defend [1], Greed [-], Strike [1]  | Draw 12  Discard 0  Exhaust 2
      Potions: Ship in a Bottle, Beetle Juice, Strength Potion
      #347  Play Cold Snap -> Infested Prism   [71.8%, 9 options]
             also: Play Strike -> Infested Prism 12.9% x2; Play Defend 2.4%
@@ -1085,7 +1085,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 45/82  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Dexterity 1, Loop 4, Machine Learning 1, Subroutine 1, Thunder 8
      Enemy Parafright: HP 11/21  Intent Slam: Attack 20  Powers: Illusion 1, Minion 1, Strength 3
      Enemy The Obscura: HP 32/129  Intent Piercing Gaze: Attack 14  Powers: Strength 3
-     Hand: Leap [1], Greed [X], Coolheaded [1], Strike [1], Defend+ [1], Defend [1]  | Draw 13  Discard 0  Exhaust 1
+     Hand: Leap [1], Greed [-], Coolheaded [1], Strike [1], Defend+ [1], Defend [1]  | Draw 13  Discard 0  Exhaust 1
      Potions: Ship in a Bottle, Beetle Juice, Strength Potion, Energy Potion
      #382  Play Leap   [35.7%, 12 options]
             also: Play Coolheaded 30.3%; Play Defend+ 19.9%; Play Defend 12.7%; Play Strike -> The Obscura 1.0%
@@ -1109,7 +1109,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 49/50  Intent Writhe: Attack 6x2  Powers: Reattach 25
      Enemy Decimillipede: HP 51/52  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25
      Enemy Decimillipede: HP 47/48  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25
-     Hand: Boot Sequence+ [0], Strike+ [1], Subroutine+ [0], Ascender's Bane [X], Strike+ [1]  | Draw 20  Discard 0  Exhaust 0
+     Hand: Boot Sequence+ [0], Strike+ [1], Subroutine+ [0], Ascender's Bane [-], Strike+ [1]  | Draw 20  Discard 0  Exhaust 0
      Potions: Ship in a Bottle, Beetle Juice, Strength Potion, Energy Potion
      #391  Use potion Strength Potion -> self   [46.2%, 15 options]
             also: Play Subroutine+ 24.9%; Play Strike+ -> Decimillipede 12.3% x2; Play Boot Sequence+ 3.7%
@@ -1238,7 +1238,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 82/82  Block 0  Energy 5/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Dexterity 1, Thunder 11, Subroutine 1
      Enemy The Insatiable: HP 292/341  Intent Lunging Bite: Attack 31  Powers: Sandpit 3
-     Hand: Strike [1], Defend [1], Loop+ [1], Frantic Escape [1], Ascender's Bane [X]  | Draw 14  Discard 11  Exhaust 0
+     Hand: Strike [1], Defend [1], Loop+ [1], Frantic Escape [1], Ascender's Bane [-]  | Draw 14  Discard 11  Exhaust 0
      Potions: Explosive Ampoule, Beetle Juice, Energy Potion
      #436  Play Defend   [75.1%, 8 options]
             also: Play Loop+ 14.2%; Play Frantic Escape 8.3%; Play Strike -> The Insatiable 1.8%; Use potion Explosive Ampoule 0.6%
@@ -1252,7 +1252,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 59/82  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Dexterity 1, Thunder 11, Subroutine 1, Loop 2
      Enemy The Insatiable: HP 270/341  Intent Salivate: Buff  Powers: Sandpit 3
-     Hand: Greed [X], Strike [1], Coolheaded [1], Dualcast [1], Frantic Escape [1]  | Draw 9  Discard 14  Exhaust 1
+     Hand: Greed [-], Strike [1], Coolheaded [1], Dualcast [1], Frantic Escape [1]  | Draw 9  Discard 14  Exhaust 1
      Potions: Explosive Ampoule, Beetle Juice, Energy Potion
      #441  Play Coolheaded   [82.5%, 8 options]
             also: Play Dualcast 9.2%; Play Frantic Escape 7.7%; Play Strike -> The Insatiable 0.6%
@@ -1366,7 +1366,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 73/82  Block 0  Energy 4/3  Orbs (3 slots): empty  Powers: Dexterity 1, Thunder 11, Loop 2
      Enemy Devoted Sculptor: HP 113/172  Intent Savage: Attack 15  Powers: Ritual 9
-     Hand: Defend [1], Machine Learning [1], Go for the Eyes [0], Greed [X], Coolheaded [1], Defend [1], Strike [1]  | Draw 13  Discard 5  Exhaust 0
+     Hand: Defend [1], Machine Learning [1], Go for the Eyes [0], Greed [-], Coolheaded [1], Defend [1], Strike [1]  | Draw 13  Discard 5  Exhaust 0
      Potions: Explosive Ampoule, Beetle Juice, Stable Serum, Energy Potion
      #484  Play Coolheaded   [76.3%, 11 options]
             also: Play Go for the Eyes -> Devoted Sculptor 11.3%; Play Defend 5.0% x2; Play Machine Learning 2.3%
@@ -1381,7 +1381,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 73/82  Block 4  Energy 4/3  Orbs (3 slots): Frost  Powers: Dexterity 1, Thunder 11, Loop 2, Machine Learning 1
      Enemy Devoted Sculptor: HP 107/172  Intent Savage: Attack 24  Powers: Ritual 9, Strength 9
-     Hand: Ascender's Bane [X], Echo Form [3], Zap+ [0], Ball Lightning [1], Coolheaded [1], Defend [1], Lightning Rod [1], Leap [1]  | Draw 5  Discard 11  Exhaust 0
+     Hand: Ascender's Bane [-], Echo Form [3], Zap+ [0], Ball Lightning [1], Coolheaded [1], Defend [1], Lightning Rod [1], Leap [1]  | Draw 5  Discard 11  Exhaust 0
      Potions: Explosive Ampoule, Beetle Juice, Stable Serum, Energy Potion
      #490  Play Leap   [42.0%, 12 options]
             also: Play Zap+ 22.5%; Play Lightning Rod 21.4%; Play Ball Lightning -> Devoted Sculptor 7.3%; Play Coolheaded 5.7%
@@ -1445,7 +1445,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 73/82  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning  Powers: Dexterity 1
      Enemy Living Shield: HP 46/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 48/51  Block 25  Intent Unload!: Attack 4x5
-     Hand: Go for the Eyes [0], Defend [1], Ascender's Bane [X], Strike [1], Loop+ [1], Machine Learning [1], Thunder [1]  | Draw 14  Discard 6  Exhaust 1
+     Hand: Go for the Eyes [0], Defend [1], Ascender's Bane [-], Strike [1], Loop+ [1], Machine Learning [1], Thunder [1]  | Draw 14  Discard 6  Exhaust 1
      Potions: Beetle Juice, Stable Serum, Energy Potion
      #514  Play Defend   [75.9%, 13 options]
             also: Play Go for the Eyes -> Turret Operator 18.1%; Play Machine Learning 3.9%; Play Thunder 1.0%; Play Loop+ 0.9%
@@ -1481,7 +1481,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 58/82  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Dexterity 1, Loop 2, Machine Learning 1, Thunder 8, Lightning Rod 1
      Enemy Living Shield: HP 9/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 13/51  Block 25  Intent Unload!: Attack 5x5  Powers: Strength 1
-     Hand: Subroutine+ [0], Coolheaded [1], Strike [1], Go for the Eyes [0], Greed [X], Coolheaded [1], Defend [1], Go for the Eyes [0]  | Draw 15  Discard 0  Exhaust 2
+     Hand: Subroutine+ [0], Coolheaded [1], Strike [1], Go for the Eyes [0], Greed [-], Coolheaded [1], Defend [1], Go for the Eyes [0]  | Draw 15  Discard 0  Exhaust 2
      Potions: Beetle Juice, Stable Serum, Energy Potion
      #527  Play Coolheaded   [34.9%, 15 options]
             also: Play Coolheaded 34.9% (identical option); Play Defend 11.6%; Play Go for the Eyes -> Turret Operator 6.4% x2
@@ -1523,7 +1523,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 56/82  Block 0  Energy 5/3  Orbs (3 slots): Lightning, Frost  Powers: Dexterity 1, Loop 2
      Enemy Owl Magistrate: HP 226/247  Intent Peck Assault: Attack 4x6
-     Hand: Dualcast [1], Cold Snap [1], Ball Lightning [1], Greed [X], Go for the Eyes [0], Subroutine+ [0], Loop+ [1]  | Draw 14  Discard 6  Exhaust 0
+     Hand: Dualcast [1], Cold Snap [1], Ball Lightning [1], Greed [-], Go for the Eyes [0], Subroutine+ [0], Loop+ [1]  | Draw 14  Discard 6  Exhaust 0
      Potions: Beetle Juice, Stable Serum, Energy Potion
      #543  Play Subroutine+   [37.4%, 10 options]
             also: Play Ball Lightning -> Owl Magistrate 26.3%; Play Go for the Eyes -> Owl Magistrate 16.6%; Play Cold Snap -> Owl Magistrate 13.0%; Play Loop+ 6.3%
@@ -1540,7 +1540,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 50/82  Block 8  Energy 4/3  Orbs (3 slots): Frost, Lightning  Powers: Dexterity 1, Loop 4, Subroutine 1
      Enemy Owl Magistrate: HP 196/247  Intent Judicial Flight: Buff
-     Hand: Ascender's Bane [X], Lightning Rod [1], Defend [1], Zap+ [0], Defend [1], Go for the Eyes [0], Echo Form [3]  | Draw 7  Discard 11  Exhaust 0
+     Hand: Ascender's Bane [-], Lightning Rod [1], Defend [1], Zap+ [0], Defend [1], Go for the Eyes [0], Echo Form [3]  | Draw 7  Discard 11  Exhaust 0
      Potions: Beetle Juice, Stable Serum, Energy Potion
      #550  Play Echo Form   [77.0%, 10 options]
             also: Play Lightning Rod 16.0%; Play Go for the Eyes -> Owl Magistrate 2.1%; Play Defend 1.7% x2
@@ -1571,7 +1571,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 50/82  Block 0  Energy 5/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Dexterity 1, Loop 4, Subroutine 1, Echo Form 1, Thunder 8, Vulnerable 4
      Enemy Owl Magistrate: HP 140/247  Intent Magistrate Scrutiny: Attack 25
-     Hand: Strike [1], Greed [X], Coolheaded+ [1], Machine Learning [1], Coolheaded [1], Zap+ [0], Go for the Eyes [0]  | Draw 15  Discard 0  Exhaust 1
+     Hand: Strike [1], Greed [-], Coolheaded+ [1], Machine Learning [1], Coolheaded [1], Zap+ [0], Go for the Eyes [0]  | Draw 15  Discard 0  Exhaust 1
      Potions: Beetle Juice, Stable Serum, Energy Potion
      #561  Play Coolheaded+   [53.1%, 10 options]
             also: Play Coolheaded 34.7%; Play Go for the Eyes -> Owl Magistrate 8.5%; Play Zap+ 2.7%
@@ -1694,7 +1694,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Punch Construct: HP 51/60  Block 8  Intent Fast Punch: Attack 6x2 + Debuff  Powers: Artifact 1
      Enemy Cubex Construct: HP 67/70  Intent Repeater Blast: Attack 10 + Buff  Powers: Artifact 1, Strength 2
      Enemy Cubex Construct: HP 58/70  Intent Repeater Blast: Attack 10 + Buff  Powers: Artifact 1, Strength 2
-     Hand: Thunder [1], Strike [1], Go for the Eyes [0], Lightning Rod [1], Defend [1], Loop+ [1], Coolheaded [1], Greed [X]  | Draw 15  Discard 5  Exhaust 0
+     Hand: Thunder [1], Strike [1], Go for the Eyes [0], Lightning Rod [1], Defend [1], Loop+ [1], Coolheaded [1], Greed [-]  | Draw 15  Discard 5  Exhaust 0
      Potions: Attack Potion, Beetle Juice, Energy Potion
      #604  Play Coolheaded   [42.7%, 17 options]
             also: Play Loop+ 21.3%; Play Thunder 10.5%; Play Go for the Eyes -> Cubex Construct #3 9.3%; Play Lightning Rod 8.4%
@@ -1731,7 +1731,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 65/82  Block 12  Energy 5/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Dexterity 1, Focus 1, Subroutine 1, Machine Learning 1, Loop 2, Thunder 8
      Enemy Punch Construct: HP 44/60  Intent READY: Defend  Powers: Artifact 1
      Enemy Cubex Construct: HP 48/70  Intent Expel: Attack 12x2  Powers: Strength 6
-     Hand: Dualcast [1], Coolheaded [1], Echo Form [3], Go for the Eyes [0], Ascender's Bane [X], Leap [1], Strike [1], Strike [1]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Dualcast [1], Coolheaded [1], Echo Form [3], Go for the Eyes [0], Ascender's Bane [-], Leap [1], Strike [1], Strike [1]  | Draw 18  Discard 0  Exhaust 0
      Potions: Attack Potion, Beetle Juice, Energy Potion
      #617  Play Coolheaded   [45.9%, 15 options]
             also: Play Leap 30.7%; Play Go for the Eyes -> Cubex Construct 11.2%; Play Strike -> Cubex Construct 5.6% x2
@@ -1807,7 +1807,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 82/82  Block 0  Energy 6/3  Orbs (3 slots): Lightning  Powers: Dexterity 1, Focus 1
      Enemy Torch Head Amalgam: HP 210/211  Intent Strong Tackle: Attack 32  Powers: Minion 1
      Enemy Queen: HP 418/419  Intent Puppet Strings: Debuff
-     Hand: Boot Sequence+ [0], Machine Learning+ [1], Thunder+ [1], Go for the Eyes+ [0], Defend+ [1], Ascender's Bane [X], Subroutine+ [0]  | Draw 24  Discard 0  Exhaust 0
+     Hand: Boot Sequence+ [0], Machine Learning+ [1], Thunder+ [1], Go for the Eyes+ [0], Defend+ [1], Ascender's Bane [-], Subroutine+ [0]  | Draw 24  Discard 0  Exhaust 0
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #647  Play Subroutine+   [99.7%, 14 options]
      #648  Play Machine Learning+   [57.0%, 13 options]
@@ -1858,7 +1858,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 58/82  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Dexterity 1, Focus 1, Subroutine 1, Machine Learning 1, Thunder 11, Chains of Binding 3, Echo Form 1, Frail 98, Weak 98, Vulnerable 98, Loop 4
      Enemy Torch Head Amalgam: HP 160/211  Intent Tackle: Attack 25  Powers: Minion 1, Strength 1
      Enemy Queen: HP 409/419  Block 4  Intent Burn Bright for Me: Buff + Defend
-     Hand: Dualcast [1], Greed [X], Lightning Rod [1], Ball Lightning [1], Loop+ [1], Defend [1], Glacier+ [2], Defend [1]  | Draw 0  Discard 16  Exhaust 2
+     Hand: Dualcast [1], Greed [-], Lightning Rod [1], Ball Lightning [1], Loop+ [1], Defend [1], Glacier+ [2], Defend [1]  | Draw 0  Discard 16  Exhaust 2
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #667  Play Loop+   [99.9%, 15 options]
      #668  Play Glacier+   [72.0%, 14 options]
@@ -1872,7 +1872,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 58/82  Block 30  Energy 5/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Dexterity 1, Focus 1, Subroutine 1, Machine Learning 1, Thunder 11, Chains of Binding 3, Echo Form 1, Frail 97, Weak 97, Vulnerable 97, Loop 8, Lightning Rod 1
      Enemy Torch Head Amalgam: HP 150/211  Intent Tackle: Attack 27  Powers: Minion 1, Strength 2
      Enemy Queen: HP 389/419  Block 15  Intent Burn Bright for Me: Buff + Defend
-     Hand: Strike [1], Lightning Rod [1], Dualcast [1], Strike [1], Greed [X], Go for the Eyes [0], Go for the Eyes+ [0], Defend [1]  | Draw 15  Discard 0  Exhaust 2
+     Hand: Strike [1], Lightning Rod [1], Dualcast [1], Strike [1], Greed [-], Go for the Eyes [0], Go for the Eyes+ [0], Defend [1]  | Draw 15  Discard 0  Exhaust 2
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #672  Play Lightning Rod   [35.5%, 18 options]
             also: Play Go for the Eyes+ -> Torch Head Amalgam 32.7%; Play Go for the Eyes -> Torch Head Amalgam 16.5%; Play Strike -> Torch Head Amalgam 10.8% x2
@@ -1923,7 +1923,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 49/82  Block 30  Energy 5/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Dexterity 1, Focus 1, Subroutine 1, Machine Learning 1, Thunder 19, Chains of Binding 3, Echo Form 1, Frail 94, Weak 94, Vulnerable 94, Loop 8, Lightning Rod 2
      Enemy Torch Head Amalgam: HP 26/211  Intent Tackle: Attack 23  Powers: Minion 1, Strength 5, Weak 1
      Enemy Queen: HP 319/419  Block 12  Intent Burn Bright for Me: Buff + Defend
-     Hand: Greed [X], Strike [1], Zap+ [0], Lightning Rod [1], Strike [1], Dualcast [1], Defend [1], Go for the Eyes [0]  | Draw 6  Discard 8  Exhaust 3
+     Hand: Greed [-], Strike [1], Zap+ [0], Lightning Rod [1], Strike [1], Dualcast [1], Defend [1], Go for the Eyes [0]  | Draw 6  Discard 8  Exhaust 3
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #690  Play Lightning Rod   [90.0%, 17 options]
             also: Play Go for the Eyes -> Queen 2.9%; Play Strike -> Queen 2.2%; Play Go for the Eyes -> Torch Head Amalgam 1.6%; Play Strike -> Torch Head Amalgam 1.5%
@@ -1967,7 +1967,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 11 --
      HP 49/82  Block 30  Energy 5/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Dexterity 1, Focus 1, Subroutine 1, Machine Learning 1, Thunder 19, Chains of Binding 3, Echo Form 1, Frail 91, Weak 91, Vulnerable 91, Loop 8, Lightning Rod 7
      Enemy Queen: HP 242/419  Intent Execution: Attack 30  Powers: Strength 2
-     Hand: Greed [X], Zap+ [0], Strike [1], Go for the Eyes [0], Defend+ [1], Go for the Eyes [0], Lightning Rod [1], Coolheaded [1]  | Draw 14  Discard 0  Exhaust 3
+     Hand: Greed [-], Zap+ [0], Strike [1], Go for the Eyes [0], Defend+ [1], Go for the Eyes [0], Lightning Rod [1], Coolheaded [1]  | Draw 14  Discard 0  Exhaust 3
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #705  Play Coolheaded   [26.1%, 12 options]
             also: Play Go for the Eyes -> Queen 24.5% x2; Play Lightning Rod 21.4%; Play Strike -> Queen 1.7%
@@ -2067,7 +2067,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 71/82  Block 0  Energy 5/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Dexterity 1, Focus 1, Subroutine 1, Thunder 11, Machine Learning 1, Feral 1
      Enemy Aeonglass: HP 415/535  Intent Ebb: Attack 30 + Defend  Powers: Withering Presence 6, Strength 4
-     Hand: Greed [X], Go for the Eyes [0], Dualcast [1], Loop+ [1], Ascender's Bane [X], Strike [1], Loop+ [1], Echo Form [3]  | Draw 0  Discard 22  Exhaust 3
+     Hand: Greed [-], Go for the Eyes [0], Dualcast [1], Loop+ [1], Ascender's Bane [-], Strike [1], Loop+ [1], Echo Form [3]  | Draw 0  Discard 22  Exhaust 3
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #744  Play Echo Form   [88.4%, 11 options]
             also: Play Go for the Eyes -> Aeonglass 6.9%; Use potion Fire Potion -> Aeonglass 4.0%; Use potion Attack Potion -> self 0.5%
@@ -2085,7 +2085,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 58/82  Block 12  Energy 4/3  Orbs (3 slots): Frost, Lightning  Powers: Dexterity 1, Focus 1, Subroutine 1, Thunder 11, Machine Learning 1, Feral 1, Echo Form 1, Loop 4
      Enemy Aeonglass: HP 398/535  Block 28  Intent Eye Lasers: Attack 12x2  Powers: Withering Presence 6, Strength 4, Weak 1
-     Hand: Greed [X], Strike [1], Coolheaded [1], Defend [1], Dualcast [1], Defend+ [1], Go for the Eyes [0], Strike [1]  | Draw 19  Discard 0  Exhaust 4
+     Hand: Greed [-], Strike [1], Coolheaded [1], Defend [1], Dualcast [1], Defend+ [1], Go for the Eyes [0], Strike [1]  | Draw 19  Discard 0  Exhaust 4
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #752  Play Coolheaded   [82.6%, 12 options]
             also: Play Go for the Eyes -> Aeonglass 16.2%; Play Defend+ 0.7%
@@ -2103,7 +2103,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 58/82  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Dexterity 1, Focus 1, Subroutine 1, Thunder 11, Machine Learning 1, Feral 1, Echo Form 1, Loop 4
      Enemy Aeonglass: HP 376/535  Intent Increasing Intensity: Buff + Debuff  Powers: Withering Presence 6, Strength 4, Weak 2
-     Hand: Leap [1], Wither [X], Ball Lightning [1], Strike [1], Strike [1], Go for the Eyes [0], Cold Snap [1], Wither [X]  | Draw 11  Discard 9  Exhaust 4
+     Hand: Leap [1], Wither [-], Ball Lightning [1], Strike [1], Strike [1], Go for the Eyes [0], Cold Snap [1], Wither [-]  | Draw 11  Discard 9  Exhaust 4
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #759  Play Cold Snap -> Aeonglass   [85.1%, 11 options]
             also: Play Ball Lightning -> Aeonglass 13.9%; Play Leap 0.5%
@@ -2120,7 +2120,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 52/82  Block 12  Energy 5/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Dexterity 1, Focus 1, Subroutine 1, Thunder 11, Machine Learning 1, Feral 1, Echo Form 1, Loop 4
      Enemy Aeonglass: HP 308/535  Intent Ebb: Attack 26 + Defend  Powers: Withering Presence 6, Strength 9, Weak 1
-     Hand: Go for the Eyes+ [0], Zap+ [0], Flak Cannon+ [2], Wither [X], Coolheaded [1], Defend [1], Wither [X], Glacier+ [2]  | Draw 3  Discard 21  Exhaust 4
+     Hand: Go for the Eyes+ [0], Zap+ [0], Flak Cannon+ [2], Wither [-], Coolheaded [1], Defend [1], Wither [-], Glacier+ [2]  | Draw 3  Discard 21  Exhaust 4
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #766  Play Zap+   [70.2%, 11 options]
             also: Play Flak Cannon+ 16.5%; Play Go for the Eyes+ -> Aeonglass 11.4%; Use potion Fire Potion -> Aeonglass 1.5%
@@ -2138,7 +2138,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 52/82  Block 12  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Dexterity 1, Focus 1, Subroutine 1, Thunder 11, Machine Learning 1, Feral 1, Echo Form 1, Loop 4
      Enemy Aeonglass: HP 120/535  Block 25  Intent Eye Lasers: Attack 15x2  Powers: Withering Presence 6, Strength 9, Weak 4
-     Hand: Defend [1], Lightning Rod [1], Strike [1], Coolheaded [1], Defend [1], Wither [X], Cold Snap [1], Ball Lightning [1]  | Draw 15  Discard 0  Exhaust 14
+     Hand: Defend [1], Lightning Rod [1], Strike [1], Coolheaded [1], Defend [1], Wither [-], Cold Snap [1], Ball Lightning [1]  | Draw 15  Discard 0  Exhaust 14
      Potions: Attack Potion, Beetle Juice, Fire Potion, Energy Potion
      #773  Play Lightning Rod   [59.2%, 12 options]
             also: Play Ball Lightning -> Aeonglass 24.2%; Play Cold Snap -> Aeonglass 8.7%; Play Coolheaded 5.5%; Play Defend 1.1%

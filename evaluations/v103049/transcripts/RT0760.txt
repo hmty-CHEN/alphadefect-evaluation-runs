@@ -16,7 +16,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Fuzzy Wurm Crawler: HP 59/59  Intent First Acid Goop: Attack 6
-     Hand: Strike [1], Defend [1], Ascender's Bane [X], Defend [1], Defend [1]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Strike [1], Defend [1], Ascender's Bane [-], Defend [1], Defend [1]  | Draw 6  Discard 0  Exhaust 0
      #2    Play Defend   [28.0%, 5 options]
             also: Play Defend 28.0% x2 (identical option); Play Strike -> Fuzzy Wurm Crawler 16.0%
      #3    Play Strike -> Fuzzy Wurm Crawler   [84.3%, 4 options]
@@ -78,7 +78,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 57/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Nibbit: HP 40/46  Intent Slice: Attack 7 + Defend
-     Hand: Strike [1], Cold Snap [1], Strike [1], Defend [1], Ascender's Bane [X]  | Draw 2  Discard 5  Exhaust 0
+     Hand: Strike [1], Cold Snap [1], Strike [1], Defend [1], Ascender's Bane [-]  | Draw 2  Discard 5  Exhaust 0
      Potions: Fysh Oil
      #25   Play Defend   [67.1%, 6 options]
             also: Play Cold Snap -> Nibbit 26.9%; Play Strike -> Nibbit 3.0% x2
@@ -142,7 +142,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 48/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Phrog Parasite: HP 66/66  Intent Infect: Debuff  Powers: Infested 4
-     Hand: Zap [1], Barrage [1], Defend [1], Clumsy [X], Leap [1]  | Draw 11  Discard 0  Exhaust 0
+     Hand: Zap [1], Barrage [1], Defend [1], Clumsy [-], Leap [1]  | Draw 11  Discard 0  Exhaust 0
      Potions: Fysh Oil, Fairy in a Bottle
      #46   Play Zap   [54.3%, 6 options]
             also: Use potion Fysh Oil -> self 43.7%; Play Barrage -> Phrog Parasite 1.2%
@@ -154,7 +154,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 48/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Phrog Parasite: HP 50/66  Intent Lash: Attack 5x4  Powers: Infested 4
-     Hand: Defend [1], Strike [1], Defend [1], Ascender's Bane [X], Strike [1]  | Draw 6  Discard 7  Exhaust 1
+     Hand: Defend [1], Strike [1], Defend [1], Ascender's Bane [-], Strike [1]  | Draw 6  Discard 7  Exhaust 1
      Potions: Fysh Oil, Fairy in a Bottle
      #50   Use potion Fysh Oil -> self   [63.5%, 6 options]
             also: Play Defend 17.3% x2; Play Strike -> Phrog Parasite 0.9% x2
@@ -179,7 +179,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 40/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Strength 1, Dexterity 1, Lightning Rod 1
      Enemy Phrog Parasite: HP 9/66  Intent Lash: Attack 5x4  Powers: Infested 4
-     Hand: Cold Snap [1], Strike [1], Cold Snap [1], Infection [X], Zap [1]  | Draw 15  Discard 0  Exhaust 2
+     Hand: Cold Snap [1], Strike [1], Cold Snap [1], Infection [-], Zap [1]  | Draw 15  Discard 0  Exhaust 2
      Potions: Fairy in a Bottle
      #59   Play Cold Snap -> Phrog Parasite   [46.4%, 5 options]
             also: Play Cold Snap -> Phrog Parasite 46.4% (identical option); Play Strike -> Phrog Parasite 5.6%; Play Zap 1.6%
@@ -194,7 +194,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 22/22  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 5/19  Intent Nasty Bite: Attack 7
      Enemy Wriggler: HP 7/18  Intent Wriggle: Buff + Debuff
-     Hand: Barrage [1], Lightning Rod [1], Dualcast [1], Defend [1], Infection [X]  | Draw 10  Discard 5  Exhaust 2
+     Hand: Barrage [1], Lightning Rod [1], Dualcast [1], Defend [1], Infection [-]  | Draw 10  Discard 5  Exhaust 2
      Potions: Fairy in a Bottle
      #63   Play Barrage -> Wriggler #3   [81.8%, 8 options]
             also: Play Lightning Rod 8.1%; Play Barrage -> Wriggler #4 5.8%; Play Barrage -> Wriggler #2 2.1%; Play Defend 1.5%
@@ -208,7 +208,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 20/20  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 19/22  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 7/18  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Infection [X], Strike [1], Infection [X], Infection [X], Infection [X]  | Draw 5  Discard 12  Exhaust 2
+     Hand: Infection [-], Strike [1], Infection [-], Infection [-], Infection [-]  | Draw 5  Discard 12  Exhaust 2
      Potions: Fairy in a Bottle
      #67   Play Strike -> Wriggler #3   [100.0%, 4 options]
      #68   End turn   [100.0%, 1 option]
@@ -229,7 +229,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 26/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Strength 1, Dexterity 1
      Enemy Wriggler: HP 11/20  Intent Wriggle: Buff + Debuff  Powers: Strength 2
      Enemy Wriggler: HP 6/22  Intent Nasty Bite: Attack 11  Powers: Strength 4
-     Hand: Infection [X], Strike [1], Strike [1], Lightning Rod [1], Infection [X]  | Draw 19  Discard 0  Exhaust 2
+     Hand: Infection [-], Strike [1], Strike [1], Lightning Rod [1], Infection [-]  | Draw 19  Discard 0  Exhaust 2
      Potions: Fairy in a Bottle
      #73   Play Strike -> Wriggler #2   [50.0%, 6 options]
             also: Play Strike -> Wriggler #2 50.0% (identical option)
@@ -258,7 +258,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 48/75  Block 0  Energy 5/3  Orbs (3 slots): Lightning
      Enemy Byrdonis: HP 90/90  Intent Swoop: Attack 19  Powers: Territorial 1
-     Hand: Defend [1], Defend [1], Cold Snap [1], Clumsy [X], Barrage [1]  | Draw 12  Discard 0  Exhaust 0
+     Hand: Defend [1], Defend [1], Cold Snap [1], Clumsy [-], Barrage [1]  | Draw 12  Discard 0  Exhaust 0
      Potions: Focus Potion, Fairy in a Bottle
      #84   Play Defend   [33.1%, 6 options]
             also: Play Defend 33.1% (identical option); Play Cold Snap -> Byrdonis 31.9%; Use potion Focus Potion -> self 1.0%; Play Barrage -> Byrdonis 0.9%
@@ -283,7 +283,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 41/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Lightning Rod 1
      Enemy Byrdonis: HP 62/90  Intent Swoop: Attack 21  Powers: Territorial 1, Strength 2
-     Hand: Defend [1], Strike [1], Ascender's Bane [X], Strike [1], Zap [1]  | Draw 2  Discard 9  Exhaust 1
+     Hand: Defend [1], Strike [1], Ascender's Bane [-], Strike [1], Zap [1]  | Draw 2  Discard 9  Exhaust 1
      Potions: Focus Potion, Fairy in a Bottle
      #93   Play Defend   [59.1%, 6 options]
             also: Play Zap 35.4%; Play Strike -> Byrdonis 2.8% x2
@@ -331,7 +331,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 13/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Bygone Effigy: HP 132/132  Intent Sleep: Stun/Sleep/Escape  Powers: Slow 1
-     Hand: Cold Snap+ [1], Ascender's Bane [X], Strike+ [1], Defend+ [1], Strike+ [1]  | Draw 13  Discard 0  Exhaust 0
+     Hand: Cold Snap+ [1], Ascender's Bane [-], Strike+ [1], Defend+ [1], Strike+ [1]  | Draw 13  Discard 0  Exhaust 0
      Potions: Focus Potion, Fairy in a Bottle
      #108  Use potion Focus Potion -> self   [55.7%, 6 options]
             also: Play Cold Snap+ -> Bygone Effigy 26.3%; Play Strike+ -> Bygone Effigy 8.7% x2
@@ -356,7 +356,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 13/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost  Powers: Focus 2, Hailstorm 6
      Enemy Bygone Effigy: HP 82/132  Intent Slashes: Attack 25  Powers: Slow 1, Strength 10
-     Hand: Zap [1], Glacier [2], Barrage [1], Defend [1], Clumsy [X]  | Draw 3  Discard 8  Exhaust 1
+     Hand: Zap [1], Glacier [2], Barrage [1], Defend [1], Clumsy [-]  | Draw 3  Discard 8  Exhaust 1
      Potions: Fairy in a Bottle
      #117  Play Glacier   [100.0%, 5 options]
      #118  Play Defend   [98.5%, 4 options]
@@ -462,7 +462,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 2/21  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 11/19  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 2/22  Intent Wriggle: Buff + Debuff  Powers: Strength 2
-     Hand: Ascender's Bane [X], Strike [1], Clumsy [X], Cold Snap [1], Strike [1]  | Draw 4  Discard 13  Exhaust 0
+     Hand: Ascender's Bane [-], Strike [1], Clumsy [-], Cold Snap [1], Strike [1]  | Draw 4  Discard 13  Exhaust 0
      Potions: Fairy in a Bottle
      #152  Play Cold Snap -> Wriggler #2   [35.6%, 10 options]
             also: Play Strike -> Wriggler #2 23.6% x2; Play Cold Snap -> Wriggler #1 6.5%; Play Strike -> Wriggler #1 4.2%
@@ -483,7 +483,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 74/89  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Phrog Parasite: HP 66/66  Intent Infect: Debuff  Powers: Infested 4
-     Hand: Strike+ [1], Cold Snap+ [1], Defend+ [1], Glacier+ [2], Clumsy [X]  | Draw 15  Discard 0  Exhaust 0
+     Hand: Strike+ [1], Cold Snap+ [1], Defend+ [1], Glacier+ [2], Clumsy [-]  | Draw 15  Discard 0  Exhaust 0
      Potions: Fairy in a Bottle
      #160  Play Cold Snap+ -> Phrog Parasite   [66.2%, 5 options]
             also: Play Strike+ -> Phrog Parasite 23.7%; Play Glacier+ 8.9%; Play Defend+ 1.2%
@@ -507,7 +507,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 71/89  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning
      Enemy Phrog Parasite: HP 39/66  Intent Infect: Debuff  Powers: Infested 4
-     Hand: Leap [1], Ascender's Bane [X], Go for the Eyes [0], Cold Snap [1], Strike [1]  | Draw 5  Discard 12  Exhaust 1
+     Hand: Leap [1], Ascender's Bane [-], Go for the Eyes [0], Cold Snap [1], Strike [1]  | Draw 5  Discard 12  Exhaust 1
      Potions: Fairy in a Bottle
      #168  Play Cold Snap -> Phrog Parasite   [59.2%, 5 options]
             also: Play Strike -> Phrog Parasite 32.1%; Play Go for the Eyes -> Phrog Parasite 6.2%; Play Leap 2.5%
@@ -547,7 +547,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 71/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Hailstorm 6
      Enemy Wriggler: HP 10/22  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Infection [X], Strike [1], Cold Snap [1], Defend+ [1], Leap [1]  | Draw 13  Discard 6  Exhaust 2
+     Hand: Infection [-], Strike [1], Cold Snap [1], Defend+ [1], Leap [1]  | Draw 13  Discard 6  Exhaust 2
      Potions: Fairy in a Bottle
      #180  Play Cold Snap -> Wriggler   [34.0%, 5 options]
             also: Play Strike -> Wriggler 26.8%; Play Leap 22.7%; Play Defend+ 16.5%
@@ -576,7 +576,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Kin Follower: HP 63/63  Intent Power Dance: Buff  Powers: Minion 1
      Enemy Kin Follower: HP 62/62  Intent Quick Slash: Attack 5  Powers: Minion 1
      Enemy Kin Priest: HP 199/199  Intent Orb of Frailty: Attack 9 + Debuff
-     Hand: Lightning Rod+ [1], Clumsy [X], Ascender's Bane [X], Strike+ [1], Defend+ [1]  | Draw 15  Discard 0  Exhaust 0
+     Hand: Lightning Rod+ [1], Clumsy [-], Ascender's Bane [-], Strike+ [1], Defend+ [1]  | Draw 15  Discard 0  Exhaust 0
      Potions: Fairy in a Bottle
      #189  Play Lightning Rod+   [78.0%, 6 options]
             also: Play Defend+ 12.0%; Play Strike+ -> Kin Follower #1 9.7%
@@ -787,7 +787,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 78/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost
      Enemy Thieving Hopper: HP 17/84  Intent Hat Trick: Attack 23  Powers: Escape Artist 3, Swipe 1, Flutter 5
-     Hand: Zap+ [0], Defend [1], Strike [1], Ascender's Bane [X], Clumsy [X]  | Draw 5  Discard 10  Exhaust 0
+     Hand: Zap+ [0], Defend [1], Strike [1], Ascender's Bane [-], Clumsy [-]  | Draw 5  Discard 10  Exhaust 0
      Potions: Fairy in a Bottle
      #256  Play Zap+   [73.3%, 4 options]
             also: Play Defend 23.1%; Play Strike -> Thieving Hopper 3.6%
@@ -888,7 +888,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 62/89  Block 5  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Stampede 1, Lightning Rod 1
      Enemy Tunneler: HP 23/92  Block 22  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Ascender's Bane [X], Clumsy [X], Defend [1], Go for the Eyes [0], Barrage [1]  | Draw 2  Discard 14  Exhaust 0
+     Hand: Ascender's Bane [-], Clumsy [-], Defend [1], Go for the Eyes [0], Barrage [1]  | Draw 2  Discard 14  Exhaust 0
      Potions: Gigantification Potion, Fairy in a Bottle
      #292  Play Barrage -> Tunneler   [67.8%, 5 options]
             also: Play Go for the Eyes -> Tunneler 18.0%; Play Defend 14.1%
@@ -980,7 +980,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 58/89  Block 4  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Loop 2, Hailstorm 6
      Enemy Tough Egg: HP 20/20  Intent Nibble: Attack 5  Powers: Minion 1
      Enemy Ovicopter: HP 85/129  Intent Tenderizer: Attack 8 + Debuff
-     Hand: Stampede+ [1], Barrage [1], Ascender's Bane [X], Buffer [2], Cold Snap [1]  | Draw 11  Discard 8  Exhaust 0
+     Hand: Stampede+ [1], Barrage [1], Ascender's Bane [-], Buffer [2], Cold Snap [1]  | Draw 11  Discard 8  Exhaust 0
      Potions: Gigantification Potion, Fairy in a Bottle
      #322  Play Cold Snap -> Tough Egg   [23.6%, 8 options]
             also: Play Stampede+ 20.3%; Play Cold Snap -> Ovicopter 17.6%; Play Buffer 14.8%; Play Barrage -> Tough Egg 13.5%
@@ -1005,7 +1005,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Tough Egg: HP 17/17  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Tough Egg: HP 15/15  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Ovicopter: HP 59/129  Intent Smash: Attack 25
-     Hand: Lightning Rod [1], Cold Snap [1], Glacier [2], Cold Snap [1], Clumsy [X]  | Draw 1  Discard 15  Exhaust 1
+     Hand: Lightning Rod [1], Cold Snap [1], Glacier [2], Cold Snap [1], Clumsy [-]  | Draw 1  Discard 15  Exhaust 1
      Potions: Gigantification Potion, Fairy in a Bottle
      #329  Play Glacier   [45.9%, 12 options]
             also: Play Lightning Rod 19.9%; Play Cold Snap -> Ovicopter 6.7% x2; Play Cold Snap -> Tough Egg #3 4.1%
@@ -1096,7 +1096,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 74/89  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Hailstorm 16
      Enemy Infested Prism: HP 150/171  Intent Radiate: Attack 13 + Defend  Powers: Vital Spark 3
-     Hand: Strike [1], Lightning Rod [1], Cold Snap [1], Clumsy [X], Defend+ [1]  | Draw 17  Discard 3  Exhaust 0
+     Hand: Strike [1], Lightning Rod [1], Cold Snap [1], Clumsy [-], Defend+ [1]  | Draw 17  Discard 3  Exhaust 0
      Potions: Gigantification Potion, Fairy in a Bottle
      #357  Play Cold Snap -> Infested Prism   [55.7%, 6 options]
             also: Play Defend+ 28.0%; Play Lightning Rod 15.0%; Play Strike -> Infested Prism 1.3%
@@ -1143,7 +1143,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 63/89  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Hailstorm 16, Storm 1, Loop 2
      Enemy Infested Prism: HP 6/171  Intent Radiate: Attack 13 + Defend  Powers: Vital Spark 6
-     Hand: Strike [1], Ascender's Bane [X], Strike+ [1], Defend+ [1], Cold Snap [1]  | Draw 17  Discard 0  Exhaust 1
+     Hand: Strike [1], Ascender's Bane [-], Strike+ [1], Defend+ [1], Cold Snap [1]  | Draw 17  Discard 0  Exhaust 1
      Potions: Gigantification Potion, Fairy in a Bottle
      #372  Play Cold Snap -> Infested Prism   [44.8%, 6 options]
             also: Play Strike+ -> Infested Prism 26.8%; Play Strike -> Infested Prism 25.7%; Play Defend+ 2.6%
@@ -1189,7 +1189,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Bowlbug (Rock): HP 12/47  Intent <unk>: Stun/Sleep/Escape  Powers: Imbalanced 1, Weak 1
      Enemy Bowlbug (Silk): HP 33/42  Intent Thrash: Attack 5x2
      Enemy Slumbering Beetle: HP 89/89  Block 18  Intent Snore: Stun/Sleep/Escape  Powers: Plating 18, Slumber 2
-     Hand: Buffer [2], Clumsy [X], Storm [1], Zap+ [0], Cold Snap [1]  | Draw 17  Discard 5  Exhaust 0
+     Hand: Buffer [2], Clumsy [-], Storm [1], Zap+ [0], Cold Snap [1]  | Draw 17  Discard 5  Exhaust 0
      Potions: Gigantification Potion, Fairy in a Bottle
      #386  Play Storm   [85.0%, 8 options]
             also: Play Cold Snap -> Bowlbug (Rock) 9.9%; Play Zap+ 3.6%; Play Buffer 1.0%
@@ -1216,7 +1216,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 58/89  Block 5  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Storm 1, Hailstorm 8, Lightning Rod 1, Weak 1
      Enemy Bowlbug (Silk): HP 12/42  Intent Thrash: Attack 5x2
      Enemy Slumbering Beetle: HP 89/89  Block 16  Intent Roll Out: Attack 18 + Buff
-     Hand: Loop+ [1], Hailstorm [1], Ascender's Bane [X], Defend [1], Barrage [1]  | Draw 7  Discard 12  Exhaust 1
+     Hand: Loop+ [1], Hailstorm [1], Ascender's Bane [-], Defend [1], Barrage [1]  | Draw 7  Discard 12  Exhaust 1
      Potions: Gigantification Potion, Fairy in a Bottle
      #394  Play Hailstorm   [73.9%, 7 options]
             also: Play Barrage -> Bowlbug (Silk) 12.2%; Play Defend 8.7%; Play Loop+ 5.2%
@@ -1270,7 +1270,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 35/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost  Powers: Stampede 1
      Enemy Entomancer: HP 129/165  Intent Spear!: Attack 20  Powers: Personal Hive 1
-     Hand: Glacier [2], Barrage [1], Go for the Eyes [0], Ascender's Bane [X], Go for the Eyes+ [0]  | Draw 17  Discard 4  Exhaust 0
+     Hand: Glacier [2], Barrage [1], Go for the Eyes [0], Ascender's Bane [-], Go for the Eyes+ [0]  | Draw 17  Discard 4  Exhaust 0
      Potions: Gigantification Potion, Fairy in a Bottle
      #412  Play Go for the Eyes+ -> Entomancer   [52.2%, 6 options]
             also: Play Go for the Eyes -> Entomancer 28.2%; Play Glacier 19.5%
@@ -1283,7 +1283,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 35/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Stampede 1
      Enemy Entomancer: HP 107/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1, Weak 2
-     Hand: Defend [1], Hailstorm [1], Strike [1], Dazed [X], Cold Snap [1]  | Draw 17  Discard 8  Exhaust 1
+     Hand: Defend [1], Hailstorm [1], Strike [1], Dazed [-], Cold Snap [1]  | Draw 17  Discard 8  Exhaust 1
      Potions: Gigantification Potion, Fairy in a Bottle
      #416  Play Hailstorm   [99.0%, 6 options]
             also: Play Defend 0.7%
@@ -1294,7 +1294,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 35/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Stampede 1, Hailstorm 6
      Enemy Entomancer: HP 92/165  Intent Beeeees!: Attack 3x8  Powers: Personal Hive 2, Weak 1, Strength 1
-     Hand: Clumsy [X], Cold Snap [1], Hailstorm+ [1], Dazed [X], Cold Snap [1]  | Draw 13  Discard 11  Exhaust 2
+     Hand: Clumsy [-], Cold Snap [1], Hailstorm+ [1], Dazed [-], Cold Snap [1]  | Draw 13  Discard 11  Exhaust 2
      Potions: Gigantification Potion, Fairy in a Bottle
      #419  Play Hailstorm+   [88.3%, 5 options]
             also: Play Cold Snap -> Entomancer 5.8% x2
@@ -1305,7 +1305,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 31/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Stampede 1, Hailstorm 14
      Enemy Entomancer: HP 66/165  Intent Spear!: Attack 21  Powers: Personal Hive 2, Strength 1
-     Hand: Strike [1], Defend+ [1], Dazed [X], Strike [1], Dazed [X]  | Draw 12  Discard 13  Exhaust 4
+     Hand: Strike [1], Defend+ [1], Dazed [-], Strike [1], Dazed [-]  | Draw 12  Discard 13  Exhaust 4
      Potions: Gigantification Potion, Fairy in a Bottle
      #423  Play Defend+   [97.1%, 5 options]
             also: Play Strike -> Entomancer 1.4% x2
@@ -1316,7 +1316,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 27/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Stampede 1, Hailstorm 14
      Enemy Entomancer: HP 34/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 2, Strength 1
-     Hand: Leap [1], Dazed [X], Buffer [2], Dazed [X], Dazed [X]  | Draw 11  Discard 16  Exhaust 6
+     Hand: Leap [1], Dazed [-], Buffer [2], Dazed [-], Dazed [-]  | Draw 11  Discard 16  Exhaust 6
      Potions: Gigantification Potion, Fairy in a Bottle
      #426  Play Buffer   [100.0%, 4 options]
      #427  Play Leap   [67.9%, 3 options]
@@ -1325,7 +1325,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 27/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Stampede 1, Hailstorm 14, Buffer 1
      Enemy Entomancer: HP 20/165  Intent Beeeees!: Attack 5x8  Powers: Personal Hive 3, Strength 2
-     Hand: Cold Snap [1], Loop+ [1], Zap+ [0], Lightning Rod [1], Dazed [X]  | Draw 6  Discard 17  Exhaust 9
+     Hand: Cold Snap [1], Loop+ [1], Zap+ [0], Lightning Rod [1], Dazed [-]  | Draw 6  Discard 17  Exhaust 9
      Potions: Gigantification Potion, Fairy in a Bottle
      #429  Play Cold Snap -> Entomancer   [37.2%, 6 options]
             also: Play Loop+ 36.9%; Play Zap+ 14.3%; Play Lightning Rod 11.6%
@@ -1356,7 +1356,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 53/89  Block 0  Energy 5/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Focus 1, Surrounded 1
      Enemy Crusher: HP 219/219  Intent Thrash: Attack 21  Powers: Back Attack 1, Crab Rage 1
      Enemy Rocket: HP 209/209  Intent Targeting Reticle: Attack 4  Powers: Back Attack 1, Crab Rage 1
-     Hand: Cold Snap+ [1], Clumsy [X], Cold Snap+ [1], Buffer+ [2], Go for the Eyes+ [0]  | Draw 22  Discard 0  Exhaust 0
+     Hand: Cold Snap+ [1], Clumsy [-], Cold Snap+ [1], Buffer+ [2], Go for the Eyes+ [0]  | Draw 22  Discard 0  Exhaust 0
      Potions: Gigantification Potion, Fairy in a Bottle, Skill Potion
      #441  Play Go for the Eyes+ -> Rocket   [38.7%, 10 options]
             also: Play Buffer+ 33.7%; Play Cold Snap+ -> Rocket 10.6% x2; Play Go for the Eyes+ -> Crusher 4.8%
@@ -1371,7 +1371,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 53/89  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Focus 1, Surrounded 1
      Enemy Crusher: HP 194/219  Intent Enlarging Strike: Attack 6  Powers: Back Attack 1, Crab Rage 1
      Enemy Rocket: HP 187/209  Intent Precision Beam: Attack 15  Powers: Back Attack 1, Crab Rage 1, Weak 1
-     Hand: Defend+ [1], Barrage [1], Storm [1], Ascender's Bane [X], Strike [1]  | Draw 17  Discard 3  Exhaust 1
+     Hand: Defend+ [1], Barrage [1], Storm [1], Ascender's Bane [-], Strike [1]  | Draw 17  Discard 3  Exhaust 1
      Potions: Gigantification Potion, Fairy in a Bottle, Skill Potion
      #446  Play Defend+   [46.5%, 9 options]
             also: Play Storm 42.3%; Play Barrage -> Rocket 6.2%; Play Strike -> Rocket 4.9%
@@ -1535,7 +1535,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 76/89  Block 0  Energy 3/3  Orbs (4 slots): Lightning, Frost, Frost, Frost  Powers: Focus 1
      Enemy Devoted Sculptor: HP 119/172  Intent Savage: Attack 15  Powers: Ritual 9
-     Hand: Ascender's Bane [X], Strike [1], Zap+ [0], Go for the Eyes+ [0], Glacier [2]  | Draw 17  Discard 7  Exhaust 0
+     Hand: Ascender's Bane [-], Strike [1], Zap+ [0], Go for the Eyes+ [0], Glacier [2]  | Draw 17  Discard 7  Exhaust 0
      Potions: Gigantification Potion, Fairy in a Bottle, Skill Potion, Speed Potion
      #501  Play Go for the Eyes+ -> Devoted Sculptor   [73.2%, 8 options]
             also: Play Zap+ 17.3%; Play Strike -> Devoted Sculptor 7.4%; Play Glacier 2.1%
@@ -1662,7 +1662,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 76/89  Block 6  Energy 3/3  Orbs (4 slots): Frost, Frost, Frost, Lightning  Powers: Focus 1, Lightning Rod 1
      Enemy Living Shield: HP 12/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 43/51  Block 25  Intent Reload: Buff
-     Hand: Glacier [2], Cold Snap [1], Zap+ [0], Defend+ [1], Clumsy [X]  | Draw 8  Discard 15  Exhaust 2
+     Hand: Glacier [2], Cold Snap [1], Zap+ [0], Defend+ [1], Clumsy [-]  | Draw 8  Discard 15  Exhaust 2
      Potions: Gigantification Potion, Fairy in a Bottle, Skill Potion, Focus Potion
      #543  Play Zap+   [58.1%, 9 options]
             also: Play Cold Snap -> Living Shield 27.1%; Play Glacier 9.3%; Play Defend+ 3.4%; Play Cold Snap -> Turret Operator 2.1%
@@ -1685,7 +1685,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 76/89  Block 0  Energy 3/3  Orbs (4 slots): Frost, Lightning, Frost, Frost  Powers: Focus 1
      Enemy Living Shield: HP 6/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 33/51  Block 25  Intent Unload!: Attack 5x5  Powers: Strength 1
-     Hand: Hailstorm+ [1], Ascender's Bane [X], Hailstorm [1], Barrage+ [1], Go for the Eyes [0]  | Draw 22  Discard 0  Exhaust 3
+     Hand: Hailstorm+ [1], Ascender's Bane [-], Hailstorm [1], Barrage+ [1], Go for the Eyes [0]  | Draw 22  Discard 0  Exhaust 3
      Potions: Gigantification Potion, Fairy in a Bottle, Skill Potion, Focus Potion
      #550  Play Go for the Eyes -> Turret Operator   [33.3%, 10 options]
             also: Play Barrage+ -> Turret Operator 31.8%; Play Hailstorm 16.8%; Play Hailstorm+ 15.4%; Play Go for the Eyes -> Living Shield 2.0%
@@ -1752,7 +1752,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 93/109  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Frost  Powers: Focus 1, Strength 1, Buffer 1
      Enemy Soul Nexus: HP 219/254  Intent Maelstrom: Attack 5x4  Powers: Weak 1
-     Hand: Go for the Eyes [0], Loop+ [1], Defend [1], Ascender's Bane [X], Cold Snap [1]  | Draw 23  Discard 2  Exhaust 0
+     Hand: Go for the Eyes [0], Loop+ [1], Defend [1], Ascender's Bane [-], Cold Snap [1]  | Draw 23  Discard 2  Exhaust 0
      Potions: Gigantification Potion, Fairy in a Bottle, Skill Potion, Focus Potion
      #574  Play Loop+   [58.0%, 8 options]
             also: Play Go for the Eyes -> Soul Nexus 31.6%; Play Defend 6.1%; Play Cold Snap -> Soul Nexus 4.3%
@@ -1780,7 +1780,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 89/109  Block 6  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Strength 1, Loop 2, Storm 1
      Enemy Soul Nexus: HP 166/254  Intent Drain Life: Attack 14 + Debuff  Powers: Weak 2
-     Hand: Dualcast [1], Zap+ [0], Cold Snap [1], Clumsy [X], Stampede+ [1]  | Draw 11  Discard 11  Exhaust 1
+     Hand: Dualcast [1], Zap+ [0], Cold Snap [1], Clumsy [-], Stampede+ [1]  | Draw 11  Discard 11  Exhaust 1
      Potions: Gigantification Potion, Fairy in a Bottle, Skill Potion, Focus Potion
      #584  Play Stampede+   [98.9%, 8 options]
             also: Play Cold Snap -> Soul Nexus 0.8%
@@ -1894,7 +1894,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Flail Knight: HP 89/108  Intent Ram: Attack 17
      Enemy Spectral Knight: HP 78/97  Intent Soul Flame: Attack 4x3
      Enemy Magi Knight: HP 59/89  Intent Ram: Attack 11
-     Hand: Defend [1], Strike [1], Glacier [2], Strike [1], Clumsy [X]  | Draw 20  Discard 4  Exhaust 3
+     Hand: Defend [1], Strike [1], Glacier [2], Strike [1], Clumsy [-]  | Draw 20  Discard 4  Exhaust 3
      Potions: Heart of Iron, Fairy in a Bottle, Focus Potion, Focus Potion
      #623  Play Glacier   [82.6%, 12 options]
             also: Play Strike -> Magi Knight 6.9% x2; Play Defend 3.7%
@@ -2002,7 +2002,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 65/109  Block 3  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Focus 1, Strength 1, Storm 2, Coolant 3, Hailstorm 6, Lightning Rod 1, Vulnerable 1
      Enemy Test Subject #C{Count}: HP 9/111  Intent Bite: Attack 37  Powers: Adaptable 1, Enrage 3, Strength 3
-     Hand: Glacier [2], Strike [1], Cold Snap [1], Clumsy [X], Buffer+ [2]  | Draw 21  Discard 5  Exhaust 0
+     Hand: Glacier [2], Strike [1], Cold Snap [1], Clumsy [-], Buffer+ [2]  | Draw 21  Discard 5  Exhaust 0
      Potions: Heart of Iron, Fairy in a Bottle, Focus Potion, Focus Potion
      #657  Play Buffer+   [43.8%, 8 options]
             also: Play Glacier 41.3%; Play Cold Snap -> Test Subject #C{Count} 11.2%; End turn 1.8%; Play Strike -> Test Subject #C{Count} 0.9%
@@ -2030,7 +2030,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 65/109  Block 6  Energy 3/3  Orbs (4 slots): Lightning, Lightning, Frost, Lightning  Powers: Focus 3, Strength 1, Storm 2, Coolant 3, Hailstorm 6, Buffer 1
      Enemy Test Subject #C{Count}: HP 154/212  Intent Multi-Claw: Attack 11x4  Powers: Adaptable 1, Painful Stabs 1
-     Hand: Chill [0], Glacier [2], Loop+ [1], Defend [1], Ascender's Bane [X]  | Draw 10  Discard 14  Exhaust 1
+     Hand: Chill [0], Glacier [2], Loop+ [1], Defend [1], Ascender's Bane [-]  | Draw 10  Discard 14  Exhaust 1
      Potions: Heart of Iron, Fairy in a Bottle, Focus Potion
      #667  Play Loop+   [79.9%, 7 options]
             also: Play Glacier 17.1%; Play Chill 2.8%
@@ -2120,7 +2120,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 12 --
      HP 65/109  Block 13  Energy 3/3  Orbs (5 slots): Frost, Frost, Frost, Frost, Frost  Powers: Focus 3, Strength 1, Storm 2, Coolant 3, Hailstorm 14, Loop 2, Stampede 1
      Enemy Test Subject #C{Count}: HP 119/313  Intent Big Pounce: Attack 48  Powers: Nemesis 1, Strength 3
-     Hand: Burn [X], Defend+ [1], Strike [1], Defend [1], Zap+ [0]  | Draw 18  Discard 5  Exhaust 4
+     Hand: Burn [-], Defend+ [1], Strike [1], Defend [1], Zap+ [0]  | Draw 18  Discard 5  Exhaust 4
      Potions: Heart of Iron, Fairy in a Bottle, Focus Potion
      #699  Play Zap+   [38.6%, 7 options]
             also: Play Strike -> Test Subject #C{Count} 25.1%; Play Defend+ 24.0%; Play Defend 12.3%
@@ -2134,7 +2134,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 13 --
      HP 65/109  Block 16  Energy 3/3  Orbs (5 slots): Frost, Frost, Frost, Frost, Lightning  Powers: Focus 3, Strength 1, Storm 2, Coolant 3, Hailstorm 14, Loop 2, Stampede 1
      Enemy Test Subject #C{Count}: HP 88/313  Intent Burning Growl: Buff + Debuff  Powers: Nemesis 1, Strength 3, Intangible 1
-     Hand: Lightning Rod [1], Go for the Eyes+ [0], Dualcast [1], Burn [X], Defend [1]  | Draw 13  Discard 10  Exhaust 4
+     Hand: Lightning Rod [1], Go for the Eyes+ [0], Dualcast [1], Burn [-], Defend [1]  | Draw 13  Discard 10  Exhaust 4
      Potions: Heart of Iron, Fairy in a Bottle, Focus Potion
      #704  Play Lightning Rod   [97.5%, 7 options]
             also: Play Go for the Eyes+ -> Test Subject #C{Count} 1.3%; Play Defend 0.9%
@@ -2145,7 +2145,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 14 --
      HP 65/109  Block 24  Energy 3/3  Orbs (5 slots): Frost, Frost, Frost, Lightning, Lightning  Powers: Focus 3, Strength 1, Storm 2, Coolant 3, Hailstorm 14, Loop 2, Stampede 1, Lightning Rod 1
      Enemy Test Subject #C{Count}: HP 85/313  Intent Lacerate: Attack 17x3  Powers: Nemesis 1, Strength 6
-     Hand: Cold Snap [1], Barrage [1], Cold Snap [1], Burn [X], Modded [2]  | Draw 8  Discard 20  Exhaust 4
+     Hand: Cold Snap [1], Barrage [1], Cold Snap [1], Burn [-], Modded [2]  | Draw 8  Discard 20  Exhaust 4
      Potions: Heart of Iron, Fairy in a Bottle, Focus Potion
      #707  Play Cold Snap -> Test Subject #C{Count}   [37.4%, 7 options]
             also: Play Cold Snap -> Test Subject #C{Count} 37.4% (identical option); Play Modded 21.5%; Play Barrage -> Test Subject #C{Count} 3.7%
@@ -2156,7 +2156,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 15 --
      HP 65/109  Block 14  Energy 3/3  Orbs (5 slots): Lightning, Lightning, Frost, Frost, Lightning  Powers: Focus 3, Strength 1, Storm 2, Coolant 3, Hailstorm 14, Loop 2, Stampede 1
      Enemy Test Subject #C{Count}: HP 11/313  Intent Big Pounce: Attack 51  Powers: Nemesis 1, Strength 6, Intangible 1
-     Hand: Glacier [2], Burn [X], Glacier [2], Strike [1], Go for the Eyes+ [0]  | Draw 3  Discard 25  Exhaust 4
+     Hand: Glacier [2], Burn [-], Glacier [2], Strike [1], Go for the Eyes+ [0]  | Draw 3  Discard 25  Exhaust 4
      Potions: Heart of Iron, Fairy in a Bottle, Focus Potion
      #711  Play Glacier   [48.7%, 7 options]
             also: Play Glacier 48.7% (identical option); Play Go for the Eyes+ -> Test Subject #C{Count} 1.5%; Play Strike -> Test Subject #C{Count} 1.2%
@@ -2168,7 +2168,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 16 --
      HP 65/109  Block 16  Energy 3/3  Orbs (5 slots): Frost, Frost, Lightning, Frost, Frost  Powers: Focus 3, Strength 1, Storm 2, Coolant 3, Hailstorm 14, Loop 2, Stampede 1
      Enemy Test Subject #C{Count}: HP 5/313  Intent Burning Growl: Buff + Debuff  Powers: Nemesis 1, Strength 6, Weak 1
-     Hand: Go for the Eyes [0], Glacier [2], Burn [X], Burn [X], Burn [X]  | Draw 28  Discard 0  Exhaust 4
+     Hand: Go for the Eyes [0], Glacier [2], Burn [-], Burn [-], Burn [-]  | Draw 28  Discard 0  Exhaust 4
      Potions: Heart of Iron, Fairy in a Bottle, Focus Potion
      #715  Play Glacier   [86.9%, 5 options]
             also: Play Go for the Eyes -> Test Subject #C{Count} 13.0%
@@ -2213,7 +2213,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 61/109  Block 10  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Focus 3, Strength 1, Chains of Binding 3, Loop 2, Frail 99, Weak 99, Vulnerable 99
      Enemy Torch Head Amalgam: HP 131/211  Intent Beam: Attack 9x3  Powers: Minion 1, Weak 2
      Enemy Queen: HP 379/419  Intent Burn Bright for Me: Buff + Defend
-     Hand: Cold Snap [1], Zap+ [0], Ascender's Bane [X], Barrage [1], Stampede+ [1]  | Draw 19  Discard 9  Exhaust 0
+     Hand: Cold Snap [1], Zap+ [0], Ascender's Bane [-], Barrage [1], Stampede+ [1]  | Draw 19  Discard 9  Exhaust 0
      Potions: Heart of Iron, Fairy in a Bottle
      #730  Play Stampede+   [95.6%, 8 options]
             also: Play Cold Snap -> Torch Head Amalgam 4.0%
@@ -2263,7 +2263,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 60/109  Block 14  Energy 3/3  Orbs (4 slots): Frost, Frost, Frost, Lightning  Powers: Focus 3, Strength 1, Chains of Binding 3, Loop 2, Frail 95, Weak 95, Vulnerable 95, Stampede 1, Hailstorm 6, Storm 1, Coolant 2
      Enemy Torch Head Amalgam: HP 87/211  Intent Tackle: Attack 30  Powers: Minion 1, Strength 4
      Enemy Queen: HP 342/419  Block 20  Intent Burn Bright for Me: Buff + Defend
-     Hand: Dualcast [1], Clumsy [X], Buffer+ [2], Cold Snap [1], Go for the Eyes+ [0]  | Draw 23  Discard 0  Exhaust 1
+     Hand: Dualcast [1], Clumsy [-], Buffer+ [2], Cold Snap [1], Go for the Eyes+ [0]  | Draw 23  Discard 0  Exhaust 1
      Potions: Heart of Iron, Fairy in a Bottle
      #746  Play Go for the Eyes+ -> Torch Head Amalgam   [76.9%, 8 options]
             also: Play Cold Snap -> Torch Head Amalgam 16.3%; Play Buffer+ 6.1%

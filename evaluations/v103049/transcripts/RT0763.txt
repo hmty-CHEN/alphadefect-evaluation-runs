@@ -31,7 +31,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Shrink -1
      Enemy Shrinker Beetle: HP 19/40  Intent Chomp: Attack 8
-     Hand: Dualcast [1], Defend [1], Defend [1], Ascender's Bane [X], Zap [1]  | Draw 1  Discard 5  Exhaust 0
+     Hand: Dualcast [1], Defend [1], Defend [1], Ascender's Bane [-], Zap [1]  | Draw 1  Discard 5  Exhaust 0
      #7    Play Defend   [40.2%, 5 options]
             also: Play Defend 40.2% (identical option); Play Zap 11.2%; Play Dualcast 8.4%
      #8    Play Defend   [76.3%, 4 options]
@@ -83,7 +83,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 57/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Nibbit: HP 34/46  Intent Slice: Attack 7 + Defend
-     Hand: Defend [1], Strike [1], Ascender's Bane [X], Modded [0], Defend [1]  | Draw 1  Discard 5  Exhaust 0
+     Hand: Defend [1], Strike [1], Ascender's Bane [-], Modded [0], Defend [1]  | Draw 1  Discard 5  Exhaust 0
      #28   Play Modded   [34.1%, 5 options]
             also: Play Defend 31.5% x2; Play Strike -> Nibbit 2.9%
      #29   Play Defend   [45.5%, 5 options]
@@ -137,7 +137,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 57/75  Block 0  Energy 3/3  Orbs (4 slots): Lightning
      Enemy Leaf Slime (M): HP 22/33  Intent Clump Shot: Attack 9
      Enemy Leaf Slime (S): HP 4/12  Intent Tackle: Attack 4
-     Hand: Defend [1], Ascender's Bane [X], Defend [1], Strike [1], Defend [1]  | Draw 1  Discard 9  Exhaust 0
+     Hand: Defend [1], Ascender's Bane [-], Defend [1], Strike [1], Defend [1]  | Draw 1  Discard 9  Exhaust 0
      Potions: Snecko Oil
      #49   Play Defend   [30.8%, 7 options]
             also: Play Defend 30.8% x2 (identical option); Play Strike -> Leaf Slime (S) 7.5%
@@ -189,7 +189,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 82/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Phrog Parasite: HP 67/67  Intent Infect: Debuff  Powers: Infested 4
-     Hand: Defend [1], Defend [1], Defend [1], Ascender's Bane [X], Darkness [1]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Defend [1], Defend [1], Defend [1], Ascender's Bane [-], Darkness [1]  | Draw 7  Discard 0  Exhaust 0
      Potions: Snecko Oil
      #68   Play Darkness   [99.8%, 6 options]
      #69   Play Defend   [31.6%, 5 options]
@@ -224,7 +224,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 63/82  Block 0  Energy 3/3  Orbs (4 slots): Lightning, Dark, Dark
      Enemy Phrog Parasite: HP 40/67  Intent Lash: Attack 5x4  Powers: Infested 4
-     Hand: Infection [X], Zap+ [0], Modded [1], Defend [1], Dualcast [1]  | Draw 4  Discard 8  Exhaust 1
+     Hand: Infection [-], Zap+ [0], Modded [1], Defend [1], Dualcast [1]  | Draw 4  Discard 8  Exhaust 1
      #82   Play Modded   [60.7%, 5 options]
             also: Play Zap+ 27.3%; Play Defend 7.9%; Play Dualcast 4.1%
      #83   Play Zap+   [95.5%, 4 options]
@@ -237,7 +237,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 42/82  Block 0  Energy 3/3  Orbs (5 slots): Dark, Dark, Lightning
      Enemy Phrog Parasite: HP 21/67  Intent Infect: Debuff  Powers: Infested 4
-     Hand: Infection [X], Strike [1], Defend [1], Infection [X], Dualcast [1]  | Draw 12  Discard 0  Exhaust 1
+     Hand: Infection [-], Strike [1], Defend [1], Infection [-], Dualcast [1]  | Draw 12  Discard 0  Exhaust 1
      #87   Play Dualcast   [100.0%, 4 options]
      #88   Play Strike -> Wriggler #1   [45.4%, 5 options]
             also: Play Strike -> Wriggler #3 22.1%; Play Strike -> Wriggler #2 21.7%; Play Defend 10.8%
@@ -248,7 +248,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 14/20  Intent Nasty Bite: Attack 7
      Enemy Wriggler: HP 21/21  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 19/22  Intent Nasty Bite: Attack 7
-     Hand: Darkness [1], Strike [1], Infection [X], Infection [X], Infection [X]  | Draw 7  Discard 5  Exhaust 1
+     Hand: Darkness [1], Strike [1], Infection [-], Infection [-], Infection [-]  | Draw 7  Discard 5  Exhaust 1
      #91   Play Darkness   [100.0%, 5 options]
      #92   Play Strike -> Wriggler #1   [78.8%, 4 options]
             also: Play Strike -> Wriggler #2 18.4%; Play Strike -> Wriggler #3 2.5%
@@ -258,7 +258,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 5/20  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 21/21  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 19/22  Intent Wriggle: Buff + Debuff
-     Hand: Defend [1], Infection [X], Defend [1], Zap+ [0], Modded [2]  | Draw 2  Discard 11  Exhaust 1
+     Hand: Defend [1], Infection [-], Defend [1], Zap+ [0], Modded [2]  | Draw 2  Discard 11  Exhaust 1
      #94   Play Zap+   [68.5%, 5 options]
             also: Play Defend 15.3% x2; Play Modded 0.8%
      #95   Play Defend   [49.2%, 4 options]
@@ -270,7 +270,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 2/20  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 21/21  Intent Wriggle: Buff + Debuff  Powers: Strength 2
      Enemy Wriggler: HP 16/22  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Strike [1], Defend [1], Strike [1], Infection [X], Infection [X]  | Draw 15  Discard 0  Exhaust 1
+     Hand: Strike [1], Defend [1], Strike [1], Infection [-], Infection [-]  | Draw 15  Discard 0  Exhaust 1
      #98   Play Strike -> Wriggler #1   [49.9%, 8 options]
             also: Play Strike -> Wriggler #1 49.9% (identical option)
      #99   Play Strike -> Wriggler #2   [59.0%, 4 options]
@@ -281,7 +281,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 6/82  Block 0  Energy 3/3  Orbs (5 slots): Dark, Lightning, Dark, Lightning
      Enemy Wriggler: HP 18/21  Intent Nasty Bite: Attack 11  Powers: Strength 4
      Enemy Wriggler: HP 7/22  Intent Wriggle: Buff + Debuff  Powers: Strength 2
-     Hand: Infection [X], Strike [1], Defend [1], Darkness [1], Infection [X]  | Draw 10  Discard 6  Exhaust 1
+     Hand: Infection [-], Strike [1], Defend [1], Darkness [1], Infection [-]  | Draw 10  Discard 6  Exhaust 1
      #102  Play Darkness   [98.7%, 5 options]
             also: Play Defend 0.9%
      #103  Play Defend   [73.7%, 4 options]

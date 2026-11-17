@@ -6,7 +6,7 @@ Every evaluation folder under [`evaluations/`](../evaluations) has the same thre
 2. `transcripts/`: one plain-text file per game, written for people.
 3. `replays/`: the raw, step-by-step data the other two are generated from.
 
-The examples below use `evaluations/v130051`; every other evaluation works the same way.
+The examples below use `evaluations/v130051` (Defect); every other evaluation works the same way.
 
 ## 1. Pick games from the summary
 
@@ -18,7 +18,7 @@ Open `summary/runs.csv` (GitHub shows it as a searchable table) and filter by wh
 | `result`, `ending` | `win`/`loss`; `victory`, `died_act1`, `died_act2`, `died_act3_other`, `died_act3_boss` or `stalled` |
 | `act`, `floor` | Act (1–3) and floor where the game ended (a full run is 49 floors in most games; a few end on floor 50 or 51) |
 | `decisions` | Number of decisions the model made |
-| `routine_eval_seed` | `yes` if the seed belongs to the 384 seeds of the routine evaluation that runs during training (see the evaluation's README for why that matters) |
+| `routine_eval_seed` | Defect evaluations only: `yes` if the seed belongs to the 384 seeds of the routine evaluation that runs during training (see the evaluation's README for why that matters) |
 | `combats`, `elites` | Fights played, and how many of them were elites |
 | `act1_boss` … `act3_boss2` | The boss fought at each point, if reached |
 | `…_hp_in` | HP / max HP when that boss fight started |
@@ -51,7 +51,7 @@ Each transcript tells the game floor by floor. Here is the start of the first fi
 ```
 
 - `=== … ===` starts a floor: act, floor, room (with the encounter name for fights), and HP and gold on arrival.
-- `-- Turn N --` starts a combat turn and shows the state the model saw: your HP, block, energy, orbs and powers, each enemy's HP, block, intent and powers, the hand with card costs in brackets (`-` means unplayable, `X` an X-cost card), the pile sizes, and the potions.
+- `-- Turn N --` starts a combat turn and shows the state the model saw: your HP, block, energy, orbs and powers, each enemy's HP, block, intent and powers, the hand with card costs in brackets (`-` means unplayable, `X` an X-cost card), the pile sizes, and the potions. In Regent games the line also shows the Regent's stars, and a card that costs stars shows them after its energy cost: `[1, 2*]` is 1 energy and 2 stars.
 - `#N` is a decision. `N` counts from 0 and matches line `N + 2` of the decompressed raw replay, since line 1 is the game header. Then come the chosen action, its probability, and how many legal options there were. Outside combat the decision type is shown in brackets, such as `[Map]`, `[Shop]` or `[Event]`.
 - `also:` lists the other options with at least 0.5% probability. When two cards in hand are identical, each copy is a separate option and the probability is split between them. Those are marked `(identical option)` or `xN`, so a 49.8% / 49.8% split means the model was certain, not torn.
 - Between decisions, `Deck change`, `Relic gained` and `Relic lost` report what changed. Shops print their whole shelf, card-selection screens their purpose (upgrade, remove, transform…), and the file ends with the final deck and relics.

@@ -16,7 +16,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Seapunk: HP 48/48  Intent Sea Kick: Attack 13
-     Hand: Strike [1], Defend [1], Strike [1], Defend [1], Ascender's Bane [X]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Strike [1], Defend [1], Strike [1], Defend [1], Ascender's Bane [-]  | Draw 6  Discard 0  Exhaust 0
      Potions: Powdered Demise, Liquid Memories
      #2    Play Defend   [49.3%, 7 options]
             also: Play Defend 49.3% (identical option); Play Strike -> Seapunk 0.7% x2
@@ -98,7 +98,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 54/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost
      Enemy Toadpole: HP 11/25  Intent Whirl: Attack 8
      Enemy Toadpole: HP 16/24  Intent Spike Spit: Attack 4x3  Powers: Thorns 2
-     Hand: Ascender's Bane [X], Defend [1], Defend [1], Defend [1], Strike [1]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Defend [1], Defend [1], Defend [1], Strike [1]  | Draw 7  Discard 0  Exhaust 0
      Potions: Powdered Demise
      #30   Play Defend   [33.3%, 8 options]
             also: Play Defend 33.3% x2 (identical option)
@@ -170,7 +170,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 53/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Focus 1
      Enemy Sludge Spinner: HP 42/42  Intent Oil Spray: Attack 9 + Debuff
-     Hand: Defend [1], Defend [1], Ascender's Bane [X], Zap [1], Defend [1]  | Draw 9  Discard 0  Exhaust 0
+     Hand: Defend [1], Defend [1], Ascender's Bane [-], Zap [1], Defend [1]  | Draw 9  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion
      #53   Play Defend   [31.8%, 7 options]
             also: Play Defend 31.8% x2 (identical option); Play Zap 5.8%
@@ -181,7 +181,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 53/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Focus 1, Weak 1
      Enemy Sludge Spinner: HP 34/42  Intent Slam: Attack 12
-     Hand: Dualcast [1], Strike [1], Clumsy [X], Strike [1], Charge Battery [1]  | Draw 4  Discard 4  Exhaust 1
+     Hand: Dualcast [1], Strike [1], Clumsy [-], Strike [1], Charge Battery [1]  | Draw 4  Discard 4  Exhaust 1
      Potions: Powdered Demise, Focus Potion
      #57   Play Charge Battery   [78.0%, 7 options]
             also: Play Dualcast 19.6%; Play Strike -> Sludge Spinner 1.2% x2
@@ -222,7 +222,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 48/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Focus 1
      Enemy Skulking Colony: HP 80/80  Intent Zoom: Attack 16  Powers: Hardened Shell 20
-     Hand: Barrage [1], Defend [1], Ascender's Bane [X], Glacier [2], Defend [1]  | Draw 10  Discard 0  Exhaust 0
+     Hand: Barrage [1], Defend [1], Ascender's Bane [-], Glacier [2], Defend [1]  | Draw 10  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion
      #71   Play Glacier   [100.0%, 7 options]
      #72   Play Defend   [49.3%, 6 options]
@@ -244,7 +244,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 48/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning  Powers: Focus 1
      Enemy Skulking Colony: HP 57/80  Intent Inertia: Attack 11 + Buff  Powers: Hardened Shell 20
-     Hand: Defend [1], Strike [1], Strike [1], Charge Battery [1], Clumsy [X]  | Draw 0  Discard 9  Exhaust 1
+     Hand: Defend [1], Strike [1], Strike [1], Charge Battery [1], Clumsy [-]  | Draw 0  Discard 9  Exhaust 1
      Potions: Powdered Demise, Focus Potion
      #79   Play Charge Battery   [84.1%, 7 options]
             also: Play Defend 6.3%; Play Strike -> Skulking Colony 4.8% x2
@@ -327,7 +327,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 42/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning  Powers: Focus 1
      Enemy Terror Eel: HP 126/150  Intent Thrash: Attack 4x3 + Buff  Powers: Shriek 75
-     Hand: Defend [1], Clumsy [X], Dualcast [1], Ascender's Bane [X], Strike [1]  | Draw 6  Discard 5  Exhaust 0
+     Hand: Defend [1], Clumsy [-], Dualcast [1], Ascender's Bane [-], Strike [1]  | Draw 6  Discard 5  Exhaust 0
      Potions: Powdered Demise, Focus Potion
      #107  Play Defend   [75.6%, 6 options]
             also: Play Dualcast 13.5%; Play Strike -> Terror Eel 10.1%; Use potion Powdered Demise -> Terror Eel 0.9%
@@ -454,7 +454,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Two-Tailed Rat: HP 21/21  Intent Screech: Debuff
      Enemy Two-Tailed Rat: HP 16/20  Intent Disease Bite: Attack 7
      Enemy Two-Tailed Rat: HP 13/19  Intent Screech: Debuff
-     Hand: Zap+ [0], Clumsy [X], Dualcast [1], Defend [1], Strike [1]  | Draw 5  Discard 7  Exhaust 0
+     Hand: Zap+ [0], Clumsy [-], Dualcast [1], Defend [1], Strike [1]  | Draw 5  Discard 7  Exhaust 0
      Potions: Powdered Demise, Focus Potion
      #147  Play Dualcast   [74.6%, 11 options]
             also: Play Defend 10.0%; Play Zap+ 7.3%; Play Strike -> Two-Tailed Rat #2 6.8%; Play Strike -> Two-Tailed Rat #3 1.1%
@@ -468,7 +468,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 20/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning  Powers: Focus 1, Frail 1
      Enemy Two-Tailed Rat: HP 17/21  Intent Call for Backup: Heal/Summon
      Enemy Two-Tailed Rat: HP 7/20  Intent Scratch: Attack 9
-     Hand: Ascender's Bane [X], Glacier [2], Strike [1], Glacier [2], Defend [1]  | Draw 0  Discard 11  Exhaust 1
+     Hand: Ascender's Bane [-], Glacier [2], Strike [1], Glacier [2], Defend [1]  | Draw 0  Discard 11  Exhaust 1
      Potions: Powdered Demise, Focus Potion
      #152  Play Glacier   [44.4%, 9 options]
             also: Play Glacier 44.4% (identical option); Play Strike -> Two-Tailed Rat #2 7.4%; Play Defend 2.3%; Play Strike -> Two-Tailed Rat #1 1.5%
@@ -547,7 +547,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 42/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Focus 1
      Enemy Calcified Cultist: HP 24/39  Intent Dark Strike: Attack 11  Powers: Ritual 2
      Enemy Damp Cultist: HP 31/53  Intent Dark Strike: Attack 3  Powers: Ritual 6
-     Hand: Glacier [2], Charge Battery [1], Strike [1], Ascender's Bane [X], Glacier [2]  | Draw 6  Discard 7  Exhaust 0
+     Hand: Glacier [2], Charge Battery [1], Strike [1], Ascender's Bane [-], Glacier [2]  | Draw 6  Discard 7  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion
      #178  Play Glacier   [49.0%, 10 options]
             also: Play Glacier 49.0% (identical option); Play Charge Battery 1.9%
@@ -558,7 +558,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 42/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Focus 1
      Enemy Calcified Cultist: HP 24/39  Intent Dark Strike: Attack 13  Powers: Ritual 2, Strength 2
      Enemy Damp Cultist: HP 27/53  Intent Dark Strike: Attack 9  Powers: Ritual 6, Strength 6
-     Hand: Defend [1], Defend [1], Clumsy [X], Cold Snap [1], Barrage [1]  | Draw 1  Discard 11  Exhaust 1
+     Hand: Defend [1], Defend [1], Clumsy [-], Cold Snap [1], Barrage [1]  | Draw 1  Discard 11  Exhaust 1
      Potions: Powdered Demise, Focus Potion, Colorless Potion
      #181  Play Cold Snap -> Calcified Cultist   [78.8%, 11 options]
             also: Play Barrage -> Calcified Cultist 8.7%; Play Cold Snap -> Damp Cultist 7.6%; Play Defend 2.2% x2
@@ -608,7 +608,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 28/28  Intent Bite: Attack 5  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 29/29  Intent Lash: Attack 7  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 30/30  Intent Enlarge: Buff  Powers: Skittish 7
-     Hand: Strike [1], Glacier [2], Strike [1], Zap+ [0], Defend [1], Ascender's Bane [X], Chill [0]  | Draw 12  Discard 0  Exhaust 0
+     Hand: Strike [1], Glacier [2], Strike [1], Zap+ [0], Defend [1], Ascender's Bane [-], Chill [0]  | Draw 12  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion
      #198  Play Zap+   [49.6%, 19 options]
             also: Play Glacier 30.7%; Play Chill 16.0%; Play Defend 1.7%; Play Strike -> Phantasmal Gardener #4 0.9%
@@ -654,7 +654,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 14/32  Intent Lash: Attack 10  Powers: Skittish 7, Strength 3
      Enemy Phantasmal Gardener: HP 28/28  Intent Enlarge: Buff  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 29/29  Intent Bite: Attack 8  Powers: Skittish 7, Strength 3
-     Hand: Strike [1], Clumsy [X], Strike [1], Glacier [2], Strike [1]  | Draw 12  Discard 0  Exhaust 2
+     Hand: Strike [1], Clumsy [-], Strike [1], Glacier [2], Strike [1]  | Draw 12  Discard 0  Exhaust 2
      Potions: Powdered Demise, Focus Potion, Colorless Potion
      #211  Play Glacier   [89.6%, 16 options]
             also: Play Strike -> Phantasmal Gardener #1 3.4% x3
@@ -753,7 +753,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 62/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Focus 1, Thorns 3
      Enemy Waterfall Giant: HP 250/250  Intent Pressurize: Buff
-     Hand: Cold Snap [1], Defend [1], Strike [1], Fight Through [1], Ascender's Bane [X], Zap+ [0], Glacier [2]  | Draw 13  Discard 0  Exhaust 0
+     Hand: Cold Snap [1], Defend [1], Strike [1], Fight Through [1], Ascender's Bane [-], Zap+ [0], Glacier [2]  | Draw 13  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion
      #243  Play Zap+   [64.8%, 10 options]
             also: Play Cold Snap -> Waterfall Giant 22.2%; Play Glacier 10.3%; Use potion Powdered Demise -> Waterfall Giant 1.5%; Play Strike -> Waterfall Giant 1.2%
@@ -765,7 +765,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 62/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Thorns 3
      Enemy Waterfall Giant: HP 226/250  Intent Stomp: Attack 16 + Buff + Debuff  Powers: Steam Eruption 20
-     Hand: Glacier [2], Charge Battery [1], Strike [1], Defend [1], Clumsy [X]  | Draw 8  Discard 6  Exhaust 1
+     Hand: Glacier [2], Charge Battery [1], Strike [1], Defend [1], Clumsy [-]  | Draw 8  Discard 6  Exhaust 1
      Potions: Powdered Demise, Focus Potion, Colorless Potion
      #247  Play Strike -> Waterfall Giant   [40.4%, 8 options]
             also: Play Charge Battery 34.3%; Play Defend 13.3%; Play Glacier 11.7%
@@ -906,7 +906,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 13 --
      HP 61/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Thorns 3, Weak 1
      Enemy Waterfall Giant: HP 56/250  Intent Ram: Attack 11 + Buff  Powers: Steam Eruption 53
-     Hand: Defend [1], Go for the Eyes+ [0], Strike [1], Zap+ [0], Wound [X]  | Draw 14  Discard 0  Exhaust 3
+     Hand: Defend [1], Go for the Eyes+ [0], Strike [1], Zap+ [0], Wound [-]  | Draw 14  Discard 0  Exhaust 3
      Potions: Powdered Demise, Focus Potion, Colorless Potion
      #296  Play Strike -> Waterfall Giant   [37.4%, 8 options]
             also: Play Defend 25.3%; Play Go for the Eyes+ -> Waterfall Giant 20.1%; Play Zap+ 17.2%
@@ -942,7 +942,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 16 --
      HP 59/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Focus 1, Thorns 3
      Enemy Waterfall Giant: HP 19/250  Intent Pressure Up: Attack 14 + Buff  Powers: Steam Eruption 62
-     Hand: Strike [1], Wound [X], Cold Snap [1], Defend [1], Glacier [2]  | Draw 14  Discard 0  Exhaust 3
+     Hand: Strike [1], Wound [-], Cold Snap [1], Defend [1], Glacier [2]  | Draw 14  Discard 0  Exhaust 3
      Potions: Powdered Demise, Focus Potion, Colorless Potion
      #308  Play Glacier   [77.6%, 8 options]
             also: Play Cold Snap -> Waterfall Giant 17.6%; Play Strike -> Waterfall Giant 2.6%; Play Defend 2.3%
@@ -1011,7 +1011,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Exoskeleton: HP 1/29  Intent Enrage: Buff  Powers: Hard to Kill 9
      Enemy Exoskeleton: HP 25/28  Intent Skitter: Attack 3x4  Powers: Hard to Kill 9, Strength 2
      Enemy Exoskeleton: HP 8/26  Intent Mandibles: Attack 11  Powers: Hard to Kill 9, Strength 2
-     Hand: Dualcast [1], Ascender's Bane [X], Barrage [1], Strike [1], Defend [1]  | Draw 3  Discard 11  Exhaust 1
+     Hand: Dualcast [1], Ascender's Bane [-], Barrage [1], Strike [1], Defend [1]  | Draw 3  Discard 11  Exhaust 1
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Gigantification Potion, Swift Potion, Cure All, Skill Potion
      #330  Play Barrage -> Exoskeleton #3   [79.6%, 18 options]
             also: Play Barrage -> Exoskeleton #2 9.5%; Play Strike -> Exoskeleton #3 3.6%; Play Dualcast 3.2%; Play Defend 1.9%
@@ -1025,7 +1025,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 68/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning  Powers: Focus 1, Thorns 3
      Enemy Exoskeleton: HP 9/28  Intent Mandibles: Attack 11  Powers: Hard to Kill 9, Strength 2
-     Hand: Go for the Eyes+ [0], Strike [1], Clumsy [X], Glacier [2], Fight Through [1]  | Draw 13  Discard 0  Exhaust 2
+     Hand: Go for the Eyes+ [0], Strike [1], Clumsy [-], Glacier [2], Fight Through [1]  | Draw 13  Discard 0  Exhaust 2
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Gigantification Potion, Swift Potion, Cure All, Skill Potion
      #335  Play Glacier   [49.8%, 12 options]
             also: Play Go for the Eyes+ -> Exoskeleton 25.6%; Play Fight Through 14.7%; Play Strike -> Exoskeleton 9.8%
@@ -1062,7 +1062,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 68/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Focus 1, Thorns 3
      Enemy Tunneler: HP 92/92  Intent Bite: Attack 15
-     Hand: Barrage [1], Cold Snap [1], Go for the Eyes+ [0], Ascender's Bane [X], Strike [1], Defend [1], Chill [0]  | Draw 13  Discard 0  Exhaust 0
+     Hand: Barrage [1], Cold Snap [1], Go for the Eyes+ [0], Ascender's Bane [-], Strike [1], Defend [1], Chill [0]  | Draw 13  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Gigantification Potion, Swift Potion, Cure All, Skill Potion
      #347  Play Chill   [39.0%, 14 options]
             also: Play Defend 24.6%; Play Cold Snap -> Tunneler 13.9%; Play Go for the Eyes+ -> Tunneler 13.4%; Play Strike -> Tunneler 5.3%
@@ -1088,7 +1088,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 68/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Thorns 3
      Enemy Tunneler: HP 39/92  Block 37  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Ultimate Defend [1], Strike [1], Fight Through [1], Zap+ [0], Clumsy [X]  | Draw 3  Discard 10  Exhaust 2
+     Hand: Ultimate Defend [1], Strike [1], Fight Through [1], Zap+ [0], Clumsy [-]  | Draw 3  Discard 10  Exhaust 2
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Gigantification Potion, Swift Potion, Cure All, Skill Potion
      #356  Play Zap+   [42.4%, 12 options]
             also: Play Ultimate Defend 33.6%; Play Fight Through 20.0%; Play Strike -> Tunneler 3.9%
@@ -1119,7 +1119,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 68/75  Block 0  Energy 4/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Focus 1, Thorns 3
      Enemy Tunneler: HP 39/92  Intent Bite: Attack 11  Powers: Weak 2
-     Hand: Defend [1], Wound [X], Strike [1], Glacier [2], Glacier [2]  | Draw 9  Discard 5  Exhaust 3
+     Hand: Defend [1], Wound [-], Strike [1], Glacier [2], Glacier [2]  | Draw 9  Discard 5  Exhaust 3
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Gigantification Potion, Swift Potion, Cure All, Skill Potion
      #367  Play Glacier   [42.4%, 12 options]
             also: Play Glacier 42.4% (identical option); Play Defend 12.1%; Play Strike -> Tunneler 3.1%
@@ -1129,7 +1129,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 68/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Thorns 3
      Enemy Tunneler: HP 18/92  Intent Burrow: Buff + Defend  Powers: Weak 1
-     Hand: Cold Snap [1], Wound [X], Strike [1], Strike [1], Ultimate Defend [1]  | Draw 4  Discard 10  Exhaust 3
+     Hand: Cold Snap [1], Wound [-], Strike [1], Strike [1], Ultimate Defend [1]  | Draw 4  Discard 10  Exhaust 3
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Gigantification Potion, Swift Potion, Cure All, Skill Potion
      #370  Play Cold Snap -> Tunneler   [36.2%, 12 options]
             also: Play Strike -> Tunneler 30.2% x2; Play Ultimate Defend 3.5%
@@ -1156,7 +1156,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Bowlbug (Rock): HP 46/46  Intent Headbutt: Attack 16  Powers: Imbalanced 1
      Enemy Bowlbug (Egg): HP 23/23  Intent Bite: Attack 8 + Defend
      Enemy Bowlbug (Silk): HP 42/42  Intent Toxic Spit: Debuff
-     Hand: Chill [0], Glacier [2], Ascender's Bane [X], Strike [1], Go for the Eyes [0], Charge Battery [1], Fight Through [1]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Chill [0], Glacier [2], Ascender's Bane [-], Strike [1], Go for the Eyes [0], Charge Battery [1], Fight Through [1]  | Draw 14  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Swift Potion, Cure All, Skill Potion
      #379  Play Glacier   [34.1%, 20 options]
             also: Play Chill 21.9%; Play Go for the Eyes -> Bowlbug (Egg) 17.6%; Play Charge Battery 14.2%; Play Go for the Eyes -> Bowlbug (Rock) 5.0%
@@ -1172,7 +1172,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Bowlbug (Rock): HP 34/46  Intent <unk>: Stun/Sleep/Escape  Powers: Imbalanced 1
      Enemy Bowlbug (Egg): HP 17/23  Block 8  Intent Bite: Attack 8 + Defend
      Enemy Bowlbug (Silk): HP 42/42  Intent Thrash: Attack 5x2
-     Hand: Barrage [1], Defend [1], Lightning Rod [1], Clumsy [X], Glacier [2]  | Draw 9  Discard 5  Exhaust 2
+     Hand: Barrage [1], Defend [1], Lightning Rod [1], Clumsy [-], Glacier [2]  | Draw 9  Discard 5  Exhaust 2
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Swift Potion, Cure All, Skill Potion
      #384  Play Lightning Rod   [52.9%, 16 options]
             also: Play Glacier 37.6%; Play Barrage -> Bowlbug (Rock) 3.2%; Play Barrage -> Bowlbug (Egg) 3.2%; Play Defend 2.5%
@@ -1265,7 +1265,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 52/52  Intent Writhe: Attack 6x2  Powers: Reattach 25
      Enemy Decimillipede: HP 48/48  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25
      Enemy Decimillipede: HP 50/50  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25
-     Hand: Barrage [1], Go for the Eyes+ [0], Ultimate Defend [1], Zap+ [0], Ascender's Bane [X], Dualcast [1], Charge Battery [1]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Barrage [1], Go for the Eyes+ [0], Ultimate Defend [1], Zap+ [0], Ascender's Bane [-], Dualcast [1], Charge Battery [1]  | Draw 14  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Swift Potion, Cure All, Skill Potion
      #414  Play Zap+   [34.2%, 20 options]
             also: Play Charge Battery 29.6%; Play Ultimate Defend 16.4%; Play Go for the Eyes+ -> Decimillipede 8.2%; Use potion Power Potion -> self 5.2%
@@ -1314,7 +1314,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 56/75  Block 6  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Focus 1, Thorns 3, Lightning Rod 1
      Enemy Decimillipede: HP 32/52  Intent Writhe: Attack 8x2  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 29/50  Intent Constrict: Attack 11 + Debuff  Powers: Reattach 25, Strength 2
-     Hand: Glacier [2], Clumsy [X], Fight Through [1], Strike [1], Zap+ [0]  | Draw 14  Discard 0  Exhaust 2
+     Hand: Glacier [2], Clumsy [-], Fight Through [1], Strike [1], Zap+ [0]  | Draw 14  Discard 0  Exhaust 2
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Swift Potion, Cure All, Skill Potion
      #430  Play Glacier   [61.9%, 14 options]
             also: Play Zap+ 30.3%; Play Fight Through 3.5%; Play Strike -> Decimillipede 2.3% x2
@@ -1415,7 +1415,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 54/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1
      Enemy Entomancer: HP 121/165  Intent Spear!: Attack 20  Powers: Personal Hive 1
-     Hand: Clumsy [X], Strike [1], Chill [0], Strike [1], Charge Battery [1]  | Draw 11  Discard 7  Exhaust 0
+     Hand: Clumsy [-], Strike [1], Chill [0], Strike [1], Charge Battery [1]  | Draw 11  Discard 7  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Swift Potion, Cure All, Skill Potion
      #461  Play Charge Battery   [53.0%, 12 options]
             also: Play Chill 45.4%; Play Strike -> Entomancer 0.7% x2
@@ -1427,7 +1427,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 54/75  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1
      Enemy Entomancer: HP 111/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1
-     Hand: Ultimate Defend [1], Lightning Rod [1], Defend [1], Defend [1], Dazed [X]  | Draw 7  Discard 10  Exhaust 2
+     Hand: Ultimate Defend [1], Lightning Rod [1], Defend [1], Defend [1], Dazed [-]  | Draw 7  Discard 10  Exhaust 2
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Swift Potion, Cure All, Skill Potion
      #465  Play Lightning Rod   [96.9%, 12 options]
             also: Play Defend 1.6% x2
@@ -1438,7 +1438,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 54/75  Block 6  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Focus 1, Thorns 3, Strength 1, Lightning Rod 1
      Enemy Entomancer: HP 111/165  Intent Beeeees!: Attack 4x8  Powers: Personal Hive 2, Strength 1
-     Hand: Dazed [X], Dualcast [1], Glacier [2], Ascender's Bane [X], Dazed [X]  | Draw 2  Discard 14  Exhaust 3
+     Hand: Dazed [-], Dualcast [1], Glacier [2], Ascender's Bane [-], Dazed [-]  | Draw 2  Discard 14  Exhaust 3
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Swift Potion, Cure All, Skill Potion
      #468  Play Glacier   [87.5%, 10 options]
             also: Play Dualcast 12.5%
@@ -1462,7 +1462,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 52/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1
      Enemy Entomancer: HP 45/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 2, Strength 1, Weak 1
-     Hand: Strike [1], Defend [1], Go for the Eyes [0], Defend [1], Dazed [X]  | Draw 10  Discard 5  Exhaust 6
+     Hand: Strike [1], Defend [1], Go for the Eyes [0], Defend [1], Dazed [-]  | Draw 10  Discard 5  Exhaust 6
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Swift Potion, Cure All, Skill Potion
      #476  Play Defend   [60.5%, 12 options]
             also: Play Defend 29.8% (identical option); Play Strike -> Entomancer 8.5%; Play Go for the Eyes -> Entomancer 0.7%
@@ -1483,7 +1483,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 46/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1
      Enemy Entomancer: HP 8/165  Intent Spear!: Attack 22  Powers: Personal Hive 3, Strength 2
-     Hand: Dazed [X], Strike [1], Lightning Rod [1], Barrage [1], Ultimate Defend [1]  | Draw 0  Discard 16  Exhaust 7
+     Hand: Dazed [-], Strike [1], Lightning Rod [1], Barrage [1], Ultimate Defend [1]  | Draw 0  Discard 16  Exhaust 7
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Swift Potion, Cure All, Skill Potion
      #482  Play Lightning Rod   [50.3%, 12 options]
             also: Play Ultimate Defend 24.2%; Play Strike -> Entomancer 17.0%; Play Barrage -> Entomancer 8.2%
@@ -1526,7 +1526,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 66/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Focus 1, Thorns 3, Strength 1
      Enemy The Obscura: HP 129/129  Intent Illusion: Heal/Summon
-     Hand: Zap+ [0], Clumsy [X], Ascender's Bane [X], Go for the Eyes+ [0], Ultimate Defend [1], Go for the Eyes [0], Uppercut [2]  | Draw 16  Discard 0  Exhaust 0
+     Hand: Zap+ [0], Clumsy [-], Ascender's Bane [-], Go for the Eyes+ [0], Ultimate Defend [1], Go for the Eyes [0], Uppercut [2]  | Draw 16  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #499  Play Zap+   [58.8%, 13 options]
             also: Play Uppercut -> The Obscura 21.4%; Play Go for the Eyes+ -> The Obscura 7.5%; Play Go for the Eyes -> The Obscura 6.0%; Play Ultimate Defend 5.8%
@@ -1610,7 +1610,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 66/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Focus 1, Thorns 3, Strength 1, Dexterity 2, Aggression 1
      Enemy Parafright: HP 21/21  Intent Slam: Attack 23  Powers: Illusion 1, Minion 1, Strength 6
      Enemy The Obscura: HP 20/129  Block 7  Intent Sail: Buff  Powers: Strength 6, Weak 1
-     Hand: Uppercut+ [2], Go for the Eyes [0], Barrage [1], Defend [1], Wound [X], Glacier [2]  | Draw 7  Discard 8  Exhaust 3
+     Hand: Uppercut+ [2], Go for the Eyes [0], Barrage [1], Defend [1], Wound [-], Glacier [2]  | Draw 7  Discard 8  Exhaust 3
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #526  Play Glacier   [28.9%, 18 options]
             also: Play Uppercut+ -> The Obscura 20.6%; Play Go for the Eyes -> The Obscura 19.2%; Play Barrage -> The Obscura 10.1%; Play Uppercut+ -> Parafright 7.3%
@@ -1623,7 +1623,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 66/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1, Dexterity 2, Aggression 1
      Enemy Parafright: HP 18/21  Intent Slam: Attack 26  Powers: Illusion 1, Minion 1, Strength 9
      Enemy The Obscura: HP 1/129  Intent Piercing Gaze: Attack 20  Powers: Strength 9
-     Hand: Strike+ [1], Wound [X], Charge Battery [1], Zap+ [0], Cold Snap [1], Ultimate Defend [1]  | Draw 2  Discard 13  Exhaust 3
+     Hand: Strike+ [1], Wound [-], Charge Battery [1], Zap+ [0], Cold Snap [1], Ultimate Defend [1]  | Draw 2  Discard 13  Exhaust 3
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #530  Play Cold Snap -> The Obscura   [38.1%, 17 options]
             also: Play Charge Battery 15.8%; Play Strike+ -> The Obscura 15.0%; Play Cold Snap -> Parafright 13.9%; Play Zap+ 7.5%
@@ -1639,7 +1639,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 66/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Focus 1, Thorns 3, Strength 1
      Enemy Infested Prism: HP 171/171  Intent Jab: Attack 17  Powers: Vital Spark 3
-     Hand: Strike [1], Clumsy [X], Strike [1], Ascender's Bane [X], Zap+ [0], Fight Through [1], Defend [1]  | Draw 17  Discard 0  Exhaust 0
+     Hand: Strike [1], Clumsy [-], Strike [1], Ascender's Bane [-], Zap+ [0], Fight Through [1], Defend [1]  | Draw 17  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #535  Play Fight Through   [98.8%, 13 options]
             also: Play Defend 1.1%
@@ -1699,7 +1699,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 58/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1, Aggression 1, Dexterity 1
      Enemy Infested Prism: HP 69/171  Intent Radiate: Attack 13 + Defend  Powers: Vital Spark 6
-     Hand: Strike+ [1], Wound [X], Defend [1], Strike [1], Dualcast [1], Defend [1]  | Draw 11  Discard 5  Exhaust 3
+     Hand: Strike+ [1], Wound [-], Defend [1], Strike [1], Dualcast [1], Defend [1]  | Draw 11  Discard 5  Exhaust 3
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #555  Play Strike+ -> Infested Prism   [36.9%, 13 options]
             also: Play Strike -> Infested Prism 30.1%; Play Defend 20.6% x2
@@ -1745,7 +1745,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 53/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Focus 1, Thorns 3, Strength 1, Plating 4
      Enemy The Insatiable: HP 341/341  Intent Liquify Ground: Buff + Debuff
-     Hand: Chill+ [0], Defend+ [1], Fight Through+ [1], Chill+ [0], Strike+ [1], Ascender's Bane [X], Strike+ [1]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Chill+ [0], Defend+ [1], Fight Through+ [1], Chill+ [0], Strike+ [1], Ascender's Bane [-], Strike+ [1]  | Draw 18  Discard 0  Exhaust 0
      Potions: Powdered Demise, Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #570  Use potion Powdered Demise -> The Insatiable   [42.9%, 14 options]
             also: Play Chill+ 16.5% x2; Use potion Power Potion -> self 13.6%; Play Strike+ -> The Insatiable 4.9%
@@ -1775,7 +1775,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 53/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1, Plating 2
      Enemy The Insatiable: HP 266/341  Intent Lunging Bite: Attack 31  Powers: Demise 9, Sandpit 4
-     Hand: Clumsy [X], Barrage [1], Frantic Escape [1], Lightning Rod [1], Aggression [1]  | Draw 11  Discard 14  Exhaust 1
+     Hand: Clumsy [-], Barrage [1], Frantic Escape [1], Lightning Rod [1], Aggression [1]  | Draw 11  Discard 14  Exhaust 1
      Potions: Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #580  Play Lightning Rod   [82.5%, 11 options]
             also: Play Aggression 11.7%; Play Frantic Escape 3.1%; Play Barrage -> The Insatiable 1.1%; Use potion Power Potion -> self 0.9%
@@ -1910,7 +1910,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 64/75  Block 6  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning  Powers: Focus 1, Thorns 3, Strength 1, Plating 2, Dexterity 1, Lightning Rod 1
      Enemy Living Shield: HP 17/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 10/51  Block 25  Intent Reload: Buff
-     Hand: Chill [0], Ascender's Bane [X], Clumsy [X], Glacier [2], Go for the Eyes+ [0], Flak Cannon [0]  | Draw 8  Discard 14  Exhaust 1
+     Hand: Chill [0], Ascender's Bane [-], Clumsy [-], Glacier [2], Go for the Eyes+ [0], Flak Cannon [0]  | Draw 8  Discard 14  Exhaust 1
      Potions: Dexterity Potion, Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #627  Play Glacier   [30.5%, 14 options]
             also: Play Chill 29.7%; Play Go for the Eyes+ -> Living Shield 21.1%; Play Go for the Eyes+ -> Turret Operator 18.4%
@@ -1948,7 +1948,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 64/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Focus 1, Thorns 3, Strength 1, Plating 4
      Enemy Devoted Sculptor: HP 172/172  Intent Forbidden Incantation: Buff
-     Hand: Glacier+ [2], Coolheaded+ [1], Uppercut+ [2], Ascender's Bane [X], Aggression+ [1], Defend+ [1], Charge Battery+ [1], Helix Drill [0]  | Draw 20  Discard 0  Exhaust 0
+     Hand: Glacier+ [2], Coolheaded+ [1], Uppercut+ [2], Ascender's Bane [-], Aggression+ [1], Defend+ [1], Charge Battery+ [1], Helix Drill [0]  | Draw 20  Discard 0  Exhaust 0
      Potions: Dexterity Potion, Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #641  Play Aggression+   [72.9%, 15 options]
             also: Play Coolheaded+ 17.4%; Play Uppercut+ -> Devoted Sculptor 8.0%; Play Glacier+ 1.4%
@@ -1964,7 +1964,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 64/75  Block 14  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1, Plating 3, Aggression 1, Signal Boost 1
      Enemy Devoted Sculptor: HP 156/172  Intent Savage: Attack 15  Powers: Ritual 9
-     Hand: Helix Drill+ [0], Fight Through [1], Go for the Eyes [0], Chill [0], Clumsy [X], Glacier [2], Helix Drill [0]  | Draw 13  Discard 5  Exhaust 3
+     Hand: Helix Drill+ [0], Fight Through [1], Go for the Eyes [0], Chill [0], Clumsy [-], Glacier [2], Helix Drill [0]  | Draw 13  Discard 5  Exhaust 3
      Potions: Dexterity Potion, Focus Potion, Colorless Potion, Power Potion, Fire Potion, Cure All, Skill Potion
      #647  Play Chill   [62.3%, 14 options]
             also: Play Go for the Eyes -> Devoted Sculptor 23.8%; Play Glacier 10.5%; Play Helix Drill+ -> Devoted Sculptor 1.4%; Play Fight Through 1.2%
@@ -2165,7 +2165,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 79/80  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Focus 1, Thorns 3, Strength 1, Plating 2, Fasten 6, Subroutine 2
      Enemy Mecha Knight: HP 183/320  Intent Windup: Buff + Defend  Powers: Artifact 3
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Strike [1], Uppercut [2], Signal Boost [1], Aggression [1], Clumsy [X], Claw [0]  | Draw 15  Discard 10  Exhaust 2
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Strike [1], Uppercut [2], Signal Boost [1], Aggression [1], Clumsy [-], Claw [0]  | Draw 15  Discard 10  Exhaust 2
      Potions: Dexterity Potion, Focus Potion, Colorless Potion, Power Potion, Cure All, Skill Potion
      #717  Play Signal Boost   [98.9%, 12 options]
             also: Play Aggression 0.8%
@@ -2199,7 +2199,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 79/80  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1, Fasten 6, Subroutine 2, Aggression 2, Dexterity 2
      Enemy Mecha Knight: HP 101/320  Intent Flamethrower: Attack 17 + Debuff  Powers: Strength 5
-     Hand: Uppercut+ [2], Go for the Eyes+ [0], Strike [1], Chill [0], Coolheaded+ [1], Glacier [2], Ascender's Bane [X], Adaptive Strike [0]  | Draw 5  Discard 20  Exhaust 5
+     Hand: Uppercut+ [2], Go for the Eyes+ [0], Strike [1], Chill [0], Coolheaded+ [1], Glacier [2], Ascender's Bane [-], Adaptive Strike [0]  | Draw 5  Discard 20  Exhaust 5
      Potions: Dexterity Potion, Focus Potion, Colorless Potion, Power Potion, Cure All, Skill Potion
      #730  Play Coolheaded+   [42.7%, 14 options]
             also: Play Uppercut+ -> Mecha Knight 20.3%; Play Glacier 15.0%; Play Go for the Eyes+ -> Mecha Knight 8.0%; Play Chill 5.1%
@@ -2214,7 +2214,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 79/80  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 1, Thorns 3, Strength 1, Fasten 6, Subroutine 2, Aggression 2, Dexterity 3
      Enemy Mecha Knight: HP 39/320  Intent Windup: Buff + Defend  Powers: Strength 5, Weak 3, Vulnerable 1
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Uppercut+ [2], Go for the Eyes+ [0], Strike [1], Defend [1], Cold Snap [1], Strike+ [1]  | Draw 26  Discard 1  Exhaust 7
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Uppercut+ [2], Go for the Eyes+ [0], Strike [1], Defend [1], Cold Snap [1], Strike+ [1]  | Draw 26  Discard 1  Exhaust 7
      Potions: Dexterity Potion, Focus Potion, Colorless Potion, Power Potion, Cure All, Skill Potion
      #736  Play Uppercut+ -> Mecha Knight   [40.9%, 13 options]
             also: Play Strike+ -> Mecha Knight 20.8%; Play Strike -> Mecha Knight 15.8%; Play Cold Snap -> Mecha Knight 12.2%; Play Go for the Eyes+ -> Mecha Knight 8.3%
@@ -2359,7 +2359,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 80/80  Block 0  Energy 3/3  Orbs (3 slots): Frost, Glass, Glass  Powers: Focus 1, Thorns 3, Strength 1, Plating 1, Aggression 2, Dexterity 3, Fasten 4
      Enemy Frog Knight: HP 26/199  Block 17  Intent Beetle Charge: Attack 33  Powers: Plating 17, Weak 3, Strength 5
-     Hand: Strike+ [1], Refract+ [3], Subroutine [1], Charge Battery [1], Clumsy [X], Lightning Rod [1], Glacier [2], Sunder [0]  | Draw 11  Discard 13  Exhaust 4
+     Hand: Strike+ [1], Refract+ [3], Subroutine [1], Charge Battery [1], Clumsy [-], Lightning Rod [1], Glacier [2], Sunder [0]  | Draw 11  Discard 13  Exhaust 4
      Potions: Dexterity Potion, Focus Potion, Colorless Potion, Power Potion, Mazaleth's Gift, Cure All, Skill Potion
      #791  Play Refract+ -> Frog Knight   [27.6%, 15 options]
             also: Play Glacier 24.0%; Play Charge Battery 19.3%; Play Strike+ -> Frog Knight 17.4%; Play Lightning Rod 4.2%
@@ -2380,7 +2380,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 80/80  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Dark  Powers: Focus 1, Thorns 3, Strength 1, Plating 4, Vigor 8
      Enemy Globe Head: HP 158/158  Intent Shocking Slap: Attack 14 + Debuff  Powers: Galvanic 8
-     Hand: Fight Through+ [1], Focused Strike+ [1], Charge Battery+ [1], Go for the Eyes+ [0], Chill+ [0], Lightning Rod+ [1], Clumsy [X], Focused Strike [0]  | Draw 27  Discard 0  Exhaust 0
+     Hand: Fight Through+ [1], Focused Strike+ [1], Charge Battery+ [1], Go for the Eyes+ [0], Chill+ [0], Lightning Rod+ [1], Clumsy [-], Focused Strike [0]  | Draw 27  Discard 0  Exhaust 0
      Potions: Attack Potion, Focus Potion, Colorless Potion, Power Potion, Mazaleth's Gift, Cure All, Skill Potion
      #799  Play Charge Battery+   [42.6%, 15 options]
             also: Play Lightning Rod+ 30.6%; Play Chill+ 7.2%; Play Focused Strike+ -> Globe Head 7.1%; Play Go for the Eyes+ -> Globe Head 5.5%
@@ -2755,7 +2755,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 54/80  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Focus 3, Thorns 3, Strength 1, Aggression 2, Chains of Binding 3, Dexterity 5, Frail 96, Weak 96, Vulnerable 96, Fasten 8
      Enemy Torch Head Amalgam: HP 35/211  Intent Beam: Attack 12x3  Powers: Minion 1, Strength 3, Weak 3
      Enemy Queen: HP 332/419  Block 20  Intent Burn Bright for Me: Buff + Defend
-     Hand: Sunder+ [3], Uppercut+ [2], Focused Strike+ [1], Boost Away [0], Clumsy [X], Barrage [1], Zap+ [0], Ball Lightning [0]  | Draw 26  Discard 0  Exhaust 5
+     Hand: Sunder+ [3], Uppercut+ [2], Focused Strike+ [1], Boost Away [0], Clumsy [-], Barrage [1], Zap+ [0], Ball Lightning [0]  | Draw 26  Discard 0  Exhaust 5
      Potions: Attack Potion, Colorless Potion, Mazaleth's Gift, Cure All, Skill Potion
      #944  Play Uppercut+ -> Torch Head Amalgam   [62.7%, 18 options]
             also: Play Barrage -> Torch Head Amalgam 19.7%; Play Focused Strike+ -> Torch Head Amalgam 4.7%; Play Sunder+ -> Torch Head Amalgam 4.2%; Play Uppercut+ -> Queen 2.3%

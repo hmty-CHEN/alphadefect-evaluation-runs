@@ -19,7 +19,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Leaf Slime (S): HP 14/14  Intent Goop: Debuff
      Enemy Leaf Slime (M): HP 34/34  Intent Sticky Shot: Debuff
      Enemy Twig Slime (S): HP 8/8  Intent Tackle: Attack 5
-     Hand: Strike [1], Defend [1], Dualcast [1], Strike [1], Ascender's Bane [X]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Strike [1], Defend [1], Dualcast [1], Strike [1], Ascender's Bane [-]  | Draw 6  Discard 0  Exhaust 0
      #2    Play Strike -> Twig Slime (S)   [41.6%, 9 options]
             also: Play Strike -> Twig Slime (S) 41.6% (identical option); Play Dualcast 10.7%; Play Defend 5.8%
      #3    Play Strike -> Twig Slime (S)   [99.4%, 6 options]
@@ -81,7 +81,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 56/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Nibbit: HP 45/45  Intent Butt: Attack 13
-     Hand: Strike [1], Ascender's Bane [X], Defend [1], Zap [1], Leap [1]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Strike [1], Ascender's Bane [-], Defend [1], Zap [1], Leap [1]  | Draw 7  Discard 0  Exhaust 0
      Potions: Flex Potion
      #26   Play Leap   [79.7%, 6 options]
             also: Play Defend 18.9%; Play Zap 1.2%
@@ -146,7 +146,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 55/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Fuzzy Wurm Crawler: HP 38/59  Intent Inhale: Buff
-     Hand: Dualcast [1], Leap [1], Strike [1], Ascender's Bane [X], Strike [1]  | Draw 3  Discard 5  Exhaust 0
+     Hand: Dualcast [1], Leap [1], Strike [1], Ascender's Bane [-], Strike [1]  | Draw 3  Discard 5  Exhaust 0
      Potions: Flex Potion
      #48   Play Strike -> Fuzzy Wurm Crawler   [43.2%, 6 options]
             also: Play Strike -> Fuzzy Wurm Crawler 43.2% (identical option); Play Dualcast 13.2%
@@ -224,7 +224,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 51/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Hailstorm 6, Tangled 1
      Enemy Vine Shambler: HP 40/64  Intent Chomp: Attack 18
-     Hand: Ascender's Bane [X], Defend [1], Boost Away [0], Defend [1], Strike [2]  | Draw 8  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Defend [1], Boost Away [0], Defend [1], Strike [2]  | Draw 8  Discard 0  Exhaust 0
      Potions: Flex Potion, Touch of Insanity
      #75   Play Defend   [34.1%, 7 options]
             also: Play Defend 34.1% (identical option); Play Boost Away 31.8%
@@ -282,7 +282,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 74/82  Block 0  Energy 4/3  Orbs (3 slots): Lightning
      Enemy Phrog Parasite: HP 68/68  Intent Infect: Debuff  Powers: Infested 4, Vulnerable 1
-     Hand: Dualcast [1], Ascender's Bane [X], Strike [1], Hailstorm [1], Defend [1], Boost Away [0], Strike [1]  | Draw 8  Discard 0  Exhaust 0
+     Hand: Dualcast [1], Ascender's Bane [-], Strike [1], Hailstorm [1], Defend [1], Boost Away [0], Strike [1]  | Draw 8  Discard 0  Exhaust 0
      Potions: Weak Potion, Touch of Insanity
      #97   Play Hailstorm   [51.3%, 9 options]
             also: Play Strike -> Phrog Parasite 21.1% x2; Play Boost Away 2.3%; Play Defend 2.2%
@@ -313,7 +313,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 73/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Hailstorm 6
      Enemy Phrog Parasite: HP 29/68  Intent Infect: Debuff  Powers: Infested 4, Weak 2
-     Hand: Defend [1], Leap [1], Defend [1], Infection [X], Zap+ [0]  | Draw 12  Discard 0  Exhaust 1
+     Hand: Defend [1], Leap [1], Defend [1], Infection [-], Zap+ [0]  | Draw 12  Discard 0  Exhaust 1
      Potions: Touch of Insanity
      #109  Play Zap+   [75.3%, 6 options]
             also: Play Defend 10.0% x2; Play Leap 4.7%
@@ -341,7 +341,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 20/20  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 18/18  Intent Nasty Bite: Attack 7
      Enemy Wriggler: HP 16/22  Intent Wriggle: Buff + Debuff
-     Hand: Infection [X], Dazed [X], Boost Away [0], Strike [1], Boost Away [0]  | Draw 2  Discard 13  Exhaust 1
+     Hand: Infection [-], Dazed [-], Boost Away [0], Strike [1], Boost Away [0]  | Draw 2  Discard 13  Exhaust 1
      Potions: Touch of Insanity
      #117  Play Boost Away   [44.4%, 8 options]
             also: Play Boost Away 44.4% (identical option); Play Strike -> Wriggler #4 9.4%; Play Strike -> Wriggler #2 1.6%
@@ -356,7 +356,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 20/20  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 12/18  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 7/22  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Infection [X], Defend [1], Defend [1], Boost Away [0], Infection [X]  | Draw 18  Discard 0  Exhaust 2
+     Hand: Infection [-], Defend [1], Defend [1], Boost Away [0], Infection [-]  | Draw 18  Discard 0  Exhaust 2
      Potions: Touch of Insanity
      #121  Play Boost Away   [38.1%, 5 options]
             also: Play Defend 30.9% x2
@@ -370,7 +370,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 17/20  Intent Wriggle: Buff + Debuff  Powers: Strength 2
      Enemy Wriggler: HP 9/18  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 4/22  Intent Wriggle: Buff + Debuff  Powers: Strength 2
-     Hand: Leap [1], Defend [1], Strike [1], Infection [X], Infection [X]  | Draw 13  Discard 8  Exhaust 2
+     Hand: Leap [1], Defend [1], Strike [1], Infection [-], Infection [-]  | Draw 13  Discard 8  Exhaust 2
      Potions: Touch of Insanity
      #125  Play Leap   [89.0%, 8 options]
             also: Play Strike -> Wriggler #4 4.4%; Play Defend 4.0%; Play Strike -> Wriggler #3 2.5%
@@ -383,7 +383,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 15/21  Intent Wriggle: Buff + Debuff  Powers: Strength 2
      Enemy Wriggler: HP 14/20  Intent Nasty Bite: Attack 11  Powers: Strength 4
      Enemy Wriggler: HP 9/18  Intent Wriggle: Buff + Debuff  Powers: Strength 2
-     Hand: Infection [X], Dualcast [1], Boost Away [0], Defend [1], Strike [1]  | Draw 8  Discard 14  Exhaust 2
+     Hand: Infection [-], Dualcast [1], Boost Away [0], Defend [1], Strike [1]  | Draw 8  Discard 14  Exhaust 2
      Potions: Touch of Insanity
      #129  Play Dualcast   [93.5%, 8 options]
             also: Play Boost Away 5.6%; Play Defend 0.5%
@@ -398,7 +398,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 50/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Hailstorm 6
      Enemy Wriggler: HP 9/21  Intent Nasty Bite: Attack 11  Powers: Strength 4
      Enemy Wriggler: HP 3/18  Intent Nasty Bite: Attack 11  Powers: Strength 4
-     Hand: Strike [1], Dazed [X], Dazed [X], Strike [1], Infection [X]  | Draw 3  Discard 22  Exhaust 2
+     Hand: Strike [1], Dazed [-], Dazed [-], Strike [1], Infection [-]  | Draw 3  Discard 22  Exhaust 2
      Potions: Touch of Insanity
      #134  Play Strike -> Wriggler #1   [29.8%, 6 options]
             also: Play Strike -> Wriggler #1 29.8% (identical option); Play Strike -> Wriggler #2 20.2% x2
@@ -450,7 +450,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 76/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Hailstorm 6
      Enemy Bygone Effigy: HP 78/132  Intent Slashes: Attack 25  Powers: Slow 1, Strength 10
-     Hand: Defend [1], Ascender's Bane [X], Strike [1], Strike [1], Strike [1]  | Draw 10  Discard 0  Exhaust 0
+     Hand: Defend [1], Ascender's Bane [-], Strike [1], Strike [1], Strike [1]  | Draw 10  Discard 0  Exhaust 0
      Potions: Touch of Insanity
      #154  Play Defend   [74.4%, 6 options]
             also: Play Strike -> Bygone Effigy 8.5% x3
@@ -494,7 +494,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 42/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Hailstorm 6
      Enemy Bygone Effigy: HP 31/132  Intent Slashes: Attack 25  Powers: Slow 1, Strength 10
-     Hand: Strike [1], Dazed [X], Strike [1], Defend [1], Dualcast [1]  | Draw 6  Discard 5  Exhaust 1
+     Hand: Strike [1], Dazed [-], Strike [1], Defend [1], Dualcast [1]  | Draw 6  Discard 5  Exhaust 1
      Potions: Touch of Insanity
      #170  Play Dualcast   [98.3%, 6 options]
             also: Play Defend 1.1%
@@ -507,7 +507,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 22/82  Block 0  Energy 3/3  Orbs (3 slots): empty  Powers: Hailstorm 6
      Enemy Bygone Effigy: HP 8/132  Intent Slashes: Attack 25  Powers: Slow 1, Strength 10
-     Hand: Boost Away [0], Defend [1], Dazed [X], Strike [1], Zap+ [0]  | Draw 1  Discard 9  Exhaust 2
+     Hand: Boost Away [0], Defend [1], Dazed [-], Strike [1], Zap+ [0]  | Draw 1  Discard 9  Exhaust 2
      Potions: Touch of Insanity
      #174  Play Zap+   [92.8%, 6 options]
             also: Play Boost Away 5.2%; Play Defend 1.3%; Play Strike -> Bygone Effigy 0.7%
@@ -532,15 +532,15 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #184  [Shop] Buy Cold Snap (50 gold)   [60.0%, 14 options]
          also: Buy Coolheaded (48 gold) 19.2%; Buy Toolbox (182 gold) 15.7%; Buy Ball Lightning (50 gold) 0.9%; Discard potion Touch of Insanity 0.7%
   Deck change: +Cold Snap  (18 cards)
-  Shop shelf (gold 257): Card #2286 50g (sold); Card Ball Lightning 50g; Card TURBO 24g; Card Coolheaded 48g; Card Capacitor 74g; Card Volley 90g; Card Secret Technique 165g; Relic Pen Nib 207g; Relic Petrified Toad 221g; Relic Toolbox 182g; Potion Regen Potion 72g; Potion Weak Potion 51g; Potion Attack Potion 51g; Removal 100g
+  Shop shelf (gold 257): Card 50g (sold); Card Ball Lightning 50g; Card TURBO 24g; Card Coolheaded 48g; Card Capacitor 74g; Card Volley 90g; Card Secret Technique 165g; Relic Pen Nib 207g; Relic Petrified Toad 221g; Relic Toolbox 182g; Potion Regen Potion 72g; Potion Weak Potion 51g; Potion Attack Potion 51g; Removal 100g
   #185  [Shop] Buy Toolbox (182 gold)   [85.0%, 13 options]
          also: Buy Coolheaded (48 gold) 5.4%; Discard potion Touch of Insanity 1.8%; Buy Ball Lightning (50 gold) 1.4%; Discard potion Dexterity Potion 1.3%
   Relic gained: Toolbox
-  Shop shelf (gold 75): Card #2286 50g (sold); Card Ball Lightning 50g; Card TURBO 24g; Card Coolheaded 48g; Card Capacitor 74g; Card Volley 90g; Card Secret Technique 165g; Relic Pen Nib 207g; Relic Petrified Toad 221g; Relic #2286 182g (sold); Potion Regen Potion 72g; Potion Weak Potion 51g; Potion Attack Potion 51g; Removal 100g
+  Shop shelf (gold 75): Card 50g (sold); Card Ball Lightning 50g; Card TURBO 24g; Card Coolheaded 48g; Card Capacitor 74g; Card Volley 90g; Card Secret Technique 165g; Relic Pen Nib 207g; Relic Petrified Toad 221g; Relic 182g (sold); Potion Regen Potion 72g; Potion Weak Potion 51g; Potion Attack Potion 51g; Removal 100g
   #186  [Shop] Buy Coolheaded (48 gold)   [94.4%, 7 options]
          also: Leave / skip 1.2%; Buy Ball Lightning (50 gold) 1.1%; Discard potion Touch of Insanity 0.9%; Buy Capacitor (74 gold) 0.9%
   Deck change: +Coolheaded  (19 cards)
-  Shop shelf (gold 27): Card #2286 50g (sold); Card Ball Lightning 50g; Card TURBO 24g; Card #2286 48g (sold); Card Capacitor 74g; Card Volley 90g; Card Secret Technique 165g; Relic Pen Nib 207g; Relic Petrified Toad 221g; Relic #2286 182g (sold); Potion Regen Potion 72g; Potion Weak Potion 51g; Potion Attack Potion 51g; Removal 100g
+  Shop shelf (gold 27): Card 50g (sold); Card Ball Lightning 50g; Card TURBO 24g; Card 48g (sold); Card Capacitor 74g; Card Volley 90g; Card Secret Technique 165g; Relic Pen Nib 207g; Relic Petrified Toad 221g; Relic 182g (sold); Potion Regen Potion 72g; Potion Weak Potion 51g; Potion Attack Potion 51g; Removal 100g
   #187  [Shop] Leave / skip   [98.9%, 2 options]
          also: Buy TURBO (24 gold) 1.1%
   #188  [Map] Go to Monster (row 15, col 4)   [100.0%, 1 option]
@@ -671,7 +671,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 45/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Frost  Powers: Dexterity 2
      Enemy Ceremonial Beast: HP 157/262  Intent Beast Cry: Debuff
-     Hand: Hailstorm [1], Coolheaded [1], Darkness [1], Defend [1], Dazed [X]  | Draw 20  Discard 0  Exhaust 1
+     Hand: Hailstorm [1], Coolheaded [1], Darkness [1], Defend [1], Dazed [-]  | Draw 20  Discard 0  Exhaust 1
      Potions: Touch of Insanity
      #236  Play Hailstorm   [52.6%, 6 options]
             also: Play Coolheaded 23.6%; Play Darkness 21.5%; Play Defend 2.3%
@@ -703,7 +703,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 32/82  Block 0  Energy 3/3  Orbs (3 slots): Dark, Frost  Powers: Dexterity 2, Hailstorm 6
      Enemy Ceremonial Beast: HP 108/262  Intent Beast Cry: Debuff  Powers: Strength 4
-     Hand: Zap+ [0], Strike [1], Dazed [X], Leap [1], Defend [1]  | Draw 4  Discard 14  Exhaust 2
+     Hand: Zap+ [0], Strike [1], Dazed [-], Leap [1], Defend [1]  | Draw 4  Discard 14  Exhaust 2
      Potions: Touch of Insanity
      #247  Play Strike -> Ceremonial Beast   [36.7%, 6 options]
             also: Play Defend 28.0%; Play Leap 17.8%; Play Zap+ 17.5%
@@ -768,7 +768,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 70/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Panache 10
      Enemy Tunneler: HP 63/92  Intent Burrow: Buff + Defend
-     Hand: Ascender's Bane [X], Cold Snap [1], Defend [1], Defend+ [1], Dualcast [1]  | Draw 9  Discard 6  Exhaust 1
+     Hand: Ascender's Bane [-], Cold Snap [1], Defend [1], Defend+ [1], Dualcast [1]  | Draw 9  Discard 6  Exhaust 1
      Potions: Fire Potion, Touch of Insanity
      #269  Play Cold Snap -> Tunneler   [46.1%, 7 options]
             also: Play Dualcast 19.9%; Play Defend+ 17.3%; Play Defend 16.7%
@@ -823,7 +823,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 65/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Dark  Powers: Panache 10, Hailstorm 6
      Enemy Tunneler: HP 15/92  Intent Burrow: Buff + Defend
-     Hand: Cold Snap [1], FTL+ [0], Dazed [X], Defend [1], Darkness+ [1]  | Draw 5  Discard 10  Exhaust 2
+     Hand: Cold Snap [1], FTL+ [0], Dazed [-], Defend [1], Darkness+ [1]  | Draw 5  Discard 10  Exhaust 2
      Potions: Fire Potion, Touch of Insanity
      #288  Play FTL+ -> Tunneler   [37.7%, 7 options]
             also: Play Defend 21.8%; Play Cold Snap -> Tunneler 21.0%; Play Darkness+ 19.4%
@@ -972,7 +972,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Tough Egg: HP 16/16  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Tough Egg: HP 19/19  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Ovicopter: HP 74/130  Intent Smash: Attack 25
-     Hand: Barrage+ [1], Dualcast [1], Darkness+ [1], Dazed [X], Coolheaded+ [1]  | Draw 9  Discard 8  Exhaust 2
+     Hand: Barrage+ [1], Dualcast [1], Darkness+ [1], Dazed [-], Coolheaded+ [1]  | Draw 9  Discard 8  Exhaust 2
      Potions: Fire Potion, Touch of Insanity
      #337  Play Coolheaded+   [95.7%, 15 options]
             also: Play Barrage+ -> Tough Egg #2 2.9%; Play Darkness+ 1.3%
@@ -1088,7 +1088,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 32/82  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Hailstorm 6
      Enemy Parafright: HP 21/21  Intent Slam: Attack 20  Powers: Illusion 1, Minion 1, Strength 3
      Enemy The Obscura: HP 39/129  Intent Piercing Gaze: Attack 14  Powers: Strength 3
-     Hand: Dualcast [1], Coolheaded [1], Strike [1], Barrage+ [1], Dazed [X], Defend [1], FTL+ [0]  | Draw 14  Discard 0  Exhaust 3
+     Hand: Dualcast [1], Coolheaded [1], Strike [1], Barrage+ [1], Dazed [-], Defend [1], FTL+ [0]  | Draw 14  Discard 0  Exhaust 3
      Potions: Fire Potion
      #378  Play Barrage+ -> Parafright   [50.7%, 12 options]
             also: Play FTL+ -> The Obscura 27.6%; Play Barrage+ -> The Obscura 12.7%; Play FTL+ -> Parafright 5.8%; Play Strike -> The Obscura 2.4%
@@ -1179,7 +1179,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 52/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Dexterity 2, Hailstorm 6, Echo Form 1
      Enemy Infested Prism: HP 120/171  Block 13  Intent Whirlwind: Attack 6x3  Powers: Vital Spark 3
-     Hand: Defend [1], Defend+ [1], Defend [1], Ascender's Bane [X], Strike [1]  | Draw 3  Discard 15  Exhaust 0
+     Hand: Defend [1], Defend+ [1], Defend [1], Ascender's Bane [-], Strike [1]  | Draw 3  Discard 15  Exhaust 0
      Potions: Fire Potion
      #411  Play Strike -> Infested Prism   [61.6%, 6 options]
             also: End turn 34.2%; Play Defend+ 4.0%
@@ -1260,7 +1260,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #438  [Shop] Buy Potion Belt (160 gold)   [54.5%, 13 options]
          also: Buy Orrery (199 gold) 32.2%; Buy Card removal service (100 gold) 5.2%; Buy Prowess (86 gold) 2.6%; Leave / skip 1.3%
   Relic gained: Potion Belt
-  Shop shelf (gold 66): Card Sunder 74g; Card Null 78g; Card Coolheaded 25g; Card Skim 78g; Card Smokestack 75g; Card Prowess 86g; Card Nostalgia 169g; Relic Rainbow Ring 291g; Relic #2286 160g (sold); Relic Orrery 199g; Potion Strength Potion 48g; Potion Duplicator 72g; Potion Clarity Extract 77g; Removal 100g
+  Shop shelf (gold 66): Card Sunder 74g; Card Null 78g; Card Coolheaded 25g; Card Skim 78g; Card Smokestack 75g; Card Prowess 86g; Card Nostalgia 169g; Relic Rainbow Ring 291g; Relic 160g (sold); Relic Orrery 199g; Potion Strength Potion 48g; Potion Duplicator 72g; Potion Clarity Extract 77g; Removal 100g
   #439  [Shop] Leave / skip   [44.1%, 3 options]
          also: Buy Strength Potion (48 gold) 32.2%; Buy Coolheaded (25 gold) 23.7%
   #440  [Map] Go to Rest Site (row 12, col 2)   [100.0%, 2 options]
@@ -1296,7 +1296,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 82/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Strength 1, Dexterity 1, Weak 1
      Enemy Decimillipede: HP 45/48  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25
      Enemy Decimillipede: HP 50/50  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25
-     Hand: Ascender's Bane [X], Go for the Eyes [0], Overclock+ [0], Defend [1], Defend+ [1]  | Draw 11  Discard 9  Exhaust 1
+     Hand: Ascender's Bane [-], Go for the Eyes [0], Overclock+ [0], Defend [1], Defend+ [1]  | Draw 11  Discard 9  Exhaust 1
      Potions: Fire Potion, Fortifier
      #451  Play Go for the Eyes -> Decimillipede   [45.3%, 9 options]
             also: Play Go for the Eyes -> Decimillipede 25.1% (identical option); Play Overclock+ 16.3%; Play Defend+ 7.4%; Play Defend 5.8%
@@ -1330,7 +1330,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 67/82  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Strength 1, Dexterity 1, Hailstorm 6
      Enemy Decimillipede: HP 33/48  Intent Constrict: Attack 11 + Debuff  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 33/50  Intent Writhe: Attack 8x2  Powers: Reattach 25, Strength 2
-     Hand: Boost Away+ [0], Barrage+ [1], Dualcast [1], Dazed [X], Dazed [X]  | Draw 13  Discard 7  Exhaust 2
+     Hand: Boost Away+ [0], Barrage+ [1], Dualcast [1], Dazed [-], Dazed [-]  | Draw 13  Discard 7  Exhaust 2
      Potions: Fire Potion, Fortifier
      #463  Play Barrage+ -> Decimillipede   [77.3%, 8 options]
             also: Play Barrage+ -> Decimillipede 21.4% (identical option); Play Boost Away+ 1.0%
@@ -1377,7 +1377,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 67/82  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Strength 1, Dexterity 1, Hailstorm 6
      Enemy Decimillipede: HP 19/50  Intent Constrict: Attack 9 + Debuff  Powers: Reattach 25
-     Hand: Coolheaded+ [1], Dazed [X], Dualcast [1], Strike [1], Burn [X], Strike [1], Boost Away [0]  | Draw 12  Discard 6  Exhaust 4
+     Hand: Coolheaded+ [1], Dazed [-], Dualcast [1], Strike [1], Burn [-], Strike [1], Boost Away [0]  | Draw 12  Discard 6  Exhaust 4
      Potions: Fire Potion, Fortifier
      #478  Play Boost Away   [29.3%, 8 options]
             also: Play Coolheaded+ 23.2%; Play Strike -> Decimillipede 18.7% x2; Play Dualcast 10.1%
@@ -1461,7 +1461,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 69/82  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Fasten 4, Hailstorm 6, Frail 2
      Enemy Louse Progenitor: HP 14/139  Intent Curl and Grow: Buff + Defend  Powers: Strength 7
-     Hand: Darkness+ [1], Burn [X], Overclock+ [0], Boost Away+ [0], Dualcast [1]  | Draw 10  Discard 8  Exhaust 2
+     Hand: Darkness+ [1], Burn [-], Overclock+ [0], Boost Away+ [0], Dualcast [1]  | Draw 10  Discard 8  Exhaust 2
      Potions: Fire Potion, Fortifier, Block Potion
      #508  Play Darkness+   [32.6%, 8 options]
             also: Play Boost Away+ 28.1%; Play Overclock+ 27.6%; Play Dualcast 11.2%
@@ -1522,7 +1522,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 58/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Frost  Powers: Surrounded 1, Echo Form 1
      Enemy Crusher: HP 216/219  Intent Bug Sting: Attack 10x2 + Debuff  Powers: Back Attack 1, Crab Rage 1
      Enemy Rocket: HP 148/209  Intent Charge Up: Buff  Powers: Back Attack 1, Crab Rage 1
-     Hand: Boost Away+ [0], Hailstorm [1], Ascender's Bane [X], Strike [1], FTL+ [0], Strike [1], Ice Lance [3]  | Draw 3  Discard 18  Exhaust 0
+     Hand: Boost Away+ [0], Hailstorm [1], Ascender's Bane [-], Strike [1], FTL+ [0], Strike [1], Ice Lance [3]  | Draw 3  Discard 18  Exhaust 0
      Potions: Fire Potion, Fortifier, Block Potion
      #530  Play Ice Lance -> Rocket   [73.4%, 15 options]
             also: Play Hailstorm 26.5%
@@ -1564,7 +1564,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 57/82  Block 0  Energy 4/3  Orbs (3 slots): Frost, Dark, Frost  Powers: Surrounded 1, Echo Form 1
      Enemy Crusher: HP 199/219  Block 18  Intent Thrash: Attack 12  Powers: Back Attack 1, Crab Rage 1, Strength 3, Weak 1
      Enemy Rocket: HP 87/209  Intent Targeting Reticle: Attack 10  Powers: Back Attack 1, Crab Rage 1, Strength 3
-     Hand: Zap+ [0], Dazed [X], Hailstorm [1], Strike [1], Ice Lance [3]  | Draw 9  Discard 13  Exhaust 1
+     Hand: Zap+ [0], Dazed [-], Hailstorm [1], Strike [1], Ice Lance [3]  | Draw 9  Discard 13  Exhaust 1
      Potions: Fire Potion, Fortifier, Block Potion
      #543  Play Ice Lance -> Rocket   [99.8%, 11 options]
      #544  Play Hailstorm   [88.1%, 9 options]
@@ -1591,7 +1591,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 57/82  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Surrounded 1, Echo Form 1, Hailstorm 6
      Enemy Crusher: HP 199/219  Intent Bug Sting: Attack 12x2 + Debuff  Powers: Back Attack 1, Strength 9, Weak 1
-     Hand: Strike [1], Zap+ [0], Finesse [0], Dazed [X], Cold Snap [1]  | Draw 14  Discard 7  Exhaust 2
+     Hand: Strike [1], Zap+ [0], Finesse [0], Dazed [-], Cold Snap [1]  | Draw 14  Discard 7  Exhaust 2
      Potions: Fire Potion, Fortifier, Block Potion
      #552  Play Cold Snap -> Crusher   [54.4%, 8 options]
             also: Play Finesse 34.6%; Play Zap+ 10.2%; Play Strike -> Crusher 0.7%
@@ -1606,7 +1606,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 57/82  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Surrounded 1, Echo Form 1, Hailstorm 6, Weak 2, Frail 2
      Enemy Crusher: HP 175/219  Intent Adapt: Buff  Powers: Back Attack 1, Strength 9
-     Hand: Coolheaded+ [1], Boost Away+ [0], Strike [1], Defend [1], Burn [X]  | Draw 8  Discard 13  Exhaust 3
+     Hand: Coolheaded+ [1], Boost Away+ [0], Strike [1], Defend [1], Burn [-]  | Draw 8  Discard 13  Exhaust 3
      Potions: Fire Potion, Fortifier, Block Potion
      #557  Play Coolheaded+   [46.8%, 8 options]
             also: Play Strike -> Crusher 19.8%; Play Defend 16.0%; Play Boost Away+ 13.1%; End turn 4.3%
@@ -1635,7 +1635,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 11 --
      HP 52/82  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Dark  Powers: Surrounded 1, Echo Form 1, Hailstorm 6
      Enemy Crusher: HP 136/219  Block 18  Intent Thrash: Attack 26  Powers: Back Attack 1, Strength 12
-     Hand: Strike [1], Go for the Eyes+ [0], Boost Away+ [0], Coolheaded [1], Burn [X], Boost Away [0], Coolheaded+ [1]  | Draw 13  Discard 6  Exhaust 3
+     Hand: Strike [1], Go for the Eyes+ [0], Boost Away+ [0], Coolheaded [1], Burn [-], Boost Away [0], Coolheaded+ [1]  | Draw 13  Discard 6  Exhaust 3
      Potions: Fire Potion, Fortifier, Block Potion
      #567  Play Coolheaded+   [24.9%, 10 options]
             also: Play Boost Away+ 23.0%; Play Boost Away 20.7%; Play Coolheaded 13.5%; Play Go for the Eyes+ -> Crusher 13.1%
@@ -1652,7 +1652,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 12 --
      HP 52/82  Block 0  Energy 4/3  Orbs (3 slots): Dark, Frost, Frost  Powers: Surrounded 1, Echo Form 1, Hailstorm 6
      Enemy Crusher: HP 111/219  Intent Enlarging Strike: Attack 12  Powers: Back Attack 1, Strength 12, Weak 1
-     Hand: Leap+ [1], Dazed [X], Overclock+ [0], Cold Snap [1], Zap+ [0]  | Draw 3  Discard 18  Exhaust 3
+     Hand: Leap+ [1], Dazed [-], Overclock+ [0], Cold Snap [1], Zap+ [0]  | Draw 3  Discard 18  Exhaust 3
      Potions: Fire Potion, Fortifier, Block Potion
      #573  Play Cold Snap -> Crusher   [34.0%, 8 options]
             also: Play Zap+ 33.8%; Play Leap+ 22.7%; Play Overclock+ 9.4%
@@ -1882,7 +1882,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 74/82  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Dark, Frost  Powers: Hailstorm 6
      Enemy Owl Magistrate: HP 140/247  Intent Verdict: Attack 36 + Debuff  Powers: Soar 1
-     Hand: Defend [1], Boost Away [0], Ascender's Bane [X], Shadow Shield+ [2], Defend+ [1]  | Draw 25  Discard 0  Exhaust 2
+     Hand: Defend [1], Boost Away [0], Ascender's Bane [-], Shadow Shield+ [2], Defend+ [1]  | Draw 25  Discard 0  Exhaust 2
      Potions: Fortifier, Block Potion, Power Potion
      #660  Play Shadow Shield+   [60.1%, 8 options]
             also: Play Defend+ 14.0%; Play Boost Away 9.0%; Use potion Power Potion -> self 8.8%; Play Defend 8.0%
@@ -1935,7 +1935,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #680  [Shop] Buy Gorget (197 gold)   [83.1%, 14 options]
          also: Buy Weak Potion (49 gold) 2.5%; Buy Card removal service (100 gold) 2.3%; Buy Explosive Ampoule (52 gold) 1.8%; Buy Production (88 gold) 1.6%
   Relic gained: Gorget
-  Shop shelf (gold 18): Card Ball Lightning 51g; Card Barrage 49g; Card Hologram 49g; Card Scavenge 76g; Card Feral 38g; Card Production 88g; Card Hand of Greed 180g; Relic #2286 197g (sold); Relic Letter Opener 215g; Relic Sling of Courage 219g; Potion Explosive Ampoule 52g; Potion Liquid Bronze 77g; Potion Weak Potion 49g; Removal 100g
+  Shop shelf (gold 18): Card Ball Lightning 51g; Card Barrage 49g; Card Hologram 49g; Card Scavenge 76g; Card Feral 38g; Card Production 88g; Card Hand of Greed 180g; Relic 197g (sold); Relic Letter Opener 215g; Relic Sling of Courage 219g; Potion Explosive Ampoule 52g; Potion Liquid Bronze 77g; Potion Weak Potion 49g; Removal 100g
   #681  [Shop] Leave / skip   [100.0%, 1 option]
   #682  [Map] Go to Unknown (?) (row 7, col 1)   [100.0%, 1 option]
 
@@ -1953,7 +1953,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   Shop shelf (gold 54): Card Focused Strike 49g; Card Compile Driver 52g; Card Hotfix 50g; Card Lightning Rod 25g; Card Bulk Up 74g; Card Prolong 86g; Card Calamity 180g; Relic Venerable Tea Set 159g; Relic Pocketwatch 295g; Relic The Abacus 201g; Potion Strength Potion 51g; Potion Speed Potion 48g; Potion Swift Potion 50g; Removal 100g
   #686  [Shop] Buy Swift Potion (50 gold)   [42.4%, 8 options]
          also: Buy Strength Potion (51 gold) 32.9%; Buy Speed Potion (48 gold) 8.4%; Leave / skip 8.3%; Buy Hotfix (50 gold) 4.1%
-  Shop shelf (gold 4): Card Focused Strike 49g; Card Compile Driver 52g; Card Hotfix 50g; Card Lightning Rod 25g; Card Bulk Up 74g; Card Prolong 86g; Card Calamity 180g; Relic Venerable Tea Set 159g; Relic Pocketwatch 295g; Relic The Abacus 201g; Potion Strength Potion 51g; Potion Speed Potion 48g; Potion #2286 50g (sold); Removal 100g
+  Shop shelf (gold 4): Card Focused Strike 49g; Card Compile Driver 52g; Card Hotfix 50g; Card Lightning Rod 25g; Card Bulk Up 74g; Card Prolong 86g; Card Calamity 180g; Relic Venerable Tea Set 159g; Relic Pocketwatch 295g; Relic The Abacus 201g; Potion Strength Potion 51g; Potion Speed Potion 48g; Potion 50g (sold); Removal 100g
   #687  [Shop] Leave / skip   [100.0%, 1 option]
   #688  [Map] Go to Rest Site (row 10, col 2)   [100.0%, 1 option]
 
@@ -1986,7 +1986,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 82/82  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Lightning, Lightning, Frost, Frost  Powers: Plating 3, Storm 2
      Enemy Slimed Berserker: HP 228/281  Intent Furious Pummeling: Attack 5x4
-     Hand: Hailstorm [1], Strike [1], Boost Away [0], Ascender's Bane [X], Defend+ [1]  | Draw 16  Discard 19  Exhaust 0
+     Hand: Hailstorm [1], Strike [1], Boost Away [0], Ascender's Bane [-], Defend+ [1]  | Draw 16  Discard 19  Exhaust 0
      Potions: Swift Potion, Fortifier, Block Potion, Power Potion
      #700  Play Hailstorm   [62.7%, 9 options]
             also: Play Defend+ 27.8%; Play Boost Away 9.2%
@@ -2121,7 +2121,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 75/82  Block 0  Energy 3/3  Orbs (6 slots): Frost, Dark, Frost, Lightning, Lightning, Lightning  Powers: Plating 1, Hex 2, Storm 2, Hailstorm 6
      Enemy Flail Knight: HP 94/108  Intent Flail: Attack 13x2  Powers: Strength 3
      Enemy Spectral Knight: HP 77/97  Intent Soul Flame: Attack 4x3
-     Hand: Leap [1], Strike [1], Cold Snap [1], Boost Away+ [0], Burn [X]  | Draw 18  Discard 0  Exhaust 10
+     Hand: Leap [1], Strike [1], Cold Snap [1], Boost Away+ [0], Burn [-]  | Draw 18  Discard 0  Exhaust 10
      Potions: Swift Potion, Fortifier, Block Potion, Power Potion
      #751  Play Boost Away+   [50.5%, 11 options]
             also: Play Leap 45.9%; Play Cold Snap -> Flail Knight 3.1%
@@ -2137,7 +2137,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 63/82  Block 0  Energy 3/3  Orbs (6 slots): Dark, Frost, Lightning, Lightning, Lightning, Frost  Powers: Hex 2, Storm 2, Hailstorm 6
      Enemy Flail Knight: HP 70/108  Intent Ram: Attack 20  Powers: Strength 3
      Enemy Spectral Knight: HP 68/97  Intent Soul Slash: Attack 17
-     Hand: Defend [1], Ice Lance [3], FTL+ [0], Hotfix+ [0], Dazed [X]  | Draw 13  Discard 5  Exhaust 11
+     Hand: Defend [1], Ice Lance [3], FTL+ [0], Hotfix+ [0], Dazed [-]  | Draw 13  Discard 5  Exhaust 11
      Potions: Swift Potion, Fortifier, Block Potion, Power Potion
      #756  Play Hotfix+   [51.3%, 11 options]
             also: Play FTL+ -> Flail Knight 35.6%; Play FTL+ -> Spectral Knight 11.2%; Play Ice Lance -> Flail Knight 1.5%
@@ -2148,7 +2148,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 63/82  Block 0  Energy 3/3  Orbs (6 slots): Lightning, Lightning, Frost, Frost, Frost, Frost  Powers: Hex 2, Storm 2, Hailstorm 6
      Enemy Spectral Knight: HP 42/97  Intent Soul Slash: Attack 17
-     Hand: Coolheaded+ [1], Dazed [X], Defend [1], Darkness+ [1], Zap+ [0], Go for the Eyes+ [0], Overclock+ [0]  | Draw 5  Discard 8  Exhaust 14
+     Hand: Coolheaded+ [1], Dazed [-], Defend [1], Darkness+ [1], Zap+ [0], Go for the Eyes+ [0], Overclock+ [0]  | Draw 5  Discard 8  Exhaust 14
      Potions: Swift Potion, Fortifier, Block Potion, Power Potion
      #760  Play Zap+   [32.6%, 11 options]
             also: Play Darkness+ 19.6%; Play Coolheaded+ 15.5%; Play Overclock+ 12.9%; Play Defend 10.7%
@@ -2306,7 +2306,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 56/82  Block 0  Energy 3/3  Orbs (7 slots): Lightning, Lightning, Lightning, Lightning, Lightning  Powers: Focus 1, Panache 10, Strength 2, Dexterity 2, Storm 2, Echo Form 3
      Enemy Aeonglass: HP 302/535  Intent Increasing Intensity: Buff + Debuff  Powers: Withering Presence 6, Artifact 1, Strength 4
-     Hand: Strike [1], Boost Away+ [0], Defend [1], Wither [X], Hotfix+ [0]  | Draw 19  Discard 11  Exhaust 1
+     Hand: Strike [1], Boost Away+ [0], Defend [1], Wither [-], Hotfix+ [0]  | Draw 19  Discard 11  Exhaust 1
      Potions: Swift Potion
      #821  Play Hotfix+   [99.6%, 6 options]
      #822  Play Strike -> Aeonglass   [56.7%, 5 options]
@@ -2331,7 +2331,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 56/82  Block 0  Energy 3/3  Orbs (7 slots): Lightning, Lightning, Lightning, Dark, Dark, Frost, Frost  Powers: Focus 1, Panache 10, Strength 2, Dexterity 2, Storm 2, Echo Form 3
      Enemy Aeonglass: HP 162/535  Block 33  Intent Eye Lasers: Attack 15x2  Powers: Withering Presence 6, Strength 9, Weak 1
-     Hand: Strike [1], Hailstorm [1], Burn [X], Go for the Eyes [0], Lightning Rod+ [1]  | Draw 9  Discard 28  Exhaust 1
+     Hand: Strike [1], Hailstorm [1], Burn [-], Go for the Eyes [0], Lightning Rod+ [1]  | Draw 9  Discard 28  Exhaust 1
      Potions: Swift Potion
      #830  Play Lightning Rod+   [86.2%, 6 options]
             also: Play Hailstorm 13.8%
@@ -2343,7 +2343,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 39/82  Block 0  Energy 3/3  Orbs (7 slots): Frost, Frost, Lightning, Lightning, Lightning, Lightning, Lightning  Powers: Focus 1, Panache 10, Strength 2, Dexterity 2, Storm 2, Echo Form 3, Lightning Rod 3, Hailstorm 12
      Enemy Aeonglass: HP 79/535  Intent Increasing Intensity: Buff + Debuff  Powers: Withering Presence 6, Strength 9, Weak 2
-     Hand: Strike [1], Dazed [X], Wither [X], Boost Away [0], Zap+ [0], Wither [X], Coolheaded [1]  | Draw 2  Discard 33  Exhaust 1
+     Hand: Strike [1], Dazed [-], Wither [-], Boost Away [0], Zap+ [0], Wither [-], Coolheaded [1]  | Draw 2  Discard 33  Exhaust 1
      Potions: Swift Potion
      #835  Play Zap+   [98.7%, 6 options]
             also: Play Boost Away 1.1%
@@ -2402,7 +2402,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 19/82  Block 0  Energy 3/3  Orbs (2 slots): Lightning, Lightning  Powers: Plating 1, Focus 1, Storm 2, Hailstorm 6, Echo Form 1, Strength 2, Dexterity 2
      Enemy Test Subject #C{Count}: HP 212/212  Intent Multi-Claw: Attack 11x3  Powers: Adaptable 1, Painful Stabs 1
-     Hand: Go for the Eyes+ [0], Shadow Shield+ [2], Boost Away+ [0], Capacitor+ [1], Echo Form [3], Boost Away [0], Ascender's Bane [X]  | Draw 5  Discard 20  Exhaust 1
+     Hand: Go for the Eyes+ [0], Shadow Shield+ [2], Boost Away+ [0], Capacitor+ [1], Echo Form [3], Boost Away [0], Ascender's Bane [-]  | Draw 5  Discard 20  Exhaust 1
      Potions: Swift Potion
      #858  Play Echo Form   [91.2%, 8 options]
             also: Play Capacitor+ 8.8%
@@ -2424,7 +2424,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 18/82  Block 0  Energy 3/3  Orbs (2 slots): Frost, Frost  Powers: Focus 1, Storm 2, Hailstorm 6, Echo Form 3, Strength 2, Dexterity 2
      Enemy Test Subject #C{Count}: HP 62/212  Intent Multi-Claw: Attack 8x5  Powers: Adaptable 1, Painful Stabs 1, Weak 2
-     Hand: Coolheaded [1], Strike [1], Charge Battery+ [1], Capacitor+ [1], Burn [X]  | Draw 22  Discard 6  Exhaust 2
+     Hand: Coolheaded [1], Strike [1], Charge Battery+ [1], Capacitor+ [1], Burn [-]  | Draw 22  Discard 6  Exhaust 2
      Potions: Swift Potion
      #866  Play Charge Battery+   [68.8%, 6 options]
             also: Play Capacitor+ 31.2%
@@ -2446,7 +2446,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 18/82  Block 0  Energy 3/3  Orbs (8 slots): Frost, Frost, Frost, Frost, Frost, Frost, Frost, Frost  Powers: Focus 1, Storm 2, Hailstorm 6, Echo Form 3, Strength 2, Dexterity 2
      Enemy Test Subject #C{Count}: HP 313/313  Intent Lacerate: Attack 11x3  Powers: Nemesis 1, Intangible 1
-     Hand: Shadow Shield [2], Strike [1], Wound [X], Defend [1], Leap [1], Go for the Eyes [0], Defend [1]  | Draw 4  Discard 19  Exhaust 4
+     Hand: Shadow Shield [2], Strike [1], Wound [-], Defend [1], Leap [1], Go for the Eyes [0], Defend [1]  | Draw 4  Discard 19  Exhaust 4
      Potions: Swift Potion
      #874  Play Go for the Eyes -> Test Subject #C{Count}   [78.8%, 8 options]
             also: Play Shadow Shield 10.6%; Play Strike -> Test Subject #C{Count} 3.8%; Play Defend 2.3% x2
@@ -2485,7 +2485,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 11 --
      HP 18/82  Block 0  Energy 3/3  Orbs (8 slots): Dark, Dark, Lightning, Lightning, Frost, Frost, Dark, Dark  Powers: Focus 1, Storm 2, Hailstorm 6, Echo Form 3, Strength 2, Dexterity 2
      Enemy Test Subject #C{Count}: HP 270/313  Intent Lacerate: Attack 10x3  Powers: Nemesis 1, Weak 3, Strength 3
-     Hand: Ice Lance [3], Cold Snap [1], Strike [1], Wound [X], Strike [1]  | Draw 11  Discard 21  Exhaust 4
+     Hand: Ice Lance [3], Cold Snap [1], Strike [1], Wound [-], Strike [1]  | Draw 11  Discard 21  Exhaust 4
      Potions: Swift Potion
      #887  Play Ice Lance -> Test Subject #C{Count}   [99.7%, 6 options]
      #888  End turn   [99.8%, 2 options]
@@ -2505,7 +2505,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 13 --
      HP 18/82  Block 0  Energy 5/3  Orbs (8 slots): Dark, Dark, Frost, Frost, Frost, Frost, Frost, Frost  Powers: Focus 1, Storm 2, Hailstorm 6, Echo Form 3, Strength 2, Dexterity 2
      Enemy Test Subject #C{Count}: HP 77/313  Intent Burning Growl: Buff + Debuff  Powers: Nemesis 1, Weak 1, Strength 3
-     Hand: Burn [X], Lightning Rod+ [1], FTL+ [0], Defend+ [1], Shadow Shield [2]  | Draw 32  Discard 0  Exhaust 4
+     Hand: Burn [-], Lightning Rod+ [1], FTL+ [0], Defend+ [1], Shadow Shield [2]  | Draw 32  Discard 0  Exhaust 4
      Potions: Swift Potion
      #893  Play FTL+ -> Test Subject #C{Count}   [86.6%, 6 options]
             also: Play Shadow Shield 8.8%; Play Lightning Rod+ 3.1%; Play Defend+ 0.8%; Use potion Swift Potion -> self 0.6%

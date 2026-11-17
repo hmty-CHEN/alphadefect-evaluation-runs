@@ -1,40 +1,40 @@
-# The model
+# The models
 
-AlphaDefect is a reinforcement learning model that plays *Slay the Spire 2* as the Defect. It was trained from scratch with reinforcement learning only: no human games, no imitation learning and no hand-written strategy. It plays every part of a run: map routing, card rewards, shops, events, rest sites and every combat turn.
+AlphaDefect is a project that trains reinforcement learning models to play *Slay the Spire 2*. It began with the Defect and now has one model per character: Defect, Regent, Silent and Fool. Each character's model was trained from scratch with reinforcement learning only: no human games, no imitation learning, no hand-written strategy, and no weights carried over from another character. A model plays every part of a run: map routing, card rewards, shops, events, rest sites and every combat turn.
 
-This page describes what is common to all evaluations in this repository. What differs between checkpoints is listed [at the end](#checkpoints-compared); each evaluation's own README links back here.
+This page covers what all evaluations in this repository have in common. Each evaluation's README says which checkpoint it used and how it relates to the model on the live stream.
 
 ## Architecture
 
-- **About 18.1 million parameters**, in a transformer that reads the game state as a set of entity records.
-- **Input:** every visible object is one record: each card in hand, draw pile, discard pile and deck, each enemy and its intents, each power, relic, potion, orb, map node and event option. A record has a vocabulary ID embedding (about 2,300 game entities), type and zone embeddings, and a vector of numeric features such as HP, block, cost, damage or upgrades. A fixed "content prior" adds static properties of each card, relic, power and enchantment taken from the game data, so the model can relate entities it rarely sees. Draw, discard and exhaust piles, the deck and the relics are also pooled into five summary slots.
-- **Encoder:** 6 pre-norm transformer layers, width 256, 4 attention heads, feed-forward width 1,024 (4.74M parameters).
-- **Action scoring:** the game engine lists every legal action. Each action is scored by combining the encoded records it refers to (for example the card and its target) with the global state, using separate heads for combat and out-of-combat decisions. A softmax over the scores gives the probabilities shown in the transcripts.
-- **Value heads:** separate combat and out-of-combat value heads are used only in training. They also receive privileged information such as the true order of the draw pile. The policy never sees it, so the choices in these records use only information a human player would have.
-- **Where the parameters are:** about 10.5M are ID embedding tables (entity identity, upcoming and recent encounters, the act's bosses), 4.7M are the encoder, about 1.6M are the action and value heads, and the remaining 1.3M are feature projections and small helper networks.
+All four characters use the same network design, with about 18 to 20 million parameters.
+
+- **Input:** the game state as a set of records, one per visible object: cards in hand, in the draw, discard and exhaust piles and in the deck, enemies and their intents, powers, relics, potions, orbs, map nodes and the options on each screen.
+- **Encoder:** a transformer reads all records together.
+- **Action scoring:** the game engine lists every legal action. The network scores each one from the records it refers to (for example the card and its target) and the overall state. A softmax over the scores gives the probabilities shown in the transcripts.
+- **Value estimates** are used only during training and may draw on information that is hidden during play, such as the true order of the draw pile. The policy never sees it, so every choice in these records uses only information a human player would have.
 
 ## Training
 
-- PPO with generalized advantage estimation, on parallel copies of a headless game engine. The engine runs *Slay the Spire 2*'s own game logic (public beta v0.111.0) without graphics.
-- Some of the training engines play full runs. The others play single fights from a combat curriculum, including fights started from saved snapshots of boss fights, so the hardest combats get extra practice.
-- Rewards are mainly the outcome of the run, with bonuses for each boss defeated and a small reward per floor. Practice fights also count HP lost.
-- A checkpoint's version number is the number of policy updates made so far. Training started on 25 October 2026, on rented RTX 4090 and RTX 3090 machines.
+- PPO on many parallel copies of a headless game engine that runs *Slay the Spire 2*'s own game logic without graphics.
+- Some engines play full runs; the others play single practice fights, with extra practice on the hardest ones.
+- A checkpoint's version number counts the policy updates in that character's own training run. Version numbers are not comparable between characters.
+- The checkpoints in this repository play with an exponential moving average of the training weights, except v103049, which uses the training weights directly.
+- Training started on 25 October 2026 (Defect), 6 November (Regent), 9 November (Silent) and 13 November (Fool), on rented RTX 4090 and RTX 3090 machines.
 
-## How it plays
+## How it plays in these records
 
-No search, no lookahead, no solver. At each decision the network runs one forward pass and the highest-probability option is played (greedy). It does not reload saves. On the live stream it plays the real Steam game through a mod that reads the game state and carries out the chosen actions, and it receives no random-number information.
+No search, no lookahead and no solver. At each decision the network runs one forward pass and the highest-probability option is played. It never reloads a save.
 
-## Checkpoints compared
+The live stream plays the real Steam game through a mod with the same kind of model. On the stream, some boss and elite fights also use a short search before the model commits to a move. None of the games in this repository use it.
 
-| | v103049 | v130051 |
-|---|---|---|
-| Parameters | 18,094,341 | 18,099,461 |
-| Architecture | as above | as above, plus small input layers for observation formats 16–18 (5,120 parameters) |
-| Observation format | 15 | 18 |
-| Weights used for play | the training weights | an exponential moving average of the training weights (decay 0.998) |
-| Share of training engines playing full runs | 50% | 75% |
-| Game steps per policy update | 32,768 | 65,536 |
-| Learning rate | 1.5e-4 | 1.1e-4 |
-| Share of practice fights that are boss fights | 37% | 77% |
+## Checkpoints in this repository
 
-Observation formats 16–18 add a handful of inputs, mainly about shops and rewards (for example the price of the next card removal, the actual odds of a question-mark room, and card rewards that have not been claimed yet). The vocabulary grew from 2,284 to 2,286 entries; IDs are only ever appended, so [`data/vocab.json`](../data/vocab.json) serves every checkpoint.
+| Evaluation | Character | Checkpoint | Weights | Game version |
+|---|---|---|---|---|
+| [v103049](../evaluations/v103049) | Defect | 103,049 | training weights | v0.111.0 |
+| [v130051](../evaluations/v130051) | Defect | 130,051 | moving average | v0.111.0 |
+| [regent-v53840](../evaluations/regent-v53840) | Regent | 53,840 | moving average | v0.111.0 |
+| [silent-v26428](../evaluations/silent-v26428) | Silent | 26,428 | moving average | v0.111.0 |
+| [fool-v23981](../evaluations/fool-v23981) | Fool | 23,981 | moving average | v0.113.0 |
+
+The Fool was added to the game in v0.113.0, so its model trained and played on that version. The vocabulary in [`data/vocab.json`](../data/vocab.json) grew from 2,286 to 2,557 entries with that version; IDs are only ever appended, so the one file serves every evaluation.

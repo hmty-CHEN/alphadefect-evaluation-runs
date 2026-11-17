@@ -17,7 +17,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Nibbit: HP 47/47  Intent Butt: Attack 13
-     Hand: Strike [1], Ascender's Bane [X], Dualcast [1], Zap [1], Neow's Fury [1]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Strike [1], Ascender's Bane [-], Dualcast [1], Zap [1], Neow's Fury [1]  | Draw 7  Discard 0  Exhaust 0
      #2    Play Zap   [98.9%, 5 options]
      #3    Play Neow's Fury -> Nibbit   [99.6%, 4 options]
      Select cards - purpose: card-specific (from Neow's Fury), choose 0-1
@@ -73,7 +73,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 41/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Fuzzy Wurm Crawler: HP 40/58  Intent Inhale: Buff
-     Hand: Defend [1], Defend [1], Defend [1], Boost Away [0], Ascender's Bane [X]  | Draw 3  Discard 5  Exhaust 0
+     Hand: Defend [1], Defend [1], Defend [1], Boost Away [0], Ascender's Bane [-]  | Draw 3  Discard 5  Exhaust 0
      Potions: Ship in a Bottle
      #24   Play Defend   [25.5%, 6 options]
             also: Play Defend 25.5% x2 (identical option); Play Boost Away 23.5%
@@ -104,7 +104,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 38/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Fuzzy Wurm Crawler: HP 18/58  Intent First Acid Goop: Attack 13  Powers: Strength 7
-     Hand: Defend [1], Dazed [X], Strike [1], Dualcast [1], Defend [1]  | Draw 3  Discard 4  Exhaust 2
+     Hand: Defend [1], Dazed [-], Strike [1], Dualcast [1], Defend [1]  | Draw 3  Discard 4  Exhaust 2
      Potions: Ship in a Bottle
      #35   Play Dualcast   [97.0%, 6 options]
             also: Play Defend 1.5% x2
@@ -123,10 +123,10 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #41   [Shop] Buy Boot Sequence (72 gold)   [68.6%, 11 options]
          also: Buy Flash of Steel (82 gold) 20.8%; Buy Colorless Potion (49 gold) 2.1%; Buy Strength Potion (50 gold) 1.5%; Buy Cure All (72 gold) 1.4%
   Deck change: +Boot Sequence  (15 cards)
-  Shop shelf (gold 56): Card Sweeping Beam 52g; Card Gunk Up 48g; Card Tempest 38g; Card #2286 72g (sold); Card Subroutine 71g; Card Flash of Steel 82g; Card Gold Axe 172g; Relic Lizard Tail 236g; Relic Pear 231g; Relic Burning Sticks 207g; Potion Colorless Potion 49g; Potion Strength Potion 50g; Potion Cure All 72g; Removal 100g
+  Shop shelf (gold 56): Card Sweeping Beam 52g; Card Gunk Up 48g; Card Tempest 38g; Card 72g (sold); Card Subroutine 71g; Card Flash of Steel 82g; Card Gold Axe 172g; Relic Lizard Tail 236g; Relic Pear 231g; Relic Burning Sticks 207g; Potion Colorless Potion 49g; Potion Strength Potion 50g; Potion Cure All 72g; Removal 100g
   #42   [Shop] Buy Colorless Potion (49 gold)   [51.8%, 6 options]
          also: Leave / skip 25.2%; Buy Strength Potion (50 gold) 16.0%; Buy Tempest (38 gold) 3.1%; Buy Sweeping Beam (52 gold) 2.8%
-  Shop shelf (gold 7): Card Sweeping Beam 52g; Card Gunk Up 48g; Card Tempest 38g; Card #2286 72g (sold); Card Subroutine 71g; Card Flash of Steel 82g; Card Gold Axe 172g; Relic Lizard Tail 236g; Relic Pear 231g; Relic Burning Sticks 207g; Potion #2286 49g (sold); Potion Strength Potion 50g; Potion Cure All 72g; Removal 100g
+  Shop shelf (gold 7): Card Sweeping Beam 52g; Card Gunk Up 48g; Card Tempest 38g; Card 72g (sold); Card Subroutine 71g; Card Flash of Steel 82g; Card Gold Axe 172g; Relic Lizard Tail 236g; Relic Pear 231g; Relic Burning Sticks 207g; Potion 49g (sold); Potion Strength Potion 50g; Potion Cure All 72g; Removal 100g
   #43   [Shop] Leave / skip   [100.0%, 1 option]
   #44   [Map] Go to Unknown (?) (row 5, col 4)   [83.3%, 2 options]
          also: Go to Monster (row 5, col 6) 16.7%
@@ -155,7 +155,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 45/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Shrink -1
      Enemy Shrinker Beetle: HP 26/41  Intent Chomp: Attack 8
-     Hand: Zap [1], Boost Away [0], Strike [1], Ascender's Bane [X], Strike [1]  | Draw 5  Discard 5  Exhaust 0
+     Hand: Zap [1], Boost Away [0], Strike [1], Ascender's Bane [-], Strike [1]  | Draw 5  Discard 5  Exhaust 0
      Potions: Ship in a Bottle, Colorless Potion
      #52   Play Boost Away   [49.4%, 7 options]
             also: Play Zap 34.9%; Play Strike -> Shrinker Beetle 7.9% x2
@@ -254,7 +254,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 67/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Bygone Effigy: HP 72/132  Intent Slashes: Attack 25  Powers: Slow 1, Strength 10
-     Hand: Clumsy [X], Defend [1], Defend [1], Strike [1], Ascender's Bane [X]  | Draw 3  Discard 9  Exhaust 1
+     Hand: Clumsy [-], Defend [1], Defend [1], Strike [1], Ascender's Bane [-]  | Draw 3  Discard 9  Exhaust 1
      Potions: Ship in a Bottle, Colorless Potion
      #89   Use potion Colorless Potion -> self   [97.6%, 6 options]
             also: Play Defend 1.1% x2
@@ -273,7 +273,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 62/82  Block 10  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Bygone Effigy: HP 47/132  Intent Slashes: Attack 25  Powers: Slow 1, Strength 10
-     Hand: Spoils Map [X], Strike [1], Defend [1], Defend [1], Strike [1]  | Draw 11  Discard 0  Exhaust 3
+     Hand: Spoils Map [-], Strike [1], Defend [1], Defend [1], Strike [1]  | Draw 11  Discard 0  Exhaust 3
      #97   Play Defend   [49.8%, 5 options]
             also: Play Defend 49.8% (identical option)
      #98   Play Defend   [99.9%, 4 options]
@@ -318,7 +318,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 74/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Twig Slime (M): HP 29/29  Intent Sticky Shot: Debuff
      Enemy Flyconid: HP 51/51  Intent Smash: Attack 12
-     Hand: Boot Sequence+ [0], Clumsy [X], Spoils Map [X], Dualcast [1], Defend [1]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Boot Sequence+ [0], Clumsy [-], Spoils Map [-], Dualcast [1], Defend [1]  | Draw 14  Discard 0  Exhaust 0
      #114  Play Defend   [51.7%, 4 options]
             also: Play Dualcast 40.3%; Play Boot Sequence+ 8.0%
      #115  Play Boot Sequence+   [80.4%, 3 options]
@@ -329,7 +329,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 74/82  Block 0  Energy 3/3  Orbs (3 slots): empty
      Enemy Twig Slime (M): HP 21/29  Intent Pokey Pounce: Attack 12
      Enemy Flyconid: HP 43/51  Intent Vulnerable Spores: Debuff
-     Hand: Strike [1], Defend [1], Ascender's Bane [X], Zap [1], Beam Cell [0]  | Draw 9  Discard 4  Exhaust 2
+     Hand: Strike [1], Defend [1], Ascender's Bane [-], Zap [1], Beam Cell [0]  | Draw 9  Discard 4  Exhaust 2
      #118  Play Beam Cell -> Twig Slime (M)   [98.5%, 7 options]
             also: Play Defend 0.9%
      #119  Play Defend   [83.7%, 5 options]
@@ -355,7 +355,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 60/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Vulnerable 1
      Enemy Flyconid: HP 19/51  Intent Frail Spores: Attack 13 + Debuff
-     Hand: Neow's Fury [1], Defend [1], Defend [1], Spoils Map [X], Strike [1]  | Draw 13  Discard 0  Exhaust 3
+     Hand: Neow's Fury [1], Defend [1], Defend [1], Spoils Map [-], Strike [1]  | Draw 13  Discard 0  Exhaust 3
      #128  Play Strike -> Flyconid   [98.6%, 5 options]
             also: Play Neow's Fury -> Flyconid 0.9%
      #129  Play Neow's Fury -> Flyconid   [100.0%, 4 options]
@@ -405,7 +405,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 12/18  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 18/21  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 19/19  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Uproar+ [2], Ascender's Bane [X], Boost Away [0], Clumsy [X], Dualcast [1]  | Draw 10  Discard 6  Exhaust 1
+     Hand: Uproar+ [2], Ascender's Bane [-], Boost Away [0], Clumsy [-], Dualcast [1]  | Draw 10  Discard 6  Exhaust 1
      Potions: Energy Potion
      #146  Play Uproar+ -> Wriggler #2   [99.2%, 8 options]
             also: Play Uproar+ -> Wriggler #4 0.6%
@@ -433,7 +433,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 79/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Wriggler: HP 13/19  Intent Nasty Bite: Attack 11  Powers: Strength 4
-     Hand: Beam Cell [0], Spoils Map [X], Glasswork [1], Infection [X], Dazed [X]  | Draw 18  Discard 0  Exhaust 4
+     Hand: Beam Cell [0], Spoils Map [-], Glasswork [1], Infection [-], Dazed [-]  | Draw 18  Discard 0  Exhaust 4
      Potions: Energy Potion
      #156  Play Beam Cell -> Wriggler   [63.4%, 4 options]
             also: Play Glasswork 36.6%
@@ -442,7 +442,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 70/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Glass
      Enemy Wriggler: HP 3/19  Intent Wriggle: Buff + Debuff  Powers: Strength 4
-     Hand: Infection [X], Infection [X], Strike [1], Zap [1], Infection [X]  | Draw 13  Discard 4  Exhaust 5
+     Hand: Infection [-], Infection [-], Strike [1], Zap [1], Infection [-]  | Draw 13  Discard 4  Exhaust 5
      Potions: Energy Potion
      #159  Play Zap   [81.1%, 4 options]
             also: Play Strike -> Wriggler 18.8%
@@ -477,7 +477,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 70/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Ceremonial Beast: HP 232/262  Intent Plow: Attack 20 + Buff  Powers: Plow 160
-     Hand: Defend [1], Strike [1], Spoils Map [X], Beam Cell [0], Glasswork+ [1]  | Draw 10  Discard 6  Exhaust 0
+     Hand: Defend [1], Strike [1], Spoils Map [-], Beam Cell [0], Glasswork+ [1]  | Draw 10  Discard 6  Exhaust 0
      Potions: Energy Potion
      #171  Play Beam Cell -> Ceremonial Beast   [51.0%, 6 options]
             also: Play Glasswork+ 43.9%; Play Defend 4.8%
@@ -490,7 +490,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 63/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Glass
      Enemy Ceremonial Beast: HP 213/262  Intent Plow: Attack 22 + Buff  Powers: Plow 160, Strength 2
-     Hand: Defend [1], Boost Away [0], Zap [1], Defend [1], Clumsy [X]  | Draw 5  Discard 11  Exhaust 0
+     Hand: Defend [1], Boost Away [0], Zap [1], Defend [1], Clumsy [-]  | Draw 5  Discard 11  Exhaust 0
      Potions: Energy Potion
      #176  Play Defend   [31.9%, 6 options]
             also: Play Defend 31.9% (identical option); Play Zap 27.4%; Play Boost Away 8.7%
@@ -503,7 +503,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 57/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Glass, Lightning
      Enemy Ceremonial Beast: HP 204/262  Intent Plow: Attack 24 + Buff  Powers: Plow 160, Strength 4
-     Hand: Neow's Fury [1], Strike [1], Go for the Eyes+ [0], Boost Away [0], Ascender's Bane [X]  | Draw 0  Discard 16  Exhaust 1
+     Hand: Neow's Fury [1], Strike [1], Go for the Eyes+ [0], Boost Away [0], Ascender's Bane [-]  | Draw 0  Discard 16  Exhaust 1
      Potions: Energy Potion
      #181  Play Go for the Eyes+ -> Ceremonial Beast   [79.2%, 6 options]
             also: Play Boost Away 11.0%; Play Neow's Fury -> Ceremonial Beast 5.3%; Play Strike -> Ceremonial Beast 4.5%
@@ -524,7 +524,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 55/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Glass, Lightning
      Enemy Ceremonial Beast: HP 172/262  Intent Plow: Attack 19 + Buff  Powers: Plow 160, Strength 6, Weak 3
-     Hand: Defend [1], Strike [1], Strike [1], Boost Away [0], Dazed [X]  | Draw 14  Discard 0  Exhaust 4
+     Hand: Defend [1], Strike [1], Strike [1], Boost Away [0], Dazed [-]  | Draw 14  Discard 0  Exhaust 4
      Potions: Energy Potion
      #190  Play Defend   [26.9%, 6 options]
             also: Play Strike -> Ceremonial Beast 26.6% x2; Play Boost Away 19.9%
@@ -537,7 +537,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 55/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Glass, Lightning
      Enemy Ceremonial Beast: HP 153/262  Intent Beast Cry: Debuff  Powers: Weak 2
-     Hand: Uproar [2], Dazed [X], Strike [1], Defend [1], Defend [1]  | Draw 9  Discard 5  Exhaust 5
+     Hand: Uproar [2], Dazed [-], Strike [1], Defend [1], Defend [1]  | Draw 9  Discard 5  Exhaust 5
      Potions: Energy Potion
      #195  Play Uproar -> Ceremonial Beast   [99.6%, 6 options]
      #196  Play Strike -> Ceremonial Beast   [100.0%, 5 options]
@@ -553,7 +553,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 43/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Glass, Lightning
      Enemy Ceremonial Beast: HP 110/262  Intent Crush: Attack 14 + Buff  Powers: Weak 2
-     Hand: Spoils Map [X], Glasswork+ [1], Zap [1], Boost Away [0], Uproar [2]  | Draw 13  Discard 0  Exhaust 6
+     Hand: Spoils Map [-], Glasswork+ [1], Zap [1], Boost Away [0], Uproar [2]  | Draw 13  Discard 0  Exhaust 6
      Potions: Energy Potion
      #200  Play Glasswork+   [75.7%, 6 options]
             also: Play Boost Away 15.6%; Play Uproar -> Ceremonial Beast 8.4%
@@ -578,7 +578,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 10 --
      HP 43/82  Block 0  Energy 3/3  Orbs (3 slots): Glass, Lightning, Glass  Powers: Ringing 1
      Enemy Ceremonial Beast: HP 62/262  Intent Stomp: Attack 21  Powers: Strength 4
-     Hand: Beam Cell [0], Dazed [X], Strike [1], Defend [1], Go for the Eyes+ [0]  | Draw 2  Discard 12  Exhaust 6
+     Hand: Beam Cell [0], Dazed [-], Strike [1], Defend [1], Go for the Eyes+ [0]  | Draw 2  Discard 12  Exhaust 6
      Potions: Energy Potion
      #208  Play Go for the Eyes+ -> Ceremonial Beast   [100.0%, 6 options]
      #209  End turn   [100.0%, 2 options]
@@ -598,7 +598,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 12 --
      HP 22/82  Block 0  Energy 3/3  Orbs (3 slots): Glass, Lightning, Glass
      Enemy Ceremonial Beast: HP 37/262  Intent Beast Cry: Debuff  Powers: Strength 8
-     Hand: Spoils Map [X], Uproar [2], Beam Cell [0], Defend [1], Zap [1]  | Draw 8  Discard 6  Exhaust 7
+     Hand: Spoils Map [-], Uproar [2], Beam Cell [0], Defend [1], Zap [1]  | Draw 8  Discard 6  Exhaust 7
      Potions: Energy Potion
      #215  Play Beam Cell -> Ceremonial Beast   [99.9%, 6 options]
      #216  Play Uproar -> Ceremonial Beast   [99.9%, 5 options]
@@ -607,7 +607,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 13 --
      HP 22/82  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Glass, Lightning  Powers: Ringing 1
      Enemy Ceremonial Beast: HP 1/262  Intent Stomp: Attack 25  Powers: Strength 8
-     Hand: Defend [1], Boost Away [0], Dazed [X], Glasswork+ [1], Defend [1]  | Draw 2  Discard 12  Exhaust 7
+     Hand: Defend [1], Boost Away [0], Dazed [-], Glasswork+ [1], Defend [1]  | Draw 2  Discard 12  Exhaust 7
      Potions: Energy Potion
      #219  Play Glasswork+   [92.9%, 6 options]
             also: Play Boost Away 3.2%; Play Defend 1.9% x2
@@ -660,7 +660,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 69/82  Block 0  Energy 4/4  Orbs (3 slots): Lightning, Lightning
      Enemy Tunneler: HP 55/92  Block 37  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Uproar [2], Ascender's Bane [X], Strike [1], Beam Cell [0], Spoils Map [X]  | Draw 7  Discard 10  Exhaust 1
+     Hand: Uproar [2], Ascender's Bane [-], Strike [1], Beam Cell [0], Spoils Map [-]  | Draw 7  Discard 10  Exhaust 1
      Potions: Energy Potion
      #237  Play Beam Cell -> Tunneler   [99.6%, 5 options]
      #238  Play Uproar -> Tunneler   [99.9%, 4 options]
@@ -669,7 +669,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 69/82  Block 0  Energy 4/4  Orbs (3 slots): Lightning, Lightning
      Enemy Tunneler: HP 47/92  Intent Bite: Attack 15
-     Hand: Dualcast [1], Clumsy [X], Defend [1], Glasswork [1], Defragment [1]  | Draw 1  Discard 15  Exhaust 2
+     Hand: Dualcast [1], Clumsy [-], Defend [1], Glasswork [1], Defragment [1]  | Draw 1  Discard 15  Exhaust 2
      Potions: Energy Potion
      #241  Play Glasswork   [62.3%, 6 options]
             also: Play Defend 36.3%; Play Dualcast 1.4%
@@ -704,7 +704,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   #253  [Shop] Buy Runic Capacitor (181 gold)   [91.1%, 13 options]
          also: Buy Lightning Rod (49 gold) 1.5%; Discard potion Liquid Memories 1.4%; Discard potion Energy Potion 1.1%; Buy Hotfix (26 gold) 1.0%
   Relic gained: Runic Capacitor
-  Shop shelf (gold 43): Card Focused Strike 50g; Card Gunk Up 51g; Card Lightning Rod 49g; Card Hotfix 26g; Card Feral 73g; Card Production 83g; Card Nostalgia 165g; Relic Parrying Shield 227g; Relic Permafrost 211g; Relic #2286 181g (sold); Potion Energy Potion 52g; Potion Colorless Potion 52g; Potion Weak Potion 52g; Removal 100g
+  Shop shelf (gold 43): Card Focused Strike 50g; Card Gunk Up 51g; Card Lightning Rod 49g; Card Hotfix 26g; Card Feral 73g; Card Production 83g; Card Nostalgia 165g; Relic Parrying Shield 227g; Relic Permafrost 211g; Relic 181g (sold); Potion Energy Potion 52g; Potion Colorless Potion 52g; Potion Weak Potion 52g; Removal 100g
   #254  [Shop] Leave / skip   [94.5%, 2 options]
          also: Buy Hotfix (26 gold) 5.5%
   #255  [Map] Go to Monster (row 4, col 3)   [100.0%, 1 option]
@@ -714,7 +714,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 64/82  Block 0  Energy 4/4  Orbs (6 slots): Lightning
      Enemy Bowlbug (Rock): HP 47/47  Intent Headbutt: Attack 16  Powers: Imbalanced 1
      Enemy Bowlbug (Egg): HP 24/24  Intent Bite: Attack 8 + Defend
-     Hand: Boot Sequence [0], Strike [1], Zap [1], Ascender's Bane [X], Boost Away [0]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Boot Sequence [0], Strike [1], Zap [1], Ascender's Bane [-], Boost Away [0]  | Draw 18  Discard 0  Exhaust 0
      Potions: Energy Potion, Liquid Memories
      #256  Play Zap   [43.5%, 8 options]
             also: Play Boot Sequence 23.5%; Play Boost Away 17.6%; Play Strike -> Bowlbug (Egg) 15.4%
@@ -746,7 +746,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 56/82  Block 0  Energy 4/4  Orbs (6 slots): Lightning, Lightning, Glass
      Enemy Bowlbug (Rock): HP 37/47  Intent Headbutt: Attack 16  Powers: Imbalanced 1
      Enemy Bowlbug (Egg): HP 10/24  Block 8  Intent Bite: Attack 8 + Defend
-     Hand: Clumsy [X], Dualcast [1], Defend [1], Uproar [2], Defend [1]  | Draw 8  Discard 10  Exhaust 2
+     Hand: Clumsy [-], Dualcast [1], Defend [1], Uproar [2], Defend [1]  | Draw 8  Discard 10  Exhaust 2
      Potions: Energy Potion, Liquid Memories
      #266  Play Uproar -> Bowlbug (Egg)   [85.5%, 8 options]
             also: Play Dualcast 10.2%; Play Defend 1.9% x2
@@ -758,7 +758,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 50/82  Block 0  Energy 4/4  Orbs (6 slots): Lightning, Lightning, Glass
      Enemy Bowlbug (Rock): HP 28/47  Intent Headbutt: Attack 16  Powers: Imbalanced 1
-     Hand: Defend [1], Go for the Eyes+ [0], Spoils Map [X], Iteration [1], Beam Cell [0]  | Draw 2  Discard 15  Exhaust 3
+     Hand: Defend [1], Go for the Eyes+ [0], Spoils Map [-], Iteration [1], Beam Cell [0]  | Draw 2  Discard 15  Exhaust 3
      Potions: Energy Potion, Liquid Memories
      #270  Play Beam Cell -> Bowlbug (Rock)   [66.0%, 7 options]
             also: Play Go for the Eyes+ -> Bowlbug (Rock) 15.3%; Play Iteration 11.2%; Play Defend 7.6%
@@ -814,7 +814,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 50/82  Block 0  Energy 4/4  Orbs (6 slots): Lightning  Powers: Iteration 2, Frail 2
      Enemy Louse Progenitor: HP 135/138  Intent Curl and Grow: Buff + Defend
-     Hand: Strike [1], Zap [1], Boost Away [0], Defend+ [1], Ascender's Bane [X]  | Draw 14  Discard 4  Exhaust 0
+     Hand: Strike [1], Zap [1], Boost Away [0], Defend+ [1], Ascender's Bane [-]  | Draw 14  Discard 4  Exhaust 0
      Potions: Energy Potion, Vulnerable Potion
      #291  Play Zap   [53.9%, 7 options]
             also: Play Strike -> Louse Progenitor 23.8%; Play Boost Away 15.2%; Play Defend+ 6.8%
@@ -828,7 +828,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 50/82  Block 0  Energy 4/4  Orbs (6 slots): Lightning, Lightning  Powers: Iteration 2, Frail 1
      Enemy Louse Progenitor: HP 123/138  Block 18  Intent Pounce: Attack 23  Powers: Strength 7
-     Hand: Boost Away [0], Defend [1], Compile Driver [1], Spoils Map [X], Strike [1]  | Draw 9  Discard 9  Exhaust 1
+     Hand: Boost Away [0], Defend [1], Compile Driver [1], Spoils Map [-], Strike [1]  | Draw 9  Discard 9  Exhaust 1
      Potions: Energy Potion, Vulnerable Potion
      #296  Play Boost Away   [80.8%, 7 options]
             also: Play Defend 13.1%; Play Compile Driver -> Louse Progenitor 5.4%
@@ -859,7 +859,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 27/82  Block 0  Energy 4/4  Orbs (6 slots): Lightning, Glass  Powers: Iteration 2, Focus 1, Frail 2
      Enemy Louse Progenitor: HP 65/138  Intent Curl and Grow: Buff + Defend  Powers: Strength 7, Vulnerable 2, Weak 1
-     Hand: Neow's Fury [1], Clumsy [X], Glasswork [1], Boost Away [0], Dualcast+ [0]  | Draw 18  Discard 0  Exhaust 1
+     Hand: Neow's Fury [1], Clumsy [-], Glasswork [1], Boost Away [0], Dualcast+ [0]  | Draw 18  Discard 0  Exhaust 1
      Potions: Energy Potion
      #308  Play Glasswork   [54.7%, 6 options]
             also: Play Boost Away 28.8%; Play Dualcast+ 16.3%
@@ -960,7 +960,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 7/82  Block 0  Energy 4/4  Orbs (6 slots): Lightning, Glass, Glass, Glass, Glass  Powers: Tender 1, Focus 1
      Enemy Hunter Killer: HP 70/126  Intent Puncture: Attack 8x3
-     Hand: Strike [1], Boost Away [0], Uproar [2], Ascender's Bane [X], Iteration [1]  | Draw 7  Discard 12  Exhaust 1
+     Hand: Strike [1], Boost Away [0], Uproar [2], Ascender's Bane [-], Iteration [1]  | Draw 7  Discard 12  Exhaust 1
      #348  Play Boost Away   [75.5%, 5 options]
             also: Play Uproar -> Hunter Killer 13.5%; Play Iteration 10.5%
      #349  Play Uproar -> Hunter Killer   [90.4%, 4 options]

@@ -18,7 +18,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Twig Slime (S): HP 12/12  Intent Tackle: Attack 5
      Enemy Leaf Slime (M): HP 33/33  Intent Sticky Shot: Debuff
      Enemy Leaf Slime (S): HP 16/16  Intent Goop: Debuff
-     Hand: Zap [1], Strike [1], Dualcast [1], Defend [1], Ascender's Bane [X]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Zap [1], Strike [1], Dualcast [1], Defend [1], Ascender's Bane [-]  | Draw 6  Discard 0  Exhaust 0
      Potions: Skill Potion, Focus Potion
      #2    Play Dualcast   [36.8%, 9 options]
             also: Play Zap 35.4%; Play Defend 12.4%; Play Strike -> Twig Slime (S) 11.9%; Use potion Skill Potion -> self 3.1%
@@ -98,7 +98,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Shrink -1
      Enemy Shrinker Beetle: HP 15/40  Intent Chomp: Attack 8
-     Hand: Defend [1], Ascender's Bane [X], Strike [1], Defend [1], Shadow Shield [2]  | Draw 3  Discard 5  Exhaust 0
+     Hand: Defend [1], Ascender's Bane [-], Strike [1], Defend [1], Shadow Shield [2]  | Draw 3  Discard 5  Exhaust 0
      Potions: Skill Potion, Focus Potion, Vulnerable Potion
      #30   Play Shadow Shield   [50.4%, 8 options]
             also: Play Defend 23.6% x2; Play Strike -> Shrinker Beetle 2.2%
@@ -128,7 +128,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Fuzzy Wurm Crawler: HP 59/59  Intent First Acid Goop: Attack 6
-     Hand: Leap [1], Boost Away [0], Ascender's Bane [X], Dualcast [1], Strike [1]  | Draw 9  Discard 0  Exhaust 0
+     Hand: Leap [1], Boost Away [0], Ascender's Bane [-], Dualcast [1], Strike [1]  | Draw 9  Discard 0  Exhaust 0
      Potions: Skill Potion, Focus Potion, Vulnerable Potion
      #40   Play Leap   [42.1%, 8 options]
             also: Play Dualcast 28.0%; Play Boost Away 25.1%; Play Strike -> Fuzzy Wurm Crawler 4.5%
@@ -193,7 +193,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 53/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Nibbit: HP 48/48  Intent Slice: Attack 7 + Defend
      Enemy Nibbit: HP 44/44  Intent Hiss: Buff
-     Hand: Zap [1], Defend [1], Strike [1], Ascender's Bane [X], Dualcast [1]  | Draw 10  Discard 0  Exhaust 0
+     Hand: Zap [1], Defend [1], Strike [1], Ascender's Bane [-], Dualcast [1]  | Draw 10  Discard 0  Exhaust 0
      Potions: Skill Potion, Focus Potion, Potion of Binding
      #62   Play Zap   [41.9%, 9 options]
             also: Play Defend 23.1%; Play Dualcast 20.9%; Play Strike -> Nibbit #2 7.7%; Use potion Skill Potion -> self 4.9%
@@ -253,7 +253,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 41/75  Block 0  Energy 3/3  Orbs (3 slots): Dark, Frost, Dark
      Enemy Nibbit: HP 34/48  Block 6  Intent Hiss: Buff  Powers: Strength 3
      Enemy Nibbit: HP 9/44  Intent Butt: Attack 19  Powers: Strength 6
-     Hand: Strike [1], Dazed [X], Synchronize [1], Strike [1], Defend [1]  | Draw 6  Discard 5  Exhaust 1
+     Hand: Strike [1], Dazed [-], Synchronize [1], Strike [1], Defend [1]  | Draw 6  Discard 5  Exhaust 1
      Potions: Focus Potion, Potion of Binding
      #80   Play Strike -> Nibbit #2   [46.9%, 9 options]
             also: Play Strike -> Nibbit #2 46.9% (identical option); Play Synchronize 4.3%; Play Defend 1.9%
@@ -304,7 +304,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 38/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning
      Enemy Byrdonis: HP 58/90  Intent Swoop: Attack 21  Powers: Territorial 1, Strength 2
-     Hand: Boost Away [0], Dualcast [1], Shadow Shield [2], Ascender's Bane [X], Zap [1]  | Draw 1  Discard 10  Exhaust 0
+     Hand: Boost Away [0], Dualcast [1], Shadow Shield [2], Ascender's Bane [-], Zap [1]  | Draw 1  Discard 10  Exhaust 0
      Potions: Focus Potion
      #98   Play Shadow Shield   [79.5%, 6 options]
             also: Play Zap 14.4%; Play Boost Away 5.7%
@@ -316,7 +316,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 38/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Dark, Lightning
      Enemy Byrdonis: HP 44/90  Intent Peck: Attack 7x3  Powers: Territorial 1, Strength 3
-     Hand: Strike [1], Dazed [X], Cold Snap [1], Zap [1], Leap [1]  | Draw 11  Discard 0  Exhaust 1
+     Hand: Strike [1], Dazed [-], Cold Snap [1], Zap [1], Leap [1]  | Draw 11  Discard 0  Exhaust 1
      Potions: Focus Potion
      #102  Play Leap   [90.9%, 6 options]
             also: Play Cold Snap -> Byrdonis 8.4%; Play Zap 0.7%
@@ -405,7 +405,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 75/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Dark
      Enemy Bygone Effigy: HP 102/132  Intent Slashes: Attack 25  Powers: Slow 1, Strength 10
-     Hand: Cold Snap [1], Lightning Rod [1], Ascender's Bane [X], Zap+ [0], Strike [1]  | Draw 2  Discard 10  Exhaust 0
+     Hand: Cold Snap [1], Lightning Rod [1], Ascender's Bane [-], Zap+ [0], Strike [1]  | Draw 2  Discard 10  Exhaust 0
      Potions: Focus Potion
      #131  Play Lightning Rod   [58.2%, 6 options]
             also: Play Zap+ 39.2%; Play Cold Snap -> Bygone Effigy 2.4%
@@ -477,7 +477,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Kin Follower: HP 53/62  Intent Quick Slash: Attack 8  Powers: Minion 1, Strength 3
      Enemy Kin Follower: HP 63/63  Intent Boomerang: Attack 2x2  Powers: Minion 1
      Enemy Kin Priest: HP 193/199  Intent Orb of Weakness: Attack 9 + Debuff
-     Hand: Strike [1], Defend [1], Shadow Shield [2], Ascender's Bane [X], Strike [1]  | Draw 8  Discard 5  Exhaust 0
+     Hand: Strike [1], Defend [1], Shadow Shield [2], Ascender's Bane [-], Strike [1]  | Draw 8  Discard 5  Exhaust 0
      Potions: Focus Potion
      #156  Play Shadow Shield   [99.3%, 10 options]
             also: Play Defend 0.6%
@@ -573,7 +573,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 54/75  Block 5  Energy 3/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Thunder 11, Lightning Rod 1
      Enemy Kin Priest: HP 66/199  Intent Orb of Frailty: Attack 15 + Debuff  Powers: Strength 6
-     Hand: Dazed [X], Defend [1], Strike [1], Strike [1], Cold Snap [1]  | Draw 1  Discard 10  Exhaust 2
+     Hand: Dazed [-], Defend [1], Strike [1], Strike [1], Cold Snap [1]  | Draw 1  Discard 10  Exhaust 2
      Potions: Focus Potion
      #187  Play Defend   [89.6%, 6 options]
             also: Play Cold Snap -> Kin Priest 10.0%
@@ -637,7 +637,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 72/75  Block 0  Energy 3/3  Orbs (3 slots): Dark, Lightning, Lightning  Powers: Thunder 11
      Enemy Bowlbug (Rock): HP 22/47  Intent Headbutt: Attack 16  Powers: Imbalanced 1
-     Hand: Ascender's Bane [X], Creative AI [3], Strike [1], Strike [1], Defend [1]  | Draw 4  Discard 9  Exhaust 1
+     Hand: Ascender's Bane [-], Creative AI [3], Strike [1], Strike [1], Defend [1]  | Draw 4  Discard 9  Exhaust 1
      Potions: Focus Potion
      #208  Play Defend   [56.6%, 6 options]
             also: Play Strike -> Bowlbug (Rock) 21.7% x2
@@ -678,7 +678,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Exoskeleton: HP 28/28  Intent Skitter: Attack 1x4  Powers: Hard to Kill 9
      Enemy Exoskeleton: HP 27/27  Intent Mandibles: Attack 9  Powers: Hard to Kill 9
      Enemy Exoskeleton: HP 26/26  Intent Enrage: Buff  Powers: Hard to Kill 9
-     Hand: Boot Sequence [0], Zap+ [0], Shadow Shield [2], Leap [1], Ascender's Bane [X]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Boot Sequence [0], Zap+ [0], Shadow Shield [2], Leap [1], Ascender's Bane [-]  | Draw 14  Discard 0  Exhaust 0
      Potions: Skill Potion, Focus Potion
      #222  Play Shadow Shield   [45.7%, 7 options]
             also: Play Leap 24.0%; Play Zap+ 18.2%; Play Boot Sequence 12.1%
@@ -792,7 +792,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 48/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Thunder 11, Tender 1
      Enemy Hunter Killer: HP 37/126  Intent Bite: Attack 19
-     Hand: Ascender's Bane [X], Cold Snap [1], Strike [1], Cold Snap [1], Creative AI+ [2]  | Draw 0  Discard 14  Exhaust 0
+     Hand: Ascender's Bane [-], Cold Snap [1], Strike [1], Cold Snap [1], Creative AI+ [2]  | Draw 0  Discard 14  Exhaust 0
      Potions: Focus Potion
      #261  Play Cold Snap -> Hunter Killer   [50.0%, 6 options]
             also: Play Cold Snap -> Hunter Killer 50.0% (identical option)
@@ -890,7 +890,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 56/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Dark  Powers: Thunder 11
      Enemy Entomancer: HP 88/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 1
-     Hand: Dazed [X], Strike [1], Strike [1], Defend [1], Strike [1]  | Draw 8  Discard 11  Exhaust 1
+     Hand: Dazed [-], Strike [1], Strike [1], Defend [1], Strike [1]  | Draw 8  Discard 11  Exhaust 1
      Potions: Gambler's Brew, Focus Potion
      #296  Play Defend   [43.1%, 7 options]
             also: Play Strike -> Entomancer 15.6% x3; Use potion Gambler's Brew -> self 8.5%
@@ -901,7 +901,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 56/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Dark  Powers: Thunder 11
      Enemy Entomancer: HP 75/165  Intent Beeeees!: Attack 4x8  Powers: Personal Hive 2, Strength 1
-     Hand: Creative AI+ [2], Ascender's Bane [X], Ice Lance [3], Lightning Rod [1], Dazed [X]  | Draw 4  Discard 15  Exhaust 2
+     Hand: Creative AI+ [2], Ascender's Bane [-], Ice Lance [3], Lightning Rod [1], Dazed [-]  | Draw 4  Discard 15  Exhaust 2
      Potions: Gambler's Brew, Focus Potion
      #299  Play Ice Lance -> Entomancer   [97.9%, 6 options]
             also: Play Lightning Rod 2.1%
@@ -909,7 +909,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 35/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Thunder 11
      Enemy Entomancer: HP 13/165  Intent Spear!: Attack 21  Powers: Personal Hive 2, Strength 1
-     Hand: White Noise [1], Defend [1], Dazed [X], Dazed [X], Defend [1]  | Draw 1  Discard 18  Exhaust 4
+     Hand: White Noise [1], Defend [1], Dazed [-], Dazed [-], Defend [1]  | Draw 1  Discard 18  Exhaust 4
      Potions: Gambler's Brew, Focus Potion
      #301  Play White Noise   [56.3%, 6 options]
             also: Play Defend 21.7% x2
@@ -922,7 +922,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 30/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Thunder 11, Machine Learning 1
      Enemy Entomancer: HP 7/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 2, Strength 1
-     Hand: Dazed [X], Exterminate [1], Dazed [X], Cold Snap [1], Dualcast [1], Zap+ [0]  | Draw 15  Discard 0  Exhaust 7
+     Hand: Dazed [-], Exterminate [1], Dazed [-], Cold Snap [1], Dualcast [1], Zap+ [0]  | Draw 15  Discard 0  Exhaust 7
      Potions: Gambler's Brew, Focus Potion
      #306  Play Zap+   [43.0%, 7 options]
             also: Play Exterminate 35.0%; Play Dualcast 15.6%; Play Cold Snap -> Entomancer 5.9%
@@ -1000,7 +1000,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 42/76  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Strength 1, Dexterity 1, Thunder 8, Weak 1
      Enemy Decimillipede: HP 43/52  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25
      Enemy Decimillipede: HP 3/50  Intent Writhe: Attack 8x2  Powers: Reattach 25, Strength 2
-     Hand: Ascender's Bane [X], Defend [1], Exterminate [1], Dualcast [1], Boost Away [0]  | Draw 1  Discard 15  Exhaust 2
+     Hand: Ascender's Bane [-], Defend [1], Exterminate [1], Dualcast [1], Boost Away [0]  | Draw 1  Discard 15  Exhaust 2
      Potions: Focus Potion
      #333  Play Exterminate   [94.8%, 6 options]
             also: Play Boost Away 4.2%; Play Defend 0.9%
@@ -1063,7 +1063,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 66/77  Block 14  Energy 4/3  Orbs (3 slots): Lightning  Powers: Thunder 11, Focus 2
      Enemy The Insatiable: HP 299/341  Intent Thrash: Attack 9x2  Powers: Sandpit 4
-     Hand: Ascender's Bane [X], Ice Lance [3], Defend [1], Dualcast [1], Shadow Shield [2]  | Draw 15  Discard 9  Exhaust 0
+     Hand: Ascender's Bane [-], Ice Lance [3], Defend [1], Dualcast [1], Shadow Shield [2]  | Draw 15  Discard 9  Exhaust 0
      Potions: Attack Potion
      #356  Play Ice Lance -> The Insatiable   [99.8%, 6 options]
      #357  End turn   [59.0%, 4 options]

@@ -19,7 +19,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Leaf Slime (S): HP 12/12  Intent Goop: Debuff
      Enemy Twig Slime (M): HP 28/28  Intent Sticky Shot: Debuff
      Enemy Twig Slime (S): HP 11/11  Intent Tackle: Attack 5
-     Hand: Strike [1], Ascender's Bane [X], Dualcast [1], Strike [1], Defend [1]  | Draw 6  Discard 0  Exhaust 0
+     Hand: Strike [1], Ascender's Bane [-], Dualcast [1], Strike [1], Defend [1]  | Draw 6  Discard 0  Exhaust 0
      #2    Play Dualcast   [45.1%, 9 options]
             also: Play Strike -> Twig Slime (S) 26.7% x2; Play Defend 1.2%
      #3    Play Strike -> Twig Slime (S)   [47.9%, 8 options]
@@ -57,7 +57,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Shrinker Beetle: HP 40/40  Intent Shrinker: Debuff
-     Hand: Ascender's Bane [X], Zap [1], Defend [1], Defend [1], Strike [1]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Zap [1], Defend [1], Defend [1], Strike [1]  | Draw 7  Discard 0  Exhaust 0
      #16   Play Zap   [84.1%, 5 options]
             also: Play Strike -> Shrinker Beetle 14.1%; Play Defend 0.9% x2
      #17   Play Strike -> Shrinker Beetle   [99.5%, 4 options]
@@ -105,7 +105,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 59/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning
      Enemy Nibbit: HP 39/48  Intent Slice: Attack 7 + Defend
-     Hand: Dualcast [1], Defend [1], Strike [1], Charge Battery [1], Ascender's Bane [X]  | Draw 3  Discard 5  Exhaust 0
+     Hand: Dualcast [1], Defend [1], Strike [1], Charge Battery [1], Ascender's Bane [-]  | Draw 3  Discard 5  Exhaust 0
      #34   Play Charge Battery   [61.8%, 5 options]
             also: Play Defend 16.1%; Play Strike -> Nibbit 11.9%; Play Dualcast 10.2%
      #35   Play Strike -> Nibbit   [63.6%, 4 options]
@@ -168,7 +168,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 59/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Mawler: HP 76/76  Intent Claw: Attack 5x2
-     Hand: Charge Battery [1], Lightning Rod [1], Spoils Map [X], Defend [1], Ascender's Bane [X]  | Draw 11  Discard 0  Exhaust 0
+     Hand: Charge Battery [1], Lightning Rod [1], Spoils Map [-], Defend [1], Ascender's Bane [-]  | Draw 11  Discard 0  Exhaust 0
      Potions: Power Potion, Colorless Potion
      #57   Play Charge Battery   [46.0%, 6 options]
             also: Play Lightning Rod 30.3%; Use potion Power Potion -> self 18.0%; Play Defend 5.7%
@@ -206,7 +206,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 59/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning, Lightning  Powers: Lightning Rod 1, Vulnerable 2
      Enemy Mawler: HP 36/76  Intent Rip and Tear: Attack 24
-     Hand: Strike [1], Strike [1], Spoils Map [X], Defend [1], Charge Battery [1]  | Draw 10  Discard 0  Exhaust 1
+     Hand: Strike [1], Strike [1], Spoils Map [-], Defend [1], Charge Battery [1]  | Draw 10  Discard 0  Exhaust 1
      Potions: Power Potion, Colorless Potion
      #70   Play Charge Battery   [69.4%, 7 options]
             also: Play Defend 24.4%; Play Strike -> Mawler 3.0% x2
@@ -249,7 +249,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 69/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Byrdonis: HP 90/90  Intent Swoop: Attack 19  Powers: Territorial 1
-     Hand: Zap [1], Ascender's Bane [X], Charge Battery [1], Strike [1], Strike [1]  | Draw 12  Discard 0  Exhaust 0
+     Hand: Zap [1], Ascender's Bane [-], Charge Battery [1], Strike [1], Strike [1]  | Draw 12  Discard 0  Exhaust 0
      Potions: Power Potion, Colorless Potion
      #86   Use potion Power Potion -> self   [67.8%, 7 options]
             also: Play Charge Battery 25.3%; Use potion Colorless Potion -> self 5.1%; Play Zap 1.5%
@@ -267,7 +267,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 57/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning  Powers: Thunder 8
      Enemy Byrdonis: HP 78/90  Intent Peck: Attack 5x3  Powers: Territorial 1, Strength 1
-     Hand: Cold Snap [1], Spoils Map [X], Lightning Rod [1], Defend [1], Defend [1]  | Draw 7  Discard 4  Exhaust 1
+     Hand: Cold Snap [1], Spoils Map [-], Lightning Rod [1], Defend [1], Defend [1]  | Draw 7  Discard 4  Exhaust 1
      Potions: Colorless Potion
      #93   Play Defend   [36.5%, 6 options]
             also: Play Defend 36.5% (identical option); Play Lightning Rod 21.9%; Play Cold Snap -> Byrdonis 5.1%
@@ -331,7 +331,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 47/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning  Powers: Lightning Rod 1, Shrink -1
      Enemy Shrinker Beetle: HP 32/40  Intent Chomp: Attack 8
      Enemy Fuzzy Wurm Crawler: HP 50/58  Intent Inhale: Buff
-     Hand: Lightning Rod [1], Defend [1], Spoils Map [X], Strike [1], Defend [1]  | Draw 8  Discard 5  Exhaust 0
+     Hand: Lightning Rod [1], Defend [1], Spoils Map [-], Strike [1], Defend [1]  | Draw 8  Discard 5  Exhaust 0
      Potions: Fysh Oil, Colorless Potion
      #114  Play Lightning Rod   [74.1%, 8 options]
             also: Use potion Fysh Oil -> self 8.9%; Play Defend 7.7% x2; Play Strike -> Shrinker Beetle 1.2%
@@ -345,7 +345,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 47/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning  Powers: Lightning Rod 2, Shrink -1
      Enemy Shrinker Beetle: HP 28/40  Intent Stomp: Attack 14
      Enemy Fuzzy Wurm Crawler: HP 47/58  Intent Acid Goop: Attack 13  Powers: Strength 7
-     Hand: Cold Snap [1], Strike [1], Defend [1], Zap [1], Ascender's Bane [X]  | Draw 3  Discard 10  Exhaust 0
+     Hand: Cold Snap [1], Strike [1], Defend [1], Zap [1], Ascender's Bane [-]  | Draw 3  Discard 10  Exhaust 0
      Potions: Fysh Oil, Colorless Potion
      #118  Use potion Colorless Potion -> self   [64.7%, 9 options]
             also: Play Cold Snap -> Shrinker Beetle 13.8%; Use potion Fysh Oil -> self 9.8%; Play Defend 6.4%; Play Zap 4.6%
@@ -443,7 +443,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 42/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Frost, Lightning  Powers: Constrict 3, Lightning Rod 1
      Enemy Slithering Strangler: HP 53/56  Block 5  Intent Constrict: Debuff
-     Hand: Defend [1], Spoils Map [X], Zap+ [0], Defend [1], Lightning Rod [1]  | Draw 1  Discard 14  Exhaust 1
+     Hand: Defend [1], Spoils Map [-], Zap+ [0], Defend [1], Lightning Rod [1]  | Draw 1  Discard 14  Exhaust 1
      Potions: Fysh Oil
      #153  Play Lightning Rod   [60.4%, 6 options]
             also: Play Zap+ 13.6%; Play Defend 13.0% x2
@@ -517,7 +517,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 35/75  Block 0  Energy 4/3  Orbs (3 slots): Frost, Lightning, Lightning
      Enemy Inklet: HP 17/18  Intent Jab: Attack 4
      Enemy Inklet: HP 5/12  Intent Piercing Gaze: Attack 11
-     Hand: Cold Snap [1], Dualcast [1], Spoils Map [X], Strike [1], Capacitor [1]  | Draw 5  Discard 10  Exhaust 0
+     Hand: Cold Snap [1], Dualcast [1], Spoils Map [-], Strike [1], Capacitor [1]  | Draw 5  Discard 10  Exhaust 0
      Potions: Fysh Oil
      #177  Play Cold Snap -> Inklet #2   [41.3%, 8 options]
             also: Play Dualcast 30.5%; Play Strike -> Inklet #2 19.5%; Play Cold Snap -> Inklet #1 7.8%; Play Strike -> Inklet #1 1.0%
@@ -571,7 +571,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Kin Follower: HP 13/63  Intent Boomerang: Attack 5x2  Powers: Minion 1, Strength 3
      Enemy Kin Follower: HP 59/62  Intent Power Dance: Buff  Powers: Minion 1
      Enemy Kin Priest: HP 199/199  Intent Soul Beam: Attack 3x3
-     Hand: Spoils Map [X], Defend [1], Zap+ [0], Dualcast [1], Charge Battery [1]  | Draw 5  Discard 10  Exhaust 0
+     Hand: Spoils Map [-], Defend [1], Zap+ [0], Dualcast [1], Charge Battery [1]  | Draw 5  Discard 10  Exhaust 0
      #196  Play Charge Battery   [91.7%, 5 options]
             also: Play Zap+ 5.0%; Play Defend 3.3%
      #197  Play Defend   [64.2%, 4 options]
@@ -583,7 +583,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Kin Follower: HP 10/63  Intent Power Dance: Buff  Powers: Minion 1, Strength 3
      Enemy Kin Follower: HP 56/62  Intent Quick Slash: Attack 8  Powers: Minion 1, Strength 3
      Enemy Kin Priest: HP 199/199  Intent Dark Ritual: Buff
-     Hand: Strike [1], Defend [1], Ascender's Bane [X], Capacitor [1], Lightning Rod [1]  | Draw 0  Discard 15  Exhaust 0
+     Hand: Strike [1], Defend [1], Ascender's Bane [-], Capacitor [1], Lightning Rod [1]  | Draw 0  Discard 15  Exhaust 0
      #200  Play Capacitor   [82.6%, 7 options]
             also: Play Lightning Rod 14.1%; Play Strike -> Kin Follower #1 2.8%
      #201  Play Lightning Rod   [92.7%, 6 options]
@@ -621,7 +621,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 29/75  Block 0  Energy 5/3  Orbs (5 slots): Lightning, Lightning, Lightning, Frost, Lightning  Powers: Strength 1, Dexterity 1, Weak 1
      Enemy Kin Priest: HP 168/199  Intent Soul Beam: Attack 6x3  Powers: Strength 3
-     Hand: Strike [1], Dualcast [1], Lightning Rod [1], Spoils Map [X], Strike [1]  | Draw 3  Discard 10  Exhaust 1
+     Hand: Strike [1], Dualcast [1], Lightning Rod [1], Spoils Map [-], Strike [1]  | Draw 3  Discard 10  Exhaust 1
      #214  Play Lightning Rod   [95.8%, 5 options]
             also: Play Strike -> Kin Priest 2.1% x2
      #215  Play Strike -> Kin Priest   [49.4%, 4 options]
@@ -657,7 +657,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 10 --
      HP 18/75  Block 0  Energy 5/3  Orbs (5 slots): Lightning, Frost, Lightning, Lightning, Lightning  Powers: Strength 1, Dexterity 1, Lightning Rod 1, Frail 1
      Enemy Kin Priest: HP 81/199  Intent Orb of Weakness: Attack 15 + Debuff  Powers: Strength 6
-     Hand: Defend [1], Lightning Rod [1], Spoils Map [X], Cold Snap [1], Strike [1]  | Draw 3  Discard 10  Exhaust 1
+     Hand: Defend [1], Lightning Rod [1], Spoils Map [-], Cold Snap [1], Strike [1]  | Draw 3  Discard 10  Exhaust 1
      #227  Play Defend   [60.9%, 5 options]
             also: Play Lightning Rod 27.8%; Play Cold Snap -> Kin Priest 11.0%
      #228  Play Lightning Rod   [60.3%, 4 options]
@@ -668,7 +668,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 11 --
      HP 14/75  Block 5  Energy 3/3  Orbs (5 slots): Lightning, Lightning, Lightning, Frost, Lightning  Powers: Strength 1, Dexterity 1, Lightning Rod 2, Weak 1
      Enemy Kin Priest: HP 50/199  Intent Soul Beam: Attack 9x3  Powers: Strength 6
-     Hand: Dualcast [1], Strike [1], Barrage [1], Spoils Map [X], Defend [1]  | Draw 13  Discard 0  Exhaust 1
+     Hand: Dualcast [1], Strike [1], Barrage [1], Spoils Map [-], Defend [1]  | Draw 13  Discard 0  Exhaust 1
      #232  Play Defend   [99.7%, 5 options]
      #233  Play Dualcast   [41.9%, 4 options]
             also: Play Barrage -> Kin Priest 41.7%; Play Strike -> Kin Priest 16.3%

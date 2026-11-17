@@ -30,7 +30,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 57/75  Block 0  Energy 3/3  Orbs (3 slots): empty
      Enemy Toadpole: HP 23/23  Intent Spiken: Buff
-     Hand: Defend [1], Strike [1], Defend+ [1], Ascender's Bane [X], Strike+ [1]  | Draw 3  Discard 5  Exhaust 0
+     Hand: Defend [1], Strike [1], Defend+ [1], Ascender's Bane [-], Strike+ [1]  | Draw 3  Discard 5  Exhaust 0
      #6    Play Strike+ -> Toadpole   [76.1%, 5 options]
             also: Play Strike -> Toadpole 22.9%
      #7    Play Strike -> Toadpole   [99.2%, 4 options]
@@ -54,7 +54,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 55/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Seapunk: HP 49/49  Intent Sea Kick: Attack 13  Powers: Vulnerable 1
-     Hand: Ascender's Bane [X], Strike [1], Dualcast [1], Strike [1], Barrage [1]  | Draw 9  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Strike [1], Dualcast [1], Strike [1], Barrage [1]  | Draw 9  Discard 0  Exhaust 0
      #15   Play Barrage -> Seapunk   [59.9%, 5 options]
             also: Play Strike -> Seapunk 19.5% x2; Play Dualcast 1.2%
      #16   Play Strike -> Seapunk   [48.5%, 4 options]
@@ -142,7 +142,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 66/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Calcified Cultist: HP 21/42  Intent Dark Strike: Attack 11  Powers: Ritual 2
      Enemy Damp Cultist: HP 50/53  Intent Dark Strike: Attack 3  Powers: Ritual 6
-     Hand: Strike [1], Ascender's Bane [X], Strike [1], Strike [1], Barrage [1]  | Draw 6  Discard 5  Exhaust 0
+     Hand: Strike [1], Ascender's Bane [-], Strike [1], Strike [1], Barrage [1]  | Draw 6  Discard 5  Exhaust 0
      Potions: Speed Potion
      #48   Play Barrage -> Calcified Cultist   [83.1%, 10 options]
             also: Play Strike -> Calcified Cultist 5.6% x3
@@ -180,7 +180,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 63/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Lightning
      Enemy Damp Cultist: HP 13/53  Intent Dark Strike: Attack 21  Powers: Ritual 6, Strength 18
-     Hand: Strike [1], Strike [1], Strike [1], Boost Away [0], Dazed [X]  | Draw 6  Discard 5  Exhaust 1
+     Hand: Strike [1], Strike [1], Strike [1], Boost Away [0], Dazed [-]  | Draw 6  Discard 5  Exhaust 1
      Potions: Speed Potion
      #61   Play Strike -> Damp Cultist   [32.8%, 6 options]
             also: Play Strike -> Damp Cultist 32.8% x2 (identical option); Play Boost Away 1.4%
@@ -238,7 +238,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 53/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost
      Enemy Terror Eel: HP 106/150  Intent Crash: Attack 24  Powers: Shriek 75, Vigor 6
-     Hand: Ascender's Bane [X], Thunder [1], Charge Battery [1], Defend [1], Defend [1]  | Draw 3  Discard 11  Exhaust 0
+     Hand: Ascender's Bane [-], Thunder [1], Charge Battery [1], Defend [1], Defend [1]  | Draw 3  Discard 11  Exhaust 0
      Potions: Speed Potion, Powdered Demise
      #81   Play Charge Battery   [66.1%, 7 options]
             also: Play Defend 13.2% x2; Play Thunder 5.9%; Use potion Speed Potion -> self 1.7%
@@ -275,7 +275,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 48/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Thunder 8, Vulnerable 99
      Enemy Terror Eel: HP 36/150  Intent Crash: Attack 27
-     Hand: Strike [1], Defend [1], Defend [1], Dazed [X], Boost Away [0]  | Draw 3  Discard 9  Exhaust 1
+     Hand: Strike [1], Defend [1], Defend [1], Dazed [-], Boost Away [0]  | Draw 3  Discard 9  Exhaust 1
      Potions: Speed Potion, Powdered Demise
      #94   Play Defend   [38.3%, 7 options]
             also: Play Defend 38.3% (identical option); Use potion Speed Potion -> self 13.5%; Play Boost Away 7.1%; Play Strike -> Terror Eel 2.6%
@@ -300,7 +300,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 46/75  Block 0  Energy 4/3  Orbs (3 slots): Frost, Lightning, Frost  Powers: Thunder 8, Vulnerable 97
      Enemy Terror Eel: HP 18/150  Intent Crash: Attack 36  Powers: Vigor 6
-     Hand: Cold Snap [1], Strike+ [1], Strike [1], Dazed [X], Defend [1]  | Draw 7  Discard 5  Exhaust 2
+     Hand: Cold Snap [1], Strike+ [1], Strike [1], Dazed [-], Defend [1]  | Draw 7  Discard 5  Exhaust 2
      Potions: Powdered Demise
      #104  Play Cold Snap -> Terror Eel   [73.2%, 6 options]
             also: Play Strike+ -> Terror Eel 18.5%; Play Strike -> Terror Eel 8.2%
@@ -339,7 +339,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 30/30  Intent Bite: Attack 5  Powers: Skittish 7, Vulnerable 1
      Enemy Phantasmal Gardener: HP 32/32  Intent Lash: Attack 7  Powers: Skittish 7, Vulnerable 1
      Enemy Phantasmal Gardener: HP 28/28  Intent Enlarge: Buff  Powers: Skittish 7, Vulnerable 1
-     Hand: Strike [1], Boost Away [0], Ascender's Bane [X], Strike [1], Charge Battery [1]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Strike [1], Boost Away [0], Ascender's Bane [-], Strike [1], Charge Battery [1]  | Draw 14  Discard 0  Exhaust 0
      Potions: Colorless Potion, Powdered Demise
      #117  Play Charge Battery   [52.9%, 16 options]
             also: Use potion Colorless Potion -> self 17.2%; Play Strike -> Phantasmal Gardener #4 11.2% x2; Play Boost Away 6.2%
@@ -438,7 +438,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 54/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Glass, Frost
      Enemy Phantasmal Gardener: HP 13/32  Intent Enlarge: Buff  Powers: Skittish 7, Strength 3
-     Hand: Dualcast+ [0], Dazed [X], Barrage+ [1], Charge Battery+ [1], Defend+ [1]  | Draw 16  Discard 0  Exhaust 1
+     Hand: Dualcast+ [0], Dazed [-], Barrage+ [1], Charge Battery+ [1], Defend+ [1]  | Draw 16  Discard 0  Exhaust 1
      Potions: Powdered Demise
      #150  Play Charge Battery+   [49.5%, 6 options]
             also: Play Barrage+ -> Phantasmal Gardener 36.5%; Play Defend+ 12.0%; Play Dualcast+ 2.0%
@@ -506,7 +506,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 51/75  Block 0  Energy 3/3  Orbs (3 slots): Glass, Frost, Lightning
      Enemy Skulking Colony: HP 41/80  Intent Piercing Stabs: Attack 12x2  Powers: Hardened Shell 20, Strength 4
-     Hand: Thunder [1], Strike [1], Ascender's Bane [X], Boost Away [0], Strike+ [1]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Thunder [1], Strike [1], Ascender's Bane [-], Boost Away [0], Strike+ [1]  | Draw 14  Discard 0  Exhaust 0
      Potions: Block Potion, Powdered Demise
      #174  Play Boost Away   [72.2%, 7 options]
             also: Play Thunder 10.0%; Play Strike+ -> Skulking Colony 8.8%; Play Strike -> Skulking Colony 8.3%; Use potion Block Potion -> self 0.6%
@@ -569,7 +569,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 35/75  Block 0  Energy 4/3  Orbs (3 slots): Lightning
      Enemy Sewer Clam: HP 48/58  Block 9  Intent Pressurize: Buff  Powers: Plating 9
-     Hand: Ascender's Bane [X], Glasswork [1], Strike [1], Strike [1], Defend [1]  | Draw 10  Discard 6  Exhaust 0
+     Hand: Ascender's Bane [-], Glasswork [1], Strike [1], Strike [1], Defend [1]  | Draw 10  Discard 6  Exhaust 0
      Potions: Block Potion, Powdered Demise
      #196  Play Glasswork   [72.7%, 7 options]
             also: Play Strike -> Sewer Clam 9.4% x2; Play Defend 8.6%
@@ -611,7 +611,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 35/75  Block 0  Energy 3/3  Orbs (3 slots): Glass, Lightning, Frost  Powers: Thunder 11
      Enemy Sewer Clam: HP 8/58  Block 6  Intent Jet: Attack 19  Powers: Plating 6, Strength 8
-     Hand: Defend+ [1], Glasswork+ [1], Strike [1], Strike+ [1], Dazed [X]  | Draw 14  Discard 0  Exhaust 1
+     Hand: Defend+ [1], Glasswork+ [1], Strike [1], Strike+ [1], Dazed [-]  | Draw 14  Discard 0  Exhaust 1
      Potions: Block Potion, Powdered Demise
      #211  Play Strike+ -> Sewer Clam   [34.5%, 7 options]
             also: Play Glasswork+ 29.4%; Play Strike -> Sewer Clam 25.7%; Play Defend+ 10.4%
@@ -647,7 +647,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Phantasmal Gardener: HP 32/32  Intent Enlarge: Buff  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 28/28  Intent Lash: Attack 7  Powers: Skittish 7
      Enemy Phantasmal Gardener: HP 14/30  Intent Flail: Attack 1x3  Powers: Skittish 7
-     Hand: Glasswork [1], Ascender's Bane [X], Cold Snap [1], Defend [1], Go for the Eyes [0]  | Draw 10  Discard 5  Exhaust 0
+     Hand: Glasswork [1], Ascender's Bane [-], Cold Snap [1], Defend [1], Go for the Eyes [0]  | Draw 10  Discard 5  Exhaust 0
      Potions: Block Potion, Powdered Demise
      #223  Play Glasswork   [97.5%, 13 options]
             also: Play Defend 1.0%; Play Cold Snap -> Phantasmal Gardener #3 0.7%
@@ -718,7 +718,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 49/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Waterfall Giant: HP 250/250  Intent Pressurize: Buff  Powers: Vulnerable 1
-     Hand: Ascender's Bane [X], Strike [1], Barrage [1], Defend [1], Strike [1]  | Draw 15  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Strike [1], Barrage [1], Defend [1], Strike [1]  | Draw 15  Discard 0  Exhaust 0
      Potions: Block Potion, Powdered Demise, Dexterity Potion
      #247  Use potion Powdered Demise -> Waterfall Giant   [72.9%, 8 options]
             also: Use potion Dexterity Potion -> self 26.0%
@@ -868,7 +868,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 69/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Bowlbug (Rock): HP 46/46  Intent Headbutt: Attack 16  Powers: Imbalanced 1, Vulnerable 1
      Enemy Bowlbug (Egg): HP 23/23  Intent Bite: Attack 8 + Defend  Powers: Vulnerable 1
-     Hand: Boost Away [0], Ascender's Bane [X], Dualcast [1], Flak Cannon+ [2], Barrage [1]  | Draw 16  Discard 0  Exhaust 0
+     Hand: Boost Away [0], Ascender's Bane [-], Dualcast [1], Flak Cannon+ [2], Barrage [1]  | Draw 16  Discard 0  Exhaust 0
      Potions: Block Potion
      #303  Play Boost Away   [100.0%, 7 options]
      #304  Play Barrage -> Bowlbug (Egg)   [99.3%, 6 options]
@@ -971,7 +971,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 54/75  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Lightning  Powers: Thunder 8
      Enemy Tunneler: HP 31/92  Block 16  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Strike [1], Defend [1], Charge Battery [1], Go for the Eyes [0], Ascender's Bane [X]  | Draw 3  Discard 15  Exhaust 0
+     Hand: Strike [1], Defend [1], Charge Battery [1], Go for the Eyes [0], Ascender's Bane [-]  | Draw 3  Discard 15  Exhaust 0
      #344  Play Charge Battery   [38.1%, 5 options]
             also: Play Strike -> Tunneler 25.2%; Play Defend 18.5%; Play Go for the Eyes -> Tunneler 18.2%
      #345  Play Go for the Eyes -> Tunneler   [58.9%, 4 options]
@@ -1031,7 +1031,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Tough Egg: HP 18/18  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Tough Egg: HP 19/19  Intent Hatch: Heal/Summon  Powers: Hatch 1, Minion 1
      Enemy Ovicopter: HP 99/126  Intent Smash: Attack 17
-     Hand: Strike [1], Cold Snap+ [1], Ascender's Bane [X], Boost Away [0], Defend [1]  | Draw 14  Discard 5  Exhaust 0
+     Hand: Strike [1], Cold Snap+ [1], Ascender's Bane [-], Boost Away [0], Defend [1]  | Draw 14  Discard 5  Exhaust 0
      Potions: Regen Potion
      #365  Play Cold Snap+ -> Tough Egg #1   [36.1%, 12 options]
             also: Play Boost Away 26.0%; Play Defend 18.5%; Play Strike -> Tough Egg #1 13.3%; Use potion Regen Potion -> self 2.5%
@@ -1250,7 +1250,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 75/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Spiny Toad: HP 123/123  Intent Protruding Spikes: Buff  Powers: Vulnerable 1
-     Hand: Defend+ [1], Ascender's Bane [X], Strike [1], Strike [1], Boost Away [0]  | Draw 22  Discard 0  Exhaust 0
+     Hand: Defend+ [1], Ascender's Bane [-], Strike [1], Strike [1], Boost Away [0]  | Draw 22  Discard 0  Exhaust 0
      Potions: Regen Potion
      #441  Play Strike -> Spiny Toad   [41.9%, 6 options]
             also: Play Strike -> Spiny Toad 41.9% (identical option); Play Boost Away 8.7%; Play Defend+ 7.3%
@@ -1351,7 +1351,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 75/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Surrounded 1
      Enemy Crusher: HP 219/219  Intent Thrash: Attack 21  Powers: Back Attack 1, Crab Rage 1, Vulnerable 1
      Enemy Rocket: HP 209/209  Intent Targeting Reticle: Attack 4  Powers: Back Attack 1, Crab Rage 1, Vulnerable 1
-     Hand: Flak Cannon [2], Ascender's Bane [X], Metamorphosis [2], Cold Snap [1], Thunder [1]  | Draw 24  Discard 0  Exhaust 0
+     Hand: Flak Cannon [2], Ascender's Bane [-], Metamorphosis [2], Cold Snap [1], Thunder [1]  | Draw 24  Discard 0  Exhaust 0
      Potions: Regen Potion
      #476  Play Metamorphosis   [99.3%, 7 options]
      #477  Play Cold Snap -> Crusher   [94.1%, 5 options]
@@ -1469,7 +1469,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 8/75  Block 0  Energy 5/3  Orbs (5 slots): Dark, Lightning, Glass, Lightning, Lightning  Powers: Surrounded 1, Thunder 8, Weak 2, Frail 2
      Enemy Crusher: HP 146/219  Intent Adapt: Buff  Powers: Back Attack 1, Crab Rage 1, Strength 3, Weak 1
      Enemy Rocket: HP 70/209  Intent Laser: Attack 61  Powers: Back Attack 1, Crab Rage 1, Strength 6
-     Hand: Glasswork+ [1], Dazed [X], Flak Cannon [2], Lightning Rod+ [1], Defend+ [1]  | Draw 15  Discard 11  Exhaust 2
+     Hand: Glasswork+ [1], Dazed [-], Flak Cannon [2], Lightning Rod+ [1], Defend+ [1]  | Draw 15  Discard 11  Exhaust 2
      #521  Play Glasswork+   [100.0%, 5 options]
      #522  Play Flak Cannon   [91.1%, 4 options]
             also: Play Lightning Rod+ 4.9%; Play Defend+ 4.0%

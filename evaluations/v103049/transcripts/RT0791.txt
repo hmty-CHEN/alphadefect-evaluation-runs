@@ -27,7 +27,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 60/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning  Powers: Shrink -1
      Enemy Shrinker Beetle: HP 17/42  Intent Chomp: Attack 8
-     Hand: Strike [1], Ascender's Bane [X], Defend [1], Strike [1], Defend [1]  | Draw 1  Discard 5  Exhaust 0
+     Hand: Strike [1], Ascender's Bane [-], Defend [1], Strike [1], Defend [1]  | Draw 1  Discard 5  Exhaust 0
      #6    Play Defend   [47.8%, 5 options]
             also: Play Defend 47.8% (identical option); Play Strike -> Shrinker Beetle 2.2% x2
      #7    Play Defend   [98.9%, 4 options]
@@ -82,7 +82,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 59/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Lightning
      Enemy Fuzzy Wurm Crawler: HP 23/59  Intent Acid Goop: Attack 13  Powers: Strength 7
-     Hand: Ascender's Bane [X], Charge Battery [1], Strike [1], Defend [1], Zap [1]  | Draw 7  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Charge Battery [1], Strike [1], Defend [1], Zap [1]  | Draw 7  Discard 0  Exhaust 0
      Potions: Gigantification Potion
      #27   Play Charge Battery   [56.9%, 6 options]
             also: Play Defend 39.7%; Play Zap 3.0%
@@ -127,7 +127,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 58/75  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Nibbit: HP 46/46  Intent Butt: Attack 13
-     Hand: Dualcast [1], Zap [1], Defend [1], Strike [1], Ascender's Bane [X]  | Draw 9  Discard 0  Exhaust 0
+     Hand: Dualcast [1], Zap [1], Defend [1], Strike [1], Ascender's Bane [-]  | Draw 9  Discard 0  Exhaust 0
      Potions: Gigantification Potion
      #42   Play Defend   [93.1%, 6 options]
             also: Play Zap 5.2%; Play Dualcast 0.8%; Play Strike -> Nibbit 0.6%
@@ -250,7 +250,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 73/89  Block 0  Energy 4/3  Orbs (3 slots): Frost, Lightning, Frost
      Enemy Phrog Parasite: HP 10/66  Intent Lash: Attack 5x4  Powers: Infested 4
-     Hand: Strike [1], Ascender's Bane [X], Defend [1], Infection [X], Equilibrium [2]  | Draw 18  Discard 0  Exhaust 0
+     Hand: Strike [1], Ascender's Bane [-], Defend [1], Infection [-], Equilibrium [2]  | Draw 18  Discard 0  Exhaust 0
      Potions: Gigantification Potion
      #83   Play Equilibrium   [79.3%, 5 options]
             also: Play Strike -> Phrog Parasite 16.9%; Play Defend 3.8%
@@ -261,7 +261,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 72/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Lightning, Frost
      Enemy Phrog Parasite: HP 1/66  Intent Infect: Debuff  Powers: Infested 4
-     Hand: Infection [X], Infection [X], Cold Snap [1], Tesla Coil [0], Dualcast [1]  | Draw 13  Discard 4  Exhaust 1
+     Hand: Infection [-], Infection [-], Cold Snap [1], Tesla Coil [0], Dualcast [1]  | Draw 13  Discard 4  Exhaust 1
      Potions: Gigantification Potion
      #87   Play Tesla Coil -> Phrog Parasite   [55.2%, 5 options]
             also: Play Cold Snap -> Phrog Parasite 44.6%
@@ -292,7 +292,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Wriggler: HP 20/20  Intent Nasty Bite: Attack 9  Powers: Strength 2
      Enemy Wriggler: HP 10/21  Intent Wriggle: Buff + Debuff
      Enemy Wriggler: HP 18/18  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Infection [X], Defend [1], Defend [1], Strike [1], Infection [X]  | Draw 3  Discard 16  Exhaust 1
+     Hand: Infection [-], Defend [1], Defend [1], Strike [1], Infection [-]  | Draw 3  Discard 16  Exhaust 1
      Potions: Gigantification Potion
      #96   Play Defend   [52.4%, 7 options]
             also: Play Defend 31.6% (identical option); Play Strike -> Wriggler #2 7.6%; Use potion Gigantification Potion -> self 7.5%
@@ -305,7 +305,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 72/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning
      Enemy Wriggler: HP 17/20  Intent Wriggle: Buff + Debuff  Powers: Strength 2
      Enemy Wriggler: HP 10/21  Intent Nasty Bite: Attack 9  Powers: Strength 2
-     Hand: Defend [1], Strike [1], Infection [X], Infection [X], Tesla Coil [0]  | Draw 20  Discard 0  Exhaust 1
+     Hand: Defend [1], Strike [1], Infection [-], Infection [-], Tesla Coil [0]  | Draw 20  Discard 0  Exhaust 1
      #101  Play Strike -> Wriggler #2   [69.1%, 6 options]
             also: Play Tesla Coil -> Wriggler #2 25.6%; Play Defend 4.3%; Play Strike -> Wriggler #1 0.8%
      #102  Play Tesla Coil -> Wriggler #2   [90.8%, 4 options]
@@ -315,7 +315,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 72/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Lightning
      Enemy Wriggler: HP 14/20  Intent Nasty Bite: Attack 11  Powers: Strength 4
-     Hand: Equilibrium [2], Charge Battery [1], Infection [X], Infection [X], Infection [X]  | Draw 15  Discard 6  Exhaust 1
+     Hand: Equilibrium [2], Charge Battery [1], Infection [-], Infection [-], Infection [-]  | Draw 15  Discard 6  Exhaust 1
      #105  Play Equilibrium   [88.2%, 3 options]
             also: Play Charge Battery 11.8%
      #106  Play Charge Battery   [100.0%, 2 options]
@@ -323,7 +323,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 10 --
      HP 72/89  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Lightning
      Enemy Wriggler: HP 11/20  Intent Wriggle: Buff + Debuff  Powers: Strength 4
-     Hand: Defend [1], Infection [X], Strike [1], Cold Snap [1], Strike [1]  | Draw 10  Discard 11  Exhaust 1
+     Hand: Defend [1], Infection [-], Strike [1], Cold Snap [1], Strike [1]  | Draw 10  Discard 11  Exhaust 1
      #108  Play Strike -> Wriggler   [35.8%, 5 options]
             also: Play Strike -> Wriggler 35.8% (identical option); Play Cold Snap -> Wriggler 23.5%; Play Defend 5.0%
      #109  Play Strike -> Wriggler   [50.2%, 4 options]
@@ -349,7 +349,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 72/89  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Fogmog: HP 78/78  Intent Illusory Spores: Heal/Summon
-     Hand: Ascender's Bane [X], Defend [1], Tesla Coil [0], Defend [1], Charge Battery [1]  | Draw 14  Discard 0  Exhaust 0
+     Hand: Ascender's Bane [-], Defend [1], Tesla Coil [0], Defend [1], Charge Battery [1]  | Draw 14  Discard 0  Exhaust 0
      Potions: Flex Potion
      #117  Play Charge Battery   [58.9%, 6 options]
             also: Play Tesla Coil -> Fogmog 27.4%; Play Defend 9.1% x2
@@ -430,7 +430,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 69/89  Block 0  Energy 3/3  Orbs (3 slots): Lightning
      Enemy Bygone Effigy: HP 132/132  Intent Sleep: Stun/Sleep/Escape  Powers: Slow 1
-     Hand: Boot Sequence [0], Lightning Rod [1], Cold Snap [1], Ascender's Bane [X], Zap+ [0]  | Draw 15  Discard 0  Exhaust 0
+     Hand: Boot Sequence [0], Lightning Rod [1], Cold Snap [1], Ascender's Bane [-], Zap+ [0]  | Draw 15  Discard 0  Exhaust 0
      Potions: Flex Potion, Dexterity Potion
      #145  Play Lightning Rod   [60.1%, 7 options]
             also: Play Zap+ 32.0%; Play Cold Snap -> Bygone Effigy 7.4%
@@ -544,7 +544,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 60/89  Block 0  Energy 3/3  Orbs (3 slots): Frost, Frost, Frost
      Enemy Vine Shambler: HP 50/64  Intent Grasping Vines: Attack 9 + Debuff
-     Hand: Strike [1], Tesla Coil [0], Ascender's Bane [X], Defend [1], Charge Battery [1]  | Draw 12  Discard 4  Exhaust 1
+     Hand: Strike [1], Tesla Coil [0], Ascender's Bane [-], Defend [1], Charge Battery [1]  | Draw 12  Discard 4  Exhaust 1
      Potions: Fortifier, Dexterity Potion
      #186  Play Charge Battery   [67.0%, 7 options]
             also: Play Defend 24.4%; Play Strike -> Vine Shambler 6.0%; Play Tesla Coil -> Vine Shambler 2.7%
@@ -622,7 +622,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 2 --
      HP 60/89  Block 0  Energy 4/3  Orbs (3 slots): Lightning, Lightning
      Enemy Byrdonis: HP 75/90  Intent Peck: Attack 5x3  Powers: Territorial 1, Strength 1
-     Hand: Ascender's Bane [X], Equilibrium [2], Echo Form [3], Dualcast [1], Defend [1]  | Draw 12  Discard 4  Exhaust 1
+     Hand: Ascender's Bane [-], Equilibrium [2], Echo Form [3], Dualcast [1], Defend [1]  | Draw 12  Discard 4  Exhaust 1
      Potions: Fortifier, Dexterity Potion
      #215  Play Equilibrium   [99.7%, 7 options]
      #216  Play Defend   [98.5%, 5 options]
@@ -754,7 +754,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Kin Follower: HP 41/62  Intent Power Dance: Buff  Powers: Minion 1, Strength 3
      Enemy Kin Follower: HP 55/63  Intent Quick Slash: Attack 8  Powers: Minion 1, Strength 3
      Enemy Kin Priest: HP 185/199  Intent Dark Ritual: Buff
-     Hand: Defragment+ [1], Defend [1], Defend [1], Cold Snap [1], Strike [1], Ascender's Bane [X]  | Draw 4  Discard 12  Exhaust 1
+     Hand: Defragment+ [1], Defend [1], Defend [1], Cold Snap [1], Strike [1], Ascender's Bane [-]  | Draw 4  Discard 12  Exhaust 1
      Potions: Fortifier, Dexterity Potion
      #259  Play Cold Snap -> Kin Follower #1   [56.1%, 12 options]
             also: Play Strike -> Kin Follower #1 14.3%; Play Cold Snap -> Kin Follower #2 9.8%; Play Defragment+ 9.3%; Play Defend 4.3%
@@ -953,7 +953,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 79/89  Block 0  Energy 3/3  Orbs (4 slots): Lightning, Frost, Frost, Lightning  Powers: Dexterity 1, Strength 2
      Enemy Thieving Hopper: HP 29/84  Intent Hat Trick: Attack 23  Powers: Escape Artist 3, Swipe 1, Flutter 5
-     Hand: Ascender's Bane [X], Defend [1], Dualcast [1], Charge Battery [1], Strike [1]  | Draw 8  Discard 7  Exhaust 4
+     Hand: Ascender's Bane [-], Defend [1], Dualcast [1], Charge Battery [1], Strike [1]  | Draw 8  Discard 7  Exhaust 4
      Potions: Fortifier, Dexterity Potion
      #327  Select Ascender's Bane   [68.9%, 5 options]
             also: Select Strike 23.1%; Select Dualcast 6.4%; Select Defend 1.4%
@@ -1061,7 +1061,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 56/89  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Glass  Powers: Dexterity 1, Strength 3, Spinner 1
      Enemy Tunneler: HP 65/92  Block 21  Intent Attack from Below: Attack 26  Powers: Burrowed 1
-     Hand: Cold Snap [1], Echo Form [3], Strike [1], Ascender's Bane [X], Modded [0], Zap+ [0], Defragment+ [1]  | Draw 4  Discard 11  Exhaust 3
+     Hand: Cold Snap [1], Echo Form [3], Strike [1], Ascender's Bane [-], Modded [0], Zap+ [0], Defragment+ [1]  | Draw 4  Discard 11  Exhaust 3
      Potions: Fortifier, Dexterity Potion
      #366  Select Ascender's Bane   [74.5%, 7 options]
             also: Select Echo Form 9.5%; Select Strike 7.6%; Select Zap+ 3.8%; Select Modded 2.6%
@@ -1163,7 +1163,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 56/89  Block 0  Energy 4/3  Orbs (4 slots): Lightning, Frost  Powers: Dexterity 1, Strength 2
      Enemy Spiny Toad: HP 109/123  Intent Tongue Lash: Attack 19
-     Hand: Cold Snap [1], Glacier [2], Cold Snap [1], Glacier [2], Ascender's Bane [X]  | Draw 9  Discard 9  Exhaust 4
+     Hand: Cold Snap [1], Glacier [2], Cold Snap [1], Glacier [2], Ascender's Bane [-]  | Draw 9  Discard 9  Exhaust 4
      Potions: Fortifier, Dexterity Potion
      #403  Select Ascender's Bane   [99.8%, 5 options]
      #404  Play Glacier   [48.4%, 7 options]
@@ -1313,7 +1313,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 42/89  Block 0  Energy 3/3  Orbs (4 slots): Glass, Frost, Frost, Glass  Powers: Dexterity 1, Strength 4, Spinner 1
      Enemy Bowlbug (Rock): HP 31/48  Intent <unk>: Stun/Sleep/Escape  Powers: Imbalanced 1
      Enemy Bowlbug (Silk): HP 6/41  Intent Toxic Spit: Debuff
-     Hand: Strike [1], Ascender's Bane [X], Defend [1], Lightning Rod [1], Charge Battery [1], Modded [1], Cold Snap [1]  | Draw 15  Discard 0  Exhaust 4
+     Hand: Strike [1], Ascender's Bane [-], Defend [1], Lightning Rod [1], Charge Battery [1], Modded [1], Cold Snap [1]  | Draw 15  Discard 0  Exhaust 4
      Potions: Fortifier, Dexterity Potion
      #455  Select Ascender's Bane   [36.4%, 7 options]
             also: Select Defend 28.6%; Select Strike 14.8%; Select Lightning Rod 13.5%; Select Modded 3.3%
@@ -1383,7 +1383,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 59/89  Block 5  Energy 3/3  Orbs (3 slots): Frost, Lightning, Glass  Powers: Dexterity 1, Strength 2, Lightning Rod 1, Spinner 1
      Enemy Infested Prism: HP 143/171  Block 5  Intent Whirlwind: Attack 6x3  Powers: Vital Spark 3
-     Hand: Defend [1], Strike [1], Defragment+ [1], Dualcast [1], Glacier [2], Defend [1], Ascender's Bane [X]  | Draw 10  Discard 5  Exhaust 4
+     Hand: Defend [1], Strike [1], Defragment+ [1], Dualcast [1], Glacier [2], Defend [1], Ascender's Bane [-]  | Draw 10  Discard 5  Exhaust 4
      Potions: Fortifier, Power Potion
      #483  Select Ascender's Bane   [69.7%, 7 options]
             also: Select Strike 18.2%; Select Defend 5.8% x2
@@ -1512,7 +1512,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Decimillipede: HP 41/50  Intent Bulk: Attack 7 + Buff  Powers: Reattach 25
      Enemy Decimillipede: HP 18/48  Intent Constrict: Attack 11 + Debuff  Powers: Reattach 25, Strength 2
      Enemy Decimillipede: HP 52/52  Intent Writhe: Attack 8x2  Powers: Reattach 25, Strength 2
-     Hand: Defend [1], Ascender's Bane [X], Strike [1], Strike [1], Defend [1], Tesla Coil [0], Spinner [1]  | Draw 11  Discard 8  Exhaust 3
+     Hand: Defend [1], Ascender's Bane [-], Strike [1], Strike [1], Defend [1], Tesla Coil [0], Spinner [1]  | Draw 11  Discard 8  Exhaust 3
      Potions: Fortifier
      #527  Select Ascender's Bane   [89.2%, 7 options]
             also: Select Defend 4.2%; Select Strike 3.1% x2
@@ -1682,7 +1682,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 18/89  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Echo Form 1, Tender 1, Dexterity 1, Strength 2
      Enemy Hunter Killer: HP 104/126  Intent Puncture: Attack 8x3
-     Hand: Spinner [1], Cold Snap [1], Charge Battery+ [1], Defend [1], Ascender's Bane [X]  | Draw 15  Discard 7  Exhaust 2
+     Hand: Spinner [1], Cold Snap [1], Charge Battery+ [1], Defend [1], Ascender's Bane [-]  | Draw 15  Discard 7  Exhaust 2
      Potions: Fortifier
      #584  Select Ascender's Bane   [94.5%, 5 options]
             also: Select Spinner 3.7%; Select Defend 1.6%
@@ -1819,7 +1819,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 5 --
      HP 14/89  Block 0  Energy 4/3  Orbs (3 slots): Frost, Frost, Glass  Powers: Dexterity 1, Strength 4, Spinner 1
      Enemy Entomancer: HP 113/165  Intent Spear!: Attack 21  Powers: Personal Hive 2, Strength 1
-     Hand: Defend [1], Coolant [1], Cold Snap [1], Cold Snap [1], Dualcast [1], Dazed [X], Defend [1], Zap+ [0], Lightning Rod [1]  | Draw 5  Discard 11  Exhaust 6
+     Hand: Defend [1], Coolant [1], Cold Snap [1], Cold Snap [1], Dualcast [1], Dazed [-], Defend [1], Zap+ [0], Lightning Rod [1]  | Draw 5  Discard 11  Exhaust 6
      Potions: Fortifier, Block Potion
      #633  Select Dazed   [80.4%, 9 options]
             also: Select Dualcast 9.9%; Select Defend 6.5% x2; Select Zap+ 0.7%
@@ -1837,7 +1837,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 14/89  Block 5  Energy 4/3  Orbs (3 slots): Lightning, Glass, Lightning  Powers: Dexterity 1, Strength 5, Spinner 1, Lightning Rod 1, Coolant 2
      Enemy Entomancer: HP 100/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 2, Strength 1
-     Hand: Glacier [2], Ascender's Bane [X], Cold Snap [1], Modded [0], Defend [1]  | Draw 0  Discard 18  Exhaust 7
+     Hand: Glacier [2], Ascender's Bane [-], Cold Snap [1], Modded [0], Defend [1]  | Draw 0  Discard 18  Exhaust 7
      Potions: Fortifier, Block Potion
      #640  Select Ascender's Bane   [81.0%, 5 options]
             also: Select Defend 18.8%
@@ -1867,7 +1867,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 14/89  Block 0  Energy 3/3  Orbs (4 slots): Lightning, Frost, Frost, Glass  Powers: Dexterity 1, Strength 7, Spinner 1, Coolant 2
      Enemy Entomancer: HP 39/165  Intent Spear!: Attack 22  Powers: Personal Hive 3, Strength 2
-     Hand: Lightning Rod [1], Defend [1], Dazed [X], Equilibrium [2], Glacier [2], Defragment [1], Defend [1]  | Draw 8  Discard 9  Exhaust 9
+     Hand: Lightning Rod [1], Defend [1], Dazed [-], Equilibrium [2], Glacier [2], Defragment [1], Defend [1]  | Draw 8  Discard 9  Exhaust 9
      Potions: Block Potion
      #651  Select Dazed   [54.1%, 7 options]
             also: Select Defend 24.3% x2; Select Defragment 7.8%; Select Lightning Rod 4.6%
@@ -1879,7 +1879,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 14/89  Block 5  Energy 4/3  Orbs (4 slots): Frost, Glass, Glass, Lightning  Powers: Dexterity 1, Strength 8, Spinner 1, Coolant 2, Lightning Rod 1
      Enemy Entomancer: HP 24/165  Intent Pheromone Spit: Buff  Powers: Personal Hive 3, Strength 2
-     Hand: Defend [1], Glacier [2], Defragment [1], Defend [1], Cold Snap [1], Charge Battery [1], Cold Snap [1], Dazed [X], Dazed [X]  | Draw 3  Discard 11  Exhaust 10
+     Hand: Defend [1], Glacier [2], Defragment [1], Defend [1], Cold Snap [1], Charge Battery [1], Cold Snap [1], Dazed [-], Dazed [-]  | Draw 3  Discard 11  Exhaust 10
      Potions: Block Potion
      #655  Select Defend   [33.7%, 9 options]
             also: Select Defend 27.6% (identical option); Select Dazed 16.0% x2; Select Charge Battery 4.7%
@@ -2005,7 +2005,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 56/89  Block 2  Energy 3/3  Orbs (4 slots): Lightning, Frost, Glass  Powers: Dexterity 1, Strength 5, Coolant 2, Subroutine 1, Echo Form 1, Spinner 1
      Enemy The Insatiable: HP 255/341  Intent Thrash: Attack 12x2  Powers: Sandpit 4, Strength 3
-     Hand: Cold Snap [1], Defend [1], Strike [1], Cold Snap [1], Ascender's Bane [X]  | Draw 3  Discard 21  Exhaust 6
+     Hand: Cold Snap [1], Defend [1], Strike [1], Cold Snap [1], Ascender's Bane [-]  | Draw 3  Discard 21  Exhaust 6
      Potions: Skill Potion, Block Potion
      #701  Select Strike   [69.7%, 5 options]
             also: Select Ascender's Bane 26.3%; Select Defend 2.7%; Select Cold Snap 0.6% x2
@@ -2146,7 +2146,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      Enemy Scroll of Biting: HP 23/37  Intent Chew: Attack 8x2  Powers: Paper Cuts 2, Strength 2
      Enemy Scroll of Biting: HP 35/35  Intent More Teeth: Buff  Powers: Paper Cuts 2
      Enemy Scroll of Biting: HP 12/39  Intent Chomp: Attack 18  Powers: Paper Cuts 2, Strength 2
-     Hand: Strike [1], Spinner [1], Strike [1], Ascender's Bane [X], Defend [1]  | Draw 17  Discard 7  Exhaust 4
+     Hand: Strike [1], Spinner [1], Strike [1], Ascender's Bane [-], Defend [1]  | Draw 17  Discard 7  Exhaust 4
      Potions: Skill Potion, Block Potion
      #751  Select Ascender's Bane   [60.7%, 5 options]
             also: Select Defend 11.2%; Select Spinner 9.5%; Select Strike 9.3% x2
@@ -2228,7 +2228,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 75/85  Block 0  Energy 3/3  Orbs (3 slots): Lightning, Frost, Frost  Powers: Dexterity 1, Strength 1
      Enemy Living Shield: HP 24/65  Intent Shield Slam: Attack 6  Powers: Rampart 25
      Enemy Turret Operator: HP 51/51  Intent Unload!: Attack 4x5
-     Hand: Defend [1], Ascender's Bane [X], Charge Battery [1], Go for the Eyes [0], Lightning Rod [1]  | Draw 25  Discard 3  Exhaust 2
+     Hand: Defend [1], Ascender's Bane [-], Charge Battery [1], Go for the Eyes [0], Lightning Rod [1]  | Draw 25  Discard 3  Exhaust 2
      Potions: Skill Potion, Block Potion
      #779  Select Ascender's Bane   [95.5%, 5 options]
             also: Select Defend 2.7%; Select Lightning Rod 1.7%
@@ -2307,7 +2307,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 58/85  Block 10  Energy 3/3  Orbs (3 slots): Lightning  Powers: Dexterity 1
      Enemy Slimed Berserker: HP 281/281  Intent Vomit Ichor: Debuff  Powers: Vulnerable 1
-     Hand: Boot Sequence [0], Defend [1], Defragment+ [1], Glacier+ [2], Ascender's Bane [X], Barrage [1], Defend [1]  | Draw 29  Discard 0  Exhaust 0
+     Hand: Boot Sequence [0], Defend [1], Defragment+ [1], Glacier+ [2], Ascender's Bane [-], Barrage [1], Defend [1]  | Draw 29  Discard 0  Exhaust 0
      Potions: Skill Potion, Block Potion
      #807  Select Defend   [76.6%, 7 options]
             also: Select Ascender's Bane 11.7%; Select Defend 10.9% (identical option)
@@ -2546,7 +2546,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 1 --
      HP 90/92  Block 10  Energy 3/3  Orbs (3 slots): Lightning  Powers: Dexterity 1
      Enemy Mecha Knight: HP 320/320  Intent Charge: Attack 30  Powers: Artifact 3
-     Hand: Boot Sequence [0], Defend [1], Ascender's Bane [X], Defend [1], Strike [1]  | Draw 32  Discard 0  Exhaust 0
+     Hand: Boot Sequence [0], Defend [1], Ascender's Bane [-], Defend [1], Strike [1]  | Draw 32  Discard 0  Exhaust 0
      Potions: Skill Potion, Block Potion
      #892  Select Strike   [57.5%, 5 options]
             also: Select Ascender's Bane 42.0%
@@ -2577,7 +2577,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 3 --
      HP 90/92  Block 10  Energy 4/3  Orbs (3 slots): Frost, Frost, Frost  Powers: Dexterity 1, Strength 2
      Enemy Mecha Knight: HP 290/320  Intent Windup: Buff + Defend  Powers: Artifact 3
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Barrage [1], Echo Form [3], Coolant+ [1], Cold Snap [1], Lightning Rod [1]  | Draw 20  Discard 8  Exhaust 4
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Barrage [1], Echo Form [3], Coolant+ [1], Cold Snap [1], Lightning Rod [1]  | Draw 20  Discard 8  Exhaust 4
      Potions: Skill Potion, Block Potion
      #904  Select Burn   [25.0%, 9 options]
             also: Select Burn 25.0% x3 (identical option)
@@ -2617,7 +2617,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 6 --
      HP 90/92  Block 10  Energy 4/3  Orbs (4 slots): Frost, Frost, Frost, Glass  Powers: Dexterity 1, Strength 5, Echo Form 1, Coolant 3, Retain Hand 1, Spinner 1
      Enemy Mecha Knight: HP 279/320  Intent Windup: Buff + Defend  Powers: Artifact 2, Strength 5
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Strike [1], Subroutine+ [0], Subroutine [1], Go for the Eyes [0], Zap+ [0], Defend [1]  | Draw 3  Discard 21  Exhaust 8
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Strike [1], Subroutine+ [0], Subroutine [1], Go for the Eyes [0], Zap+ [0], Defend [1]  | Draw 3  Discard 21  Exhaust 8
      Potions: Skill Potion, Block Potion
      #920  Select Burn   [22.3%, 10 options]
             also: Select Burn 22.3% x3 (identical option); Select Strike 5.1%
@@ -2632,7 +2632,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 7 --
      HP 90/92  Block 15  Energy 3/3  Orbs (4 slots): Frost, Frost, Glass, Glass  Powers: Dexterity 1, Strength 6, Echo Form 1, Coolant 3, Spinner 1, Subroutine 3
      Enemy Mecha Knight: HP 260/320  Block 15  Intent Heavy Cleave: Attack 50  Powers: Artifact 2, Strength 10
-     Hand: Go for the Eyes [0], Zap+ [0], Defend [1], Defragment+ [1], Glacier [2], Defragment+ [1], Burn [X], Strike [1]  | Draw 23  Discard 0  Exhaust 9
+     Hand: Go for the Eyes [0], Zap+ [0], Defend [1], Defragment+ [1], Glacier [2], Defragment+ [1], Burn [-], Strike [1]  | Draw 23  Discard 0  Exhaust 9
      Potions: Skill Potion, Block Potion
      #925  Select Burn   [92.8%, 8 options]
             also: Select Strike 7.1%
@@ -2648,7 +2648,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 90/92  Block 13  Energy 3/3  Orbs (4 slots): Frost, Frost, Lightning, Glass  Powers: Dexterity 1, Strength 7, Echo Form 1, Coolant 3, Spinner 1, Subroutine 3
      Enemy Mecha Knight: HP 232/320  Intent Flamethrower: Attack 22 + Debuff  Powers: Artifact 1, Strength 10
-     Hand: Burn [X], Charge Battery [1], Cold Snap [1], Go for the Eyes+ [0], Equilibrium [2]  | Draw 18  Discard 7  Exhaust 10
+     Hand: Burn [-], Charge Battery [1], Cold Snap [1], Go for the Eyes+ [0], Equilibrium [2]  | Draw 18  Discard 7  Exhaust 10
      Potions: Skill Potion, Block Potion
      #931  Select Burn   [100.0%, 5 options]
      #932  Play Equilibrium   [78.8%, 7 options]
@@ -2663,7 +2663,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 9 --
      HP 90/92  Block 15  Energy 4/3  Orbs (4 slots): Lightning, Glass, Frost, Glass  Powers: Dexterity 1, Strength 8, Echo Form 1, Coolant 3, Spinner 1, Subroutine 3, Retain Hand 1
      Enemy Mecha Knight: HP 199/320  Intent Windup: Buff + Defend  Powers: Strength 10
-     Hand: Burn [X], Burn [X], Burn [X], Burn [X], Burn [X], Burn [X], Lightning Rod [1], Defend [1], Defend [1]  | Draw 13  Discard 11  Exhaust 11
+     Hand: Burn [-], Burn [-], Burn [-], Burn [-], Burn [-], Burn [-], Lightning Rod [1], Defend [1], Defend [1]  | Draw 13  Discard 11  Exhaust 11
      Potions: Skill Potion, Block Potion
      #937  Select Burn   [16.1%, 9 options]
             also: Select Burn 16.1% x4 (identical option)
@@ -2674,7 +2674,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 10 --
      HP 90/92  Block 10  Energy 4/3  Orbs (4 slots): Frost, Glass, Glass, Lightning  Powers: Dexterity 1, Strength 9, Echo Form 1, Coolant 3, Spinner 1, Subroutine 3, Lightning Rod 3
      Enemy Mecha Knight: HP 186/320  Block 3  Intent Heavy Cleave: Attack 55  Powers: Strength 15
-     Hand: Defend [1], Defend [1], Cold Snap [1], Modded [1], Burn [X], Burn [X], Charge Battery+ [1], Tesla Coil [0], Charge Battery [1]  | Draw 6  Discard 17  Exhaust 12
+     Hand: Defend [1], Defend [1], Cold Snap [1], Modded [1], Burn [-], Burn [-], Charge Battery+ [1], Tesla Coil [0], Charge Battery [1]  | Draw 6  Discard 17  Exhaust 12
      Potions: Skill Potion, Block Potion
      #940  Select Burn   [50.0%, 9 options]
             also: Select Burn 50.0% (identical option)
@@ -2776,7 +2776,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 4 --
      HP 85/92  Block 10  Energy 4/3  Orbs (5 slots): Frost, Frost, Frost, Lightning  Powers: Dexterity 1, Strength 3, Subroutine 2, Echo Form 1, Focus 4
      Enemy Aeonglass: HP 515/535  Intent Ebb: Attack 30 + Defend  Powers: Withering Presence 6, Artifact 3, Strength 4
-     Hand: Defend [1], Defend [1], Ascender's Bane [X], Charge Battery+ [1], Strike [1], Charge Battery [1], Echo Form [3]  | Draw 12  Discard 16  Exhaust 3
+     Hand: Defend [1], Defend [1], Ascender's Bane [-], Charge Battery+ [1], Strike [1], Charge Battery [1], Echo Form [3]  | Draw 12  Discard 16  Exhaust 3
      Potions: Skill Potion, Block Potion
      #979  Select Strike   [70.6%, 7 options]
             also: Select Ascender's Bane 17.0%; Select Defend 8.5% x2
@@ -2838,7 +2838,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
   -- Turn 8 --
      HP 85/92  Block 28  Energy 3/3  Orbs (5 slots): Frost, Frost, Glass, Glass, Lightning  Powers: Dexterity 1, Strength 7, Subroutine 2, Echo Form 3, Focus 4, Spinner 2, Lightning Rod 2
      Enemy Aeonglass: HP 9/535  Block 21  Intent Eye Lasers: Attack 21x2  Powers: Withering Presence 6, Artifact 2, Strength 9
-     Hand: Coolant+ [1], Defend [1], Wither [X], Defend [1], Lightning Rod [1]  | Draw 15  Discard 7  Exhaust 15
+     Hand: Coolant+ [1], Defend [1], Wither [-], Defend [1], Lightning Rod [1]  | Draw 15  Discard 7  Exhaust 15
      Potions: Skill Potion, Block Potion
      #1002 Select Wither   [99.7%, 5 options]
      #1003 Play Defend   [43.9%, 7 options]
@@ -2923,7 +2923,7 @@ Each decision: #step  chosen action   [model probability of that action, number 
      HP 72/92  Block 10  Energy 4/3  Orbs (5 slots): Frost, Frost, Frost, Frost, Frost  Powers: Dexterity 1, Strength 4, Chains of Binding 3, Echo Form 1, Frail 97, Weak 97, Vulnerable 97, Focus 6
      Enemy Torch Head Amalgam: HP 190/211  Intent Tackle: Attack 27  Powers: Minion 1, Strength 2
      Enemy Queen: HP 397/419  Block 20  Intent Burn Bright for Me: Buff + Defend
-     Hand: Ascender's Bane [X], Spinner [1], Zap+ [0], Charge Battery [1], Equilibrium+ [2]  | Draw 6  Discard 19  Exhaust 6
+     Hand: Ascender's Bane [-], Spinner [1], Zap+ [0], Charge Battery [1], Equilibrium+ [2]  | Draw 6  Discard 19  Exhaust 6
      Potions: Skill Potion, Block Potion
      #1034 Select Ascender's Bane   [57.7%, 5 options]
             also: Select Zap+ 32.4%; Select Charge Battery 7.2%; Select Spinner 2.3%
